@@ -4,11 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AppDesignerFolder>Properteis</AppDesignerFolder>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Resonance.Models\Resonance.Schema.csproj" />
-    <ProjectReference Include="..\Resonance.Utilities\Resonance.Utilities.csproj" />
-  </ItemGroup>
 
 </Project>

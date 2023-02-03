@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Resonance.Games.Pokemon\Resonance.Games.HouseCompetition.Models.csproj" />
+    <ProjectReference Include="..\Resonance.Models\Resonance.Models.csproj" />
   </ItemGroup>
 
 </Project>

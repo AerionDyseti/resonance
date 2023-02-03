@@ -1,6 +1,6 @@
 ﻿namespace Resonance.Schema.Properties
 {
-    public interface IProperty
+    public interface IProperty<T>
     {
         public PropertyType Type { get; }
     }

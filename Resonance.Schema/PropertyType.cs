@@ -4,7 +4,6 @@
     {
         Number,
         Text,
-        Tag,
-        ListOfText,
+        Boolean
     }
 }
