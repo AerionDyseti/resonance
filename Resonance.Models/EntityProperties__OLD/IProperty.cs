@@ -2,9 +2,9 @@
 
 namespace Resonance.Models.EntityProperties
 {
-    public interface IProperty : INamed
+    public interface IProperty<T> : INamed
     {
         public static string Type { get; } = "unknown-type";
-        public dynamic? Value { get; set; }
+        public T? Value { get; set; }
     }
 }

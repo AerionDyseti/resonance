@@ -23,12 +23,15 @@ namespace Resonance.Models.EntityProperties
             set => propValue = value;
         }
 
-        public virtual bool HasValue
+        public T? AsType()
         {
-            get
+            if (propValue == null)
             {
-                return propValue != null;
+                return default;
             }
+            return (T) Convert.ChangeType(propValue, typeof(T));
         }
+
+        public virtual bool HasValue => propValue != null;
     }
 }

@@ -1,11 +1,5 @@
 ﻿namespace Resonance.Models.EntityProperties
 {
-    public class Resource
-    {
-        public int? Minimum { get; set; }
-        public int? Maximum { get; set; }
-        public int? Current { get; set; }
-    }
 
     public class ResourceProperty : BaseProperty<Resource>
     {
@@ -21,6 +15,6 @@
 
         public new static string Type => "resource";
 
-        public override bool HasValue => this.propValue?.Current != null;
+        public override bool HasValue => this.propValue!.Current != null;
     }
 }

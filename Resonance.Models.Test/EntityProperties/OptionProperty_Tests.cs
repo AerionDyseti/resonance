@@ -1,46 +1,58 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Resonance.Models.EntityProperties;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Resonance.Models.EntityProperties.Test
 {
     [TestClass()]
     public class OptionProperty_Tests
     {
-        readonly List<string> validOptions = new() { "a", "b", "c" };
+        readonly HashSet<string> validOptions = new() { "a", "b", "c" };
 
+        [TestMethod("static Type property")]
+        public void OptionProperty_Type()
+        {
+            Assert.AreEqual("option", OptionProperty.Type, "static Type should be 'option'");
+        }
 
-        [TestMethod()]
+        [TestMethod("null options in constructor")]
         [ExpectedException(typeof(ArgumentNullException), "should throw exception if given null options")]
         public void OptionProprty_Constructor_BadArguments()
         {
-            new OptionProperty("test", "Test without Options", null);
+            #pragma warning disable CS8625
+            _ = new OptionProperty("test", "Test without Options", null);
+            #pragma warning restore CS8625
         }
 
-        [TestMethod()]
+        [TestMethod("constructor")]
         public void OptionProperty_Constructor_Instance()
         {
-            Assert.AreEqual("option", OptionProperty.Type);
-
             var prop = new OptionProperty("test", "Test Options", validOptions);
-
             var propValue = prop.Value as Option;
-            Assert.IsNotNull(propValue, "dynamic property casts correctly.");
-            
-            for (var i = 0; i < validOptions.Count; i++)
-            {
-                Assert.AreEqual(
-                    validOptions[i],
-                    propValue.Options.ElementAt(i),
-                    $"option {i} is correct"
-                );
-            }
-            
-            Assert.IsNull(prop.Value!.Current, "value.Current is null");
+            Assert.IsNotNull(propValue, "dynamic property should cast as Option");
+            Assert.IsTrue(propValue.Options.SetEquals(validOptions), "options should equal passed options");
+            Assert.IsNull(prop.Value!.Current, "value.Current should be null");
+        }
+
+        [TestMethod("Value setter")]
+        public void OptionProperty_ValueSetter()
+        {
+            var prop = new OptionProperty("test", "Test Options", validOptions);
+            (prop.Value as Option)!.Current = "a";
+        }
+
+        [TestMethod("Value setter - invalid")]
+        public void OptionProperty_InvalidValueSetter()
+        {
+            var prop = new OptionProperty("test", "Test Options", validOptions);
+        }
+
+
+        [TestMethod("HasValue")]
+        public void OptionProperty_HasValue()
+        {
+            var prop = new OptionProperty("test", "Test Options", validOptions);
+            Assert.IsFalse(prop.HasValue);
+            (prop.Value as Option)!.Current = "a";
+            Assert.IsTrue(prop.HasValue);
         }
     }
 }

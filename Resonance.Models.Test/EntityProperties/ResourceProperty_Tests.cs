@@ -11,19 +11,39 @@ namespace Resonance.Models.EntityProperties.Test
     [TestClass()]
     public class ResourceProperty_Tests
     {
-        [TestMethod()]
-        public void ResourceProperty_Constructor_Instance()
+        [TestMethod("static Type property")]
+        public void ResourceProperty_Type()
         {
             Assert.AreEqual("resource", ResourceProperty.Type);
+        }
 
-            var prop = new ResourceProperty("test", "Test Resource");
-
+        [TestMethod("constructor")]
+        public void ResourceProperty_Constructor()
+        {
+            var prop = new ResourceProperty("test", "Test");
+            Assert.AreEqual("test", prop.Name);
+            Assert.AreEqual("Test", prop.DisplayName);
             var propValue = prop.Value as Resource;
-            Assert.IsNotNull(propValue, "dynamic property should cast to Resource");
-                       
-            Assert.IsNull(propValue.Current, "value.Current should be null");
-            Assert.IsNull(propValue.Minimum, "value.Minimum should be null");
-            Assert.IsNull(propValue.Maximum, "value.Maximum should be null");
+            Assert.IsNotNull(propValue, "should cast to Resource");
+            Assert.IsNull(propValue.Current);
+        }
+
+        [TestMethod("Value setter")]
+        public void ResourceProperty_ValueSetter()
+        {
+            Assert.Fail();
+        }
+
+        [TestMethod("HasValue property")]
+        public void ResourceProperty_HasValue()
+        {
+            Assert.Fail();
+        }
+
+        [TestMethod("Value setter - invalid")]
+        public void ResourceProperty_InvalidValueSetter()
+        {
+            Assert.Fail();
         }
     }
 }
