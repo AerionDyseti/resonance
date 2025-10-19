@@ -74,6 +74,7 @@ dist/
 .claude/hooks/node_modules/
 .claude/hooks/.last-trigger
 .claude/settings.local.json
+.mcp.json
 
 # Data
 data/worlds/
