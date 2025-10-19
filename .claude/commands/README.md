@@ -98,6 +98,6 @@ Then use it with `/review` in Claude Code.
 
 ## Related
 
-See `~/.claude/hooks/README.md` for information about:
-- Natural language memory triggers
-- Automatic memory retrieval suggestions
+See `.claude/README.md` for information about:
+- Mid-conversation memory triggers
+- Hook configuration and customization

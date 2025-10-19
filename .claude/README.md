@@ -1,93 +1,109 @@
 # Claude Code Configuration
 
-This directory contains project-specific Claude Code configuration that ensures consistent behavior across machines.
+This directory contains project-specific Claude Code configuration for the Resonance project.
 
-## What's Included
+## Current Setup
+
+This is a **minimal configuration** focused on developer productivity without automated session tracking.
 
 ### 📋 settings.json
-Project-level settings including:
-- **Status Line**: Custom command-line status display
-- **Permissions**: Auto-approved commands (gh, specific git operations)
-- **Hooks**: Automated workflows triggered during conversations
+
+Current settings:
+- **Status Line**: Custom status display via `ccstatusline`
+- **Permissions**: Auto-approved commands for common operations
+- **Mid-Conversation Hook**: Natural language memory triggers (currently enabled)
+- **Git Attribution**: Disabled (`includeCoAuthoredBy: false`)
 
 ### 🪝 hooks/
-Automated hooks that enhance Claude's memory and context awareness:
 
-- **core/mid-conversation.js**: Natural language memory triggers
-  - Automatically detects when you reference past work
-  - Triggers memory retrieval based on patterns like "what did we decide", "remind me how"
-  - Uses pattern matching for instant, fast, and intensive context loading
-
-- **core/session-start.js**: Auto-loads context at session start
-  - Retrieves recent project memories
-  - Includes git context and project status
-
-- **core/session-end.js**: Saves session summaries
-  - Extracts key decisions, insights, code changes
-  - Stores in Chroma memory for future retrieval
-
-- **config.json**: Hook configuration
-  - Pattern definitions for memory triggers
-  - Performance profiles (speed_focused, balanced, memory_aware)
-  - Session start/end settings
+**Currently Active:**
+- **core/mid-conversation.js**: Natural language memory trigger (on `UserPromptSubmit`)
+  - Detects phrases like "what did we decide", "remind me how"
+  - Automatically suggests relevant memory queries
+  - Configured via `config.json` for pattern matching
 
 ### 📝 commands/
-Custom slash commands for quick actions:
-- **/save**: Save important context to memory
-- Other project-specific commands
+
+Custom slash commands:
+- **/save**: Manually save session context to memory using categorized approach
 
 ## Setup
 
-### First Time (Desktop/New Machine)
+### First Time on New Machine
 
-1. **Install Node Dependencies** (for hooks):
+1. **Install hook dependencies** (if using mid-conversation hook):
    ```bash
    cd .claude/hooks
    npm install
    ```
 
-2. **Verify Hooks Work**:
+2. **Verify mid-conversation hook**:
    ```bash
-   node core/session-start.js
+   node core/mid-conversation.js
+   ```
+   Set the environment variable `CLAUDE_CODE_USER_PROMPT` to test:
+   ```bash
+   CLAUDE_CODE_USER_PROMPT="what did we decide about X" node core/mid-conversation.js
    ```
 
-3. **Claude Code will automatically**:
-   - Load settings.json
-   - Use project-level hooks
-   - Auto-approve configured commands
+3. **Claude Code automatically**:
+   - Loads settings.json
+   - Runs mid-conversation hook on user prompts
+   - Auto-approves configured commands
 
-### How It Works
+## How It Works
 
-When you start a Claude Code session in this project:
+### Mid-Conversation Memory Trigger
 
-1. **Session Start Hook** runs:
-   - Loads recent project memories from Chroma
-   - Provides git context (current branch, recent commits)
-   - Sets up project-specific context
+When you send a message, the hook analyzes it for memory-related patterns:
 
-2. **Mid-Conversation Hook** monitors your messages:
-   - Detects patterns like "what did we decide about X"
-   - Automatically queries memory for relevant context
-   - Prepends relevant memories to Claude's context
+**Instant triggers** (high confidence):
+- "what did we decide about..."
+- "remind me how..."
+- "according to our previous..."
 
-3. **Session End Hook** runs when session ends:
-   - Summarizes what was accomplished
-   - Extracts key decisions and insights
-   - Saves to memory for future sessions
+**Fast triggers** (medium confidence):
+- Technical terms (architecture, database, authentication)
+- Continuation phrases ("continue", "next steps")
+
+When triggered, Claude suggests querying the MCP memory server for relevant context.
+
+### Manual Memory Save
+
+Use the `/save` command when you want to preserve important context:
+- Analyzes current session
+- Saves categorized memories (decisions, implementation, insights, etc.)
+- Each memory tagged for precise retrieval
+
+## Permissions
+
+**Auto-approved** (no confirmation):
+- All `git` read commands (status, diff, log, show, blame)
+- All `gh` commands (GitHub CLI)
+- All `uv` commands (Python package manager)
+- Package managers: `npm`, `yarn`, `pnpm` (list, view, install)
+- File operations: `cd`, `ls`, `pwd`, `mkdir`, `cp`, `cat`, `chmod`
+- MCP servers: `memory` and `context7`
+
+**Requires confirmation**:
+- `git commit`, `git push`
+- `npm publish`, `npm uninstall`
+- `node`, `python` scripts
+- `mv`, `rm` (destructive operations)
 
 ## Memory System
 
-The hooks use a Chroma database (MCP server) to:
-- Store project context, decisions, and insights
-- Retrieve relevant information when you ask about past work
+Uses the MCP memory server (Chroma) to:
+- Store project decisions, implementations, and insights
+- Retrieve context when you reference past work
 - Maintain continuity across sessions
 
-This means you can ask things like:
-- "What did we decide about the database schema?"
-- "Remind me how we implemented authentication"
-- "What were we working on last?"
-
-And Claude will automatically pull the relevant context from memory!
+**Manual workflow:**
+1. Work on a feature
+2. Use `/save` to store important context
+3. Later sessions: Ask "what did we decide about X"
+4. Mid-conversation hook suggests memory query
+5. Retrieve relevant context on demand
 
 ## Customization
 
@@ -105,47 +121,9 @@ Edit `.claude/hooks/config.json`:
 }
 ```
 
-### Performance Profiles
+### Disable Mid-Conversation Hook
 
-Choose between:
-- **speed_focused**: Fast, minimal latency (instant tier only)
-- **balanced**: Good mix (instant + fast tiers) - DEFAULT
-- **memory_aware**: Deep context (all tiers, slower)
-
-Change in `config.json`:
-```json
-{
-  "performance": {
-    "defaultProfile": "balanced"  // or "speed_focused" or "memory_aware"
-  }
-}
-```
-
-## Permissions
-
-Auto-approved commands (no confirmation needed):
-- All `gh` (GitHub CLI) commands
-- Specific git operations (see settings.json)
-- MCP memory operations
-- MCP Serena operations
-
-Still requires confirmation:
-- `git push` commands (safety)
-
-## Troubleshooting
-
-### Hooks Not Running?
-1. Check `cd .claude/hooks && npm install` was run
-2. Verify Node.js is installed: `node --version`
-3. Check hook script permissions: `chmod +x .claude/hooks/core/*.js`
-
-### Memory Not Working?
-1. Ensure MCP memory server is running
-2. Check Chroma collection exists: Use MCP tools to verify
-3. Review hook logs if debug is enabled in config.json
-
-### Want to Disable Hooks Temporarily?
-Comment out the hooks section in `.claude/settings.json`:
+Remove or comment out the `UserPromptSubmit` hook in `settings.json`:
 
 ```json
 {
@@ -154,6 +132,21 @@ Comment out the hooks section in `.claude/settings.json`:
   }
 }
 ```
+
+Or set `disableAllHooks: true` to disable everything including status line.
+
+## Troubleshooting
+
+### Hook Not Triggering?
+1. Check Node.js is installed: `node --version`
+2. Verify dependencies: `cd .claude/hooks && npm install`
+3. Test manually: `CLAUDE_CODE_USER_PROMPT="remind me how" node core/mid-conversation.js`
+4. Check cooldown period hasn't blocked it (see `.claude/hooks/.last-trigger`)
+
+### Memory Not Working?
+1. Verify MCP memory server is configured in your Claude Code settings
+2. Test memory access: Use MCP tools to list/query collections
+3. Check Chroma is running if using remote server
 
 ## Further Reading
 

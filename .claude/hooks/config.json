@@ -114,21 +114,6 @@
       ]
     }
   },
-  "sessionStart": {
-    "enabled": true,
-    "maxMemories": 5,
-    "includeProjectContext": true,
-    "includeGitContext": true
-  },
-  "sessionEnd": {
-    "enabled": true,
-    "minSessionLength": 100,
-    "extractTopics": true,
-    "extractDecisions": true,
-    "extractInsights": true,
-    "extractCodeChanges": true,
-    "extractNextSteps": true
-  },
   "logging": {
     "level": "info",
     "enableDebug": false
