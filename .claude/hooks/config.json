@@ -1,0 +1,136 @@
+{
+  "naturalTriggers": {
+    "enabled": true,
+    "sensitivity": 0.7,
+    "triggerThreshold": 0.6,
+    "cooldownPeriod": 30000,
+    "maxMemoriesPerTrigger": 5
+  },
+  "performance": {
+    "defaultProfile": "balanced",
+    "profiles": {
+      "speed_focused": {
+        "maxLatency": 100,
+        "enabledTiers": ["instant"]
+      },
+      "balanced": {
+        "maxLatency": 200,
+        "enabledTiers": ["instant", "fast"]
+      },
+      "memory_aware": {
+        "maxLatency": 500,
+        "enabledTiers": ["instant", "fast", "intensive"]
+      }
+    }
+  },
+  "patterns": {
+    "instant": {
+      "explicitMemoryRequests": [
+        {
+          "pattern": "what (did|do) we (decide|choose|do|discuss|implement) (about|regarding|for|with)",
+          "confidence": 0.9,
+          "description": "Direct memory request"
+        },
+        {
+          "pattern": "remind me (about|how|what|of|regarding)",
+          "confidence": 0.9,
+          "description": "Explicit reminder request"
+        },
+        {
+          "pattern": "remember (when|how|what|that) (we|I)",
+          "confidence": 0.8,
+          "description": "Memory recall request"
+        },
+        {
+          "pattern": "according to (our|the|my) (previous|earlier|last)",
+          "confidence": 0.8,
+          "description": "Reference to past decisions"
+        }
+      ],
+      "pastWorkReferences": [
+        {
+          "pattern": "similar to (what|how) (we|I) (did|used|implemented)",
+          "confidence": 0.7,
+          "description": "Comparison to past work"
+        },
+        {
+          "pattern": "like (we|I|the) (discussed|decided|implemented|chose) (before|earlier|previously)",
+          "confidence": 0.7,
+          "description": "Reference to past implementation"
+        },
+        {
+          "pattern": "the (same|approach|solution|pattern) (we|I|that) (used|implemented|chose)",
+          "confidence": 0.6,
+          "description": "Reuse of past solutions"
+        }
+      ],
+      "questionPatterns": [
+        {
+          "pattern": "^(how do|how did|how should|how can) (we|I)",
+          "confidence": 0.5,
+          "description": "Implementation question"
+        },
+        {
+          "pattern": "^(what is|what was|what should be) (our|the|my) (approach|strategy|pattern)",
+          "confidence": 0.6,
+          "description": "Strategy question"
+        },
+        {
+          "pattern": "^(why did|why do|why should) (we|I) (choose|use|implement)",
+          "confidence": 0.5,
+          "description": "Rationale question"
+        }
+      ]
+    },
+    "fast": {
+      "technicalDiscussions": [
+        {
+          "pattern": "\\b(architecture|design|pattern|approach|strategy|implementation)\\b",
+          "confidence": 0.4,
+          "description": "Technical discussion"
+        },
+        {
+          "pattern": "\\b(authentication|authorization|security|oauth|jwt)\\b",
+          "confidence": 0.5,
+          "description": "Security discussion"
+        },
+        {
+          "pattern": "\\b(database|storage|persistence|schema|migration)\\b",
+          "confidence": 0.5,
+          "description": "Data layer discussion"
+        }
+      ],
+      "projectContinuity": [
+        {
+          "pattern": "\\b(continue|continuing|resume|pick up where)\\b",
+          "confidence": 0.6,
+          "description": "Project continuation"
+        },
+        {
+          "pattern": "\\b(next step|next phase|moving forward|proceed with)\\b",
+          "confidence": 0.4,
+          "description": "Project progression"
+        }
+      ]
+    }
+  },
+  "sessionStart": {
+    "enabled": true,
+    "maxMemories": 5,
+    "includeProjectContext": true,
+    "includeGitContext": true
+  },
+  "sessionEnd": {
+    "enabled": true,
+    "minSessionLength": 100,
+    "extractTopics": true,
+    "extractDecisions": true,
+    "extractInsights": true,
+    "extractCodeChanges": true,
+    "extractNextSteps": true
+  },
+  "logging": {
+    "level": "info",
+    "enableDebug": false
+  }
+}

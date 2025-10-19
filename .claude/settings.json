@@ -1,0 +1,92 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "npx -y ccstatusline@latest",
+    "padding": 0
+  },
+  "permissions": {
+    "allow": [
+      "Bash(gh:*)",
+      "Bash(git add -A)",
+      "Bash(git add README.md ROADMAP.md CONTRIBUTING.md .gitignore .github/)",
+      "Bash(gh repo rename resonance-old --repo AerionDyseti/resonance)",
+      "Bash(git push -u origin main)",
+      "Bash(gh repo view --web)",
+      "Bash(gh api repos/AerionDyseti/resonance/milestones -f title=\"Phase 2: Schema System\" -f description=\"Implement and test the dynamic schema system with mixins\" -f state=\"open\")",
+      "Bash(gh api repos/AerionDyseti/resonance/milestones -f title=\"Phase 3: Entity Management\" -f description=\"Implement entity CRUD operations with dynamic schemas\" -f state=\"open\")",
+      "Bash(gh api repos/AerionDyseti/resonance/milestones -f title=\"Phase 4: Markdown & Content\" -f description=\"Markdown processing with property refs and transclusion\" -f state=\"open\")",
+      "Bash(gh api repos/AerionDyseti/resonance/milestones -f title=\"Phase 10: MCP Server\" -f description=\"Build MCP server for LLM integration\" -f state=\"open\")",
+      "Bash(gh issue create --title \"[TEST] Schema Builder - Mixin Operations\" --label \"testing,schema,priority:high\" --milestone \"Phase 2: Schema System\" --body \"## Component Under Test\nSchemaBuilder - Mixin creation, retrieval, and listing\n\n## Test Type\n- [x] Unit Tests\n- [ ] Integration Tests\n\n## Test Coverage Goals\n- [x] Mixin creation with valid properties\n- [x] Mixin retrieval by ID\n- [x] List all mixins for a world\n- [x] Get mixins as dictionary\n- [x] Handle non-existent mixin\n- [x] Validate stored property definitions\n\n## Acceptance Criteria\n- [ ] All test cases passing\n- [ ] Code coverage >80% for SchemaBuilder mixin methods\n- [ ] Edge cases covered\")",
+      "Bash(gh label create \"testing\" --description \"Test implementation\" --color \"0E8A16\")",
+      "Bash(gh label create \"schema\" --description \"Schema system\" --color \"1D76DB\")",
+      "Bash(gh label create \"priority:high\" --description \"High priority\" --color \"D93F0B\")",
+      "Bash(gh label create \"priority:medium\" --description \"Medium priority\" --color \"FBCA04\")",
+      "Bash(gh label create \"feature\" --description \"New feature\" --color \"A2EEEF\")",
+      "Bash(gh issue create --title \"[TEST] Schema Builder - Mixin Operations\" --label \"testing,schema,priority:high\" --milestone \"Phase 2: Schema System\" --body \"## Component Under Test\nSchemaBuilder - Mixin creation, retrieval, and listing\n\n## Test Type\n- [x] Unit Tests\n\n## Test Coverage Goals\n- Mixin creation with valid properties\n- Mixin retrieval by ID\n- List all mixins for a world\n- Get mixins as dictionary\n- Handle non-existent mixin\n\n## Acceptance Criteria\n- [ ] All test cases passing\n- [ ] Code coverage >80% for SchemaBuilder mixin methods\n- [ ] Edge cases covered\")",
+      "Bash(gh issue create --title \"[TEST] Schema Builder - Entity Type Schemas\" --label \"testing,schema,priority:high\" --milestone \"Phase 2: Schema System\" --body \"## Component Under Test\nSchemaBuilder - Entity type schema operations\n\n## Test Coverage Goals\n- Entity type schema creation\n- Schema retrieval by entity type\n- List all schemas for world\n- Update existing schema\n- Delete schema\n- Schema with mixin composition\n\n## Acceptance Criteria\n- [ ] All test cases passing\n- [ ] Code coverage >80%\n- [ ] Update and delete operations tested\")",
+      "Bash(gh issue create --title \"[TEST] Schema Validator - Property Type Validation\" --label \"testing,schema,priority:high\" --milestone \"Phase 2: Schema System\" --body \"## Component Under Test\nSchemaValidator - Property type validation for all supported types\n\n## Test Coverage Goals\n- TEXT, NUMBER, DATE, BOOLEAN validation\n- URL and EMAIL format validation\n- SELECT, MULTI_SELECT, TAGS validation\n- RELATION validation\n- Invalid type handling with clear error messages\n\n## Acceptance Criteria\n- [ ] All property types tested with valid values\n- [ ] All property types tested with invalid values\n- [ ] Error messages are clear and helpful\n- [ ] Code coverage >90%\")",
+      "Bash(gh issue create --title \"[TEST] Schema Validator - Constraints and Required Fields\" --label \"testing,schema,priority:high\" --milestone \"Phase 2: Schema System\" --body \"## Component Under Test\nSchemaValidator - Constraints, required fields, and edge cases\n\n## Test Coverage Goals\n- Required field validation\n- Min/max value constraints\n- Regex pattern validation\n- Select options validation\n- Null value handling\n- Extra properties handling (flexible schema)\n\n## Acceptance Criteria\n- [ ] Required field enforcement working\n- [ ] All constraint types tested\n- [ ] Flexible schema behavior verified\n- [ ] Code coverage >90%\")",
+      "Bash(gh issue create --title \"[TEST] Schema System Integration Tests\" --label \"testing,schema,priority:medium\" --milestone \"Phase 2: Schema System\" --body \"## Component Under Test\nFull schema system (Builder + Validator integration)\n\n## Test Type\n- [x] Integration Tests\n\n## Test Coverage Goals\n- Create mixin, use in schema, validate entities\n- Schema composition with multiple mixins\n- Get all properties (schema + mixins)\n- Update schema and re-validate existing entities\n- Cross-world schema isolation\n\n## Acceptance Criteria\n- [ ] Complete workflow tests passing\n- [ ] Mixin composition working correctly\n- [ ] World isolation verified\n\n## Dependencies\nRequires: #1, #2, #3, #4\")",
+      "mcp__serena__list_dir",
+      "mcp__memory__chroma_list_collections",
+      "mcp__memory__chroma_create_collection",
+      "mcp__memory__chroma_add_documents",
+      "Bash(git add -A)",
+      "Bash(git add README.md ROADMAP.md CONTRIBUTING.md .gitignore .github/)",
+      "Bash(gh repo rename resonance-old --repo AerionDyseti/resonance)",
+      "Bash(git push -u origin main)",
+      "Bash(gh repo view --web)",
+      "Bash(gh api repos/AerionDyseti/resonance/milestones -f title=\"Phase 2: Schema System\" -f description=\"Implement and test the dynamic schema system with mixins\" -f state=\"open\")",
+      "Bash(gh api repos/AerionDyseti/resonance/milestones -f title=\"Phase 3: Entity Management\" -f description=\"Implement entity CRUD operations with dynamic schemas\" -f state=\"open\")",
+      "Bash(gh api repos/AerionDyseti/resonance/milestones -f title=\"Phase 4: Markdown & Content\" -f description=\"Markdown processing with property refs and transclusion\" -f state=\"open\")",
+      "Bash(gh api repos/AerionDyseti/resonance/milestones -f title=\"Phase 10: MCP Server\" -f description=\"Build MCP server for LLM integration\" -f state=\"open\")",
+      "Bash(gh issue create --title \"[TEST] Schema Builder - Mixin Operations\" --label \"testing,schema,priority:high\" --milestone \"Phase 2: Schema System\" --body \"## Component Under Test\nSchemaBuilder - Mixin creation, retrieval, and listing\n\n## Test Type\n- [x] Unit Tests\n- [ ] Integration Tests\n\n## Test Coverage Goals\n- [x] Mixin creation with valid properties\n- [x] Mixin retrieval by ID\n- [x] List all mixins for a world\n- [x] Get mixins as dictionary\n- [x] Handle non-existent mixin\n- [x] Validate stored property definitions\n\n## Acceptance Criteria\n- [ ] All test cases passing\n- [ ] Code coverage >80% for SchemaBuilder mixin methods\n- [ ] Edge cases covered\")",
+      "Bash(gh label create \"testing\" --description \"Test implementation\" --color \"0E8A16\")",
+      "Bash(gh label create \"schema\" --description \"Schema system\" --color \"1D76DB\")",
+      "Bash(gh label create \"priority:high\" --description \"High priority\" --color \"D93F0B\")",
+      "Bash(gh label create \"priority:medium\" --description \"Medium priority\" --color \"FBCA04\")",
+      "Bash(gh label create \"feature\" --description \"New feature\" --color \"A2EEEF\")",
+      "Bash(gh issue create --title \"[TEST] Schema Builder - Mixin Operations\" --label \"testing,schema,priority:high\" --milestone \"Phase 2: Schema System\" --body \"## Component Under Test\nSchemaBuilder - Mixin creation, retrieval, and listing\n\n## Test Type\n- [x] Unit Tests\n\n## Test Coverage Goals\n- Mixin creation with valid properties\n- Mixin retrieval by ID\n- List all mixins for a world\n- Get mixins as dictionary\n- Handle non-existent mixin\n\n## Acceptance Criteria\n- [ ] All test cases passing\n- [ ] Code coverage >80% for SchemaBuilder mixin methods\n- [ ] Edge cases covered\")",
+      "Bash(gh issue create --title \"[TEST] Schema Builder - Entity Type Schemas\" --label \"testing,schema,priority:high\" --milestone \"Phase 2: Schema System\" --body \"## Component Under Test\nSchemaBuilder - Entity type schema operations\n\n## Test Coverage Goals\n- Entity type schema creation\n- Schema retrieval by entity type\n- List all schemas for world\n- Update existing schema\n- Delete schema\n- Schema with mixin composition\n\n## Acceptance Criteria\n- [ ] All test cases passing\n- [ ] Code coverage >80%\n- [ ] Update and delete operations tested\")",
+      "Bash(gh issue create --title \"[TEST] Schema Validator - Property Type Validation\" --label \"testing,schema,priority:high\" --milestone \"Phase 2: Schema System\" --body \"## Component Under Test\nSchemaValidator - Property type validation for all supported types\n\n## Test Coverage Goals\n- TEXT, NUMBER, DATE, BOOLEAN validation\n- URL and EMAIL format validation\n- SELECT, MULTI_SELECT, TAGS validation\n- RELATION validation\n- Invalid type handling with clear error messages\n\n## Acceptance Criteria\n- [ ] All property types tested with valid values\n- [ ] All property types tested with invalid values\n- [ ] Error messages are clear and helpful\n- [ ] Code coverage >90%\")",
+      "Bash(gh issue create --title \"[TEST] Schema Validator - Constraints and Required Fields\" --label \"testing,schema,priority:high\" --milestone \"Phase 2: Schema System\" --body \"## Component Under Test\nSchemaValidator - Constraints, required fields, and edge cases\n\n## Test Coverage Goals\n- Required field validation\n- Min/max value constraints\n- Regex pattern validation\n- Select options validation\n- Null value handling\n- Extra properties handling (flexible schema)\n\n## Acceptance Criteria\n- [ ] Required field enforcement working\n- [ ] All constraint types tested\n- [ ] Flexible schema behavior verified\n- [ ] Code coverage >90%\")",
+      "Bash(gh issue create --title \"[TEST] Schema System Integration Tests\" --label \"testing,schema,priority:medium\" --milestone \"Phase 2: Schema System\" --body \"## Component Under Test\nFull schema system (Builder + Validator integration)\n\n## Test Type\n- [x] Integration Tests\n\n## Test Coverage Goals\n- Create mixin, use in schema, validate entities\n- Schema composition with multiple mixins\n- Get all properties (schema + mixins)\n- Update schema and re-validate existing entities\n- Cross-world schema isolation\n\n## Acceptance Criteria\n- [ ] Complete workflow tests passing\n- [ ] Mixin composition working correctly\n- [ ] World isolation verified\n\n## Dependencies\nRequires: #1, #2, #3, #4\")",
+      "mcp__serena__get_current_config",
+      "mcp__serena__list_memories",
+      "mcp__memory__chroma_peek_collection",
+      "mcp__memory__chroma_query_documents",
+      "Bash(node -e \"\nconst msg = 'Remind me how we implemented the database schema';\nconst pattern = /remind me (about|how|what|of|regarding)/i;\nconsole.log('Pattern:', pattern);\nconsole.log('Message:', msg);\nconsole.log('Test result:', pattern.test(msg));\nconsole.log('Match:', msg.match(pattern));\n\")",
+      "Bash(chmod +x ~/.claude/hooks/core/session-end.js)",
+      "Bash(chmod +x ~/.claude/hooks/test-session-hooks.js)",
+      "Bash(node -e \"\nconst { MidConversationHook } = require('./core/mid-conversation');\nconst path = require('path');\n\nconst hook = new MidConversationHook(path.join(__dirname, 'config.json'));\n\nconsole.log('=== Test 1: Technical Discussion (should suggest implementation) ===');\nlet result = hook.analyze('How did we implement the database schema?');\nif (result.shouldTrigger) {\n  console.log(result.message);\n}\n\nconsole.log('\\n\\n=== Test 2: Next Steps (should suggest todo) ===');\nresult = hook.analyze('What should we continue working on next?');\nif (result.shouldTrigger) {\n  console.log(result.message);\n}\n\nconsole.log('\\n\\n=== Test 3: Decision Request (should suggest general) ===');\n// Clear cooldown\nconst fs = require('fs');\ntry { fs.unlinkSync(path.join(__dirname, '.last-trigger')); } catch {}\nresult = hook.analyze('What did we decide about authentication?');\nif (result.shouldTrigger) {\n  console.log(result.message);\n}\n\")",
+      "mcp__serena__get_symbols_overview",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+      "Bash(node -e \"\n// Test 1: Empty message (simulates /save command scenario)\nprocess.env.CLAUDE_CODE_USER_PROMPT = '';\nconst result1 = require('child_process').spawnSync('node', ['./core/mid-conversation.js'], {\n  env: process.env,\n  encoding: 'utf8'\n});\nconsole.log('Test 1 - Empty message:');\nconsole.log('  Exit code:', result1.status);\nconsole.log('  Stderr:', result1.stderr || '(none)');\nconsole.log('  Stdout:', result1.stdout || '(none)');\n\n// Test 2: Slash command\nprocess.env.CLAUDE_CODE_USER_PROMPT = '/save';\nconst result2 = require('child_process').spawnSync('node', ['./core/mid-conversation.js'], {\n  env: process.env,\n  encoding: 'utf8'\n});\nconsole.log('\\nTest 2 - Slash command (/save):');\nconsole.log('  Exit code:', result2.status);\nconsole.log('  Stderr:', result2.stderr || '(none)');\nconsole.log('  Stdout:', result2.stdout || '(none)');\n\n// Test 3: Normal user message\nprocess.env.CLAUDE_CODE_USER_PROMPT = 'What did we decide about authentication?';\nconst result3 = require('child_process').spawnSync('node', ['./core/mid-conversation.js'], {\n  env: process.env,\n  encoding: 'utf8'\n});\nconsole.log('\\nTest 3 - Normal message (should trigger):');\nconsole.log('  Exit code:', result3.status);\nconsole.log('  Stdout contains PREPEND:', result3.stdout.includes('PREPEND'));\n\")",
+      "Bash(cat ~/.claude/hooks/core/mid-conversation.js)",
+      "Bash(node ./core/session-start.js)",
+      "Bash(git checkout -b feature/issue-8-database-setup)",
+      "Bash(mkdir -p backend/core backend/schema backend/entities backend/relationships backend/search backend/campaigns backend/timeline backend/import_export shared tests/unit tests/integration)",
+      "Bash(uv venv)",
+      "Bash(uv pip install -r requirements.txt)",
+      "Bash(git add .env.example backend/ requirements.txt shared/ test_db_init.py tests/)",
+      "Bash(git commit -m \"$(cat <<'EOF'\nWIP: Issue #8 - Core database setup implementation\n\nImplemented core database infrastructure:\n- Created requirements.txt with all dependencies\n- Added .env.example configuration template\n- Implemented backend/core/config.py (Pydantic Settings)\n- Implemented backend/core/database.py (SQLite models + Chroma)\n  - Models: World, MixinDefinition, SchemaDefinition, SavedFilter, StorySnapshot\n  - DatabaseManager singleton for connection management\n  - Dependency injection helpers (get_db, get_chroma)\n- Created directory structure and __init__.py files\n- Added test_db_init.py for manual verification\n\nNote: Changed \"Campaign\" → \"Story\" terminology for narrative tracking.\n\nStatus: Dependencies not yet installed, needs testing on more powerful machine.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "ask": [
+      "Bash(git push:*)"
+    ]
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/core/mid-conversation.js",
+            "description": "Natural language memory triggers"
+          }
+        ]
+      }
+    ]
+  }
+}
