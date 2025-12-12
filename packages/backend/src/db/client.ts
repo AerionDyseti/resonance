@@ -1,10 +1,11 @@
 import { createClient } from '@libsql/client';
 import { drizzle } from 'drizzle-orm/libsql';
 import * as schema from './schema.js';
+import { env } from '../config/env.js';
 
 // Initialize libSQL client
 const client = createClient({
-  url: process.env.DATABASE_URL || 'file:local.db',
+  url: env.DATABASE_URL,
 });
 
 // Initialize Drizzle ORM
