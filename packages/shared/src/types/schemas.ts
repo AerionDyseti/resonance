@@ -63,7 +63,7 @@ export const EntitySchema = z.object({
   typeId: z.string().uuid(),
   name: z.string().min(1).max(255),
   body: z.string().default(''),
-  properties: z.record(PropertyValueSchema),
+  properties: z.record(z.string(), PropertyValueSchema),
   embedding: z.array(z.number()).optional(),
   createdAt: z.date(),
   updatedAt: z.date(),
@@ -74,13 +74,13 @@ export const CreateEntityInput = z.object({
   typeId: z.string().uuid(),
   name: z.string().min(1).max(255),
   body: z.string().default(''),
-  properties: z.record(PropertyValueSchema).default({}),
+  properties: z.record(z.string(), PropertyValueSchema).default({}),
 });
 
 export const UpdateEntityInput = z.object({
   name: z.string().min(1).max(255).optional(),
   body: z.string().optional(),
-  properties: z.record(PropertyValueSchema).optional(),
+  properties: z.record(z.string(), PropertyValueSchema).optional(),
 });
 
 // ========== Property Schemas ==========
@@ -146,7 +146,7 @@ export const RelationshipSchema = z.object({
   toEntityId: z.string().uuid(),
   type: z.string().min(1),
   description: z.string().optional(),
-  metadata: z.record(z.unknown()).optional(),
+  metadata: z.record(z.string(), z.unknown()).optional(),
   createdAt: z.date(),
   updatedAt: z.date(),
 });
@@ -157,7 +157,7 @@ export const CreateRelationshipInput = z.object({
   toEntityId: z.string().uuid(),
   type: z.string().min(1),
   description: z.string().optional(),
-  metadata: z.record(z.unknown()).optional(),
+  metadata: z.record(z.string(), z.unknown()).optional(),
 });
 
 // ========== Query Input Schemas ==========

@@ -1,7 +1,6 @@
 import eslint from '@eslint/js';
 import tseslint from 'typescript-eslint';
-import vuePlugin from 'eslint-plugin-vue';
-import vueParser from 'vue-eslint-parser';
+import pluginVue from 'eslint-plugin-vue';
 
 export default tseslint.config(
   // Ignore patterns
@@ -15,22 +14,20 @@ export default tseslint.config(
   // TypeScript recommended rules
   ...tseslint.configs.recommended,
 
+  // Vue flat config for Vue 3
+  ...pluginVue.configs['flat/recommended'],
+
   // Vue files configuration
   {
     files: ['**/*.vue'],
     languageOptions: {
-      parser: vueParser,
       parserOptions: {
         parser: tseslint.parser,
         extraFileExtensions: ['.vue'],
         sourceType: 'module',
       },
     },
-    plugins: {
-      vue: vuePlugin,
-    },
     rules: {
-      ...vuePlugin.configs['vue3-recommended'].rules,
       'vue/multi-word-component-names': 'off',
     },
   },
