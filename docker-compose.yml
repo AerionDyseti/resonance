@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  # Development backend service
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+      target: backend-dev
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./packages/backend/src:/app/packages/backend/src
+      - ./packages/shared/src:/app/packages/shared/src
+      - ./data:/app/data
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+      - DATABASE_URL=file:/app/data/resonance.db
+      - CORS_ORIGINS=http://localhost:5173
+    command: npm run dev --workspace=@resonance/backend
+
+  # Development frontend service
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+      target: frontend-dev
+    ports:
+      - '5173:5173'
+    volumes:
+      - ./packages/frontend/src:/app/packages/frontend/src
+      - ./packages/shared/src:/app/packages/shared/src
+    environment:
+      - VITE_API_URL=http://localhost:3000
+    command: npm run dev --workspace=@resonance/frontend -- --host
+    depends_on:
+      - backend
+
+  # Production service (single container serving both frontend and backend)
+  production:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./data:/app/data
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - DATABASE_URL=file:/app/data/resonance.db
+      - CORS_ORIGINS=http://localhost:3000
+    profiles:
+      - prod
+
+volumes:
+  data:
