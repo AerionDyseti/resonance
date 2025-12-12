@@ -2,14 +2,24 @@
 
 This document outlines the step-by-step development plan for Resonance, organized into testable components.
 
-## Phase 1: Foundation ✅
+## Phase 0: Project Setup
 
-- [x] Project structure setup
-- [x] Core configuration and environment
-- [x] Database setup (Chroma + SQLite)
-- [x] Core data models and type definitions
-- [x] Schema builder with mixin support
-- [x] Schema validator with property type checking
+- [ ] Monorepo structure (npm workspaces)
+- [ ] Backend package setup (Node.js + TypeScript + Express)
+- [ ] Frontend package setup (Vue 3 + Vite)
+- [ ] Shared types package
+- [ ] Development tooling (ESLint, Prettier, TypeScript)
+- [ ] Environment configuration
+- [ ] Docker setup
+
+## Phase 1: Database & Core Models (Foundation)
+
+- [ ] libSQL/Drizzle ORM setup with migrations
+- [ ] Database schema design for entities, properties, relationships
+- [ ] Vector storage integration (native libSQL vectors)
+- [ ] Core type definitions and interfaces
+- [ ] Schema builder with template/trait support
+- [ ] Property validator with type checking
 
 ## Phase 2: Schema System (Current)
 
@@ -136,24 +146,27 @@ This document outlines the step-by-step development plan for Resonance, organize
 - [ ] Provide consistency suggestions
 - [ ] Write consistency tests
 
-## Phase 9: API Layer
+## Phase 9: Backend API (tRPC)
 
-### 9.1 FastAPI Routes
-- [ ] Create world management endpoints
-- [ ] Create schema management endpoints
-- [ ] Create entity CRUD endpoints
-- [ ] Create search and query endpoints
-- [ ] Create relationship endpoints
-- [ ] Create campaign endpoints
+### 9.1 tRPC Router Setup
+- [ ] Set up tRPC server with Express
+- [ ] Create world management procedures
+- [ ] Create schema management procedures
+- [ ] Create entity CRUD procedures
+- [ ] Create search and query procedures
+- [ ] Create relationship procedures
+- [ ] Create campaign procedures
 
-### 9.2 API Testing
-- [ ] Write integration tests for all endpoints
+### 9.2 API Testing & Documentation
+- [ ] Write integration tests for all procedures
+- [ ] Test type safety end-to-end
 - [ ] Test authentication and authorization
-- [ ] Test error handling
-- [ ] Test API documentation
-- [ ] Performance testing
+- [ ] Test error handling and validation
+- [ ] Performance benchmarking with real data
 
-## Phase 10: MCP Server
+## Phase 10: MCP Server (Optional/Future)
+
+> **Note**: This phase is optional and can be deferred until core functionality is complete. It enables Claude and other AI tools to query and interact with Resonance worlds.
 
 ### 10.1 MCP Foundation
 - [ ] Set up MCP server structure
@@ -199,43 +212,62 @@ This document outlines the step-by-step development plan for Resonance, organize
 - [ ] Implement API for third-party tools
 - [ ] Write export tests
 
-## Phase 12: Frontend (TBD)
+## Phase 12: Frontend (Vue 3 + Vite)
 
-### 12.1 Framework Selection
-- [ ] Evaluate React/Next.js
-- [ ] Evaluate Vue/Nuxt
-- [ ] Evaluate SvelteKit
-- [ ] Make decision and document rationale
+### 12.1 Project Setup
+- [ ] Vue 3 + Vite project scaffold
+- [ ] TanStack Query integration with tRPC client
+- [ ] TipTap editor integration
+- [ ] Tailwind CSS configuration
+- [ ] Component library scaffolding
+- [ ] Routing setup (Vue Router)
+- [ ] OAuth authentication flow
 
 ### 12.2 Core UI Components
-- [ ] Schema builder interface
-- [ ] Entity editor (forms + markdown)
-- [ ] Navigation and hierarchy browser
-- [ ] Search interface
+- [ ] Entity form with dynamic property fields
+- [ ] WYSIWYG editor with TipTap
+- [ ] Entity list/grid views
+- [ ] Schema management interface
+- [ ] Navigation and world browser
+- [ ] Search interface with filters
 
 ### 12.3 Advanced UI
-- [ ] Relationship graph visualization
+- [ ] Relationship visualization (graph view)
 - [ ] Timeline visualization
-- [ ] Campaign management UI
+- [ ] Campaign management dashboard
 - [ ] User settings and preferences
+- [ ] World snapshots and version history
 
-## Current Priority
+## Development Approach
 
-**Focus**: Complete Phase 2 (Schema System Testing) before moving forward.
+**Recommended Order**:
+1. **Phase 0**: Project setup and infrastructure
+2. **Phase 1**: Database layer with Drizzle ORM
+3. **Phase 2-8**: Core business logic (schema, entities, relationships, search)
+4. **Phase 9**: Backend API (tRPC procedures)
+5. **Phase 12**: Frontend (Vue 3 + Vite)
+6. **Phase 11**: Import/Export features
+7. **Phase 10**: MCP Server (optional, when core is solid)
 
-We're taking a test-driven approach where each component is fully tested before building the next layer.
+We're taking a **test-driven approach** where each component is tested before moving to the next layer.
 
 ## Testing Strategy
 
-1. **Unit Tests**: Test individual functions and classes in isolation
-2. **Integration Tests**: Test component interactions (e.g., schema + validator)
-3. **End-to-End Tests**: Test complete workflows (e.g., create entity with schema validation)
-4. **Performance Tests**: Ensure system scales with large datasets
+1. **Unit Tests**: Test individual functions and classes (backend business logic)
+2. **Integration Tests**: Test Drizzle ORM queries, service layer interactions
+3. **End-to-End Tests**: Test complete workflows via tRPC client
+4. **Performance Tests**: Ensure vector search and large entity queries are efficient
+5. **Component Tests**: Vue component testing with Vue Test Utils
 
-## Success Metrics
+**Framework**: Vitest for backend/frontend unit tests
+
+## Success Metrics (MVP)
 
 - [ ] All tests passing with >80% coverage
-- [ ] Can create a complete world with custom schemas
-- [ ] MCP server can query and understand world data
-- [ ] Web UI provides intuitive world management
-- [ ] System handles 10,000+ entities efficiently
+- [ ] Can create worlds with custom entity types and properties
+- [ ] Entities store markdown content with WYSIWYG editor
+- [ ] Semantic search finds similar entities by vector distance
+- [ ] Relationships between entities can be created and visualized
+- [ ] System efficiently handles 1000+ entities with complex schemas
+- [ ] OAuth authentication works with Google/GitHub/Discord
+- [ ] Export to JSON and Markdown formats

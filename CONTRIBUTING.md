@@ -37,8 +37,8 @@ We use labels to categorize issues:
 
 Milestones represent our development phases:
 
-- **Phase 1**: Foundation (Complete)
-- **Phase 2**: Schema System (Current)
+- **Phase 1**: Foundation
+- **Phase 2**: Schema System
 - **Phase 3**: Entity Management
 - **Phase 4**: Markdown & Content
 - **Phase 5**: Relationships
@@ -83,107 +83,6 @@ We have three issue templates:
 
 ## Development Setup
 
-### Prerequisites
-
-- Python 3.11+
-- Git
-
-### Setup
-
-```bash
-# Clone repository
-git clone <repository-url>
-cd resonance
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Copy environment template
-cp .env.example .env
-
-# Run tests
-pytest
-```
-
-### Running Tests
-
-```bash
-# Run all tests
-pytest
-
-# Run specific test file
-pytest tests/unit/test_schema_builder.py
-
-# Run with coverage
-pytest --cov=backend --cov-report=html
-
-# Run tests for specific component
-pytest -m schema  # Schema system tests
-pytest -m entity  # Entity management tests
-```
-
-### Code Style
-
-We use:
-- **black** for code formatting
-- **ruff** for linting
-- **mypy** for type checking
-
-```bash
-# Format code
-black backend/ shared/ tests/
-
-# Lint
-ruff check backend/ shared/ tests/
-
-# Type check
-mypy backend/ shared/
-```
-
-### Commit Messages
-
-Follow conventional commits:
-
-```
-feat: add entity validation
-fix: correct relationship cardinality check
-test: add schema builder unit tests
-docs: update API documentation
-refactor: simplify property validation logic
-```
-
-Reference issues in commits:
-```
-feat: implement mixin composition #42
-```
-
-## Testing Guidelines
-
-### Test Structure
-
-- **Unit Tests**: `tests/unit/` - Test individual functions/classes
-- **Integration Tests**: `tests/integration/` - Test component interactions
-- **End-to-End Tests**: `tests/e2e/` - Test complete workflows
-
-### Writing Tests
-
-```python
-import pytest
-from backend.schema.builder import SchemaBuilder
-
-@pytest.mark.unit
-@pytest.mark.schema
-def test_create_mixin(db_session, sample_world_id):
-    """Test mixin creation with valid properties."""
-    builder = SchemaBuilder(db_session)
-    # Test implementation
-    assert result is not None
-```
-
 ### Test Coverage
 
 - Aim for >80% code coverage
@@ -191,15 +90,42 @@ def test_create_mixin(db_session, sample_world_id):
 - Test edge cases and boundary conditions
 - Mock external dependencies
 
+## Development Setup
+
+### Environment
+- Node.js 18+
+- TypeScript for type safety
+
+### Code Quality Standards
+
+- **Linting**: ESLint (TypeScript config)
+- **Formatting**: Prettier
+- **Type checking**: TypeScript strict mode
+- **Testing**: Vitest (backend), Vitest/Vue Test Utils (frontend)
+- **Test coverage**: Aim for >80%
+
+### Running Locally
+
+```bash
+npm install
+npm run dev        # Start development servers
+npm run build      # Build for production
+npm run test       # Run all tests
+npm run lint       # Check for linting issues
+npm run format     # Format code with Prettier
+npm run type-check # Run TypeScript type checking
+```
+
 ## Pull Request Guidelines
 
 ### Before Creating PR
 
 - [ ] All tests passing
-- [ ] Code formatted with black
-- [ ] No linting errors
-- [ ] Type checking passes
+- [ ] Code formatted with Prettier (`npm run format`)
+- [ ] No ESLint errors (`npm run lint`)
+- [ ] Type checking passes (`npm run type-check`)
 - [ ] Documentation updated
+- [ ] Tested locally
 
 ### PR Description
 
