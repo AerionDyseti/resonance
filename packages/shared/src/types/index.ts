@@ -13,17 +13,14 @@ export type {
   Property,
   PropertyValue,
   PropertyConstraints,
-  PropertyType,
   // Templates
   Template,
   // Relationships
   Relationship,
 } from './domain.js';
 
-export {
-  // Property type enum
-  PropertyType,
-} from './domain.js';
+// Property type enum (exports both type and value)
+export { PropertyType } from './domain.js';
 
 export type {
   // API Response types
