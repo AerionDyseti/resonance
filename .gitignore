@@ -87,6 +87,7 @@ site/
 tmp/
 temp/
 *.tmp
+.claude/handoffs/
 
 # OS
 Thumbs.db
