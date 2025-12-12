@@ -23,8 +23,8 @@ export type Unbrand<T> = T extends Brand<infer U, string> ? U : T;
 /** Unique identifier for a World */
 export type WorldId = Brand<string, 'WorldId'>;
 
-/** Unique identifier for an EntityType (schema definition) */
-export type EntityTypeId = Brand<string, 'EntityTypeId'>;
+/** Unique identifier for an EntityDefinition (schema definition) */
+export type EntityDefinitionId = Brand<string, 'EntityDefinitionId'>;
 
 /** Unique identifier for a PropertyDefinition */
 export type PropertyDefinitionId = Brand<string, 'PropertyDefinitionId'>;
@@ -46,10 +46,10 @@ export function worldId(id: string): WorldId {
 }
 
 /**
- * Creates an EntityTypeId from a string
+ * Creates an EntityDefinitionId from a string
  */
-export function entityTypeId(id: string): EntityTypeId {
-  return id as EntityTypeId;
+export function entityDefinitionId(id: string): EntityDefinitionId {
+  return id as EntityDefinitionId;
 }
 
 /**

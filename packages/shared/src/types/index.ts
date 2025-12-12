@@ -6,7 +6,7 @@ export type {
   Brand,
   Unbrand,
   WorldId,
-  EntityTypeId,
+  EntityDefinitionId,
   PropertyDefinitionId,
   EntityId,
   RelationshipId,
@@ -15,7 +15,7 @@ export type {
 // ID factory functions
 export {
   worldId,
-  entityTypeId,
+  entityDefinitionId,
   propertyDefinitionId,
   entityId,
   relationshipId,
@@ -27,7 +27,7 @@ export type {
   // Worlds
   World,
   // Entity Types
-  EntityType,
+  EntityDefinition as EntityDefinition,
   // Entities
   Entity,
   // Property Definitions

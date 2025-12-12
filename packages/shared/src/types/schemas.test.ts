@@ -3,9 +3,9 @@ import {
   WorldSchema,
   CreateWorldInput,
   UpdateWorldInput,
-  EntityTypeSchema,
-  CreateEntityTypeInput,
-  UpdateEntityTypeInput,
+  EntityDefinitionSchema,
+  CreateEntityDefinitionInput,
+  UpdateEntityDefinitionInput,
   EntitySchema,
   CreateEntityInput,
   UpdateEntityInput,
@@ -256,8 +256,8 @@ describe('UpdateWorldInput', () => {
 
 // ========== Entity Type Schemas ==========
 
-describe('EntityTypeSchema', () => {
-  const validEntityType = {
+describe('EntityDefinitionSchema', () => {
+  const validEntityDefinition = {
     id: '123e4567-e89b-12d3-a456-426614174000',
     worldId: '223e4567-e89b-12d3-a456-426614174000',
     name: 'Character',
@@ -270,7 +270,7 @@ describe('EntityTypeSchema', () => {
 
   describe('valid inputs', () => {
     it('should accept valid entity type', () => {
-      const result = EntityTypeSchema.safeParse(validEntityType);
+      const result = EntityDefinitionSchema.safeParse(validEntityDefinition);
       expect(result.success).toBe(true);
     });
 
@@ -284,39 +284,39 @@ describe('EntityTypeSchema', () => {
         updatedAt: new Date(),
       };
 
-      const result = EntityTypeSchema.safeParse(input);
+      const result = EntityDefinitionSchema.safeParse(input);
       expect(result.success).toBe(true);
     });
   });
 
   describe('invalid inputs', () => {
     it('should reject invalid worldId uuid', () => {
-      const input = { ...validEntityType, worldId: 'not-uuid' };
-      const result = EntityTypeSchema.safeParse(input);
+      const input = { ...validEntityDefinition, worldId: 'not-uuid' };
+      const result = EntityDefinitionSchema.safeParse(input);
       expect(result.success).toBe(false);
     });
 
     it('should reject empty name', () => {
-      const input = { ...validEntityType, name: '' };
-      const result = EntityTypeSchema.safeParse(input);
+      const input = { ...validEntityDefinition, name: '' };
+      const result = EntityDefinitionSchema.safeParse(input);
       expect(result.success).toBe(false);
     });
 
     it('should reject name longer than 255', () => {
-      const input = { ...validEntityType, name: 'a'.repeat(256) };
-      const result = EntityTypeSchema.safeParse(input);
+      const input = { ...validEntityDefinition, name: 'a'.repeat(256) };
+      const result = EntityDefinitionSchema.safeParse(input);
       expect(result.success).toBe(false);
     });
 
     it('should reject invalid propertyDefinitionId uuid', () => {
-      const input = { ...validEntityType, propertyDefinitionIds: ['not-uuid'] };
-      const result = EntityTypeSchema.safeParse(input);
+      const input = { ...validEntityDefinition, propertyDefinitionIds: ['not-uuid'] };
+      const result = EntityDefinitionSchema.safeParse(input);
       expect(result.success).toBe(false);
     });
   });
 });
 
-describe('CreateEntityTypeInput', () => {
+describe('CreateEntityDefinitionInput', () => {
   describe('valid inputs', () => {
     it('should accept valid create input', () => {
       const validInput = {
@@ -327,7 +327,7 @@ describe('CreateEntityTypeInput', () => {
         propertyDefinitionIds: ['423e4567-e89b-12d3-a456-426614174000'],
       };
 
-      const result = CreateEntityTypeInput.safeParse(validInput);
+      const result = CreateEntityDefinitionInput.safeParse(validInput);
       expect(result.success).toBe(true);
     });
 
@@ -337,7 +337,7 @@ describe('CreateEntityTypeInput', () => {
         name: 'Character',
       };
 
-      const result = CreateEntityTypeInput.safeParse(validInput);
+      const result = CreateEntityDefinitionInput.safeParse(validInput);
       expect(result.success).toBe(true);
       if (result.success) {
         expect(result.data.propertyDefinitionIds).toEqual([]);
@@ -352,7 +352,7 @@ describe('CreateEntityTypeInput', () => {
         name: 'Character',
       };
 
-      const result = CreateEntityTypeInput.safeParse(invalidInput);
+      const result = CreateEntityDefinitionInput.safeParse(invalidInput);
       expect(result.success).toBe(false);
     });
 
@@ -362,7 +362,7 @@ describe('CreateEntityTypeInput', () => {
         name: '',
       };
 
-      const result = CreateEntityTypeInput.safeParse(invalidInput);
+      const result = CreateEntityDefinitionInput.safeParse(invalidInput);
       expect(result.success).toBe(false);
     });
 
@@ -371,40 +371,40 @@ describe('CreateEntityTypeInput', () => {
         name: 'Character',
       };
 
-      const result = CreateEntityTypeInput.safeParse(invalidInput);
+      const result = CreateEntityDefinitionInput.safeParse(invalidInput);
       expect(result.success).toBe(false);
     });
   });
 });
 
-describe('UpdateEntityTypeInput', () => {
+describe('UpdateEntityDefinitionInput', () => {
   describe('valid inputs', () => {
     it('should accept update with name only', () => {
-      const result = UpdateEntityTypeInput.safeParse({ name: 'Updated' });
+      const result = UpdateEntityDefinitionInput.safeParse({ name: 'Updated' });
       expect(result.success).toBe(true);
     });
 
     it('should accept update with propertyDefinitionIds', () => {
-      const result = UpdateEntityTypeInput.safeParse({
+      const result = UpdateEntityDefinitionInput.safeParse({
         propertyDefinitionIds: ['223e4567-e89b-12d3-a456-426614174000'],
       });
       expect(result.success).toBe(true);
     });
 
     it('should accept empty update object', () => {
-      const result = UpdateEntityTypeInput.safeParse({});
+      const result = UpdateEntityDefinitionInput.safeParse({});
       expect(result.success).toBe(true);
     });
   });
 
   describe('invalid inputs', () => {
     it('should reject empty name', () => {
-      const result = UpdateEntityTypeInput.safeParse({ name: '' });
+      const result = UpdateEntityDefinitionInput.safeParse({ name: '' });
       expect(result.success).toBe(false);
     });
 
     it('should reject invalid propertyDefinitionId uuid', () => {
-      const result = UpdateEntityTypeInput.safeParse({
+      const result = UpdateEntityDefinitionInput.safeParse({
         propertyDefinitionIds: ['not-uuid'],
       });
       expect(result.success).toBe(false);
@@ -466,7 +466,7 @@ describe('EntitySchema', () => {
   const validEntity = {
     id: '123e4567-e89b-12d3-a456-426614174000',
     worldId: '223e4567-e89b-12d3-a456-426614174000',
-    typeId: '323e4567-e89b-12d3-a456-426614174000',
+    definitionId: '323e4567-e89b-12d3-a456-426614174000',
     name: 'Aragorn',
     body: '# Character details\nA ranger and king',
     properties: {
@@ -489,7 +489,7 @@ describe('EntitySchema', () => {
       const input = {
         id: '123e4567-e89b-12d3-a456-426614174000',
         worldId: '223e4567-e89b-12d3-a456-426614174000',
-        typeId: '323e4567-e89b-12d3-a456-426614174000',
+        definitionId: '323e4567-e89b-12d3-a456-426614174000',
         name: 'Aragorn',
         body: 'Character details',
         properties: {},
@@ -505,7 +505,7 @@ describe('EntitySchema', () => {
       const input = {
         id: '123e4567-e89b-12d3-a456-426614174000',
         worldId: '223e4567-e89b-12d3-a456-426614174000',
-        typeId: '323e4567-e89b-12d3-a456-426614174000',
+        definitionId: '323e4567-e89b-12d3-a456-426614174000',
         name: 'Aragorn',
         body: 'Details',
         properties: {},
@@ -556,7 +556,7 @@ describe('CreateEntityInput', () => {
     it('should accept valid create input', () => {
       const validInput = {
         worldId: '223e4567-e89b-12d3-a456-426614174000',
-        typeId: '323e4567-e89b-12d3-a456-426614174000',
+        definitionId: '323e4567-e89b-12d3-a456-426614174000',
         name: 'Aragorn',
         body: 'Character details',
         properties: {
@@ -572,7 +572,7 @@ describe('CreateEntityInput', () => {
     it('should apply default empty body', () => {
       const validInput = {
         worldId: '223e4567-e89b-12d3-a456-426614174000',
-        typeId: '323e4567-e89b-12d3-a456-426614174000',
+        definitionId: '323e4567-e89b-12d3-a456-426614174000',
         name: 'Aragorn',
       };
 
@@ -586,7 +586,7 @@ describe('CreateEntityInput', () => {
     it('should apply default empty properties', () => {
       const validInput = {
         worldId: '223e4567-e89b-12d3-a456-426614174000',
-        typeId: '323e4567-e89b-12d3-a456-426614174000',
+        definitionId: '323e4567-e89b-12d3-a456-426614174000',
         name: 'Aragorn',
       };
 
@@ -602,7 +602,7 @@ describe('CreateEntityInput', () => {
     it('should reject invalid worldId uuid', () => {
       const invalidInput = {
         worldId: 'not-uuid',
-        typeId: '323e4567-e89b-12d3-a456-426614174000',
+        definitionId: '323e4567-e89b-12d3-a456-426614174000',
         name: 'Aragorn',
       };
 
@@ -613,7 +613,7 @@ describe('CreateEntityInput', () => {
     it('should reject empty name', () => {
       const invalidInput = {
         worldId: '223e4567-e89b-12d3-a456-426614174000',
-        typeId: '323e4567-e89b-12d3-a456-426614174000',
+        definitionId: '323e4567-e89b-12d3-a456-426614174000',
         name: '',
       };
 
@@ -621,7 +621,7 @@ describe('CreateEntityInput', () => {
       expect(result.success).toBe(false);
     });
 
-    it('should reject missing typeId', () => {
+    it('should reject missing definitionId', () => {
       const invalidInput = {
         worldId: '223e4567-e89b-12d3-a456-426614174000',
         name: 'Aragorn',
@@ -758,9 +758,9 @@ describe('PropertyConstraintsSchema', () => {
       expect(result.success).toBe(true);
     });
 
-    it('should accept referencedEntityTypeId', () => {
+    it('should accept referencedEntityDefinitionId', () => {
       const validInput = {
-        referencedEntityTypeId: '123e4567-e89b-12d3-a456-426614174000',
+        referencedEntityDefinitionId: '123e4567-e89b-12d3-a456-426614174000',
       };
 
       const result = PropertyConstraintsSchema.safeParse(validInput);
@@ -782,7 +782,7 @@ describe('PropertyConstraintsSchema', () => {
         maxLength: 50,
         pattern: '[0-9]+',
         options: ['A', 'B'],
-        referencedEntityTypeId: '123e4567-e89b-12d3-a456-426614174000',
+        referencedEntityDefinitionId: '123e4567-e89b-12d3-a456-426614174000',
       };
 
       const result = PropertyConstraintsSchema.safeParse(validInput);
@@ -818,9 +818,9 @@ describe('PropertyConstraintsSchema', () => {
       expect(result.success).toBe(false);
     });
 
-    it('should reject invalid referencedEntityTypeId uuid', () => {
+    it('should reject invalid referencedEntityDefinitionId uuid', () => {
       const invalidInput = {
-        referencedEntityTypeId: 'not-uuid',
+        referencedEntityDefinitionId: 'not-uuid',
       };
 
       const result = PropertyConstraintsSchema.safeParse(invalidInput);
