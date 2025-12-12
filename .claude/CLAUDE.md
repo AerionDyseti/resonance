@@ -13,9 +13,19 @@
 ```
 If More Details Needed, See: `STRUCTURE.md`
 
-## Git & GitHub
+## Delegation
 
-Use the `project-manager` agent for branches, commits, issues, PRs, and kanban updates.
+**Delegate first.** Route tasks to specialized agents whenever possible.
+
+| Agent | Use For |
+|-------|---------|
+| `project-manager` | Git, commits, branches, PRs, issues, kanban |
+| `code-reviewer` | Review diffs for quality, security, patterns |
+| `test-writer` | Write unit/integration tests |
+
+**Do directly only when:** clarifying requirements, coordinating agents, pure conversation, or no agent fits.
+
+## Git & GitHub
 
 **Quick reference:** Branches `feature/<issue>-<desc>` | Commits: conventional + `#<issue>` | Pre-PR: `npm run type-check && npm run lint`
 
