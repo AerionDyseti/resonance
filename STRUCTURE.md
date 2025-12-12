@@ -82,6 +82,7 @@ npm run dev          # Watch mode TypeScript compilation
 ## Package Details
 
 ### `@resonance/backend`
+
 - **Framework**: Express.js
 - **API Layer**: tRPC (to be added in Phase 9)
 - **Database**: Drizzle ORM + libSQL
@@ -89,6 +90,7 @@ npm run dev          # Watch mode TypeScript compilation
 - **Dependencies**: Express, Drizzle ORM, better-sqlite3
 
 ### `@resonance/frontend`
+
 - **Framework**: Vue 3
 - **Build Tool**: Vite
 - **Styling**: Tailwind CSS
@@ -97,6 +99,7 @@ npm run dev          # Watch mode TypeScript compilation
 - **Dependencies**: Vue 3, Vite, TanStack Query
 
 ### `@resonance/shared`
+
 - **Purpose**: Shared TypeScript types and utilities
 - **Exports**: Domain types, API response types
 - **No external dependencies** (only TypeScript)
@@ -104,6 +107,7 @@ npm run dev          # Watch mode TypeScript compilation
 ## Development Workflow
 
 1. **Clone and install**:
+
    ```bash
    git clone <repo>
    cd resonance
@@ -111,9 +115,11 @@ npm run dev          # Watch mode TypeScript compilation
    ```
 
 2. **Start development servers**:
+
    ```bash
    npm run dev
    ```
+
    This will start:
    - Backend on http://localhost:3000
    - Frontend on http://localhost:5173
@@ -168,6 +174,7 @@ This means "use the local version in the workspace" rather than npm registry.
 ## Next Steps
 
 Phase 0 remaining tasks:
+
 - [ ] Initialize backend package (tRPC, middleware)
 - [ ] Initialize frontend package (Vue components, router)
 - [ ] Create shared types package (core domain types)
