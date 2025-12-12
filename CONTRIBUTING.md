@@ -93,6 +93,7 @@ We have three issue templates:
 ## Development Setup
 
 ### Environment
+
 - Node.js 18+
 - TypeScript for type safety
 
@@ -130,6 +131,7 @@ npm run type-check # Run TypeScript type checking
 ### PR Description
 
 Include:
+
 - Summary of changes
 - Issue reference (Closes #X)
 - Testing done

@@ -24,6 +24,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 ## Phase 2: Schema System (Current)
 
 ### 2.1 Schema Builder Testing
+
 - [ ] Write unit tests for mixin creation and retrieval
 - [ ] Write unit tests for entity type schema creation
 - [ ] Write unit tests for schema composition (mixins + properties)
@@ -31,6 +32,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 - [ ] Test schema import/export functionality
 
 ### 2.2 Schema Validation Testing
+
 - [ ] Write tests for each property type validation
 - [ ] Write tests for required field checking
 - [ ] Write tests for constraint validation (min/max, regex, etc.)
@@ -40,6 +42,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 ## Phase 3: Entity Management
 
 ### 3.1 Entity Storage Layer
+
 - [ ] Implement Chroma collection management for entities
 - [ ] Implement entity embedding generation
 - [ ] Create entity storage service
@@ -47,6 +50,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 - [ ] Test vector embedding quality
 
 ### 3.2 Entity CRUD Operations
+
 - [ ] Implement entity creation with validation
 - [ ] Implement entity reading and querying
 - [ ] Implement entity updates with schema validation
@@ -54,6 +58,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 - [ ] Write comprehensive CRUD tests with various schemas
 
 ### 3.3 Property Management
+
 - [ ] Implement computed property calculation
 - [ ] Implement property type coercion
 - [ ] Handle property defaults
@@ -62,6 +67,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 ## Phase 4: Markdown & Content Processing
 
 ### 4.1 Markdown Processing
+
 - [ ] Implement basic markdown parsing
 - [ ] Implement property reference resolution ({{property}})
 - [ ] Implement entity transclusion ([[entity]])
@@ -69,6 +75,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 - [ ] Test circular reference prevention
 
 ### 4.2 Content Integration
+
 - [ ] Integrate markdown with entity storage
 - [ ] Implement content search indexing
 - [ ] Test combined property + markdown search
@@ -76,6 +83,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 ## Phase 5: Relationships
 
 ### 5.1 Relationship Management
+
 - [ ] Implement relationship creation and storage
 - [ ] Implement bidirectional relationship sync
 - [ ] Implement relationship cardinality enforcement
@@ -83,6 +91,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 - [ ] Test relationship integrity validation
 
 ### 5.2 Relationship Graph
+
 - [ ] Implement relationship graph queries
 - [ ] Create graph traversal utilities
 - [ ] Generate visualization data structures
@@ -92,6 +101,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 ## Phase 6: Search & Query
 
 ### 6.1 Semantic Search
+
 - [ ] Implement vector similarity search
 - [ ] Implement hybrid search (semantic + filters)
 - [ ] Optimize search performance
@@ -99,6 +109,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 - [ ] Test search result ranking
 
 ### 6.2 Property Filtering
+
 - [ ] Implement filter operators (eq, gt, contains, etc.)
 - [ ] Implement AND/OR filter logic
 - [ ] Implement saved filters
@@ -106,6 +117,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 - [ ] Test complex nested filters
 
 ### 6.3 Advanced Queries
+
 - [ ] Implement smart collections (auto-updating views)
 - [ ] Implement faceted search
 - [ ] Implement full-text search
@@ -114,6 +126,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 ## Phase 7: Campaign System
 
 ### 7.1 Campaign Snapshots
+
 - [ ] Implement snapshot creation
 - [ ] Implement snapshot restoration
 - [ ] Implement snapshot diffing
@@ -121,12 +134,14 @@ This document outlines the step-by-step development plan for Resonance, organize
 - [ ] Test snapshot performance and storage
 
 ### 7.2 World Change Tracking
+
 - [ ] Implement change log system
 - [ ] Track entity modifications
 - [ ] Implement change attribution
 - [ ] Write change tracking tests
 
 ### 7.3 Permissions & Spoilers
+
 - [ ] Implement spoiler protection system
 - [ ] Implement export controls
 - [ ] Add read-only sharing
@@ -135,12 +150,14 @@ This document outlines the step-by-step development plan for Resonance, organize
 ## Phase 8: Timeline System
 
 ### 8.1 Timeline Management
+
 - [ ] Implement timeline event storage
 - [ ] Create chronological ordering
 - [ ] Implement timeline queries
 - [ ] Write timeline tests
 
 ### 8.2 Consistency Checking
+
 - [ ] Implement temporal validation
 - [ ] Detect chronological conflicts
 - [ ] Provide consistency suggestions
@@ -149,6 +166,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 ## Phase 9: Backend API (tRPC)
 
 ### 9.1 tRPC Router Setup
+
 - [ ] Set up tRPC server with Express
 - [ ] Create world management procedures
 - [ ] Create schema management procedures
@@ -158,6 +176,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 - [ ] Create campaign procedures
 
 ### 9.2 API Testing & Documentation
+
 - [ ] Write integration tests for all procedures
 - [ ] Test type safety end-to-end
 - [ ] Test authentication and authorization
@@ -169,24 +188,28 @@ This document outlines the step-by-step development plan for Resonance, organize
 > **Note**: This phase is optional and can be deferred until core functionality is complete. It enables Claude and other AI tools to query and interact with Resonance worlds.
 
 ### 10.1 MCP Foundation
+
 - [ ] Set up MCP server structure
 - [ ] Implement basic MCP tools
 - [ ] Create tool registry
 - [ ] Write MCP server tests
 
 ### 10.2 Query Tools
+
 - [ ] Implement natural language query tool
 - [ ] Implement entity lookup tools
 - [ ] Implement relationship traversal tools
 - [ ] Write query tool tests
 
 ### 10.3 Context Building
+
 - [ ] Implement scene context builder
 - [ ] Implement character context builder
 - [ ] Implement relationship context builder
 - [ ] Write context building tests
 
 ### 10.4 Validation & Generation
+
 - [ ] Implement consistency check tool
 - [ ] Implement content generation tools
 - [ ] Implement suggestion tools
@@ -195,18 +218,21 @@ This document outlines the step-by-step development plan for Resonance, organize
 ## Phase 11: Import/Export
 
 ### 11.1 Schema Import/Export
+
 - [ ] Implement YAML schema export
 - [ ] Implement YAML schema import
 - [ ] Implement JSON schema format
 - [ ] Write schema I/O tests
 
 ### 11.2 Content Import
+
 - [ ] Implement markdown file import
 - [ ] Implement WorldAnvil import (if feasible)
 - [ ] Implement Obsidian vault import
 - [ ] Write import tests
 
 ### 11.3 Export Formats
+
 - [ ] Implement markdown export
 - [ ] Implement JSON export
 - [ ] Implement API for third-party tools
@@ -215,6 +241,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 ## Phase 12: Frontend (Vue 3 + Vite)
 
 ### 12.1 Project Setup
+
 - [ ] Vue 3 + Vite project scaffold
 - [ ] TanStack Query integration with tRPC client
 - [ ] TipTap editor integration
@@ -224,6 +251,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 - [ ] OAuth authentication flow
 
 ### 12.2 Core UI Components
+
 - [ ] Entity form with dynamic property fields
 - [ ] WYSIWYG editor with TipTap
 - [ ] Entity list/grid views
@@ -232,6 +260,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 - [ ] Search interface with filters
 
 ### 12.3 Advanced UI
+
 - [ ] Relationship visualization (graph view)
 - [ ] Timeline visualization
 - [ ] Campaign management dashboard
@@ -241,6 +270,7 @@ This document outlines the step-by-step development plan for Resonance, organize
 ## Development Approach
 
 **Recommended Order**:
+
 1. **Phase 0**: Project setup and infrastructure
 2. **Phase 1**: Database layer with Drizzle ORM
 3. **Phase 2-8**: Core business logic (schema, entities, relationships, search)
