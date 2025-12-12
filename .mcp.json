@@ -1,0 +1,57 @@
+{
+  "mcpServers": {
+    "vector-memory-project": {
+      "type": "stdio",
+      "command": "bunx",
+      "args": [
+        "--bun",
+        "@aeriondyseti/vector-memory-mcp"
+      ],
+      "env": {
+        "VECTOR_MEMORY_DB_PATH": "./.claude/vector-memories.db"
+      }
+    },
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ]
+    },
+    "serena": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/oraios/serena",
+        "serena",
+        "start-mcp-server",
+        "--context",
+        "ide-assistant",
+        "--mode",
+        "no-memories",
+        "--mode",
+        "no-onboarding",
+        "--project",
+        "/home/aerion/dev/resonance"
+      ]
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest"
+      ]
+    },
+    "browser-tools": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@agentdeskai/browser-tools-mcp@latest"
+      ]
+    }
+  }
+}
