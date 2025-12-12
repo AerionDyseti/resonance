@@ -1,6 +1,7 @@
 // Core domain types for Resonance
-// To be populated as we implement Phase 1
+// Shared types for frontend, backend, and API communication
 
+// Domain types
 export type {
   // Worlds
   World,
@@ -11,13 +12,25 @@ export type {
   // Properties
   Property,
   PropertyValue,
+  PropertyConstraints,
+  PropertyType,
   // Templates
   Template,
   // Relationships
   Relationship,
 } from './domain.js';
 
+export {
+  // Property type enum
+  PropertyType,
+} from './domain.js';
+
 export type {
   // API Response types
   ApiResponse,
+  ApiError,
+  PaginatedResponse,
 } from './api.js';
+
+// Zod validation schemas for tRPC
+export * from './schemas.js';
