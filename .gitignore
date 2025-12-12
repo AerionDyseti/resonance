@@ -60,8 +60,9 @@ logs/
 htmlcov/
 .tox/
 .nox/
+coverage/
 
-# Frontend (when added)
+# Frontend
 node_modules/
 .next/
 out/
