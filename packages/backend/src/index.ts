@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import { createExpressMiddleware } from '@trpc/express';
+import { createExpressMiddleware } from '@trpc/server/adapters/express';
 import type { Express } from 'express';
 
 import { appRouter } from './trpc/appRouter';

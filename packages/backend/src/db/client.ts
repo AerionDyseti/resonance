@@ -1,15 +1,14 @@
-import Database from 'better-sqlite3';
-import { drizzle } from 'drizzle-orm/better-sqlite3';
-import * as schema from './schema';
+import { createClient } from '@libsql/client';
+import { drizzle } from 'drizzle-orm/libsql';
+import * as schema from './schema.js';
 
-// Initialize SQLite database
-const sqlite = new Database(process.env.DATABASE_PATH || ':memory:');
-
-// Enable foreign keys
-sqlite.pragma('foreign_keys = ON');
+// Initialize libSQL client
+const client = createClient({
+  url: process.env.DATABASE_URL || 'file:local.db',
+});
 
 // Initialize Drizzle ORM
-export const db = drizzle(sqlite, { schema });
+export const db = drizzle(client, { schema });
 
 // Export types
 export type Database = typeof db;
