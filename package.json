@@ -5,17 +5,12 @@
   "private": true,
   "type": "module",
   "workspaces": [
-    "packages/shared",
-    "packages/core",
-    "packages/api",
-    "packages/server",
-    "packages/frontend"
+    "packages/backend"
   ],
   "scripts": {
     "dev": "bun run --filter '*' dev",
-    "dev:server": "bun run --filter @resonance/server dev",
-    "dev:frontend": "bun run --filter @resonance/frontend dev",
-    "build": "bun run --filter @resonance/shared build && bun run --filter @resonance/core build && bun run --filter @resonance/api build && bun run --filter @resonance/server build && bun run --filter @resonance/frontend build",
+    "dev:server": "bun run --filter @resonance/backend dev",
+    "build": "bun run --filter @resonance/backend build",
     "test": "bun run --filter '*' test",
     "check": "bun run test && bun run lint && bun run type-check && bun run format:check",
     "lint": "eslint .",
