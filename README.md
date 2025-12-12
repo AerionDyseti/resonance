@@ -37,8 +37,8 @@ Resonance is a Notion-inspired world building platform that combines structured 
 
 ### Data
 
-- **libSQL** (SQLite-compatible, with native vector support)
-- **Native vector embeddings** for semantic search
+- **PostgreSQL 17** with **pgvector** extension
+- **Vector embeddings** (1536 dimensions for OpenAI) for semantic search
 
 ### Deployment
 

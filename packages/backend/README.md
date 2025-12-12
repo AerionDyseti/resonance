@@ -1,121 +1,131 @@
-# Resonance Backend
+# Resonance
 
-Express + tRPC API server with PostgreSQL + pgvector for vector search.
+A flexible, AI-powered world building and tracking system for authors, dungeon masters, and creative worldbuilders.
 
-## Prerequisites
+## Overview
 
-- Node.js 20+
-- PostgreSQL 15+ with pgvector extension
-- Docker (optional, for local development)
+Resonance is a Notion-inspired world building platform that combines structured data ("Page Properties") with freeform markdown content ("Page Body"). Each world can define its own entity types, making it infinitely customizable for any setting.
 
-## Setup
+## Key Features
 
-### 1. Database Setup
+- **Fully Customizable Schema**: Define your own entity types per world with custom properties
+- **Template/Trait System**: Reusable property groups that can be composed together
+- **Semantic Search**: AI-powered search using vector embeddings
+- **Relationship Mapping**: Track and visualize connections between entities
+- **Timeline Management**: Chronological consistency checking and event tracking
+- **Campaign Tracking**: Session notes, world changes, and spoiler protection
+- **Property References**: Use `{{property}}` in markdown to reference property values
+- **Entity Transclusion**: Include content from other entities with `[[entity]]` syntax
+- **WYSIWYG Editor**: Rich markdown editor with live preview
+- **JSON/Markdown Export**: Export worlds as JSON or Markdown with YAML frontmatter
 
-#### Option A: Using Docker (recommended for local dev)
+## Tech Stack
+
+### Frontend
+
+- **Vue 3** with Vite
+- **TipTap** (WYSIWYG editor)
+- **TanStack Query** (state management)
+- **Tailwind CSS** (styling)
+
+### Backend
+
+- **Node.js** with TypeScript
+- **Express.js** (HTTP server)
+- **tRPC** (type-safe API)
+- **Drizzle ORM** (database access)
+
+### Data
+
+- **PostgreSQL 17** with **pgvector** extension
+- **Vector embeddings** (1536 dimensions for OpenAI) for semantic search
+
+### Deployment
+
+- **Docker** (containerization)
+- **OAuth** (Google, GitHub, Discord)
+- **Self-hosted** (VPS/home lab)
+
+## Architecture
+
+### Data Model
+
+Each world contains:
+
+- **Custom entity types** (e.g., Characters, Locations, Factions)
+- **Templates** (reusable property groups)
+- **Entities** (instances with properties + markdown body)
+- **Relationships** (typed connections between entities)
+- **Worlds** (snapshots and session tracking)
+
+### Project Structure
+
+```
+resonance/
+├── packages/
+│   ├── backend/          # Node.js + tRPC server
+│   │   ├── src/
+│   │   │   ├── router/   # tRPC procedure definitions
+│   │   │   ├── db/       # Drizzle schema and migrations
+│   │   │   ├── services/ # Business logic
+│   │   │   └── index.ts
+│   │   └── package.json
+│   └── frontend/         # Vue 3 + Vite app
+│       ├── src/
+│       │   ├── components/
+│       │   ├── pages/
+│       │   ├── lib/       # tRPC client setup
+│       │   └── main.ts
+│       └── package.json
+└── package.json          # Monorepo root
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- Docker (for deployment)
+
+### Local Development
 
 ```bash
-# From project root
-docker compose up -d
-```
+# Install dependencies
+npm install
 
-This starts PostgreSQL 17 with pgvector extension on port 5432.
+# Set up environment variables
+cp packages/backend/.env.example packages/backend/.env
+cp packages/frontend/.env.example packages/frontend/.env
 
-#### Option B: Manual PostgreSQL setup
-
-Install PostgreSQL and the pgvector extension:
-
-```bash
-# On Ubuntu/Debian
-sudo apt-get install postgresql-15 postgresql-15-pgvector
-
-# On macOS (Homebrew)
-brew install postgresql@15 pgvector
-```
-
-Create the database:
-
-```sql
-CREATE DATABASE resonance;
-\c resonance
-CREATE EXTENSION vector;
-```
-
-### 2. Environment Configuration
-
-Copy the example environment file:
-
-```bash
-cd packages/backend
-cp .env.example .env
-```
-
-Update `DATABASE_URL` if needed (defaults to Docker setup):
-
-```
-DATABASE_URL=postgresql://resonance:resonance_dev@localhost:5432/resonance
-```
-
-### 3. Run Migrations
-
-```bash
-npm run db:push
-```
-
-This applies the database schema with pgvector support.
-
-## Development
-
-```bash
-# Start dev server with hot reload
+# Start development servers
 npm run dev
-
-# Type checking
-npm run type-check
-
-# Run tests
-npm run test
 ```
 
-## Database Management
+This starts:
+
+- Backend on `http://localhost:3000`
+- Frontend on `http://localhost:5173`
+
+### With Docker
 
 ```bash
-# Generate new migration after schema changes
-npm run db:generate
+# Development (with hot reload)
+docker compose up
 
-# Push schema changes (for development)
-npm run db:push
-
-# Open Drizzle Studio (database GUI)
-npm run db:studio
+# Production
+docker compose --profile prod up production
 ```
 
-## Vector Search
+## Development Status
 
-The backend uses **pgvector** for semantic search on entity embeddings:
+✅ **Phase 0 Complete** - Project infrastructure is set up. Currently working on Phase 1 (Database & Core Models).
 
-- **Embedding dimension**: 1536 (OpenAI text-embedding-3-small/ada-002)
-- **Distance metrics**: L2, cosine, inner product
-- **Index type**: HNSW (created automatically by pgvector)
+See [ROADMAP.md](./ROADMAP.md) for the full implementation plan.
 
-Example query:
+## Contributing
 
-```typescript
-import { db } from './db/client';
-import { entities } from './db/schema';
-import { cosineDistance } from './db/vector';
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on how to contribute.
 
-const results = await db
-  .select()
-  .from(entities)
-  .orderBy(cosineDistance(entities.embedding, queryEmbedding))
-  .limit(10);
-```
+## License
 
-## Production Deployment
-
-1. Set up PostgreSQL 15+ with pgvector extension
-2. Configure `DATABASE_URL` environment variable
-3. Run migrations: `npm run db:push`
-4. Build: `npm run build`
-5. Start: `npm start`
+TBD

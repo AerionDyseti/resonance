@@ -1,0 +1,13 @@
+# Bun configuration for Resonance monorepo
+
+[install]
+# Use node_modules for compatibility with existing tooling (ESLint, Vite, etc.)
+node_modules = true
+
+[run]
+# Enable watch mode for file changes during development
+bun_env = "development"
+
+[test]
+# Don't fail when no test files are found
+failOnEmpty = false

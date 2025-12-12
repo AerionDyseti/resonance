@@ -1,23 +1,31 @@
 {
   "name": "@resonance/backend",
   "version": "0.0.1",
-  "description": "Resonance backend API server",
+  "description": "Resonance backend - DDD/Hexagonal architecture (domain, application, infrastructure, API)",
+  "private": true,
   "type": "module",
-  "main": "./dist/index.js",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "bun": "./src/index.ts",
+      "import": "./src/index.ts",
+      "types": "./src/index.ts"
+    }
+  },
   "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "build": "tsc",
-    "start": "node dist/index.js",
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts",
     "type-check": "tsc --noEmit",
-    "test": "vitest",
-    "test:ui": "vitest --ui",
+    "build": "tsc --noEmit",
+    "test": "bun test",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
-    "@resonance/shared": "^0.0.1",
+    "@resonance/api": "*",
     "@trpc/server": "^11.7.2",
     "cors": "^2.8.5",
     "drizzle-orm": "^0.45.1",
@@ -26,15 +34,11 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
+    "@types/bun": "^1.2.16",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
-    "@types/node": "^25.0.1",
     "@types/pg": "^8.11.10",
-    "@vitest/coverage-v8": "^4.0.15",
-    "@vitest/ui": "^4.0.15",
     "drizzle-kit": "^0.31.8",
-    "tsx": "^4.21.0",
-    "typescript": "^5.9.3",
-    "vitest": "^4.0.15"
+    "typescript": "^5.9.3"
   }
 }
