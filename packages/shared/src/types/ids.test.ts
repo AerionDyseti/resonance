@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'bun:test';
 import {
   worldId,
   entityDefinitionId,
@@ -21,52 +21,52 @@ describe('ID Factory Functions', () => {
   describe('worldId', () => {
     it('should create a WorldId from a string', () => {
       const id = worldId(validUuid);
-      expect(id).toBe(validUuid);
+      expect(id as string).toBe(validUuid);
       // TypeScript will ensure this is a WorldId at compile time
       const _typeCheck: WorldId = id;
-      expect(_typeCheck).toBe(validUuid);
+      expect(_typeCheck as string).toBe(validUuid);
     });
 
     it('should preserve the original string value', () => {
       const original = 'test-id-123';
       const id = worldId(original);
-      expect(id).toBe(original);
+      expect(id as string).toBe(original);
     });
   });
 
   describe('entityDefinitionId', () => {
     it('should create an EntityDefinitionId from a string', () => {
       const id = entityDefinitionId(validUuid);
-      expect(id).toBe(validUuid);
+      expect(id as string).toBe(validUuid);
       const _typeCheck: EntityDefinitionId = id;
-      expect(_typeCheck).toBe(validUuid);
+      expect(_typeCheck as string).toBe(validUuid);
     });
   });
 
   describe('propertyDefinitionId', () => {
     it('should create a PropertyDefinitionId from a string', () => {
       const id = propertyDefinitionId(validUuid);
-      expect(id).toBe(validUuid);
+      expect(id as string).toBe(validUuid);
       const _typeCheck: PropertyDefinitionId = id;
-      expect(_typeCheck).toBe(validUuid);
+      expect(_typeCheck as string).toBe(validUuid);
     });
   });
 
   describe('entityId', () => {
     it('should create an EntityId from a string', () => {
       const id = entityId(validUuid);
-      expect(id).toBe(validUuid);
+      expect(id as string).toBe(validUuid);
       const _typeCheck: EntityId = id;
-      expect(_typeCheck).toBe(validUuid);
+      expect(_typeCheck as string).toBe(validUuid);
     });
   });
 
   describe('relationshipId', () => {
     it('should create a RelationshipId from a string', () => {
       const id = relationshipId(validUuid);
-      expect(id).toBe(validUuid);
+      expect(id as string).toBe(validUuid);
       const _typeCheck: RelationshipId = id;
-      expect(_typeCheck).toBe(validUuid);
+      expect(_typeCheck as string).toBe(validUuid);
     });
   });
 });

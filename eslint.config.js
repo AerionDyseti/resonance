@@ -21,6 +21,12 @@ export default tseslint.config(
   {
     files: ['**/*.vue'],
     languageOptions: {
+      globals: {
+        confirm: 'readonly',
+        setTimeout: 'readonly',
+        clearTimeout: 'readonly',
+        window: 'readonly',
+      },
       parserOptions: {
         parser: tseslint.parser,
         extraFileExtensions: ['.vue'],

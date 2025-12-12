@@ -14,10 +14,10 @@ This document outlines the step-by-step development plan for Resonance, organize
 
 ## Phase 1: Database & Core Models (Current)
 
-- [ ] libSQL/Drizzle ORM setup with migrations
-- [ ] Database schema design for entities, properties, relationships
-- [ ] Vector storage integration (native libSQL vectors)
-- [ ] Core type definitions and interfaces
+- [x] PostgreSQL/Drizzle ORM setup with migrations
+- [x] Database schema design for entities, properties, relationships
+- [x] Vector storage integration (pgvector with utility functions)
+- [x] Core type definitions and interfaces
 - [ ] Schema builder with template/trait support
 - [ ] Property validator with type checking
 
@@ -59,7 +59,6 @@ This document outlines the step-by-step development plan for Resonance, organize
 
 ### 3.3 Property Management
 
-- [ ] Implement computed property calculation
 - [ ] Implement property type coercion
 - [ ] Handle property defaults
 - [ ] Write property-specific tests
@@ -301,3 +300,59 @@ We're taking a **test-driven approach** where each component is tested before mo
 - [ ] System efficiently handles 1000+ entities with complex schemas
 - [ ] OAuth authentication works with Google/GitHub/Discord
 - [ ] Export to JSON and Markdown formats
+
+---
+
+## Future Considerations (Post-MVP)
+
+These features were identified during domain modeling but deferred to keep MVP scope manageable.
+
+### Timeline & Calendar Systems
+
+- [ ] Custom calendar systems (fantasy calendars, custom eras)
+- [ ] Timeline Events as first-class entities
+- [ ] Temporal validation and chronological conflict detection
+- [ ] Era definitions and year offsets
+
+> **Note**: Phase 8 (Timeline System) covers basic timeline; this extends it with full calendar customization.
+
+### Campaigns & Session Tracking
+
+- [ ] Campaign aggregate with session tracking
+- [ ] Session notes linked to world state
+- [ ] Spoiler protection (hide entities/properties from players)
+- [ ] World snapshots per session for "what players know"
+
+> **Note**: Phase 7 (Campaign System) covers this.
+
+### Entity History & Versioning
+
+- [ ] Full version history for entities
+- [ ] View/restore previous entity states
+- [ ] Audit log (who changed what, when)
+- [ ] Diff view between versions
+
+### Collaboration & Sharing
+
+- [ ] World sharing with collaborator roles (viewer, editor)
+- [ ] Team/organization-based ownership
+- [ ] Concurrent editing with conflict resolution
+- [ ] Comments and annotations on entities
+
+### User Features
+
+- [ ] User favorites/pins for quick access to entities
+- [ ] Recently viewed entities
+- [ ] Custom dashboard per world
+
+### Advanced Property Features
+
+- [ ] Computed/formula properties (e.g., `full_name = firstName + lastName`)
+- [ ] Virtual properties (read-only derived values)
+- [ ] Property inheritance/override per entity
+
+### Content States
+
+- [ ] Draft/published workflow for entities
+- [ ] Scheduled publishing
+- [ ] Review/approval workflows

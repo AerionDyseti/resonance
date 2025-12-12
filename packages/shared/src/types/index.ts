@@ -10,7 +10,7 @@ export type {
   PropertyDefinitionId,
   EntityId,
   RelationshipId,
-} from './ids.js';
+} from './ids';
 
 // ID factory functions
 export {
@@ -19,8 +19,13 @@ export {
   propertyDefinitionId,
   entityId,
   relationshipId,
+  createWorldId,
+  createEntityDefinitionId,
+  createPropertyDefinitionId,
+  createEntityId,
+  createRelationshipId,
   isValidUuid,
-} from './ids.js';
+} from './ids';
 
 // Domain types
 export type {
@@ -36,17 +41,14 @@ export type {
   PropertyConstraints,
   // Relationships
   Relationship,
-} from './domain.js';
+} from './domain';
 
 // Property type enum (exports both type and value)
-export { PropertyType } from './domain.js';
+export { PropertyType } from './domain';
 
 export type {
   // API Response types
   ApiResponse,
   ApiError,
   PaginatedResponse,
-} from './api.js';
-
-// Zod validation schemas for tRPC
-export * from './schemas.js';
+} from './api';
