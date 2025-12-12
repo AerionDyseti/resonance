@@ -1,12 +1,20 @@
 // Core domain types for Resonance world building system
 // These types represent the fundamental entities in the Resonance data model
 
+import type {
+  WorldId,
+  EntityTypeId,
+  PropertyDefinitionId,
+  EntityId,
+  RelationshipId,
+} from './ids.js';
+
 /**
  * World - A container for all entities, schemas, and relationships
  * Each user can have multiple worlds
  */
 export interface World {
-  id: string;
+  id: WorldId;
   name: string;
   description?: string;
   createdAt: Date;
@@ -18,13 +26,13 @@ export interface World {
  * Similar to a database table schema or Notion database type
  */
 export interface EntityType {
-  id: string;
-  worldId: string;
+  id: EntityTypeId;
+  worldId: WorldId;
   name: string;
   description?: string;
   icon?: string;
   // Property definitions used by this entity type (via junction table)
-  propertyDefinitionIds: string[];
+  propertyDefinitionIds: PropertyDefinitionId[];
   createdAt: Date;
   updatedAt: Date;
 }
@@ -34,14 +42,14 @@ export interface EntityType {
  * Examples: A specific character, location, faction, etc.
  */
 export interface Entity {
-  id: string;
-  worldId: string;
-  typeId: string;
+  id: EntityId;
+  worldId: WorldId;
+  typeId: EntityTypeId;
   name: string;
   // Markdown content body
   body: string;
   // Property values for this entity (keyed by property definition id)
-  properties: Record<string, PropertyValue>;
+  properties: Record<PropertyDefinitionId, PropertyValue>;
   // Vector embedding for semantic search (deferred to issue #29)
   embedding?: number[];
   createdAt: Date;
@@ -56,8 +64,8 @@ export interface Entity {
  * via the entity_type_property_definitions junction table.
  */
 export interface PropertyDefinition {
-  id: string;
-  worldId: string;
+  id: PropertyDefinitionId;
+  worldId: WorldId;
   name: string;
   type: PropertyType;
   description?: string;
@@ -100,7 +108,7 @@ export interface PropertyConstraints {
   maxLength?: number;
   pattern?: string; // Regex pattern for validation
   options?: string[]; // For select/multi-select
-  referencedEntityTypeId?: string; // For reference properties - which entity type can be referenced
+  referencedEntityTypeId?: EntityTypeId; // For reference properties - which entity type can be referenced
 }
 
 /**
@@ -108,10 +116,10 @@ export interface PropertyConstraints {
  * Supports different relationship types (parent-child, has-many, etc.)
  */
 export interface Relationship {
-  id: string;
-  worldId: string;
-  fromEntityId: string;
-  toEntityId: string;
+  id: RelationshipId;
+  worldId: WorldId;
+  fromEntityId: EntityId;
+  toEntityId: EntityId;
   type: string; // e.g., "parent", "child", "ally", "enemy"
   description?: string;
   metadata?: Record<string, unknown>;
