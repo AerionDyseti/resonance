@@ -28,7 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - TanStack Query for state management
   - Default layout component
 - **Shared Package**: TypeScript types and Zod schemas
-  - Domain types (World, Entity, EntityType, Property, Template, Relationship)
+  - Domain types (World, Entity, EntityDefinition, Property, Template, Relationship)
   - API response types (ApiResponse, ApiError, PaginatedResponse)
   - Zod validation schemas for all domain types
 - **Development Tooling**
