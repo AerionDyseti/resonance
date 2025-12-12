@@ -1,12 +1,12 @@
 {
   "version": "7",
-  "dialect": "sqlite",
+  "dialect": "postgresql",
   "entries": [
     {
       "idx": 0,
-      "version": "6",
-      "when": 1765551158449,
-      "tag": "0000_parched_masque",
+      "version": "7",
+      "when": 1765552522386,
+      "tag": "0000_pink_jasper_sitwell",
       "breakpoints": true
     }
   ]
