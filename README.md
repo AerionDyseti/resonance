@@ -94,10 +94,8 @@ resonance/
 npm install
 
 # Set up environment variables
-cp .env.example .env.local
-
-# Run migrations
-npm run db:migrate
+cp packages/backend/.env.example packages/backend/.env
+cp packages/frontend/.env.example packages/frontend/.env
 
 # Start development servers
 npm run dev
@@ -108,9 +106,21 @@ This starts:
 - Backend on `http://localhost:3000`
 - Frontend on `http://localhost:5173`
 
+### With Docker
+
+```bash
+# Development (with hot reload)
+docker compose up
+
+# Production
+docker compose --profile prod up production
+```
+
 ## Development Status
 
-🚧 **Early Development** - This project is actively being built. See [ROADMAP.md](./ROADMAP.md) for the implementation plan.
+✅ **Phase 0 Complete** - Project infrastructure is set up. Currently working on Phase 1 (Database & Core Models).
+
+See [ROADMAP.md](./ROADMAP.md) for the full implementation plan.
 
 ## Contributing
 

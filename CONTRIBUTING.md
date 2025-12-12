@@ -37,7 +37,8 @@ We use labels to categorize issues:
 
 Milestones represent our development phases:
 
-- **Phase 1**: Foundation
+- **Phase 0**: Project Setup ✅
+- **Phase 1**: Database & Core Models (Current)
 - **Phase 2**: Schema System
 - **Phase 3**: Entity Management
 - **Phase 4**: Markdown & Content
@@ -52,12 +53,13 @@ Milestones represent our development phases:
 
 ### Projects (Kanban Board)
 
-Use GitHub Projects to create a Kanban board:
+We use GitHub Projects as our Kanban board with these columns:
 
-1. **To Do** - Issues that are ready to be worked on
-2. **In Progress** - Currently being implemented
-3. **In Review** - Implementation complete, awaiting review
-4. **Done** - Completed and merged
+1. **Blocked** - Issues blocked by dependencies
+2. **Ready** - Issues ready to be worked on
+3. **In Progress** - Currently being implemented
+4. **In Review** - PR created, awaiting review
+5. **Done** - Completed and merged
 
 ### Issue Templates
 
@@ -69,26 +71,19 @@ We have three issue templates:
 
 ### Workflow
 
-1. **Create Issue**: Use appropriate template
-2. **Add Labels**: Categorize the issue
-3. **Assign Milestone**: Link to development phase
-4. **Add to Project**: Place in "To Do" column
-5. **Start Work**: Move to "In Progress", add `status:in-progress` label
-6. **Create Branch**: `feature/issue-number-brief-description`
-7. **Implement**: Make changes, commit with `#issue-number` in message
-8. **Test**: Ensure all tests pass
-9. **Pull Request**: Reference issue with "Closes #issue-number"
-10. **Review**: Move to "In Review"
-11. **Merge**: Issue automatically closes, moves to "Done"
-
-## Development Setup
-
-### Test Coverage
-
-- Aim for >80% code coverage
-- Test happy paths AND error cases
-- Test edge cases and boundary conditions
-- Mock external dependencies
+1. **Create Issue**: Use appropriate template, add labels and milestone
+2. **Add to Project**: Issue starts in "Ready" column
+3. **Start Work**:
+   - Create branch: `feature/<issue-number>-<brief-description>`
+   - Move ticket to "In Progress"
+4. **Implement**:
+   - Make changes, commit with conventional commits (`feat:`, `fix:`, etc.)
+   - Reference issue number in commits: `#<issue-number>`
+5. **Create PR**:
+   - Push branch and create PR with "Closes #issue-number"
+   - Move ticket to "In Review"
+6. **Review**: Maintainer reviews and merges
+7. **Complete**: Move ticket to "Done", close issue
 
 ## Development Setup
 
@@ -140,10 +135,16 @@ Include:
 
 ### Review Process
 
-- At least one approval required
 - All CI checks must pass
 - Resolve all review comments
 - Squash commits before merge
+
+## Testing Guidelines
+
+- Aim for >80% code coverage
+- Test happy paths AND error cases
+- Test edge cases and boundary conditions
+- Mock external dependencies
 
 ## Questions?
 
