@@ -1,4 +1,13 @@
-import { sqliteTable, text, integer, index, primaryKey } from 'drizzle-orm/sqlite-core';
+import {
+  pgTable,
+  text,
+  timestamp,
+  boolean,
+  integer,
+  index,
+  primaryKey,
+  vector,
+} from 'drizzle-orm/pg-core';
 import { relations } from 'drizzle-orm';
 
 // ==================== WORLDS ====================
@@ -7,14 +16,14 @@ import { relations } from 'drizzle-orm';
  * Worlds table - top-level container for all entities
  * Maps to the World domain type
  */
-export const worlds = sqliteTable(
+export const worlds = pgTable(
   'worlds',
   {
     id: text('id').primaryKey(),
     name: text('name').notNull(),
     description: text('description'),
-    createdAt: integer('created_at', { mode: 'timestamp_ms' }).notNull(),
-    updatedAt: integer('updated_at', { mode: 'timestamp_ms' }).notNull(),
+    createdAt: timestamp('created_at', { mode: 'date', withTimezone: true }).notNull().defaultNow(),
+    updatedAt: timestamp('updated_at', { mode: 'date', withTimezone: true }).notNull().defaultNow(),
   },
   (table) => ({
     nameIdx: index('worlds_name_idx').on(table.name),
@@ -34,7 +43,7 @@ export const worldsRelations = relations(worlds, ({ many }) => ({
  * Entity definitions table - schema definitions for entities
  * Maps to the EntityDefinition domain type
  */
-export const entityDefinitions = sqliteTable(
+export const entityDefinitions = pgTable(
   'entity_definitions',
   {
     id: text('id').primaryKey(),
@@ -42,8 +51,8 @@ export const entityDefinitions = sqliteTable(
     name: text('name').notNull(),
     description: text('description'),
     icon: text('icon'),
-    createdAt: integer('created_at', { mode: 'timestamp_ms' }).notNull(),
-    updatedAt: integer('updated_at', { mode: 'timestamp_ms' }).notNull(),
+    createdAt: timestamp('created_at', { mode: 'date', withTimezone: true }).notNull().defaultNow(),
+    updatedAt: timestamp('updated_at', { mode: 'date', withTimezone: true }).notNull().defaultNow(),
   },
   (table) => ({
     worldIdIdx: index('entity_definitions_world_id_idx').on(table.worldId),
@@ -69,7 +78,7 @@ export const entityDefinitionsRelations = relations(entityDefinitions, ({ one, m
  * Property definitions are world-scoped and can be shared
  * across multiple entity types via the junction table.
  */
-export const propertyDefinitions = sqliteTable(
+export const propertyDefinitions = pgTable(
   'property_definitions',
   {
     id: text('id').primaryKey(),
@@ -77,11 +86,11 @@ export const propertyDefinitions = sqliteTable(
     name: text('name').notNull(),
     type: text('type').notNull(), // PropertyType enum value
     description: text('description'),
-    required: integer('required', { mode: 'boolean' }).notNull().default(false),
+    required: boolean('required').notNull().default(false),
     defaultValue: text('default_value'), // JSON string for PropertyValue
     constraints: text('constraints'), // JSON string for PropertyConstraints
-    createdAt: integer('created_at', { mode: 'timestamp_ms' }).notNull(),
-    updatedAt: integer('updated_at', { mode: 'timestamp_ms' }).notNull(),
+    createdAt: timestamp('created_at', { mode: 'date', withTimezone: true }).notNull().defaultNow(),
+    updatedAt: timestamp('updated_at', { mode: 'date', withTimezone: true }).notNull().defaultNow(),
   },
   (table) => ({
     worldIdIdx: index('property_definitions_world_id_idx').on(table.worldId),
@@ -104,7 +113,7 @@ export const propertyDefinitionsRelations = relations(propertyDefinitions, ({ on
  * Junction table for EntityDefinition <-> PropertyDefinition (many-to-many)
  * Tracks which property definitions are used by which entity definitions
  */
-export const entityDefinitionPropertyDefinitions = sqliteTable(
+export const entityDefinitionPropertyDefinitions = pgTable(
   'entity_definition_property_definitions',
   {
     entityDefinitionId: text('entity_definition_id').notNull(),
@@ -140,7 +149,7 @@ export const entityDefinitionPropertyDefinitionsRelations = relations(
  * Entities table - instances of entity definitions with property values
  * Maps to the Entity domain type
  */
-export const entities = sqliteTable(
+export const entities = pgTable(
   'entities',
   {
     id: text('id').primaryKey(),
@@ -149,9 +158,9 @@ export const entities = sqliteTable(
     name: text('name').notNull(),
     body: text('body').notNull().default(''), // Markdown content
     properties: text('properties').notNull().default('{}'), // JSON Record<string, PropertyValue>
-    // embedding column deferred to issue #29
-    createdAt: integer('created_at', { mode: 'timestamp_ms' }).notNull(),
-    updatedAt: integer('updated_at', { mode: 'timestamp_ms' }).notNull(),
+    embedding: vector('embedding', { dimensions: 1536 }), // Vector embedding for semantic search (1536 = OpenAI ada-002/text-embedding-3-small dimension)
+    createdAt: timestamp('created_at', { mode: 'date', withTimezone: true }).notNull().defaultNow(),
+    updatedAt: timestamp('updated_at', { mode: 'date', withTimezone: true }).notNull().defaultNow(),
   },
   (table) => ({
     worldIdIdx: index('entities_world_id_idx').on(table.worldId),
@@ -179,7 +188,7 @@ export const entitiesRelations = relations(entities, ({ one, many }) => ({
  * Relationships table - typed connections between entities
  * Maps to the Relationship domain type
  */
-export const relationships = sqliteTable(
+export const relationships = pgTable(
   'relationships',
   {
     id: text('id').primaryKey(),
@@ -189,8 +198,8 @@ export const relationships = sqliteTable(
     type: text('type').notNull(), // e.g., "parent", "ally", "enemy"
     description: text('description'),
     metadata: text('metadata'), // JSON Record<string, unknown>
-    createdAt: integer('created_at', { mode: 'timestamp_ms' }).notNull(),
-    updatedAt: integer('updated_at', { mode: 'timestamp_ms' }).notNull(),
+    createdAt: timestamp('created_at', { mode: 'date', withTimezone: true }).notNull().defaultNow(),
+    updatedAt: timestamp('updated_at', { mode: 'date', withTimezone: true }).notNull().defaultNow(),
   },
   (table) => ({
     worldIdIdx: index('relationships_world_id_idx').on(table.worldId),
