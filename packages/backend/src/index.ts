@@ -3,14 +3,18 @@ import cors from 'cors';
 import { createExpressMiddleware } from '@trpc/server/adapters/express';
 import type { Express } from 'express';
 
-import { appRouter } from './trpc/appRouter';
+import { appRouter } from './trpc/appRouter.js';
+import { env } from './config/env.js';
 
 const app: Express = express();
-const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: env.CORS_ORIGINS.split(',').map((o) => o.trim()),
+  })
+);
 
 // tRPC API route
 app.use(
@@ -27,9 +31,11 @@ app.get('/health', (_req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
-  console.log(`🚀 Resonance backend server running on port ${PORT}`);
-  console.log(`📝 tRPC API available at http://localhost:${PORT}/api/trpc`);
+app.listen(env.PORT, () => {
+  // eslint-disable-next-line no-console
+  console.log(`🚀 Resonance backend server running on port ${env.PORT}`);
+  // eslint-disable-next-line no-console
+  console.log(`📝 tRPC API available at http://localhost:${env.PORT}/api/trpc`);
 });
 
 export default app;
