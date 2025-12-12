@@ -13,31 +13,29 @@
 ```
 If More Details Needed, See: `STRUCTURE.md`
 
-## Conventions
-- **Branches**: `feature/<issue>-<desc>`, `fix/<issue>-<desc>`
-- **Commits**: Conventional (`feat:`, `fix:`, `docs:`) + reference `#<issue>`
-- **Pre-PR**: Run `npm run type-check && npm run lint`
-- **PRs**: Always create PR to `main`, wait for human review
+## Git & GitHub
 
-## Workflow
-GitHub Projects kanban: Ready → In Progress → In Review → Done
+Use the `project-manager` agent for branches, commits, issues, PRs, and kanban updates.
 
-1. **Start**: Create branch from `main` → move ticket to "In Progress"
-2. **Work**: Commits reference `#<issue>`, follow conventions
-3. **PR**: Push branch, create PR to `main` → move ticket to "In Review"
-4. **Done**: User merges → move ticket to "Done", close issue, return to `main`
-
-For `gh project item-edit` commands and kanban field IDs, search vector memory for "resonance workflow".
+**Quick reference:** Branches `feature/<issue>-<desc>` | Commits: conventional + `#<issue>` | Pre-PR: `npm run type-check && npm run lint`
 
 ## Project Memory (`vector-memory-project`)
 
 Syncs project knowledge across machines. Search before starting work; store decisions after.
 
-**Store:** Architecture decisions + rationale, design patterns, implementation choices, conventions, session handoffs, bug resolutions, feature plans
+**Rules:** 1 concept per memory, 1-3 sentences (20-75 words), self-contained with explicit subjects, include dates/versions when relevant, be concrete not vague.
 
-**Don't store:** Machine-specific paths, local env details, personal preferences
+**Types:** `decision` (what + why), `implementation` (what + files + patterns), `insight` (learning + why it matters), `blocker` (problem + resolution), `next-step` (TODO + approach), `context` (background + constraints)
 
-**Examples:**
-- "Chose React Query over SWR for better devtools and mutation support"
-- "Auth: JWT + refresh tokens in httpOnly cookies"
-- "Session handoff: Refactored auth module, next: add rate limiting"
+**Don't store:** Machine-specific paths, local env details, ephemeral states, pleasantries
+
+**Good:** "Aerion chose libSQL over PostgreSQL for Resonance (Dec 2024) because of native vector support and simpler deployment."
+**Bad:** "Uses SQLite" (telegraphic, no context, no subject)
+
+**Format:**
+```
+mcp__vector-memory-project__store_memory
+  content: [specific, includes "why"]
+  embedding_text: [<1000 chars summary for search - REQUIRED if content >1000 chars]
+  metadata: {"type": "...", "project": "resonance", "date": "YYYY-MM-DD", "topics": "keyword1, keyword2"}
+```
