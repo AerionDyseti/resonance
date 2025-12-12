@@ -84,25 +84,26 @@ npm run dev          # Watch mode TypeScript compilation
 ### `@resonance/backend`
 
 - **Framework**: Express.js
-- **API Layer**: tRPC (to be added in Phase 9)
+- **API Layer**: tRPC v10
 - **Database**: Drizzle ORM + libSQL
 - **Port**: 3000
-- **Dependencies**: Express, Drizzle ORM, better-sqlite3
+- **Key Dependencies**: Express, tRPC, Drizzle ORM, @libsql/client, Zod
 
 ### `@resonance/frontend`
 
 - **Framework**: Vue 3
 - **Build Tool**: Vite
-- **Styling**: Tailwind CSS
-- **State Management**: TanStack Query (to be integrated)
+- **Styling**: Tailwind CSS + PostCSS
+- **Routing**: Vue Router
+- **State Management**: TanStack Query
+- **API Client**: tRPC client
 - **Port**: 5173
-- **Dependencies**: Vue 3, Vite, TanStack Query
 
 ### `@resonance/shared`
 
-- **Purpose**: Shared TypeScript types and utilities
-- **Exports**: Domain types, API response types
-- **No external dependencies** (only TypeScript)
+- **Purpose**: Shared TypeScript types and Zod validation schemas
+- **Exports**: Domain types, API response types, Zod schemas for tRPC
+- **Dependencies**: Zod
 
 ## Development Workflow
 
@@ -153,17 +154,17 @@ npm install --save-dev <package> --workspace=root
 
 ## Cross-Workspace Dependencies
 
-Packages can depend on each other using workspace protocol:
+Packages can depend on each other using the workspace version:
 
 ```json
 {
   "dependencies": {
-    "@resonance/shared": "workspace:*"
+    "@resonance/shared": "*"
   }
 }
 ```
 
-This means "use the local version in the workspace" rather than npm registry.
+npm workspaces automatically resolves `*` to the local workspace package.
 
 ## TypeScript Configuration
 
@@ -173,13 +174,13 @@ This means "use the local version in the workspace" rather than npm registry.
 
 ## Next Steps
 
-Phase 0 remaining tasks:
+Phase 0 is complete ✅. Next up is Phase 1 (Database & Core Models):
 
-- [ ] Initialize backend package (tRPC, middleware)
-- [ ] Initialize frontend package (Vue components, router)
-- [ ] Create shared types package (core domain types)
-- [ ] Set up development tooling (ESLint, Prettier, pre-commit hooks)
-- [ ] Environment configuration (.env setup)
-- [ ] Docker setup (local dev + production)
+- [ ] libSQL/Drizzle ORM setup with migrations
+- [ ] Database schema design for entities, properties, relationships
+- [ ] Vector storage integration (native libSQL vectors)
+- [ ] Core type definitions and interfaces
+- [ ] Schema builder with template/trait support
+- [ ] Property validator with type checking
 
-See [ROADMAP.md](./ROADMAP.md) for full implementation plan.
+See [ROADMAP.md](./ROADMAP.md) for the full implementation plan.
