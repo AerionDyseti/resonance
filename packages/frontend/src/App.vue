@@ -11,8 +11,8 @@
       <div class="bg-white rounded-lg shadow p-6">
         <h2 class="text-2xl font-bold mb-4">Welcome to Resonance</h2>
         <p class="text-gray-600 mb-4">
-          A flexible, AI-powered world building and tracking system for authors,
-          dungeon masters, and creative worldbuilders.
+          A flexible, AI-powered world building and tracking system for authors, dungeon masters,
+          and creative worldbuilders.
         </p>
         <div class="bg-blue-50 border border-blue-200 rounded p-4">
           <p class="text-sm text-blue-800">

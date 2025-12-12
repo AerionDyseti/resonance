@@ -22,22 +22,26 @@ Resonance is a Notion-inspired world building platform that combines structured 
 ## Tech Stack
 
 ### Frontend
+
 - **Vue 3** with Vite
 - **TipTap** (WYSIWYG editor)
 - **TanStack Query** (state management)
 - **Tailwind CSS** (styling)
 
 ### Backend
+
 - **Node.js** with TypeScript
 - **Express.js** (HTTP server)
 - **tRPC** (type-safe API)
 - **Drizzle ORM** (database access)
 
 ### Data
+
 - **libSQL** (SQLite-compatible, with native vector support)
 - **Native vector embeddings** for semantic search
 
 ### Deployment
+
 - **Docker** (containerization)
 - **OAuth** (Google, GitHub, Discord)
 - **Self-hosted** (VPS/home lab)
@@ -47,6 +51,7 @@ Resonance is a Notion-inspired world building platform that combines structured 
 ### Data Model
 
 Each world contains:
+
 - **Custom entity types** (e.g., Characters, Locations, Factions)
 - **Templates** (reusable property groups)
 - **Entities** (instances with properties + markdown body)
@@ -78,6 +83,7 @@ resonance/
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js 18+
 - Docker (for deployment)
 
@@ -98,6 +104,7 @@ npm run dev
 ```
 
 This starts:
+
 - Backend on `http://localhost:3000`
 - Frontend on `http://localhost:5173`
 
