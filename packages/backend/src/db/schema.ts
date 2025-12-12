@@ -22,20 +22,20 @@ export const worlds = sqliteTable(
 );
 
 export const worldsRelations = relations(worlds, ({ many }) => ({
-  entityTypes: many(entityTypes),
+  entityDefinitions: many(entityDefinitions),
   propertyDefinitions: many(propertyDefinitions),
   entities: many(entities),
   relationships: many(relationships),
 }));
 
-// ==================== ENTITY TYPES ====================
+// ==================== ENTITY DEFINITIONS ====================
 
 /**
- * Entity types table - schema definitions for entities
- * Maps to the EntityType domain type
+ * Entity definitions table - schema definitions for entities
+ * Maps to the EntityDefinition domain type
  */
-export const entityTypes = sqliteTable(
-  'entity_types',
+export const entityDefinitions = sqliteTable(
+  'entity_definitions',
   {
     id: text('id').primaryKey(),
     worldId: text('world_id').notNull(),
@@ -46,18 +46,18 @@ export const entityTypes = sqliteTable(
     updatedAt: integer('updated_at', { mode: 'timestamp_ms' }).notNull(),
   },
   (table) => ({
-    worldIdIdx: index('entity_types_world_id_idx').on(table.worldId),
-    nameIdx: index('entity_types_name_idx').on(table.name),
+    worldIdIdx: index('entity_definitions_world_id_idx').on(table.worldId),
+    nameIdx: index('entity_definitions_name_idx').on(table.name),
   })
 );
 
-export const entityTypesRelations = relations(entityTypes, ({ one, many }) => ({
+export const entityDefinitionsRelations = relations(entityDefinitions, ({ one, many }) => ({
   world: one(worlds, {
-    fields: [entityTypes.worldId],
+    fields: [entityDefinitions.worldId],
     references: [worlds.id],
   }),
   entities: many(entities),
-  entityTypePropertyDefinitions: many(entityTypePropertyDefinitions),
+  entityDefinitionPropertyDefinitions: many(entityDefinitionPropertyDefinitions),
 }));
 
 // ==================== PROPERTY DEFINITIONS ====================
@@ -95,40 +95,40 @@ export const propertyDefinitionsRelations = relations(propertyDefinitions, ({ on
     fields: [propertyDefinitions.worldId],
     references: [worlds.id],
   }),
-  entityTypePropertyDefinitions: many(entityTypePropertyDefinitions),
+  entityDefinitionPropertyDefinitions: many(entityDefinitionPropertyDefinitions),
 }));
 
-// ==================== ENTITY TYPE <-> PROPERTY DEFINITION JUNCTION ====================
+// ==================== ENTITY DEFINITION <-> PROPERTY DEFINITION JUNCTION ====================
 
 /**
- * Junction table for EntityType <-> PropertyDefinition (many-to-many)
- * Tracks which property definitions are used by which entity types
+ * Junction table for EntityDefinition <-> PropertyDefinition (many-to-many)
+ * Tracks which property definitions are used by which entity definitions
  */
-export const entityTypePropertyDefinitions = sqliteTable(
-  'entity_type_property_definitions',
+export const entityDefinitionPropertyDefinitions = sqliteTable(
+  'entity_definition_property_definitions',
   {
-    entityTypeId: text('entity_type_id').notNull(),
+    entityDefinitionId: text('entity_definition_id').notNull(),
     propertyDefinitionId: text('property_definition_id').notNull(),
     position: integer('position').notNull().default(0), // For ordering
   },
   (table) => ({
-    pk: primaryKey({ columns: [table.entityTypeId, table.propertyDefinitionId] }),
-    entityTypeIdIdx: index('etpd_entity_type_id_idx').on(table.entityTypeId),
-    propertyDefinitionIdIdx: index('etpd_property_definition_id_idx').on(
+    pk: primaryKey({ columns: [table.entityDefinitionId, table.propertyDefinitionId] }),
+    entityDefinitionIdIdx: index('edpd_entity_definition_id_idx').on(table.entityDefinitionId),
+    propertyDefinitionIdIdx: index('edpd_property_definition_id_idx').on(
       table.propertyDefinitionId
     ),
   })
 );
 
-export const entityTypePropertyDefinitionsRelations = relations(
-  entityTypePropertyDefinitions,
+export const entityDefinitionPropertyDefinitionsRelations = relations(
+  entityDefinitionPropertyDefinitions,
   ({ one }) => ({
-    entityType: one(entityTypes, {
-      fields: [entityTypePropertyDefinitions.entityTypeId],
-      references: [entityTypes.id],
+    entityDefinition: one(entityDefinitions, {
+      fields: [entityDefinitionPropertyDefinitions.entityDefinitionId],
+      references: [entityDefinitions.id],
     }),
     propertyDefinition: one(propertyDefinitions, {
-      fields: [entityTypePropertyDefinitions.propertyDefinitionId],
+      fields: [entityDefinitionPropertyDefinitions.propertyDefinitionId],
       references: [propertyDefinitions.id],
     }),
   })
@@ -137,7 +137,7 @@ export const entityTypePropertyDefinitionsRelations = relations(
 // ==================== ENTITIES ====================
 
 /**
- * Entities table - instances of entity types with property values
+ * Entities table - instances of entity definitions with property values
  * Maps to the Entity domain type
  */
 export const entities = sqliteTable(
@@ -145,7 +145,7 @@ export const entities = sqliteTable(
   {
     id: text('id').primaryKey(),
     worldId: text('world_id').notNull(),
-    typeId: text('type_id').notNull(),
+    definitionId: text('definition_id').notNull(),
     name: text('name').notNull(),
     body: text('body').notNull().default(''), // Markdown content
     properties: text('properties').notNull().default('{}'), // JSON Record<string, PropertyValue>
@@ -155,7 +155,7 @@ export const entities = sqliteTable(
   },
   (table) => ({
     worldIdIdx: index('entities_world_id_idx').on(table.worldId),
-    typeIdIdx: index('entities_type_id_idx').on(table.typeId),
+    definitionIdIdx: index('entities_definition_id_idx').on(table.definitionId),
     nameIdx: index('entities_name_idx').on(table.name),
   })
 );
@@ -165,9 +165,9 @@ export const entitiesRelations = relations(entities, ({ one, many }) => ({
     fields: [entities.worldId],
     references: [worlds.id],
   }),
-  entityType: one(entityTypes, {
-    fields: [entities.typeId],
-    references: [entityTypes.id],
+  entityDefinition: one(entityDefinitions, {
+    fields: [entities.definitionId],
+    references: [entityDefinitions.id],
   }),
   relationshipsFrom: many(relationships, { relationName: 'fromEntity' }),
   relationshipsTo: many(relationships, { relationName: 'toEntity' }),
@@ -223,15 +223,16 @@ export const relationshipsRelations = relations(relationships, ({ one }) => ({
 export type WorldRecord = typeof worlds.$inferSelect;
 export type NewWorldRecord = typeof worlds.$inferInsert;
 
-export type EntityTypeRecord = typeof entityTypes.$inferSelect;
-export type NewEntityTypeRecord = typeof entityTypes.$inferInsert;
+export type EntityDefinitionRecord = typeof entityDefinitions.$inferSelect;
+export type NewEntityDefinitionRecord = typeof entityDefinitions.$inferInsert;
 
 export type PropertyDefinitionRecord = typeof propertyDefinitions.$inferSelect;
 export type NewPropertyDefinitionRecord = typeof propertyDefinitions.$inferInsert;
 
-export type EntityTypePropertyDefinitionRecord = typeof entityTypePropertyDefinitions.$inferSelect;
-export type NewEntityTypePropertyDefinitionRecord =
-  typeof entityTypePropertyDefinitions.$inferInsert;
+export type EntityDefinitionPropertyDefinitionRecord =
+  typeof entityDefinitionPropertyDefinitions.$inferSelect;
+export type NewEntityDefinitionPropertyDefinitionRecord =
+  typeof entityDefinitionPropertyDefinitions.$inferInsert;
 
 export type EntityRecord = typeof entities.$inferSelect;
 export type NewEntityRecord = typeof entities.$inferInsert;

@@ -24,9 +24,9 @@ export const UpdateWorldInput = z.object({
   description: z.string().max(1000).optional(),
 });
 
-// ========== Entity Type Schemas ==========
+// ========== Entity Definition Schemas ==========
 
-export const EntityTypeSchema = z.object({
+export const EntityDefinitionSchema = z.object({
   id: z.string().uuid(),
   worldId: z.string().uuid(),
   name: z.string().min(1).max(255),
@@ -37,7 +37,7 @@ export const EntityTypeSchema = z.object({
   updatedAt: z.date(),
 });
 
-export const CreateEntityTypeInput = z.object({
+export const CreateEntityDefinitionInput = z.object({
   worldId: z.string().uuid(),
   name: z.string().min(1).max(255),
   description: z.string().max(1000).optional(),
@@ -45,7 +45,7 @@ export const CreateEntityTypeInput = z.object({
   propertyDefinitionIds: z.array(z.string().uuid()).default([]),
 });
 
-export const UpdateEntityTypeInput = z.object({
+export const UpdateEntityDefinitionInput = z.object({
   name: z.string().min(1).max(255).optional(),
   description: z.string().max(1000).optional(),
   icon: z.string().optional(),
@@ -65,7 +65,7 @@ export const PropertyValueSchema: z.ZodType<string | number | boolean | string[]
 export const EntitySchema = z.object({
   id: z.string().uuid(),
   worldId: z.string().uuid(),
-  typeId: z.string().uuid(),
+  definitionId: z.string().uuid(),
   name: z.string().min(1).max(255),
   body: z.string().default(''),
   properties: z.record(z.string(), PropertyValueSchema),
@@ -76,7 +76,7 @@ export const EntitySchema = z.object({
 
 export const CreateEntityInput = z.object({
   worldId: z.string().uuid(),
-  typeId: z.string().uuid(),
+  definitionId: z.string().uuid(),
   name: z.string().min(1).max(255),
   body: z.string().default(''),
   properties: z.record(z.string(), PropertyValueSchema).default({}),
@@ -97,7 +97,7 @@ export const PropertyConstraintsSchema = z.object({
   maxLength: z.number().optional(),
   pattern: z.string().optional(),
   options: z.array(z.string()).optional(),
-  referencedEntityTypeId: z.string().uuid().optional(),
+  referencedEntityDefinitionId: z.string().uuid().optional(),
 });
 
 export const PropertyDefinitionSchema = z.object({

@@ -1,13 +1,13 @@
 import { describe, it, expect } from 'vitest';
 import {
   worldId,
-  entityTypeId,
+  entityDefinitionId,
   propertyDefinitionId,
   entityId,
   relationshipId,
   isValidUuid,
   type WorldId,
-  type EntityTypeId,
+  type EntityDefinitionId,
   type PropertyDefinitionId,
   type EntityId,
   type RelationshipId,
@@ -34,11 +34,11 @@ describe('ID Factory Functions', () => {
     });
   });
 
-  describe('entityTypeId', () => {
-    it('should create an EntityTypeId from a string', () => {
-      const id = entityTypeId(validUuid);
+  describe('entityDefinitionId', () => {
+    it('should create an EntityDefinitionId from a string', () => {
+      const id = entityDefinitionId(validUuid);
       expect(id).toBe(validUuid);
-      const _typeCheck: EntityTypeId = id;
+      const _typeCheck: EntityDefinitionId = id;
       expect(_typeCheck).toBe(validUuid);
     });
   });

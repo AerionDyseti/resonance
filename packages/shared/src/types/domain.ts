@@ -3,7 +3,7 @@
 
 import type {
   WorldId,
-  EntityTypeId,
+  EntityDefinitionId as EntityDefinitionId,
   PropertyDefinitionId,
   EntityId,
   RelationshipId,
@@ -22,29 +22,29 @@ export interface World {
 }
 
 /**
- * EntityType - A schema that defines what properties an entity can have
+ * EntityDefinition - A schema that defines what properties an entity can have
  * Similar to a database table schema or Notion database type
  */
-export interface EntityType {
-  id: EntityTypeId;
+export interface EntityDefinition {
+  id: EntityDefinitionId;
   worldId: WorldId;
   name: string;
   description?: string;
   icon?: string;
-  // Property definitions used by this entity type (via junction table)
+  // Property definitions used by this entity definition (via junction table)
   propertyDefinitionIds: PropertyDefinitionId[];
   createdAt: Date;
   updatedAt: Date;
 }
 
 /**
- * Entity - An instance of an EntityType with specific property values
+ * Entity - An instance of an EntityDefinition with specific property values
  * Examples: A specific character, location, faction, etc.
  */
 export interface Entity {
   id: EntityId;
   worldId: WorldId;
-  typeId: EntityTypeId;
+  definitionId: EntityDefinitionId;
   name: string;
   // Markdown content body
   body: string;
@@ -61,7 +61,7 @@ export interface Entity {
  * Examples: age (number), alignment (select), backstory (text)
  *
  * Property definitions are world-scoped and can be shared across multiple entity types
- * via the entity_type_property_definitions junction table.
+ * via the entity_definition_property_definitions junction table.
  */
 export interface PropertyDefinition {
   id: PropertyDefinitionId;
@@ -108,7 +108,7 @@ export interface PropertyConstraints {
   maxLength?: number;
   pattern?: string; // Regex pattern for validation
   options?: string[]; // For select/multi-select
-  referencedEntityTypeId?: EntityTypeId; // For reference properties - which entity type can be referenced
+  referencedEntityDefinitionId?: EntityDefinitionId; // For reference properties - which entity definitions can be referenced
 }
 
 /**
