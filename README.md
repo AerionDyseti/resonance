@@ -9,95 +9,106 @@ Resonance is a Notion-inspired world building platform that combines structured 
 ## Key Features
 
 - **Fully Customizable Schema**: Define your own entity types per world with custom properties
-- **Mixin/Trait System**: Reusable property groups that can be composed together
-- **Semantic Search**: AI-powered search using vector embeddings (Chroma)
+- **Template/Trait System**: Reusable property groups that can be composed together
+- **Semantic Search**: AI-powered search using vector embeddings
 - **Relationship Mapping**: Track and visualize connections between entities
 - **Timeline Management**: Chronological consistency checking and event tracking
 - **Campaign Tracking**: Session notes, world changes, and spoiler protection
-- **MCP Integration**: Query your world through LLMs with natural language
 - **Property References**: Use `{{property}}` in markdown to reference property values
 - **Entity Transclusion**: Include content from other entities with `[[entity]]` syntax
+- **WYSIWYG Editor**: Rich markdown editor with live preview
+- **JSON/Markdown Export**: Export worlds as JSON or Markdown with YAML frontmatter
+
+## Tech Stack
+
+### Frontend
+- **Vue 3** with Vite
+- **TipTap** (WYSIWYG editor)
+- **TanStack Query** (state management)
+- **Tailwind CSS** (styling)
+
+### Backend
+- **Node.js** with TypeScript
+- **Express.js** (HTTP server)
+- **tRPC** (type-safe API)
+- **Drizzle ORM** (database access)
+
+### Data
+- **libSQL** (SQLite-compatible, with native vector support)
+- **Native vector embeddings** for semantic search
+
+### Deployment
+- **Docker** (containerization)
+- **OAuth** (Google, GitHub, Discord)
+- **Self-hosted** (VPS/home lab)
 
 ## Architecture
-
-### Core Components
-
-- **Backend**: Python, FastAPI, Pydantic
-- **Databases**:
-  - Chroma (vector store for semantic search)
-  - SQLite (metadata and schema definitions)
-- **MCP Server**: Python MCP SDK for LLM integration
-- **Frontend**: TBD (to be evaluated)
 
 ### Data Model
 
 Each world contains:
 - **Custom entity types** (e.g., Characters, Locations, Factions)
-- **Mixins** (reusable property groups)
+- **Templates** (reusable property groups)
 - **Entities** (instances with properties + markdown body)
 - **Relationships** (typed connections between entities)
-- **Campaigns** (snapshots and session tracking)
+- **Worlds** (snapshots and session tracking)
 
-## Project Structure
+### Project Structure
 
 ```
 resonance/
-├── backend/              # Core backend application
-│   ├── core/            # Database and configuration
-│   ├── schema/          # Schema management and validation
-│   ├── entities/        # Entity CRUD and processing
-│   ├── relationships/   # Relationship management
-│   ├── search/          # Search and filtering
-│   ├── campaigns/       # Campaign and snapshot system
-│   ├── timeline/        # Timeline management
-│   ├── import_export/   # Data import/export
-│   └── app.py          # FastAPI application
-├── mcp_server/          # MCP server for LLM integration
-│   ├── tools/          # MCP tool definitions
-│   └── handlers/       # Request handlers
-├── frontend/            # Web UI (TBD)
-├── shared/             # Shared types and utilities
-├── data/               # Sample data and templates
-└── tests/              # Test suites
+├── packages/
+│   ├── backend/          # Node.js + tRPC server
+│   │   ├── src/
+│   │   │   ├── router/   # tRPC procedure definitions
+│   │   │   ├── db/       # Drizzle schema and migrations
+│   │   │   ├── services/ # Business logic
+│   │   │   └── index.ts
+│   │   └── package.json
+│   └── frontend/         # Vue 3 + Vite app
+│       ├── src/
+│       │   ├── components/
+│       │   ├── pages/
+│       │   ├── lib/       # tRPC client setup
+│       │   └── main.ts
+│       └── package.json
+└── package.json          # Monorepo root
 ```
 
 ## Getting Started
 
 ### Prerequisites
+- Node.js 18+
+- Docker (for deployment)
 
-- Python 3.11+
-- pip or poetry for dependency management
-
-### Installation
+### Local Development
 
 ```bash
-# Clone the repository
-git clone <repository-url>
-cd resonance
-
 # Install dependencies
-pip install -r requirements.txt
+npm install
 
-# Run the backend
-cd backend
-uvicorn app:app --reload
+# Set up environment variables
+cp .env.example .env.local
+
+# Run migrations
+npm run db:migrate
+
+# Start development servers
+npm run dev
 ```
 
-### Running the MCP Server
-
-```bash
-cd mcp_server
-python server.py
-```
+This starts:
+- Backend on `http://localhost:3000`
+- Frontend on `http://localhost:5173`
 
 ## Development Status
 
-🚧 **Early Development** - This project is actively being built. See the implementation plan in the project documentation.
-
-## License
-
-TBD
+🚧 **Early Development** - This project is actively being built. See [ROADMAP.md](./ROADMAP.md) for the implementation plan.
 
 ## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on how to contribute.
+
+## License
 
 TBD
