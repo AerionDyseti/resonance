@@ -5,23 +5,29 @@
   "private": true,
   "type": "module",
   "workspaces": [
-    "packages/backend",
-    "packages/frontend",
-    "packages/shared"
+    "packages/shared",
+    "packages/core",
+    "packages/api",
+    "packages/server",
+    "packages/frontend"
   ],
   "scripts": {
-    "dev": "npm run dev --workspaces",
-    "build": "npm run build --workspaces",
-    "test": "npm run test --workspaces",
+    "dev": "bun run --filter '*' dev",
+    "dev:server": "bun run --filter @resonance/server dev",
+    "dev:frontend": "bun run --filter @resonance/frontend dev",
+    "build": "bun run --filter @resonance/shared build && bun run --filter @resonance/core build && bun run --filter @resonance/api build && bun run --filter @resonance/server build && bun run --filter @resonance/frontend build",
+    "test": "bun run --filter '*' test",
+    "check": "bun run test && bun run lint && bun run type-check && bun run format:check",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "type-check": "npm run type-check --workspaces",
+    "type-check": "bun run --filter '*' type-check",
     "prepare": "husky"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@types/bun": "^1.2.16",
     "eslint": "^9.39.1",
     "eslint-plugin-vue": "^10.6.2",
     "husky": "^9.1.7",
@@ -39,8 +45,5 @@
     "*.{json,md,css,scss}": [
       "prettier --write"
     ]
-  },
-  "engines": {
-    "node": ">=18.0.0"
   }
 }

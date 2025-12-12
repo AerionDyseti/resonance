@@ -1,11 +1,12 @@
 import { createTRPCProxyClient, httpBatchLink } from '@trpc/client';
-import type { AppRouter } from '@resonance/backend/src/trpc/appRouter';
+import type { TRPCClient } from '@trpc/client';
+import type { AppRouter } from '@resonance/api/trpc';
 
-// Create tRPC client
-export const trpc = createTRPCProxyClient<AppRouter>({
+// Vanilla tRPC client (for use in composables and direct calls)
+export const trpc: TRPCClient<AppRouter> = createTRPCProxyClient<AppRouter>({
   links: [
     httpBatchLink({
-      url: '/api/trpc',
+      url: import.meta.env.VITE_API_URL || 'http://localhost:3000/api/trpc',
     }),
   ],
 });

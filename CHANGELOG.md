@@ -9,7 +9,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Phase 1: Database & Core Models (in progress)
+- **Phase 1: Database & Core Models** (67% complete)
+  - Complete database schema with 6 tables (worlds, entity_definitions, property_definitions, entity_definition_property_definitions, entities, relationships)
+  - Branded ID types for type-safe identifiers (WorldId, EntityId, EntityDefinitionId, PropertyDefinitionId, RelationshipId)
+  - Vector utility functions (l2Distance, cosineDistance, innerProduct, vector validation and normalization)
+  - Comprehensive test coverage for type system (1,785 lines of tests)
+  - Zod validation schemas for all domain types with extensive test coverage
+  - PostgreSQL 17 with pgvector extension for native vector support
+  - Docker Compose setup for local development with PostgreSQL
+
+### Changed
+
+- **BREAKING**: Migrated from libSQL to PostgreSQL 17 with pgvector extension
+- Renamed `EntityType` to `EntityDefinition` for consistency with domain terminology
 
 ## [0.1.0] - 2025-12-12
 

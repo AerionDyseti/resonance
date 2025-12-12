@@ -1,6 +1,8 @@
 // Branded/Nominal ID types for compile-time type safety
 // These types ensure you can't accidentally pass a WorldId where an EntityId is expected
 
+import { randomUUID } from 'crypto';
+
 /**
  * Brand symbol for nominal typing
  * Using a unique symbol ensures brands can't collide
@@ -71,6 +73,43 @@ export function entityId(id: string): EntityId {
  */
 export function relationshipId(id: string): RelationshipId {
   return id as RelationshipId;
+}
+
+// ==================== ID Generation Functions ====================
+
+/**
+ * Generates a new WorldId with a fresh UUID
+ */
+export function createWorldId(): WorldId {
+  return randomUUID() as WorldId;
+}
+
+/**
+ * Generates a new EntityDefinitionId with a fresh UUID
+ */
+export function createEntityDefinitionId(): EntityDefinitionId {
+  return randomUUID() as EntityDefinitionId;
+}
+
+/**
+ * Generates a new PropertyDefinitionId with a fresh UUID
+ */
+export function createPropertyDefinitionId(): PropertyDefinitionId {
+  return randomUUID() as PropertyDefinitionId;
+}
+
+/**
+ * Generates a new EntityId with a fresh UUID
+ */
+export function createEntityId(): EntityId {
+  return randomUUID() as EntityId;
+}
+
+/**
+ * Generates a new RelationshipId with a fresh UUID
+ */
+export function createRelationshipId(): RelationshipId {
+  return randomUUID() as RelationshipId;
 }
 
 // ==================== Type Guards ====================
