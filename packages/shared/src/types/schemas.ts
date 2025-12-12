@@ -32,8 +32,7 @@ export const EntityTypeSchema = z.object({
   name: z.string().min(1).max(255),
   description: z.string().max(1000).optional(),
   icon: z.string().optional(),
-  templateIds: z.array(z.string().uuid()),
-  propertyIds: z.array(z.string().uuid()),
+  propertyDefinitionIds: z.array(z.string().uuid()),
   createdAt: z.date(),
   updatedAt: z.date(),
 });
@@ -43,13 +42,19 @@ export const CreateEntityTypeInput = z.object({
   name: z.string().min(1).max(255),
   description: z.string().max(1000).optional(),
   icon: z.string().optional(),
-  templateIds: z.array(z.string().uuid()).default([]),
-  propertyIds: z.array(z.string().uuid()).default([]),
+  propertyDefinitionIds: z.array(z.string().uuid()).default([]),
+});
+
+export const UpdateEntityTypeInput = z.object({
+  name: z.string().min(1).max(255).optional(),
+  description: z.string().max(1000).optional(),
+  icon: z.string().optional(),
+  propertyDefinitionIds: z.array(z.string().uuid()).optional(),
 });
 
 // ========== Entity Schemas ==========
 
-export const PropertyValueSchema: z.ZodType<any> = z.union([
+export const PropertyValueSchema: z.ZodType<string | number | boolean | string[] | null> = z.union([
   z.string(),
   z.number(),
   z.boolean(),
@@ -83,7 +88,7 @@ export const UpdateEntityInput = z.object({
   properties: z.record(z.string(), PropertyValueSchema).optional(),
 });
 
-// ========== Property Schemas ==========
+// ========== Property Definition Schemas ==========
 
 export const PropertyConstraintsSchema = z.object({
   minValue: z.number().optional(),
@@ -92,12 +97,12 @@ export const PropertyConstraintsSchema = z.object({
   maxLength: z.number().optional(),
   pattern: z.string().optional(),
   options: z.array(z.string()).optional(),
-  relationshipType: z.string().optional(),
+  referencedEntityTypeId: z.string().uuid().optional(),
 });
 
-export const PropertySchema = z.object({
+export const PropertyDefinitionSchema = z.object({
   id: z.string().uuid(),
-  typeId: z.string().uuid(),
+  worldId: z.string().uuid(),
   name: z.string().min(1).max(255),
   type: z.nativeEnum(PropertyType),
   description: z.string().max(1000).optional(),
@@ -108,8 +113,8 @@ export const PropertySchema = z.object({
   updatedAt: z.date(),
 });
 
-export const CreatePropertyInput = z.object({
-  typeId: z.string().uuid(),
+export const CreatePropertyDefinitionInput = z.object({
+  worldId: z.string().uuid(),
   name: z.string().min(1).max(255),
   type: z.nativeEnum(PropertyType),
   description: z.string().max(1000).optional(),
@@ -118,23 +123,13 @@ export const CreatePropertyInput = z.object({
   constraints: PropertyConstraintsSchema.optional(),
 });
 
-// ========== Template Schemas ==========
-
-export const TemplateSchema = z.object({
-  id: z.string().uuid(),
-  worldId: z.string().uuid(),
-  name: z.string().min(1).max(255),
+export const UpdatePropertyDefinitionInput = z.object({
+  name: z.string().min(1).max(255).optional(),
+  type: z.nativeEnum(PropertyType).optional(),
   description: z.string().max(1000).optional(),
-  propertyIds: z.array(z.string().uuid()),
-  createdAt: z.date(),
-  updatedAt: z.date(),
-});
-
-export const CreateTemplateInput = z.object({
-  worldId: z.string().uuid(),
-  name: z.string().min(1).max(255),
-  description: z.string().max(1000).optional(),
-  propertyIds: z.array(z.string().uuid()).default([]),
+  required: z.boolean().optional(),
+  defaultValue: PropertyValueSchema.optional(),
+  constraints: PropertyConstraintsSchema.optional(),
 });
 
 // ========== Relationship Schemas ==========
@@ -156,6 +151,12 @@ export const CreateRelationshipInput = z.object({
   fromEntityId: z.string().uuid(),
   toEntityId: z.string().uuid(),
   type: z.string().min(1),
+  description: z.string().optional(),
+  metadata: z.record(z.string(), z.unknown()).optional(),
+});
+
+export const UpdateRelationshipInput = z.object({
+  type: z.string().min(1).optional(),
   description: z.string().optional(),
   metadata: z.record(z.string(), z.unknown()).optional(),
 });
