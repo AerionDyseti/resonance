@@ -9,12 +9,10 @@ export type {
   EntityType,
   // Entities
   Entity,
-  // Properties
-  Property,
+  // Property Definitions
+  PropertyDefinition,
   PropertyValue,
   PropertyConstraints,
-  // Templates
-  Template,
   // Relationships
   Relationship,
 } from './domain.js';

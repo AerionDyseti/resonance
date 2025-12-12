@@ -23,10 +23,8 @@ export interface EntityType {
   name: string;
   description?: string;
   icon?: string;
-  // Templates/mixins that this entity type includes
-  templateIds: string[];
-  // Direct properties defined on this type
-  propertyIds: string[];
+  // Property definitions used by this entity type (via junction table)
+  propertyDefinitionIds: string[];
   createdAt: Date;
   updatedAt: Date;
 }
@@ -42,21 +40,24 @@ export interface Entity {
   name: string;
   // Markdown content body
   body: string;
-  // Property values for this entity
+  // Property values for this entity (keyed by property definition id)
   properties: Record<string, PropertyValue>;
-  // Vector embedding for semantic search
+  // Vector embedding for semantic search (deferred to issue #29)
   embedding?: number[];
   createdAt: Date;
   updatedAt: Date;
 }
 
 /**
- * Property - A field on an entity type that stores a specific type of data
+ * PropertyDefinition - A reusable field definition that can be used across entity types
  * Examples: age (number), alignment (select), backstory (text)
+ *
+ * Property definitions are world-scoped and can be shared across multiple entity types
+ * via the entity_type_property_definitions junction table.
  */
-export interface Property {
+export interface PropertyDefinition {
   id: string;
-  typeId: string;
+  worldId: string;
   name: string;
   type: PropertyType;
   description?: string;
@@ -99,21 +100,7 @@ export interface PropertyConstraints {
   maxLength?: number;
   pattern?: string; // Regex pattern for validation
   options?: string[]; // For select/multi-select
-  relationshipType?: string; // For reference properties
-}
-
-/**
- * Template (Mixin) - Reusable group of properties that can be included in entity types
- * Allows property composition/inheritance
- */
-export interface Template {
-  id: string;
-  worldId: string;
-  name: string;
-  description?: string;
-  propertyIds: string[];
-  createdAt: Date;
-  updatedAt: Date;
+  referencedEntityTypeId?: string; // For reference properties - which entity type can be referenced
 }
 
 /**
