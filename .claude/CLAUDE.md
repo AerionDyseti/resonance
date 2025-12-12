@@ -2,7 +2,7 @@
 
 ## Stack
 - **Frontend**: Vue 3 + Vite + TanStack Query + Tailwind + Vue Router
-- **Backend**: Node/TS + Express + tRPC + Drizzle ORM + libSQL
+- **Backend**: Node/TS + Express + tRPC + Drizzle ORM + PostgreSQL
 - **Testing**: Vitest | **Tooling**: ESLint + Prettier + Husky
 
 ## Structure
@@ -19,7 +19,7 @@ If More Details Needed, See: `STRUCTURE.md`
 
 | Agent | Use For |
 |-------|---------|
-| `project-manager` | Git, commits, branches, PRs, issues, kanban |
+| `git-manager` | Git, commits, branches, PRs, issues, kanban |
 | `code-reviewer` | Review diffs for quality, security, patterns |
 | `test-writer` | Write unit/integration tests |
 
@@ -27,7 +27,7 @@ If More Details Needed, See: `STRUCTURE.md`
 
 ## Git & GitHub
 
-**Quick reference:** Branches `feature/<issue>-<desc>` | Commits: conventional + `#<issue>` | Pre-PR: `npm run type-check && npm run lint`
+Always delegate git and gh operations to the `git-manager` agent.
 
 ## Project Memory (`vector-memory-project`)
 

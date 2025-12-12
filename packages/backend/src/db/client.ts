@@ -1,15 +1,19 @@
-import { createClient } from '@libsql/client';
-import { drizzle } from 'drizzle-orm/libsql';
+import { drizzle } from 'drizzle-orm/node-postgres';
+import pkg from 'pg';
+const { Pool } = pkg;
 import * as schema from './schema.js';
 import { env } from '../config/env.js';
 
-// Initialize libSQL client
-const client = createClient({
-  url: env.DATABASE_URL,
+// Initialize PostgreSQL connection pool
+const pool = new Pool({
+  connectionString: env.DATABASE_URL,
 });
 
 // Initialize Drizzle ORM
-export const db = drizzle(client, { schema });
+export const db = drizzle(pool, { schema });
+
+// Export pool for raw queries if needed
+export { pool };
 
 // Export types
 export type Database = typeof db;
