@@ -9,15 +9,15 @@ import type {
   IRelationshipProvider,
   RelationshipDirection,
   EntityPath,
-} from '../../domain/intelligence/relationship.port';
+} from '../domain/intelligence/relationship.port';
 import type {
   WorldId,
   EntityId,
   RelationshipDefinitionId,
-} from '../../domain/shared/ids';
-import type { IEntity } from '../../domain/world/entity';
-import type { IRelationship } from '../../domain/world/relationship';
-import type { EntitySummary, RelationshipSummary } from '../../domain/world';
+} from '../domain/shared/ids';
+import type { IEntity } from '../domain/world/entity';
+import type { IRelationship } from '../domain/world/relationship';
+import type { EntitySummary, RelationshipSummary } from '../domain/world';
 import { TestDataStore } from './test-data-loader';
 
 export class MockRelationshipProvider implements IRelationshipProvider {

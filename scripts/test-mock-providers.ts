@@ -11,7 +11,7 @@ import {
   TEST_WORLD_ID,
   MockSemanticSearchProvider,
   MockRelationshipProvider,
-} from '../packages/backend/src/infrastructure/testing';
+} from '../packages/backend/src/testing';
 import { entityId } from '../packages/backend/src/domain/shared/ids';
 
 async function main() {
