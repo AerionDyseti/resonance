@@ -92,3 +92,9 @@ temp/
 Thumbs.db
 .Spotlight-V100
 .Trashes
+
+# Test data
+/test-data/
+
+# Notion exports
+/notion-export/
