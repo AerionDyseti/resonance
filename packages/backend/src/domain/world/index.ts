@@ -6,6 +6,10 @@ export type { IEntity } from './entity';
 export type { IProperty, PropertyValue } from './property';
 export type { IRelationship } from './relationship';
 
+// Projections
+export type { EntitySummary } from './entity-summary';
+export type { RelationshipSummary } from './relationship-summary';
+
 // Classes
 export { World } from './world';
 export { Entity } from './entity';

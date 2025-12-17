@@ -13,9 +13,6 @@ export const entityDefinitions = pgTable('entity_definitions', {
   name: varchar('name', { length: 255 }).notNull(),
   description: text('description'),
   icon: varchar('icon', { length: 50 }),
-  // Array of template IDs - stored as UUID array
-  templateIds: uuid('template_ids').array().default([]),
-  // Array of property definition IDs directly attached (not via template)
   propertyDefinitionIds: uuid('property_definition_ids').array().default([]),
   createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
   updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),

@@ -1,6 +1,7 @@
 import type { RelationshipId, WorldId, RelationshipDefinitionId, EntityId } from '../shared/ids';
 import { createRelationshipId } from '../shared/ids';
 import { Property, type IProperty } from './property';
+import type { RelationshipSummary } from './relationship-summary';
 
 /**
  * Relationship interface - the public data shape
@@ -79,5 +80,22 @@ export class Relationship implements IRelationship {
 
   get updatedAt(): Date {
     return this._updatedAt;
+  }
+
+  /**
+   * Convert to lightweight RelationshipSummary projection
+   * Used by Intelligence domain for graph traversal
+   *
+   * @param definitionName - The name of the relationship definition (caller must provide this)
+   * @param description - Optional relationship description
+   */
+  toSummary(definitionName: string, description: string | null = null): RelationshipSummary {
+    return {
+      id: this.id,
+      sourceEntityId: this.sourceEntityId,
+      targetEntityId: this.targetEntityId,
+      definitionName,
+      description,
+    };
   }
 }
