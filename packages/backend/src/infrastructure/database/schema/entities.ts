@@ -10,7 +10,6 @@ export interface PropertyJson {
   id: string;
   definitionId: string;
   value: string | number | boolean | string[] | null;
-  sourceTemplateId: string | null;
   createdAt: string; // ISO date string
   updatedAt: string; // ISO date string
 }

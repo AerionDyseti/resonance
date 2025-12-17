@@ -1,6 +1,7 @@
 import type { EntityId, WorldId, EntityDefinitionId, TagId } from '../shared/ids';
 import { createEntityId } from '../shared/ids';
 import { Property, type IProperty } from './property';
+import type { EntitySummary } from './entity-summary';
 
 /**
  * Entity interface - the public data shape
@@ -149,5 +150,18 @@ export class Entity implements IEntity {
 
   get updatedAt(): Date {
     return this._updatedAt;
+  }
+
+  /**
+   * Convert to lightweight EntitySummary projection
+   * Used by Intelligence domain for context management
+   */
+  toSummary(): EntitySummary {
+    return {
+      id: this.id,
+      name: this.name,
+      definitionId: this.definitionId,
+      summary: this.summary,
+    };
   }
 }
