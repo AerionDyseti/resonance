@@ -53,6 +53,7 @@ chroma_data/
 # Logs
 *.log
 logs/
+packages/experiment/logs/
 
 # Testing
 .pytest_cache/

@@ -8,8 +8,8 @@
 import type {
   ISemanticSearchProvider,
   SemanticSearchResult,
-} from '../domain/intelligence/semantic-search.port';
-import type { WorldId, EntityId } from '../domain/shared/ids';
+} from '../backend/src/domain/intelligence/semantic-search.port';
+import type { WorldId, EntityId } from '../backend/src/domain/shared/ids';
 import { TestDataStore, type TestEntity } from './test-data-loader';
 
 export class MockSemanticSearchProvider implements ISemanticSearchProvider {
