@@ -18,10 +18,10 @@ import {
   type EntityDefinitionId,
   type RelationshipId,
   type RelationshipDefinitionId,
-} from '../../domain/shared/ids';
-import type { IEntity } from '../../domain/world/entity';
-import type { IRelationship } from '../../domain/world/relationship';
-import type { EntitySummary } from '../../domain/world/entity-summary';
+} from '../domain/shared/ids';
+import type { IEntity } from '../domain/world/entity';
+import type { IRelationship } from '../domain/world/relationship';
+import type { EntitySummary } from '../domain/world/entity-summary';
 
 // Default world ID for test data
 export const TEST_WORLD_ID = worldId('test-world-enym');
