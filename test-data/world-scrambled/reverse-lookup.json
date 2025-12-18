@@ -1,0 +1,3962 @@
+{
+  "char-elorien-redcloak": {
+    "originalId": "char-trolls-purse",
+    "originalName": "Trolls' purse"
+  },
+  "char-zarek-brookmere": {
+    "originalId": "char-bandobras-took",
+    "originalName": "Bandobras Took"
+  },
+  "char-loravel-windmere": {
+    "originalId": "char-liriersenthal-erorvir",
+    "originalName": "Liriersenthal Erorvir"
+  },
+  "char-orvik-the-fair": {
+    "originalId": "char-frodo-baggins",
+    "originalName": "Frodo Baggins"
+  },
+  "char-prydain": {
+    "originalId": "char-tar-palantir",
+    "originalName": "Tar-Palantir"
+  },
+  "char-elorien-knotwood": {
+    "originalId": "char-bob",
+    "originalName": "Bob"
+  },
+  "char-wulfric-flamebringer": {
+    "originalId": "char-damrod",
+    "originalName": "Damrod"
+  },
+  "char-ysolinde-proudfoot": {
+    "originalId": "char-isildur",
+    "originalName": "Isildur"
+  },
+  "char-zaldric-underhill": {
+    "originalId": "char-theron-medjay",
+    "originalName": "Theron Medjay"
+  },
+  "char-lorvain-greymantle": {
+    "originalId": "char-glorfindel",
+    "originalName": "Glorfindel"
+  },
+  "char-kragmir-nightwalker": {
+    "originalId": "char-ainairos",
+    "originalName": "Ainairos"
+  },
+  "char-norvald-the-young": {
+    "originalId": "char-denethor-ii",
+    "originalName": "Denethor II"
+  },
+  "char-zara-diggle": {
+    "originalId": "char-pryon-kyadus",
+    "originalName": "Pryon Kyadus"
+  },
+  "char-porto": {
+    "originalId": "char-aratar",
+    "originalName": "Aratar"
+  },
+  "char-isolde-the-black": {
+    "originalId": "char-asteveron-keeper-of-the-flame-of-seasons",
+    "originalName": "Asteveron, Keeper of the Flame of Seasons"
+  },
+  "char-isolde-juniper": {
+    "originalId": "char-belegund",
+    "originalName": "Belegund"
+  },
+  "char-barlo": {
+    "originalId": "char-l-rien-vala",
+    "originalName": "Lórien (Vala)"
+  },
+  "char-brienna-the-golden": {
+    "originalId": "char-velsha",
+    "originalName": "Vel'Sha"
+  },
+  "char-kragmir-fletcher": {
+    "originalId": "char-maeglin",
+    "originalName": "Maeglin"
+  },
+  "char-rothgar-stormbringer": {
+    "originalId": "char-yavanna",
+    "originalName": "Yavanna"
+  },
+  "char-quelvar-redcloak": {
+    "originalId": "char-manw",
+    "originalName": "Manwë"
+  },
+  "char-roderick-juniper": {
+    "originalId": "char-aerin",
+    "originalName": "Aerin"
+  },
+  "char-galindor-stormcaller": {
+    "originalId": "char-tar-vanimeld",
+    "originalName": "Tar-Vanimeldë"
+  },
+  "char-gwendolyn-the-great": {
+    "originalId": "char-serafina-steele",
+    "originalName": "Serafina Steele"
+  },
+  "char-loravel-keenblade": {
+    "originalId": "char-handir",
+    "originalName": "Handir"
+  },
+  "char-hadrian-trueheart": {
+    "originalId": "char-brotar-holfast",
+    "originalName": "Brotar Holfast"
+  },
+  "char-nyssa": {
+    "originalId": "char-ausir-boy",
+    "originalName": "Ausir (boy)"
+  },
+  "char-edmund-chubb": {
+    "originalId": "char-carl-cotton",
+    "originalName": "Carl Cotton"
+  },
+  "char-jormund-the-great": {
+    "originalId": "char-gelmir",
+    "originalName": "Gelmir"
+  },
+  "char-cecily-the-red": {
+    "originalId": "char-e-l",
+    "originalName": "Eöl"
+  },
+  "char-ursula-yellowcape": {
+    "originalId": "char-d-or-father-of-lfwine",
+    "originalName": "Déor (father of Ælfwine)"
+  },
+  "char-fiora-the-lesser": {
+    "originalId": "char-ragnor",
+    "originalName": "Ragnor"
+  },
+  "char-boldrek-fernhollow": {
+    "originalId": "char-thingol",
+    "originalName": "Thingol"
+  },
+  "char-dalvorn-stoneheart": {
+    "originalId": "char-maedhros",
+    "originalName": "Maedhros"
+  },
+  "char-adelina-goldweaver": {
+    "originalId": "char-ecthelion",
+    "originalName": "Ecthelion"
+  },
+  "char-morwen-starfall": {
+    "originalId": "char-turgon",
+    "originalName": "Turgon"
+  },
+  "char-roderick-moonshadow": {
+    "originalId": "char-hunthor",
+    "originalName": "Hunthor"
+  },
+  "char-cecily-ashford": {
+    "originalId": "char-samwise-gamgee",
+    "originalName": "Samwise Gamgee"
+  },
+  "char-yorick": {
+    "originalId": "char-ulfast",
+    "originalName": "Ulfast"
+  },
+  "char-jorik-silverthorn": {
+    "originalId": "char-folco-boffin",
+    "originalName": "Folco Boffin"
+  },
+  "char-vespera": {
+    "originalId": "char-captain-of-the-guard",
+    "originalName": "Captain of the guard"
+  },
+  "char-gareth": {
+    "originalId": "char-haldar",
+    "originalName": "Haldar"
+  },
+  "char-evanthe-shadowend": {
+    "originalId": "char-barach",
+    "originalName": "Barach"
+  },
+  "char-wulfric-firebrand": {
+    "originalId": "char-indis",
+    "originalName": "Indis"
+  },
+  "char-wulfric-brookmere": {
+    "originalId": "char-master-of-lake-town",
+    "originalName": "Master of Lake-town"
+  },
+  "char-ursula-keenblade": {
+    "originalId": "char-valandil-of-and-ni",
+    "originalName": "Valandil of Andúnië"
+  },
+  "char-dalvorn-the-great": {
+    "originalId": "char-guthl-f",
+    "originalName": "Guthláf"
+  },
+  "char-quinlan-the-elder": {
+    "originalId": "char-borlach",
+    "originalName": "Borlach"
+  },
+  "char-karnak": {
+    "originalId": "char-great-grey-chief-wolf",
+    "originalName": "Great grey chief wolf"
+  },
+  "char-junia-noakes": {
+    "originalId": "char-ro-c",
+    "originalName": "Roäc"
+  },
+  "char-grunthar-the-younger": {
+    "originalId": "char-ceorl",
+    "originalName": "Ceorl"
+  },
+  "char-polo-zephyrwind": {
+    "originalId": "char-d-in-ii",
+    "originalName": "Dáin II"
+  },
+  "char-jorik-grubb": {
+    "originalId": "char-the-rogue-inevitable",
+    "originalName": "The Rogue Inevitable"
+  },
+  "char-grunthar-bracegirdle": {
+    "originalId": "char-bastien-amun-ro",
+    "originalName": "Bastien Amun-Ro"
+  },
+  "char-ulfric": {
+    "originalId": "char-alliyah",
+    "originalName": "Alliyah"
+  },
+  "char-thea": {
+    "originalId": "char-eru-il-vatar",
+    "originalName": "Eru Ilúvatar"
+  },
+  "char-dalvorn-the-old": {
+    "originalId": "char-al-atar",
+    "originalName": "al-Atar"
+  },
+  "char-falcor-blacksmith": {
+    "originalId": "char-peregrin-took",
+    "originalName": "Peregrin Took"
+  },
+  "char-kragmir": {
+    "originalId": "char-traemora-indaharis",
+    "originalName": "Traemora Indaharis"
+  },
+  "char-isolde-the-brave": {
+    "originalId": "char-asgon",
+    "originalName": "Asgon"
+  },
+  "char-yara-brookmere": {
+    "originalId": "char-aragorn",
+    "originalName": "Aragorn"
+  },
+  "char-barlo-elmsworth": {
+    "originalId": "char-the-auriga",
+    "originalName": "The Auriga"
+  },
+  "char-ilyndra-carpenter": {
+    "originalId": "char-maglor",
+    "originalName": "Maglor"
+  },
+  "char-willa-darkmantle": {
+    "originalId": "char-harry-goatleaf",
+    "originalName": "Harry Goatleaf"
+  },
+  "char-togan-the-younger": {
+    "originalId": "char-ar-pharaz-n",
+    "originalName": "Ar-Pharazôn"
+  },
+  "char-longo-fletcher": {
+    "originalId": "char-dwarven-smith-of-solaarus",
+    "originalName": "Dwarven Smith of Solaarus"
+  },
+  "char-rothgar-the-elder": {
+    "originalId": "char-tar-elendil",
+    "originalName": "Tar-Elendil"
+  },
+  "char-brivek": {
+    "originalId": "char-daeron",
+    "originalName": "Daeron"
+  },
+  "char-marcus-leafwalker": {
+    "originalId": "char-duilin-elf-of-gondolin",
+    "originalName": "Duilin (elf of Gondolin)"
+  },
+  "char-galindor-tanner": {
+    "originalId": "char-lorgan",
+    "originalName": "Lorgan"
+  },
+  "char-finvar-whitehall": {
+    "originalId": "char-auredhir",
+    "originalName": "Auredhir"
+  },
+  "char-osric-the-young": {
+    "originalId": "char-iorlas",
+    "originalName": "Iorlas"
+  },
+  "char-valdric-grubb": {
+    "originalId": "char-pandorelle-nailo",
+    "originalName": "Pandorelle Nailo"
+  },
+  "char-celdric-chubb": {
+    "originalId": "char-haela-eraanis",
+    "originalName": "Haela Eraanis"
+  },
+  "char-irvek-stormbringer": {
+    "originalId": "char-prefect-bastien-amun-ro",
+    "originalName": "Prefect Bastien Amun-Ro"
+  },
+  "char-rothgar": {
+    "originalId": "char-amras",
+    "originalName": "Amras"
+  },
+  "char-barlo-lightfoot": {
+    "originalId": "char-galadriel",
+    "originalName": "Galadriel"
+  },
+  "char-braldin": {
+    "originalId": "char-saruman",
+    "originalName": "Saruman"
+  },
+  "char-karnak-underhill": {
+    "originalId": "char-gl-in",
+    "originalName": "Glóin"
+  },
+  "char-adelina-earthshaker": {
+    "originalId": "char-dervorin",
+    "originalName": "Dervorin"
+  },
+  "char-drogon": {
+    "originalId": "char-ar-gimilz-r",
+    "originalName": "Ar-Gimilzôr"
+  },
+  "char-oriana-quicksilver": {
+    "originalId": "char-bowman-cotton",
+    "originalName": "Bowman Cotton"
+  },
+  "char-orendil-the-red": {
+    "originalId": "char-arthad",
+    "originalName": "Arthad"
+  },
+  "char-corvain-the-lesser": {
+    "originalId": "char-dior",
+    "originalName": "Dior"
+  },
+  "char-edmund-rumble": {
+    "originalId": "char-erkenbrand",
+    "originalName": "Erkenbrand"
+  },
+  "char-quelvar-ironwill": {
+    "originalId": "char-lady-jacqueline",
+    "originalName": "Lady Jacqueline"
+  },
+  "char-bungar-shadowend": {
+    "originalId": "char-grimbold",
+    "originalName": "Grimbold"
+  },
+  "char-yara": {
+    "originalId": "char-isis-of-sol",
+    "originalName": "Isis of Sol"
+  },
+  "char-dorwyn-the-lesser": {
+    "originalId": "char-abner-kassem",
+    "originalName": "Abner Kassem"
+  },
+  "char-finvar-stormwind": {
+    "originalId": "char-amlach",
+    "originalName": "Amlach"
+  },
+  "char-cobbin-stormwind": {
+    "originalId": "char-ailin-n",
+    "originalName": "Ailinónë"
+  },
+  "char-fiora-knotwood": {
+    "originalId": "char-bruithwir",
+    "originalName": "Bruithwir"
+  },
+  "char-bungar": {
+    "originalId": "char-aerandir",
+    "originalName": "Aerandir"
+  },
+  "char-edmund-greendale": {
+    "originalId": "char-carc",
+    "originalName": "Carc"
+  },
+  "char-dalvorn-the-swift": {
+    "originalId": "char-v-antur",
+    "originalName": "Vëantur"
+  },
+  "char-loravel-hawthorn": {
+    "originalId": "char-nessa",
+    "originalName": "Nessa"
+  },
+  "char-kelmar-the-strong": {
+    "originalId": "char-nimrodel",
+    "originalName": "Nimrodel"
+  },
+  "char-yorick-grubb": {
+    "originalId": "char-duilin-son-of-duinhir",
+    "originalName": "Duilin (son of Duinhir)"
+  },
+  "char-gareth-stormbringer": {
+    "originalId": "char-lfwine",
+    "originalName": "Ælfwine"
+  },
+  "char-zephyrine-the-bold": {
+    "originalId": "char-tom-bert-and-william",
+    "originalName": "Tom, Bert, and William"
+  },
+  "char-wulfric-sandheaver": {
+    "originalId": "char-dotalaz-kalentil",
+    "originalName": "Do'Talaz Kalentil"
+  },
+  "char-boldrek-rumble": {
+    "originalId": "char-aratan",
+    "originalName": "Aratan"
+  },
+  "char-thaldric-clearwater": {
+    "originalId": "char-bombur",
+    "originalName": "Bombur"
+  },
+  "char-faelon": {
+    "originalId": "char-balcmeg",
+    "originalName": "Balcmeg"
+  },
+  "char-marcus": {
+    "originalId": "char-bill-ferny",
+    "originalName": "Bill Ferny"
+  },
+  "char-prydain-diggle": {
+    "originalId": "char-lotr-fandom-tour-frodo-baggins",
+    "originalName": "LOTR:Fandom tour/Frodo Baggins"
+  },
+  "char-kelwin-nightshade": {
+    "originalId": "char-gerard-dupont",
+    "originalName": "Gerard Dupont"
+  },
+  "char-aethor-nightshade": {
+    "originalId": "char-n-mendil",
+    "originalName": "Númendil"
+  },
+  "char-dalvorn-noakes": {
+    "originalId": "char-baran",
+    "originalName": "Baran"
+  },
+  "char-rhiannon-goodbody": {
+    "originalId": "char-tosthra",
+    "originalName": "Tosthra"
+  },
+  "char-drumlin-keenblade": {
+    "originalId": "char-durin-i",
+    "originalName": "Durin I"
+  },
+  "char-faldren": {
+    "originalId": "char-sauron",
+    "originalName": "Sauron"
+  },
+  "char-adelina-frostholm": {
+    "originalId": "char-maerrik",
+    "originalName": "Maerrik"
+  },
+  "char-lysander-shadowend": {
+    "originalId": "char-aghan",
+    "originalName": "Aghan"
+  },
+  "char-togan-the-old": {
+    "originalId": "char-lugdush",
+    "originalName": "Lugdush"
+  },
+  "char-ulric-the-golden": {
+    "originalId": "char-halmir",
+    "originalName": "Halmir"
+  },
+  "char-caelwyn-goodbody": {
+    "originalId": "char-the-masked-duchess",
+    "originalName": "The Masked Duchess"
+  },
+  "char-minto-the-lesser": {
+    "originalId": "char-tephysea-runemark",
+    "originalName": "Tephysea Runemark"
+  },
+  "char-celdric-juniper": {
+    "originalId": "char-nori",
+    "originalName": "Nori"
+  },
+  "char-zarek-keenblade": {
+    "originalId": "char-frekanas-the-patchwork",
+    "originalName": "Frekanas \\\"The Patchwork\\\""
+  },
+  "char-darian-clearwater": {
+    "originalId": "char-herumor",
+    "originalName": "Herumor"
+  },
+  "char-dorwyn-wainwright": {
+    "originalId": "char-othain",
+    "originalName": "Éothain"
+  },
+  "char-helena-whitfoot": {
+    "originalId": "char-bizar-trueamber",
+    "originalName": "Bizar Trueamber"
+  },
+  "char-ursula-windmere": {
+    "originalId": "char-krillix",
+    "originalName": "Krillix"
+  },
+  "char-cobbin-leafwalker": {
+    "originalId": "char-angrod",
+    "originalName": "Angrod"
+  },
+  "char-brennan-greymantle": {
+    "originalId": "char-kael-senet",
+    "originalName": "Kael Senet"
+  },
+  "char-faldren-coldforge": {
+    "originalId": "char-boromir-of-ladros",
+    "originalName": "Boromir of Ladros"
+  },
+  "char-kelwin-goldweaver": {
+    "originalId": "char-yara-animus-senet",
+    "originalName": "Yara Animus Senet"
+  },
+  "char-thaldric-silverthorn": {
+    "originalId": "char-radagast",
+    "originalName": "Radagast"
+  },
+  "char-vespera-miller": {
+    "originalId": "char-e-nw",
+    "originalName": "Eönwë"
+  },
+  "char-ulric-the-black": {
+    "originalId": "char-golasgil",
+    "originalName": "Golasgil"
+  },
+  "char-helvorn": {
+    "originalId": "char-bofur",
+    "originalName": "Bofur"
+  },
+  "char-willa-the-young": {
+    "originalId": "char-ulrad",
+    "originalName": "Ulrad"
+  },
+  "char-irvek-cooper": {
+    "originalId": "char-drayven-cel-kirdane",
+    "originalName": "Drayven cel Kirdane"
+  },
+  "char-stenvald-bracegirdle": {
+    "originalId": "char-amrod-and-amras",
+    "originalName": "Amrod and Amras"
+  },
+  "char-osric": {
+    "originalId": "char-saeros",
+    "originalName": "Saeros"
+  },
+  "char-silarwen": {
+    "originalId": "char-mauh-r",
+    "originalName": "Mauhúr"
+  },
+  "char-karnak-hayward": {
+    "originalId": "char-tar-ciryatan",
+    "originalName": "Tar-Ciryatan"
+  },
+  "char-helvorn-highcliff": {
+    "originalId": "char-nerdanel",
+    "originalName": "Nerdanel"
+  },
+  "char-ponto": {
+    "originalId": "char-gorbag",
+    "originalName": "Gorbag"
+  },
+  "char-boldrek-proudfoot": {
+    "originalId": "char-jolynne-hillthorn",
+    "originalName": "Jolynne Hillthorn"
+  },
+  "char-orvik": {
+    "originalId": "char-caranthir",
+    "originalName": "Caranthir"
+  },
+  "char-adelina-skyborn": {
+    "originalId": "char-zefira",
+    "originalName": "Zefira"
+  },
+  "char-galdor-quarrystone": {
+    "originalId": "char-draugluin",
+    "originalName": "Draugluin"
+  },
+  "char-perrin-the-bold": {
+    "originalId": "char-skinflayed-remnant",
+    "originalName": "Skinflayed Remnant"
+  },
+  "char-quelvar-rumble": {
+    "originalId": "char-orom",
+    "originalName": "Oromë"
+  },
+  "char-roric-wheelwright": {
+    "originalId": "char-bereg",
+    "originalName": "Bereg"
+  },
+  "char-boldrek-frostholm": {
+    "originalId": "char-tar-ancalimon",
+    "originalName": "Tar-Ancalimon"
+  },
+  "char-junia-starfall": {
+    "originalId": "char-elendil",
+    "originalName": "Elendil"
+  },
+  "char-orvik-juniper": {
+    "originalId": "char-the-time-lost-dunamancer",
+    "originalName": "The Time-Lost Dunamancer"
+  },
+  "char-nyssa-oakenshield": {
+    "originalId": "char-marta-weatherbee",
+    "originalName": "Marta Weatherbee"
+  },
+  "char-perrin-shadowmend": {
+    "originalId": "char-elenw",
+    "originalName": "Elenwë"
+  },
+  "char-cobbin-hawthorn": {
+    "originalId": "char-gildor-inglorion",
+    "originalName": "Gildor Inglorion"
+  },
+  "char-helvorn-juniper": {
+    "originalId": "char-amnon",
+    "originalName": "Amnon"
+  },
+  "char-sadoc-the-old": {
+    "originalId": "char-the-apprentice",
+    "originalName": "The Apprentice"
+  },
+  "char-hadrian-deeproot": {
+    "originalId": "char-carcharoth",
+    "originalName": "Carcharoth"
+  },
+  "char-finvar-darkmantle": {
+    "originalId": "char-farmer-cotton",
+    "originalName": "Farmer Cotton"
+  },
+  "char-aerindel-proudfoot": {
+    "originalId": "char-eilinel",
+    "originalName": "Eilinel"
+  },
+  "char-ulric-elmsworth": {
+    "originalId": "char-guilin",
+    "originalName": "Guilin"
+  },
+  "char-aerindel-shadowmend": {
+    "originalId": "char-bifur",
+    "originalName": "Bifur"
+  },
+  "char-stenvald": {
+    "originalId": "char-fingon",
+    "originalName": "Fingon"
+  },
+  "char-jorik": {
+    "originalId": "char-gimilkh-d",
+    "originalName": "Gimilkhâd"
+  },
+  "char-mirathel-proudfoot": {
+    "originalId": "char-gr-ma",
+    "originalName": "Gríma"
+  },
+  "char-foscar": {
+    "originalId": "char-myconid-king",
+    "originalName": "Myconid King"
+  },
+  "char-brennan-underbough": {
+    "originalId": "char-marach",
+    "originalName": "Marach"
+  },
+  "char-ulfric-moonvale": {
+    "originalId": "char-master-aldrich-vale",
+    "originalName": "Master Aldrich Vale"
+  },
+  "char-elorien-highcliff": {
+    "originalId": "char-azagh-l",
+    "originalName": "Azaghâl"
+  },
+  "char-rothgar-the-old": {
+    "originalId": "char-elendur",
+    "originalName": "Elendur"
+  },
+  "char-tobias-puddifoot": {
+    "originalId": "char-huor",
+    "originalName": "Huor"
+  },
+  "char-finvar-the-lesser": {
+    "originalId": "char-gamling",
+    "originalName": "Gamling"
+  },
+  "char-isolde-diggle": {
+    "originalId": "char-gaffer-gamgee",
+    "originalName": "Gaffer Gamgee"
+  },
+  "char-valdric-nightshade": {
+    "originalId": "char-witch-king-of-angmar",
+    "originalName": "Witch-king of Angmar"
+  },
+  "char-oriana-the-bold": {
+    "originalId": "char-vek-khar-ashinzen-ex-io-the-anointer",
+    "originalName": "Vek-Khar Ashinzen ex-Io (The Anointer)"
+  },
+  "char-valdric-proudfoot": {
+    "originalId": "char-v-na",
+    "originalName": "Vána"
+  },
+  "char-yorick-the-fair": {
+    "originalId": "char-owyn",
+    "originalName": "Éowyn"
+  },
+  "char-hamfast-cooper": {
+    "originalId": "char-galdor",
+    "originalName": "Galdor"
+  },
+  "char-orendil-riverstone": {
+    "originalId": "char-flim-flam-glimgloam",
+    "originalName": "Flim-Flam Glimgloam"
+  },
+  "char-foscar-dawnbreak": {
+    "originalId": "char-est",
+    "originalName": "Estë"
+  },
+  "char-delara": {
+    "originalId": "char-malkai-of-azrai",
+    "originalName": "Malkai of Azrai"
+  },
+  "char-cecily": {
+    "originalId": "char-h-ma",
+    "originalName": "Háma"
+  },
+  "char-ursula": {
+    "originalId": "char-mavari",
+    "originalName": "Mavari"
+  },
+  "char-zara-starfall": {
+    "originalId": "char-angrim",
+    "originalName": "Angrim"
+  },
+  "char-polo-ironbark": {
+    "originalId": "char-sira-the-unbowed",
+    "originalName": "Sira the Unbowed"
+  },
+  "char-mirathel": {
+    "originalId": "char-silver",
+    "originalName": "Silver"
+  },
+  "char-wulfric": {
+    "originalId": "char-omer",
+    "originalName": "Éomer"
+  },
+  "char-norvald-stormwind": {
+    "originalId": "char-gorlim",
+    "originalName": "Gorlim"
+  },
+  "char-edmund-the-black": {
+    "originalId": "char-tar-telemmait",
+    "originalName": "Tar-Telemmaitë"
+  },
+  "char-junia": {
+    "originalId": "char-tar-atanamir",
+    "originalName": "Tar-Atanamir"
+  },
+  "char-orendil-earthshaker": {
+    "originalId": "char-imrahil",
+    "originalName": "Imrahil"
+  },
+  "char-severin-hayward": {
+    "originalId": "char-aul",
+    "originalName": "Aulë"
+  },
+  "char-faldren-the-bold": {
+    "originalId": "char-h-rin",
+    "originalName": "Húrin"
+  },
+  "char-vespera-the-old": {
+    "originalId": "char-pyraxis-aztribax-ex-tiameti",
+    "originalName": "Pyraxis Aztribax ex-Tiameti"
+  },
+  "char-corvain-the-swift": {
+    "originalId": "char-elrond",
+    "originalName": "Elrond"
+  },
+  "char-ilyndra-flamecrest": {
+    "originalId": "char-sador",
+    "originalName": "Sador"
+  },
+  "char-morwen-elmsworth": {
+    "originalId": "char-barahir",
+    "originalName": "Barahir"
+  },
+  "char-minto-whitfoot": {
+    "originalId": "char-urthel",
+    "originalName": "Urthel"
+  },
+  "char-jormund-flamecrest": {
+    "originalId": "char-borlad",
+    "originalName": "Borlad"
+  },
+  "char-vespera-riverstone": {
+    "originalId": "char-danuin",
+    "originalName": "Danuin"
+  },
+  "char-lorvain-the-bold": {
+    "originalId": "char-andr-g",
+    "originalName": "Andróg"
+  },
+  "char-celdric-the-great": {
+    "originalId": "char-the-gentleman",
+    "originalName": "The Gentleman"
+  },
+  "char-nyssa-wainwright": {
+    "originalId": "char-e-rendur-of-and-ni",
+    "originalName": "Eärendur of Andúnië"
+  },
+  "char-kelmar": {
+    "originalId": "char-radhruin",
+    "originalName": "Radhruin"
+  },
+  "char-elvrik-leafwalker": {
+    "originalId": "char-gamil-zirak",
+    "originalName": "Gamil Zirak"
+  },
+  "char-hamfast-moonshadow": {
+    "originalId": "char-glirhuin",
+    "originalName": "Glirhuin"
+  },
+  "char-morwen-ironbark": {
+    "originalId": "char-viktor-cel-kirdane",
+    "originalName": "Viktor cel Kirdane"
+  },
+  "char-orendil-flamecrest": {
+    "originalId": "char-gwaihir",
+    "originalName": "Gwaihir"
+  },
+  "char-oriana-hayward": {
+    "originalId": "char-iamus",
+    "originalName": "Iamus"
+  },
+  "char-sylvana-emberheart": {
+    "originalId": "char-gil-galad",
+    "originalName": "Gil-galad"
+  },
+  "char-aethor-shepherd": {
+    "originalId": "char-denethor",
+    "originalName": "Denethor"
+  },
+  "char-helena": {
+    "originalId": "char-thranduil",
+    "originalName": "Thranduil"
+  },
+  "char-cobbin-coldforge": {
+    "originalId": "char-haldir",
+    "originalName": "Haldir"
+  },
+  "char-wulfric-the-old": {
+    "originalId": "char-dorlas",
+    "originalName": "Dorlas"
+  },
+  "char-durnok-mossbank": {
+    "originalId": "char-r-mil-elf-of-tirion",
+    "originalName": "Rúmil (Elf of Tirion)"
+  },
+  "char-zephyrine-miller": {
+    "originalId": "char-nienna",
+    "originalName": "Nienna"
+  },
+  "char-delara-shepherd": {
+    "originalId": "char-adgifu",
+    "originalName": "Éadgifu"
+  },
+  "char-stenvald-keenblade": {
+    "originalId": "char-lotr-fandom-tour-aragorn-ii",
+    "originalName": "LOTR:Fandom tour/Aragorn II"
+  },
+  "char-ponto-shadowend": {
+    "originalId": "char-bregor",
+    "originalName": "Bregor"
+  },
+  "char-irvek-emberheart": {
+    "originalId": "char-elemm-r-elf",
+    "originalName": "Elemmírë (elf)"
+  },
+  "char-longo-shadowmend": {
+    "originalId": "char-master-vhaeris",
+    "originalName": "Master Vhaeris"
+  },
+  "char-severin": {
+    "originalId": "char-warrion-raishere",
+    "originalName": "Warrion Raishere"
+  },
+  "char-roderick-lightfoot": {
+    "originalId": "char-elfhelm",
+    "originalName": "Elfhelm"
+  },
+  "char-petra-mossbank": {
+    "originalId": "char-aragorn-ii",
+    "originalName": "Aragorn II"
+  },
+  "char-brivek-potter": {
+    "originalId": "char-shagrat",
+    "originalName": "Shagrat"
+  },
+  "char-zaldric-blacksmith": {
+    "originalId": "char-cromwell-holfast",
+    "originalName": "Cromwell Holfast"
+  },
+  "char-falcor": {
+    "originalId": "char-dwalin",
+    "originalName": "Dwalin"
+  },
+  "char-darian-proudfoot": {
+    "originalId": "char-urwen",
+    "originalName": "Urwen"
+  },
+  "char-sadoc-shadowmend": {
+    "originalId": "char-meneldil",
+    "originalName": "Meneldil"
+  },
+  "char-nolan": {
+    "originalId": "char-vicenti-ignatius",
+    "originalName": "Vicenti Ignatius"
+  },
+  "char-vaelorn-innkeeper": {
+    "originalId": "char-morgoth",
+    "originalName": "Morgoth"
+  },
+  "char-yarvok": {
+    "originalId": "char-binx",
+    "originalName": "Binx"
+  },
+  "char-petra": {
+    "originalId": "char-varda",
+    "originalName": "Varda"
+  },
+  "char-ysolinde-stoneheart": {
+    "originalId": "char-captain-khabat-holbrar",
+    "originalName": "Captain Khabat Holbrar"
+  },
+  "char-morwen-goldweaver": {
+    "originalId": "char-qrezz",
+    "originalName": "Qrezz"
+  },
+  "char-mira-goodbody": {
+    "originalId": "char-lfheah",
+    "originalName": "Ælfheah"
+  },
+  "char-aerindel-oakenshield": {
+    "originalId": "char-brother-armand-platale-a",
+    "originalName": "Brother Armand Plataleña"
+  },
+  "char-zarek-earthshaker": {
+    "originalId": "char-barrow-wights",
+    "originalName": "Barrow-wights"
+  },
+  "char-elvrik-proudfoot": {
+    "originalId": "char-arien",
+    "originalName": "Arien"
+  },
+  "char-galdor-clearwater": {
+    "originalId": "char-l-thien",
+    "originalName": "Lúthien"
+  },
+  "char-longo-the-red": {
+    "originalId": "char-treebeard",
+    "originalName": "Treebeard"
+  },
+  "char-wulfric-the-younger": {
+    "originalId": "char-bilbo-baggins",
+    "originalName": "Bilbo Baggins"
+  },
+  "char-helena-goldweaver": {
+    "originalId": "char-dagnir",
+    "originalName": "Dagnir"
+  },
+  "char-arveth-goldweaver": {
+    "originalId": "char-captain-sylvaris",
+    "originalName": "Captain Sylvaris"
+  },
+  "char-thaldric-knotwood": {
+    "originalId": "char-idril",
+    "originalName": "Idril"
+  },
+  "char-thorvik": {
+    "originalId": "char-m-riel",
+    "originalName": "Míriel"
+  },
+  "char-nolan-the-younger": {
+    "originalId": "char-sir-kaelen",
+    "originalName": "Sir Kaelen"
+  },
+  "char-sadoc-ashford": {
+    "originalId": "char-mama-turo-argenti-toro",
+    "originalName": "Mama Turo (Argenti Toro)"
+  },
+  "char-willa": {
+    "originalId": "char-falathar",
+    "originalName": "Falathar"
+  },
+  "char-evanthe": {
+    "originalId": "char-galion",
+    "originalName": "Galion"
+  },
+  "char-ilyndra": {
+    "originalId": "char-golfimbul",
+    "originalName": "Golfimbul"
+  },
+  "char-hadrian": {
+    "originalId": "char-denethor-first-age",
+    "originalName": "Denethor (First Age)"
+  },
+  "char-orendil-ironbark": {
+    "originalId": "char-karayo-greenfoot",
+    "originalName": "Karayo Greenfoot"
+  },
+  "char-orendil-the-silver": {
+    "originalId": "char-faramir",
+    "originalName": "Faramir"
+  },
+  "char-morwen": {
+    "originalId": "char-asu-asai",
+    "originalName": "Asu’asai"
+  },
+  "char-dorwyn": {
+    "originalId": "char-the-alhoon-of-the-reliquary",
+    "originalName": "The Alhoon of the Reliquary"
+  },
+  "char-brennan": {
+    "originalId": "char-astin-gavruus",
+    "originalName": "Astin Gavruus"
+  },
+  "char-cecily-the-black": {
+    "originalId": "char-goldberry",
+    "originalName": "Goldberry"
+  },
+  "char-quelvar-stormbringer": {
+    "originalId": "char-zafistraza-syrxix",
+    "originalName": "Zafistraza Syrx'ix"
+  },
+  "char-cecily-brookmere": {
+    "originalId": "char-ungoliant",
+    "originalName": "Ungoliant"
+  },
+  "char-arveth-shadowmend": {
+    "originalId": "char-kh-m",
+    "originalName": "Khîm"
+  },
+  "char-galdor-brewer": {
+    "originalId": "char-borthand",
+    "originalName": "Borthand"
+  },
+  "char-osric-brewer": {
+    "originalId": "char-captains-of-the-west",
+    "originalName": "Captains of the West"
+  },
+  "char-roric-knotwood": {
+    "originalId": "char-malakai-thornrot-the-blight-druid",
+    "originalName": "Malakai Thornrot - The Blight Druid"
+  },
+  "char-cobbin-burrows": {
+    "originalId": "char-ilmar",
+    "originalName": "Ilmarë"
+  },
+  "char-zara-knotwood": {
+    "originalId": "char-f-anor",
+    "originalName": "Fëanor"
+  },
+  "char-orvik-chubb": {
+    "originalId": "char-orodreth",
+    "originalName": "Orodreth"
+  },
+  "char-helvorn-deeproot": {
+    "originalId": "char-beorn",
+    "originalName": "Beorn"
+  },
+  "char-ulric": {
+    "originalId": "char-b-r",
+    "originalName": "Bór"
+  },
+  "char-perrin-the-black": {
+    "originalId": "char-shelob",
+    "originalName": "Shelob"
+  },
+  "char-gareth-the-fair": {
+    "originalId": "char-thr-r",
+    "originalName": "Thrór"
+  },
+  "char-zaldric-fernhollow": {
+    "originalId": "char-baragund",
+    "originalName": "Baragund"
+  },
+  "char-gareth-wheelwright": {
+    "originalId": "char-ib-n",
+    "originalName": "Ibûn"
+  },
+  "char-osric-flamebringer": {
+    "originalId": "char-gl-redhel",
+    "originalName": "Glóredhel"
+  },
+  "char-loravel-innkeeper": {
+    "originalId": "char-herb-master",
+    "originalName": "Herb-master"
+  },
+  "char-caelwyn-firebrand": {
+    "originalId": "char-amrod",
+    "originalName": "Amrod"
+  },
+  "char-varnok-ironhand": {
+    "originalId": "char-mikor-blackthorne",
+    "originalName": "Mikor Blackthorne"
+  },
+  "char-galindor": {
+    "originalId": "char-e-rendil",
+    "originalName": "Eärendil"
+  },
+  "char-helvorn-the-silver": {
+    "originalId": "char-imra-ghostwise",
+    "originalName": "Imra Ghostwise"
+  },
+  "char-brivek-underbough": {
+    "originalId": "char-daurin",
+    "originalName": "Daurin"
+  },
+  "char-faelon-the-grey": {
+    "originalId": "char-atan-seba-party-camels",
+    "originalName": "Atan & Seba (Party Camels)"
+  },
+  "char-quinlan": {
+    "originalId": "char-e-rendur-of-arnor",
+    "originalName": "Eärendur of Arnor"
+  },
+  "char-cecily-quarrystone": {
+    "originalId": "char-the-auli-ha",
+    "originalName": "The Auli’ha"
+  },
+  "char-xanthe": {
+    "originalId": "char-elros",
+    "originalName": "Elros"
+  },
+  "char-petra-hayward": {
+    "originalId": "char-witch-kings-winged-steed",
+    "originalName": "Witch-king's winged steed"
+  },
+  "char-oriana-sandheaver": {
+    "originalId": "char-r-an",
+    "originalName": "Rían"
+  },
+  "char-dalvorn-shadowend": {
+    "originalId": "char-cw-n",
+    "originalName": "Cwén"
+  },
+  "char-orvik-the-elder": {
+    "originalId": "char-smaug",
+    "originalName": "Smaug"
+  },
+  "char-fiora-highcliff": {
+    "originalId": "char-telchar",
+    "originalName": "Telchar"
+  },
+  "char-cobbin-oakenshield": {
+    "originalId": "char-forlong",
+    "originalName": "Forlong"
+  },
+  "char-edmund-innkeeper": {
+    "originalId": "char-galdor-elf-of-the-havens",
+    "originalName": "Galdor (elf of the Havens)"
+  },
+  "char-beldric": {
+    "originalId": "char-alkandros-cel-tradat",
+    "originalName": "Alkandros cel Tradat"
+  },
+  "char-ysolinde-ironbark": {
+    "originalId": "char-aluin",
+    "originalName": "Aluin"
+  },
+  "char-ponto-the-grey": {
+    "originalId": "char-gollum",
+    "originalName": "Gollum"
+  },
+  "char-brivek-tanner": {
+    "originalId": "char-gothmog-lieutenant-of-morgul",
+    "originalName": "Gothmog (Lieutenant of Morgul)"
+  },
+  "char-vespera-whitehall": {
+    "originalId": "char-aredhel",
+    "originalName": "Aredhel"
+  },
+  "char-beldric-pinecrest": {
+    "originalId": "char-arwen",
+    "originalName": "Arwen"
+  },
+  "char-loravel-brightblade": {
+    "originalId": "char-ewyn-phoenixfeather",
+    "originalName": "Ewyn Phoenixfeather"
+  },
+  "char-oriana-darkmantle": {
+    "originalId": "char-ecthelion-elf-of-gondolin",
+    "originalName": "Ecthelion (Elf of Gondolin)"
+  },
+  "char-stenvald-flamebringer": {
+    "originalId": "char-unknown-hyrian-warrior-ancient-cistern",
+    "originalName": "Unknown Hyrian Warrior (Ancient Cistern)"
+  },
+  "char-zara-frostholm": {
+    "originalId": "char-reynard-ashworth",
+    "originalName": "Reynard Ashworth"
+  },
+  "char-brienna-flamecrest": {
+    "originalId": "char-glaurung",
+    "originalName": "Glaurung"
+  },
+  "char-varnok-sandheaver": {
+    "originalId": "char-d-orwine",
+    "originalName": "Déorwine"
+  },
+  "char-largo-knotwood": {
+    "originalId": "char-fingolfin",
+    "originalName": "Fingolfin"
+  },
+  "char-xander-nightwalker": {
+    "originalId": "char-thorondor",
+    "originalName": "Thorondor"
+  },
+  "char-junia-darkmantle": {
+    "originalId": "char-uldor",
+    "originalName": "Uldor"
+  },
+  "char-galdor-grubb": {
+    "originalId": "char-spencer-the-mad",
+    "originalName": "Spencer the Mad"
+  },
+  "char-beldric-windmere": {
+    "originalId": "char-lenw",
+    "originalName": "Lenwë"
+  },
+  "char-fiora-the-wise": {
+    "originalId": "char-gildor",
+    "originalName": "Gildor"
+  },
+  "char-loravel": {
+    "originalId": "char-the-undead-dragon-of-the-frost-queen",
+    "originalName": "The Undead Dragon of the Frost Queen"
+  },
+  "char-willa-coldforge": {
+    "originalId": "char-tar-minastir",
+    "originalName": "Tar-Minastir"
+  },
+  "char-adelina-moonshadow": {
+    "originalId": "char-f-li-and-k-li",
+    "originalName": "Fíli and Kíli"
+  },
+  "char-yara-starfall": {
+    "originalId": "char-brodda",
+    "originalName": "Brodda"
+  },
+  "char-delara-whitfoot": {
+    "originalId": "char-tar-ancalim",
+    "originalName": "Tar-Ancalimë"
+  },
+  "char-mirathel-burrows": {
+    "originalId": "char-dark-slayer",
+    "originalName": "Dark Slayer"
+  },
+  "char-drogon-proudfoot": {
+    "originalId": "char-durins-bane",
+    "originalName": "Durin's Bane"
+  },
+  "char-hamfast-goldweaver": {
+    "originalId": "char-am-ri",
+    "originalName": "Amárië"
+  },
+  "char-drumlin": {
+    "originalId": "char-echo-of-the-wight",
+    "originalName": "Echo of the Wight"
+  },
+  "char-quinlan-coldforge": {
+    "originalId": "char-beren",
+    "originalName": "Beren"
+  },
+  "char-durnok-the-young": {
+    "originalId": "char-zero",
+    "originalName": "Zero"
+  },
+  "char-marcus-stonecroft": {
+    "originalId": "char-great-goblin",
+    "originalName": "Great Goblin"
+  },
+  "char-yarvok-windmere": {
+    "originalId": "char-branwen",
+    "originalName": "Branwen"
+  },
+  "char-cobbin-brightblade": {
+    "originalId": "char-shemsu-guardian-caste-roadwarden",
+    "originalName": "Shemsu (Guardian Caste Roadwarden)"
+  },
+  "char-grunthar-the-silver": {
+    "originalId": "char-melian",
+    "originalName": "Melian"
+  },
+  "char-norvald-quarrystone": {
+    "originalId": "char-gwindor",
+    "originalName": "Gwindor"
+  },
+  "char-sadoc-highcliff": {
+    "originalId": "char-bard",
+    "originalName": "Bard"
+  },
+  "char-thorvik-coldforge": {
+    "originalId": "char-al-alem",
+    "originalName": "al-Alem"
+  },
+  "char-ulric-chubb": {
+    "originalId": "char-barliman-butterbur",
+    "originalName": "Barliman Butterbur"
+  },
+  "char-kelmar-stormbringer": {
+    "originalId": "char-tilion",
+    "originalName": "Tilion"
+  },
+  "char-morwen-valiant": {
+    "originalId": "char-adelard-took",
+    "originalName": "Adelard Took"
+  },
+  "char-lirien-greendale": {
+    "originalId": "char-fredegar-bolger",
+    "originalName": "Fredegar Bolger"
+  },
+  "char-orendil": {
+    "originalId": "char-bladorthin",
+    "originalName": "Bladorthin"
+  },
+  "char-corvain-the-strong": {
+    "originalId": "char-tom-bombadil",
+    "originalName": "Tom Bombadil"
+  },
+  "char-zephyrine-innkeeper": {
+    "originalId": "char-ohtar",
+    "originalName": "Ohtar"
+  },
+  "char-thea-miller": {
+    "originalId": "char-kales-valerian",
+    "originalName": "Kales Valerian"
+  },
+  "char-falcor-the-old": {
+    "originalId": "char-quell",
+    "originalName": "Quell"
+  },
+  "char-xander": {
+    "originalId": "char-hundad",
+    "originalName": "Hundad"
+  },
+  "char-zarek": {
+    "originalId": "char-haldan",
+    "originalName": "Haldan"
+  },
+  "char-thaldric-emberheart": {
+    "originalId": "char-haleth",
+    "originalName": "Haleth"
+  },
+  "char-edmund-the-fair": {
+    "originalId": "char-nikoasai",
+    "originalName": "Niko'asai"
+  },
+  "char-brivek-earthshaker": {
+    "originalId": "char-queen-nilorin-the-frost-queen",
+    "originalName": "Queen Nilorin (The Frost Queen)"
+  },
+  "char-vaelorn": {
+    "originalId": "char-krounli-greyemith",
+    "originalName": "Krounli Greyemith"
+  },
+  "char-katarina-puddifoot": {
+    "originalId": "char-hador",
+    "originalName": "Hador"
+  },
+  "char-roderick-the-younger": {
+    "originalId": "char-olw",
+    "originalName": "Olwë"
+  },
+  "char-lorvain-the-red": {
+    "originalId": "char-ulwarth",
+    "originalName": "Ulwarth"
+  },
+  "char-stenvald-goodbody": {
+    "originalId": "char-ana-van-richten",
+    "originalName": "Ana van Richten"
+  },
+  "char-faldren-the-brave": {
+    "originalId": "char-karr-goldman",
+    "originalName": "Karr Goldman"
+  },
+  "char-lirien-mossbank": {
+    "originalId": "char-mandos",
+    "originalName": "Mandos"
+  },
+  "char-ilyndra-wainwright": {
+    "originalId": "char-elena-fror",
+    "originalName": "Elena Fror"
+  },
+  "char-rhiannon": {
+    "originalId": "char-celebrimbor",
+    "originalName": "Celebrimbor"
+  },
+  "char-nyssa-goldweaver": {
+    "originalId": "char-dairuin",
+    "originalName": "Dairuin"
+  },
+  "char-brennan-fernhollow": {
+    "originalId": "char-eariss",
+    "originalName": "Earissë"
+  },
+  "char-helvorn-wavecrest": {
+    "originalId": "char-celeborn",
+    "originalName": "Celeborn"
+  },
+  "char-corwin-knotwood": {
+    "originalId": "char-ar-sakalth-r",
+    "originalName": "Ar-Sakalthôr"
+  },
+  "char-brivek-the-golden": {
+    "originalId": "char-tuor",
+    "originalName": "Tuor"
+  },
+  "char-roric-yellowcape": {
+    "originalId": "char-roland-thornhelm-brightweave",
+    "originalName": "Roland Thornhelm-Brightweave"
+  },
+  "char-thea-the-elder": {
+    "originalId": "char-erestor",
+    "originalName": "Erestor"
+  },
+  "char-jormund": {
+    "originalId": "char-daddy-twofoot",
+    "originalName": "Daddy Twofoot"
+  },
+  "char-aldric-juniper": {
+    "originalId": "char-hathaldir",
+    "originalName": "Hathaldir"
+  },
+  "char-prydain-whitehall": {
+    "originalId": "char-delin",
+    "originalName": "Delin"
+  },
+  "char-vespera-the-black": {
+    "originalId": "char-gandalf",
+    "originalName": "Gandalf"
+  },
+  "char-isolde-whitfoot": {
+    "originalId": "char-f",
+    "originalName": "F"
+  },
+  "char-galdor-elmsworth": {
+    "originalId": "char-boromir",
+    "originalName": "Boromir"
+  },
+  "char-minto-the-white": {
+    "originalId": "char-elur-d-and-elur-n",
+    "originalName": "Eluréd and Elurín"
+  },
+  "char-dorwyn-thornwood": {
+    "originalId": "char-zeribella-auramesu",
+    "originalName": "Zeribella Auramesu"
+  },
+  "char-ysolinde-the-strong": {
+    "originalId": "char-joe-steele",
+    "originalName": "Joe Steele"
+  },
+  "char-xanthe-ironhand": {
+    "originalId": "char-curufin",
+    "originalName": "Curufin"
+  },
+  "char-katarina": {
+    "originalId": "char-brandir",
+    "originalName": "Brandir"
+  },
+  "char-osric-the-great": {
+    "originalId": "char-ulfang",
+    "originalName": "Ulfang"
+  },
+  "char-stenvald-coldforge": {
+    "originalId": "char-thr-in-ii",
+    "originalName": "Thráin II"
+  },
+  "char-roderick-emberheart": {
+    "originalId": "char-harris-alessandros-xiii",
+    "originalName": "Harris Alessandros XIII"
+  },
+  "char-yorick-yellowcape": {
+    "originalId": "char-bolg",
+    "originalName": "Bolg"
+  },
+  "char-adelina-the-strong": {
+    "originalId": "char-balin",
+    "originalName": "Balin"
+  },
+  "char-stenvald-the-swift": {
+    "originalId": "char-gildor-edain",
+    "originalName": "Gildor (Edain)"
+  },
+  "char-longo": {
+    "originalId": "char-bourath",
+    "originalName": "Bourath"
+  },
+  "char-gwendolyn-riverstone": {
+    "originalId": "char-c-rdan",
+    "originalName": "Círdan"
+  },
+  "char-prydain-fernhollow": {
+    "originalId": "char-lysanara",
+    "originalName": "Lysanara"
+  },
+  "char-rothgar-frostholm": {
+    "originalId": "char-d-nhere",
+    "originalName": "Dúnhere"
+  },
+  "char-finvar-mugwort": {
+    "originalId": "char-tar-m-riel",
+    "originalName": "Tar-Míriel"
+  },
+  "char-junia-stormbringer": {
+    "originalId": "char-ulmo",
+    "originalName": "Ulmo"
+  },
+  "char-togan-clearwater": {
+    "originalId": "char-elladan-and-elrohir",
+    "originalName": "Elladan and Elrohir"
+  },
+  "char-ulfric-the-great": {
+    "originalId": "char-miriam-threadbore",
+    "originalName": "Miriam Threadbore"
+  },
+  "char-elorien": {
+    "originalId": "char-ni-nor",
+    "originalName": "Niënor"
+  },
+  "char-bungar-tunnelly": {
+    "originalId": "char-ashariel-cataliemne",
+    "originalName": "Ashariel Cataliemne"
+  },
+  "char-quinlan-the-grey": {
+    "originalId": "char-velexzhir-sh-bridin",
+    "originalName": "Vel'exzhir Shæbridin"
+  },
+  "char-lysander-shepherd": {
+    "originalId": "char-morwen",
+    "originalName": "Morwen"
+  },
+  "char-petra-ironbark": {
+    "originalId": "char-tulkas",
+    "originalName": "Tulkas"
+  },
+  "char-zephyrine-sandheaver": {
+    "originalId": "char-hareth",
+    "originalName": "Hareth"
+  },
+  "char-elorien-the-white": {
+    "originalId": "char-legolas",
+    "originalName": "Legolas"
+  },
+  "char-rothgar-trueheart": {
+    "originalId": "char-rail-torsaine",
+    "originalName": "Rail Torsaine"
+  },
+  "char-rothgar-emberheart": {
+    "originalId": "char-nikolae-cel-kirdane",
+    "originalName": "Nikolae cel Kirdane"
+  },
+  "char-tobias-deeproot": {
+    "originalId": "char-nimloth-of-doriath",
+    "originalName": "Nimloth of Doriath"
+  },
+  "char-aethor-pinecrest": {
+    "originalId": "char-e-rwen",
+    "originalName": "Eärwen"
+  },
+  "char-sadoc-the-fair": {
+    "originalId": "char-lysanthir-catoraliin",
+    "originalName": "Lysanthir Catoraliin"
+  },
+  "char-willa-diggle": {
+    "originalId": "char-bregolas",
+    "originalName": "Bregolas"
+  },
+  "char-foscar-brightblade": {
+    "originalId": "char-mardil-voronw",
+    "originalName": "Mardil Voronwë"
+  },
+  "char-ursula-ironhand": {
+    "originalId": "char-celegorm",
+    "originalName": "Celegorm"
+  },
+  "char-thaldric-greendale": {
+    "originalId": "char-huan",
+    "originalName": "Huan"
+  },
+  "char-eldris-quicksilver": {
+    "originalId": "char-beleg",
+    "originalName": "Beleg"
+  },
+  "char-zephyrine-earthshaker": {
+    "originalId": "char-derufin",
+    "originalName": "Derufin"
+  },
+  "char-edmund-stormwind": {
+    "originalId": "char-isabella-castillo",
+    "originalName": "Isabella Castillo"
+  },
+  "char-wilcom": {
+    "originalId": "char-yalantrivian",
+    "originalName": "Yalantrivian"
+  },
+  "char-vaelorn-juniper": {
+    "originalId": "char-dori",
+    "originalName": "Dori"
+  },
+  "char-prydain-redcloak": {
+    "originalId": "char-voronw",
+    "originalName": "Voronwë"
+  },
+  "char-falcor-innkeeper": {
+    "originalId": "char-gl-owine",
+    "originalName": "Gléowine"
+  },
+  "char-durnok-the-elder": {
+    "originalId": "char-soronto",
+    "originalName": "Soronto"
+  },
+  "char-mira-earthshaker": {
+    "originalId": "char-th-oden",
+    "originalName": "Théoden"
+  },
+  "char-lysander-darkmantle": {
+    "originalId": "char-bior",
+    "originalName": "Bior"
+  },
+  "char-oriana": {
+    "originalId": "char-lady-siobhan-o-cahane",
+    "originalName": "Lady Siobhan O’Cahane"
+  },
+  "char-zaldric": {
+    "originalId": "char-oss",
+    "originalName": "Ossë"
+  },
+  "char-aldric-diggle": {
+    "originalId": "char-beregond-captain",
+    "originalName": "Beregond (Captain)"
+  },
+  "char-rothgar-the-strong": {
+    "originalId": "char-adric-flameryr",
+    "originalName": "Adric Flameryr"
+  },
+  "char-cecily-emberheart": {
+    "originalId": "char-thuringwethil",
+    "originalName": "Thuringwethil"
+  },
+  "char-karnak-brewer": {
+    "originalId": "char-finarfin",
+    "originalName": "Finarfin"
+  },
+  "char-minto-carpenter": {
+    "originalId": "char-inzilb-th",
+    "originalName": "Inzilbêth"
+  },
+  "char-tolman-quarrystone": {
+    "originalId": "char-ancalagon",
+    "originalName": "Ancalagon"
+  },
+  "char-lorvain": {
+    "originalId": "char-thorin-ii",
+    "originalName": "Thorin II"
+  },
+  "char-arveth-tanner": {
+    "originalId": "char-farmer-maggot",
+    "originalName": "Farmer Maggot"
+  },
+  "char-naeris": {
+    "originalId": "char-andreth",
+    "originalName": "Andreth"
+  },
+  "char-eldris-brightblade": {
+    "originalId": "char-beregond",
+    "originalName": "Beregond"
+  },
+  "char-loravel-leafwalker": {
+    "originalId": "char-king-of-hyria",
+    "originalName": "King of Hyria"
+  },
+  "char-galdor-stormwind": {
+    "originalId": "char-harding-rider-of-rohan",
+    "originalName": "Harding (rider of Rohan)"
+  },
+  "char-prydain-the-swift": {
+    "originalId": "char-mahtan",
+    "originalName": "Mahtan"
+  },
+  "char-ilyndra-starfall": {
+    "originalId": "char-meriadoc-brandybuck",
+    "originalName": "Meriadoc Brandybuck"
+  },
+  "char-isolde": {
+    "originalId": "char-gothmog-balrog",
+    "originalName": "Gothmog (Balrog)"
+  },
+  "char-eldris": {
+    "originalId": "char-serafene-coppersmith",
+    "originalName": "Serafene Coppersmith"
+  },
+  "char-morwen-zephyrwind": {
+    "originalId": "char-halbarad",
+    "originalName": "Halbarad"
+  },
+  "char-rothgar-the-younger": {
+    "originalId": "char-elatan",
+    "originalName": "Elatan"
+  },
+  "char-yorick-brookmere": {
+    "originalId": "char-haldad",
+    "originalName": "Haldad"
+  },
+  "char-zara-wavecrest": {
+    "originalId": "char-ingw",
+    "originalName": "Ingwë"
+  },
+  "char-zarek-the-red": {
+    "originalId": "char-erellont",
+    "originalName": "Erellont"
+  },
+  "char-vaelorn-the-strong": {
+    "originalId": "char-tiffany-of-islington",
+    "originalName": "Tiffany of Islington"
+  },
+  "char-arveth-keenblade": {
+    "originalId": "char-gundor",
+    "originalName": "Gundor"
+  },
+  "char-lirien-potter": {
+    "originalId": "char-bodruith",
+    "originalName": "Bodruith"
+  },
+  "char-yarvok-wainwright": {
+    "originalId": "char-rho-anvolc-ex-io",
+    "originalName": "Rho Anvolc ex-Io"
+  },
+  "char-faldren-the-golden": {
+    "originalId": "char-chief-of-the-guards-woodland-realm",
+    "originalName": "Chief of the guards (Woodland Realm)"
+  },
+  "char-longo-the-black": {
+    "originalId": "char-gerontius-took",
+    "originalName": "Gerontius Took"
+  },
+  "char-thaldric-valiant": {
+    "originalId": "char-bergil",
+    "originalName": "Bergil"
+  },
+  "char-isolde-wavecrest": {
+    "originalId": "char-scholar-amathien",
+    "originalName": "Scholar Amathien"
+  },
+  "char-boldrek-the-red": {
+    "originalId": "char-grandmother",
+    "originalName": "Grandmother"
+  },
+  "char-thea-moonshadow": {
+    "originalId": "char-finrod",
+    "originalName": "Finrod"
+  },
+  "char-valdric-knotwood": {
+    "originalId": "char-councilors-lake-town",
+    "originalName": "Councilors (Lake-town)"
+  },
+  "char-largo": {
+    "originalId": "char-salmar",
+    "originalName": "Salmar"
+  },
+  "char-severin-grubb": {
+    "originalId": "char-fuinur",
+    "originalName": "Fuinur"
+  },
+  "char-nolan-stonecroft": {
+    "originalId": "char-malton-threadbore",
+    "originalName": "Malton Threadbore"
+  },
+  "char-zaldric-stormbringer": {
+    "originalId": "char-cais",
+    "originalName": "Cais"
+  },
+  "char-lysander": {
+    "originalId": "char-finduilas",
+    "originalName": "Finduilas"
+  },
+  "char-perrin-stonecroft": {
+    "originalId": "char-egalmoth",
+    "originalName": "Egalmoth"
+  },
+  "char-prydain-goodbody": {
+    "originalId": "char-malach",
+    "originalName": "Malach"
+  },
+  "char-rhiannon-the-red": {
+    "originalId": "char-elwing",
+    "originalName": "Elwing"
+  },
+  "char-petra-elmsworth": {
+    "originalId": "char-m-m",
+    "originalName": "Mîm"
+  },
+  "char-hamfast-emberheart": {
+    "originalId": "char-zaelith",
+    "originalName": "Zaelith"
+  },
+  "char-drumlin-wainwright": {
+    "originalId": "char-beechbone",
+    "originalName": "Beechbone"
+  },
+  "char-zarek-miller": {
+    "originalId": "char-haldir-chieftain-of-the-haladin",
+    "originalName": "Haldir (Chieftain of the Haladin)"
+  },
+  "char-wilcom-shadowend": {
+    "originalId": "char-ori",
+    "originalName": "Ori"
+  },
+  "char-aerindel-diggle": {
+    "originalId": "char-callidora-kassem-cel-tradat",
+    "originalName": "Callidora Kassem cel Tradat"
+  },
+  "char-zephyrine": {
+    "originalId": "char-b-or",
+    "originalName": "Bëor"
+  },
+  "char-orvik-greymantle": {
+    "originalId": "char-beorn-son-of-heden",
+    "originalName": "Beorn (son of Heden)"
+  },
+  "char-junia-thornwood": {
+    "originalId": "char-korah",
+    "originalName": "Korah"
+  },
+  "char-galindor-the-old": {
+    "originalId": "char-anborn",
+    "originalName": "Anborn"
+  },
+  "char-minto": {
+    "originalId": "char-angbor",
+    "originalName": "Angbor"
+  },
+  "char-zara-whitehall": {
+    "originalId": "char-leofor-inarion",
+    "originalName": "Leofor Inarion"
+  },
+  "char-nolan-windmere": {
+    "originalId": "char-gimli",
+    "originalName": "Gimli"
+  },
+  "char-valdric-shepherd": {
+    "originalId": "char-mablung",
+    "originalName": "Mablung"
+  },
+  "char-thea-wainwright": {
+    "originalId": "char-zuleia-veresendi",
+    "originalName": "Zuleia Veresendi"
+  },
+  "char-elorien-stonecroft": {
+    "originalId": "char-valandil",
+    "originalName": "Valandil"
+  },
+  "char-roric-emberheart": {
+    "originalId": "char-finw",
+    "originalName": "Finwë"
+  },
+  "char-zephyrine-the-lesser": {
+    "originalId": "char-gh-n-buri-gh-n",
+    "originalName": "Ghân-buri-Ghân"
+  },
+  "char-varnok-ironbark": {
+    "originalId": "char-aranw",
+    "originalName": "Aranwë"
+  },
+  "char-xanthe-highcliff": {
+    "originalId": "char-rowlie-appledore",
+    "originalName": "Rowlie Appledore"
+  },
+  "char-ponto-tunnelly": {
+    "originalId": "char-gerard-reno",
+    "originalName": "Gerard Reno"
+  },
+  "char-thaldric-goldweaver": {
+    "originalId": "char-marcus-brightweave",
+    "originalName": "Marcus Brightweave"
+  },
+  "char-polo-fletcher": {
+    "originalId": "char-in",
+    "originalName": "Óin"
+  },
+  "char-helena-underhill": {
+    "originalId": "char-lady-eleanor-valorian",
+    "originalName": "Lady Eleanor Valorian"
+  },
+  "char-helvorn-shadowmend": {
+    "originalId": "char-annael",
+    "originalName": "Annael"
+  },
+  "char-vaelorn-the-silver": {
+    "originalId": "char-spots-of-silver",
+    "originalName": "Spots-of-Silver"
+  },
+  "char-dalvorn-flamecrest": {
+    "originalId": "char-amandil",
+    "originalName": "Amandil"
+  },
+  "char-mira-the-brave": {
+    "originalId": "char-grishn-kh",
+    "originalName": "Grishnákh"
+  },
+  "char-lorvain-burrows": {
+    "originalId": "char-calmacil",
+    "originalName": "Calmacil"
+  },
+  "char-corwin-greendale": {
+    "originalId": "char-uinen",
+    "originalName": "Uinen"
+  },
+  "char-helvorn-brookmere": {
+    "originalId": "char-emeldir",
+    "originalName": "Emeldir"
+  },
+  "char-roderick-the-great": {
+    "originalId": "char-sabrina-medujet",
+    "originalName": "Sabrina Medujet"
+  },
+  "char-durnok": {
+    "originalId": "char-gelmir-of-angrods-kin",
+    "originalName": "Gelmir (of Angrod's kin)"
+  },
+  "char-tobias-hayward": {
+    "originalId": "char-duinhir",
+    "originalName": "Duinhir"
+  },
+  "char-galdor-mugwort": {
+    "originalId": "char-sonder",
+    "originalName": "Sonder"
+  },
+  "char-willem-the-wise": {
+    "originalId": "char-e-rendur-of-n-menor",
+    "originalName": "Eärendur of Númenor"
+  },
+  "char-gareth-nightshade": {
+    "originalId": "char-fastred-rider-of-rohan",
+    "originalName": "Fastred (rider of Rohan)"
+  },
+  "char-zara": {
+    "originalId": "char-risenthal-valeator",
+    "originalName": "Risenthal Valeator"
+  },
+  "char-sadoc-thornwood": {
+    "originalId": "char-cideoulfus-mori",
+    "originalName": "Cideoulfus Mori"
+  },
+  "char-xander-the-great": {
+    "originalId": "char-t-rin",
+    "originalName": "Túrin"
+  },
+  "char-elvrik-the-grey": {
+    "originalId": "char-vair",
+    "originalName": "Vairë"
+  },
+  "char-quelvar-stormwind": {
+    "originalId": "char-bethos",
+    "originalName": "Bethos"
+  },
+  "char-lirien-shadowmend": {
+    "originalId": "char-erona-ghostwise",
+    "originalName": "Erona Ghostwise"
+  },
+  "char-bungar-lightfoot": {
+    "originalId": "char-g-rulf",
+    "originalName": "Gárulf"
+  },
+  "char-loravel-knotwood": {
+    "originalId": "char-imlach",
+    "originalName": "Imlach"
+  },
+  "char-vaelorn-leafwalker": {
+    "originalId": "char-lady-sophis-medjay",
+    "originalName": "Lady Sophis Medjay"
+  },
+  "char-aerindel-the-black": {
+    "originalId": "char-aegnor",
+    "originalName": "Aegnor"
+  },
+  "loc-boundlessburg": {
+    "originalId": "loc-and-ni",
+    "originalName": "Andúnië"
+  },
+  "loc-longshadow": {
+    "originalId": "loc-elder-yaras-aviary",
+    "originalName": "Elder Yara's Aviary"
+  },
+  "loc-thornwallwood": {
+    "originalId": "loc-coalition-waystation-solaar-desert",
+    "originalName": "Coalition Waystation (Solaar Desert)"
+  },
+  "loc-tower-of-grimstone": {
+    "originalId": "loc-maglors-gap",
+    "originalName": "Maglor's Gap"
+  },
+  "loc-pass-of-quartzhelm": {
+    "originalId": "loc-aldburg",
+    "originalName": "Aldburg"
+  },
+  "loc-orchardvale": {
+    "originalId": "loc-taniquetil",
+    "originalName": "Taniquetil"
+  },
+  "loc-bridge-of-flowervale": {
+    "originalId": "loc-withered-heath",
+    "originalName": "Withered Heath"
+  },
+  "loc-ironvale": {
+    "originalId": "loc-dwimorberg",
+    "originalName": "Dwimorberg"
+  },
+  "loc-city-of-silverdale": {
+    "originalId": "loc-pelargir",
+    "originalName": "Pelargir"
+  },
+  "loc-pass-of-portside": {
+    "originalId": "loc-senet-estate",
+    "originalName": "Senet Estate"
+  },
+  "loc-gulf-of-embervale": {
+    "originalId": "loc-house-medjay-estate",
+    "originalName": "House Medjay Estate"
+  },
+  "loc-castle-ironglen": {
+    "originalId": "loc-plateau-of-gorgoroth",
+    "originalName": "Plateau of Gorgoroth"
+  },
+  "loc-isle-of-lowland": {
+    "originalId": "loc-ephel-brandir",
+    "originalName": "Ephel Brandir"
+  },
+  "loc-city-of-ashpeak": {
+    "originalId": "loc-stoor-country",
+    "originalName": "Stoor-country"
+  },
+  "loc-ivywood": {
+    "originalId": "loc-linhir",
+    "originalName": "Linhir"
+  },
+  "loc-bay-of-vanguard": {
+    "originalId": "loc-desert-oasis-solaar-desert",
+    "originalName": "Desert Oasis (Solaar Desert)"
+  },
+  "loc-edgewood": {
+    "originalId": "loc-hyrian-royal-palace",
+    "originalName": "Hyrian Royal Palace"
+  },
+  "loc-larkhill": {
+    "originalId": "loc-celbaros",
+    "originalName": "Celbaros"
+  },
+  "loc-dreadkeepwick": {
+    "originalId": "loc-wulfhaus-province",
+    "originalName": "Wulfhaus Province"
+  },
+  "loc-gates-of-embervale": {
+    "originalId": "loc-lone-lands",
+    "originalName": "Lone-lands"
+  },
+  "loc-cape-edgewood": {
+    "originalId": "loc-guardian-district",
+    "originalName": "Guardian District"
+  },
+  "loc-gates-of-fellgard": {
+    "originalId": "loc-paladin-s-guild-headquarters",
+    "originalName": "Paladin’s Guild Headquarters"
+  },
+  "loc-keep-boundless": {
+    "originalId": "loc-vechi-cetate",
+    "originalName": "Vechi-Cetate"
+  },
+  "loc-ironforgethorpe": {
+    "originalId": "loc-blackbrook-manor",
+    "originalName": "Blackbrook Manor"
+  },
+  "loc-city-of-ebonwatch": {
+    "originalId": "loc-thornwood",
+    "originalName": "Thornwood"
+  },
+  "loc-falls-of-quartzfall": {
+    "originalId": "loc-contemplation-garden",
+    "originalName": "Contemplation Garden"
+  },
+  "loc-rubyvale": {
+    "originalId": "loc-crystal-amphitheatre",
+    "originalName": "Crystal Amphitheatre"
+  },
+  "loc-quartzhelm": {
+    "originalId": "loc-erastrix",
+    "originalName": "Erastrix"
+  },
+  "loc-evergreenwick": {
+    "originalId": "loc-belegost",
+    "originalName": "Belegost"
+  },
+  "loc-yonderglowwick": {
+    "originalId": "loc-kelusindi",
+    "originalName": "Kelusindi"
+  },
+  "loc-quartzfall": {
+    "originalId": "loc-temple-of-the-gold-dragon",
+    "originalName": "Temple of the Gold Dragon"
+  },
+  "loc-dreadkeepshaw": {
+    "originalId": "loc-fade-the-outer-planes",
+    "originalName": "Fade (The Outer Planes)"
+  },
+  "loc-ironforge": {
+    "originalId": "loc-rensaga",
+    "originalName": "Írensaga"
+  },
+  "loc-port-of-mistholme": {
+    "originalId": "loc-seen",
+    "originalName": "Seen"
+  },
+  "loc-bridge-of-edgewood": {
+    "originalId": "loc-highwind-city-guardhouse",
+    "originalName": "Highwind City Guardhouse"
+  },
+  "loc-ambervale": {
+    "originalId": "loc-pastures-of-yavanna",
+    "originalName": "Pastures of Yavanna"
+  },
+  "loc-isle-of-portside": {
+    "originalId": "loc-academy-grounds",
+    "originalName": "Academy Grounds"
+  },
+  "loc-castle-gloomhaven": {
+    "originalId": "loc-roarke-province",
+    "originalName": "Roarke Province"
+  },
+  "loc-flintvale": {
+    "originalId": "loc-high-cathedral-of-sol",
+    "originalName": "High Cathedral of Sol"
+  },
+  "loc-fellgardshaw": {
+    "originalId": "loc-temple-of-the-silver-dragon",
+    "originalName": "Temple of the Silver Dragon"
+  },
+  "loc-longshadowshaw": {
+    "originalId": "loc-neldoreth",
+    "originalName": "Neldoreth"
+  },
+  "loc-nickelton": {
+    "originalId": "loc-mindolluin",
+    "originalName": "Mindolluin"
+  },
+  "loc-tower-of-vanguard": {
+    "originalId": "loc-sacred-temples-of-the-dragons",
+    "originalName": "Sacred Temples of the Dragons"
+  },
+  "loc-underlake": {
+    "originalId": "loc-meneltarma",
+    "originalName": "Meneltarma"
+  },
+  "loc-lowlandwood": {
+    "originalId": "loc-sirith",
+    "originalName": "Sirith"
+  },
+  "loc-bay-of-jasperholm": {
+    "originalId": "loc-withywindle",
+    "originalName": "Withywindle"
+  },
+  "loc-portsidewood": {
+    "originalId": "loc-armenelos",
+    "originalName": "Armenelos"
+  },
+  "loc-highgatevale": {
+    "originalId": "loc-minhiriath",
+    "originalName": "Minhiriath"
+  },
+  "loc-castle-underlake": {
+    "originalId": "loc-nulukkizd-n",
+    "originalName": "Nulukkizdîn"
+  },
+  "loc-fort-onixheim": {
+    "originalId": "loc-mount-gundabad",
+    "originalName": "Mount Gundabad"
+  },
+  "loc-ancientdeep": {
+    "originalId": "loc-dr-waith-iaur",
+    "originalName": "Drúwaith Iaur"
+  },
+  "loc-mistholmemere": {
+    "originalId": "loc-solaar-desert",
+    "originalName": "Solaar Desert"
+  },
+  "loc-evergreen": {
+    "originalId": "loc-salt-mines-salismun",
+    "originalName": "Salt Mines (Salismun)"
+  },
+  "loc-sunhollowgarde": {
+    "originalId": "loc-ravaka",
+    "originalName": "Ravaka"
+  },
+  "loc-lowlandvale": {
+    "originalId": "loc-west-beleriand",
+    "originalName": "West Beleriand"
+  },
+  "loc-gulf-of-rosewood": {
+    "originalId": "loc-alqualond",
+    "originalName": "Alqualondë"
+  },
+  "loc-hollowreach": {
+    "originalId": "loc-fell-province",
+    "originalName": "Fell Province"
+  },
+  "loc-dustmoor": {
+    "originalId": "loc-galel-balenir",
+    "originalName": "Galel Balenir"
+  },
+  "loc-valley-of-nightveil": {
+    "originalId": "loc-primeval-enclave",
+    "originalName": "Primeval Enclave"
+  },
+  "loc-cape-underlake": {
+    "originalId": "loc-calembel",
+    "originalName": "Calembel"
+  },
+  "loc-oldtownwood": {
+    "originalId": "loc-grand-republic-of-highwind",
+    "originalName": "Grand Republic of Highwind"
+  },
+  "loc-deephollow": {
+    "originalId": "loc-city-of-brass",
+    "originalName": "City of Brass"
+  },
+  "loc-dreadkeep": {
+    "originalId": "loc-coldfells",
+    "originalName": "Coldfells"
+  },
+  "loc-fort-highgate": {
+    "originalId": "loc-glanduin",
+    "originalName": "Glanduin"
+  },
+  "loc-portside": {
+    "originalId": "loc-afros",
+    "originalName": "Afros"
+  },
+  "loc-pinnacle": {
+    "originalId": "loc-merchant-district",
+    "originalName": "Merchant District"
+  },
+  "loc-lake-ironglen": {
+    "originalId": "loc-adamantine-oath",
+    "originalName": "Adamantine Oath"
+  },
+  "loc-fort-fairhaven": {
+    "originalId": "loc-moria",
+    "originalName": "Moria"
+  },
+  "loc-forest-of-deephollow": {
+    "originalId": "loc-supernal-plane",
+    "originalName": "Supernal Plane"
+  },
+  "loc-keep-jewelstream": {
+    "originalId": "loc-clonogal-province",
+    "originalName": "Clonogal Province"
+  },
+  "loc-city-of-ironforge": {
+    "originalId": "loc-kal-rm",
+    "originalName": "Kalórmë"
+  },
+  "loc-castle-obsidian": {
+    "originalId": "loc-dagorlad",
+    "originalName": "Dagorlad"
+  },
+  "loc-redcliffham": {
+    "originalId": "loc-aranada-province",
+    "originalName": "Aranada Province"
+  },
+  "loc-pass-of-edgewood": {
+    "originalId": "loc-dimbar",
+    "originalName": "Dimbar"
+  },
+  "loc-greenhillshaw": {
+    "originalId": "loc-minas-morgul",
+    "originalName": "Minas Morgul"
+  },
+  "loc-pass-of-silverdale": {
+    "originalId": "loc-minas-anor",
+    "originalName": "Minas Anor"
+  },
+  "loc-isle-of-pearlhaven": {
+    "originalId": "loc-solaarus",
+    "originalName": "Solaarus"
+  },
+  "loc-moonrisedale": {
+    "originalId": "loc-magus",
+    "originalName": "Magus"
+  },
+  "loc-tower-of-crimsonhold": {
+    "originalId": "loc-forest-of-twilight",
+    "originalName": "Forest of Twilight"
+  },
+  "loc-thornwallburg": {
+    "originalId": "loc-palisor",
+    "originalName": "Palisor"
+  },
+  "loc-valley-of-coppercrest": {
+    "originalId": "loc-almaida",
+    "originalName": "Almaida"
+  },
+  "loc-river-pinnacle": {
+    "originalId": "loc-desolation-of-the-dragon",
+    "originalName": "Desolation of the Dragon"
+  },
+  "loc-forest-of-hollowreach": {
+    "originalId": "loc-highwind-city",
+    "originalName": "Highwind City"
+  },
+  "loc-river-cryptvale": {
+    "originalId": "loc-orod-na-th-n",
+    "originalName": "Orod-na-Thôn"
+  },
+  "loc-gulf-of-ravenshade": {
+    "originalId": "loc-hoopalela",
+    "originalName": "Ho'opalela"
+  },
+  "loc-mount-gloomhaven": {
+    "originalId": "loc-healer-district",
+    "originalName": "Healer District"
+  },
+  "loc-port-of-crimsonhold": {
+    "originalId": "loc-tharbad",
+    "originalName": "Tharbad"
+  },
+  "loc-ironforgedale": {
+    "originalId": "loc-brightweave-manor",
+    "originalName": "Brightweave Manor"
+  },
+  "loc-gates-of-jadecrest": {
+    "originalId": "loc-taruithorn",
+    "originalName": "Taruithorn"
+  },
+  "loc-onixheim": {
+    "originalId": "loc-amtreador",
+    "originalName": "Amtreador"
+  },
+  "loc-plains-of-pebblebrook": {
+    "originalId": "loc-mordor",
+    "originalName": "Mordor"
+  },
+  "loc-kindlewood": {
+    "originalId": "loc-r-menna",
+    "originalName": "Rómenna"
+  },
+  "loc-jasperholmheim": {
+    "originalId": "loc-calenhir",
+    "originalName": "Calenhir"
+  },
+  "loc-port-of-embervale": {
+    "originalId": "loc-araman",
+    "originalName": "Araman"
+  },
+  "loc-mount-ancientdeep": {
+    "originalId": "loc-house-medjay-offices",
+    "originalName": "House Medjay Offices"
+  },
+  "loc-larkhillburg": {
+    "originalId": "loc-valorian-keep",
+    "originalName": "Valorian Keep"
+  },
+  "loc-quietwater": {
+    "originalId": "loc-dor-na-daerachas",
+    "originalName": "Dor-na-Daerachas"
+  },
+  "loc-gates-of-obsidian": {
+    "originalId": "loc-arcane-bazaar",
+    "originalName": "Arcane Bazaar"
+  },
+  "loc-castle-heatherfield": {
+    "originalId": "loc-east-bight",
+    "originalName": "East Bight"
+  },
+  "loc-pass-of-onixheim": {
+    "originalId": "loc-emyn-muil",
+    "originalName": "Emyn Muil"
+  },
+  "loc-bay-of-goldleaf": {
+    "originalId": "loc-brithombar",
+    "originalName": "Brithombar"
+  },
+  "loc-bridge-of-limestone": {
+    "originalId": "loc-cuivi-nen",
+    "originalName": "Cuiviénen"
+  },
+  "loc-lowlandshaw": {
+    "originalId": "loc-sindan-ri",
+    "originalName": "Sindanórië"
+  },
+  "loc-thornwall": {
+    "originalId": "loc-harnen",
+    "originalName": "Harnen"
+  },
+  "loc-thornburyburg": {
+    "originalId": "loc-last-desert",
+    "originalName": "Last Desert"
+  },
+  "loc-oldtownhaven": {
+    "originalId": "loc-barrow-downs",
+    "originalName": "Barrow-downs"
+  },
+  "loc-lake-onixheim": {
+    "originalId": "loc-elemental-plane-of-fire",
+    "originalName": "Elemental Plane of Fire"
+  },
+  "loc-river-nickelton": {
+    "originalId": "loc-tiered-markets",
+    "originalName": "Tiered Markets"
+  },
+  "loc-fellgard": {
+    "originalId": "loc-adara",
+    "originalName": "Adara"
+  },
+  "loc-evergreenham": {
+    "originalId": "loc-brethil",
+    "originalName": "Brethil"
+  },
+  "loc-granitekeep": {
+    "originalId": "loc-laborer-district",
+    "originalName": "Laborer District"
+  },
+  "loc-fellgardwick": {
+    "originalId": "loc-goblin-town",
+    "originalName": "Goblin-town"
+  },
+  "loc-rosewood": {
+    "originalId": "loc-kanalei",
+    "originalName": "Kanalei"
+  },
+  "loc-isle-of-gloomhaven": {
+    "originalId": "loc-material-plane",
+    "originalName": "Material Plane"
+  },
+  "loc-newburywood": {
+    "originalId": "loc-shattered-aerium",
+    "originalName": "Shattered Aerium"
+  },
+  "loc-river-longshadow": {
+    "originalId": "loc-steward-district",
+    "originalName": "Steward District"
+  },
+  "loc-knightfall": {
+    "originalId": "loc-forlond",
+    "originalName": "Forlond"
+  },
+  "loc-newburyheim": {
+    "originalId": "loc-dor-gyrth-i-chuinar",
+    "originalName": "Dor Gyrth i chuinar"
+  },
+  "loc-stormhaven": {
+    "originalId": "loc-great-temple-of-dragons",
+    "originalName": "Great Temple of Dragons"
+  },
+  "loc-frostbournewood": {
+    "originalId": "loc-islington-estate",
+    "originalName": "Islington Estate"
+  },
+  "loc-fort-ashpeak": {
+    "originalId": "loc-harlindon",
+    "originalName": "Harlindon"
+  },
+  "loc-gates-of-dustmoor": {
+    "originalId": "loc-forodwaith",
+    "originalName": "Forodwaith"
+  },
+  "loc-portsidegarde": {
+    "originalId": "loc-rivendell",
+    "originalName": "Rivendell"
+  },
+  "loc-bridge-of-crimsonhold": {
+    "originalId": "loc-cultivators-district",
+    "originalName": "Cultivators District"
+  },
+  "loc-city-of-lowland": {
+    "originalId": "loc-ossiriand",
+    "originalName": "Ossiriand"
+  },
+  "loc-greenhill": {
+    "originalId": "loc-tezikara-jungles",
+    "originalName": "Tezikara Jungles"
+  },
+  "loc-dawnmeadowham": {
+    "originalId": "loc-eregion",
+    "originalName": "Eregion"
+  },
+  "loc-newbury": {
+    "originalId": "loc-bucklebury",
+    "originalName": "Bucklebury"
+  },
+  "loc-marblekeep": {
+    "originalId": "loc-kortirion",
+    "originalName": "Kortirion"
+  },
+  "loc-clearbrookgarde": {
+    "originalId": "loc-capital-province",
+    "originalName": "Capital Province"
+  },
+  "loc-boundlesscombe": {
+    "originalId": "loc-house-sennet-residence",
+    "originalName": "House Sennet Residence"
+  },
+  "loc-haunthollowton": {
+    "originalId": "loc-forest-river",
+    "originalName": "Forest River"
+  },
+  "loc-point-crimsonhold": {
+    "originalId": "loc-mount-dolmed",
+    "originalName": "Mount Dolmed"
+  },
+  "loc-isle-of-dreadkeep": {
+    "originalId": "loc-avall-n",
+    "originalName": "Avallónë"
+  },
+  "loc-harbor-of-milltown": {
+    "originalId": "loc-akhetis-lux",
+    "originalName": "Akhetis-Lux"
+  },
+  "loc-ravenshadeglen": {
+    "originalId": "loc-the-shire",
+    "originalName": "The Shire"
+  },
+  "loc-castle-ashpeak": {
+    "originalId": "loc-d-ins-hall",
+    "originalName": "Dáin's hall"
+  },
+  "loc-fort-cryptvale": {
+    "originalId": "loc-estolad",
+    "originalName": "Estolad"
+  },
+  "loc-hall-of-quartzfall": {
+    "originalId": "loc-artisan-district",
+    "originalName": "Artisan District"
+  },
+  "loc-hall-of-longshadow": {
+    "originalId": "loc-gondolin",
+    "originalName": "Gondolin"
+  },
+  "loc-hall-of-fellgard": {
+    "originalId": "loc-crickhollow",
+    "originalName": "Crickhollow"
+  },
+  "loc-ironforgegarde": {
+    "originalId": "loc-black-spire",
+    "originalName": "Black Spire"
+  },
+  "loc-bridge-of-fairhaven": {
+    "originalId": "loc-entertainer-district",
+    "originalName": "Entertainer District"
+  },
+  "loc-ebonwatchfell": {
+    "originalId": "loc-methedras",
+    "originalName": "Methedras"
+  },
+  "loc-heatherfieldcombe": {
+    "originalId": "loc-newbury",
+    "originalName": "Newbury"
+  },
+  "loc-redcliffmere": {
+    "originalId": "loc-haysend",
+    "originalName": "Haysend"
+  },
+  "loc-gulf-of-lowland": {
+    "originalId": "loc-nevrast",
+    "originalName": "Nevrast"
+  },
+  "loc-gulf-of-limestone": {
+    "originalId": "loc-nindamos",
+    "originalName": "Nindamos"
+  },
+  "loc-coppercrestmere": {
+    "originalId": "loc-r-m",
+    "originalName": "Rûm"
+  },
+  "loc-longshadowheim": {
+    "originalId": "loc-zafiras-greenhouse",
+    "originalName": "Zafira's Greenhouse"
+  },
+  "loc-city-of-embervale": {
+    "originalId": "loc-elvenkings-halls",
+    "originalName": "Elvenking's Halls"
+  },
+  "loc-heatherfield": {
+    "originalId": "loc-rhovanion",
+    "originalName": "Rhovanion"
+  },
+  "loc-gates-of-edgewood": {
+    "originalId": "loc-spiral-stone-grove",
+    "originalName": "Spiral Stone Grove"
+  },
+  "loc-onixheimwick": {
+    "originalId": "loc-narrows-of-the-forest",
+    "originalName": "Narrows of the Forest"
+  },
+  "loc-boundlessthorpe": {
+    "originalId": "loc-osgiliath",
+    "originalName": "Osgiliath"
+  },
+  "loc-quietwaterglen": {
+    "originalId": "loc-havens-of-the-falas",
+    "originalName": "Havens of the Falas"
+  },
+  "loc-haunthollowgarde": {
+    "originalId": "loc-ettendales",
+    "originalName": "Ettendales"
+  },
+  "loc-milltownfell": {
+    "originalId": "loc-azraian-research-facility",
+    "originalName": "Azraian Research Facility"
+  },
+  "loc-lake-jewelstream": {
+    "originalId": "loc-ondosto",
+    "originalName": "Ondosto"
+  },
+  "loc-greenhillhold": {
+    "originalId": "loc-the-time-pools",
+    "originalName": "The Time Pools"
+  },
+  "loc-pearlhaven": {
+    "originalId": "loc-combe",
+    "originalName": "Combe"
+  },
+  "loc-tower-of-coldwater": {
+    "originalId": "loc-river-gliding",
+    "originalName": "River Gliding"
+  },
+  "loc-quartzhelmburg": {
+    "originalId": "loc-celos",
+    "originalName": "Celos"
+  },
+  "loc-bay-of-quartzfall": {
+    "originalId": "loc-four-corners",
+    "originalName": "Four Corners"
+  },
+  "loc-portsideheim": {
+    "originalId": "loc-starkhorn",
+    "originalName": "Starkhorn"
+  },
+  "loc-thornburywick": {
+    "originalId": "loc-speaker-s-glen",
+    "originalName": "Speaker’s Glen"
+  },
+  "loc-city-of-newbury": {
+    "originalId": "loc-alalvin-r",
+    "originalName": "Alalvinórë"
+  },
+  "loc-quartzfallwick": {
+    "originalId": "loc-brown-lands",
+    "originalName": "Brown Lands"
+  },
+  "loc-limestone": {
+    "originalId": "loc-sirannon",
+    "originalName": "Sirannon"
+  },
+  "loc-falls-of-greenhill": {
+    "originalId": "loc-galel-anastrael",
+    "originalName": "Galel Anastrael"
+  },
+  "loc-jewelstream": {
+    "originalId": "loc-elemental-planes",
+    "originalName": "Elemental Planes"
+  },
+  "loc-nightveil": {
+    "originalId": "loc-losgar",
+    "originalName": "Losgar"
+  },
+  "loc-silverdale": {
+    "originalId": "loc-hither-lands",
+    "originalName": "Hither Lands"
+  },
+  "loc-moonrisethorpe": {
+    "originalId": "loc-judicator-district",
+    "originalName": "Judicator District"
+  },
+  "loc-castle-coldwater": {
+    "originalId": "loc-zhezven",
+    "originalName": "Zhezven"
+  },
+  "loc-hall-of-thornbury": {
+    "originalId": "loc-hyarmentir",
+    "originalName": "Hyarmentir"
+  },
+  "loc-boundless": {
+    "originalId": "loc-reunited-kingdom",
+    "originalName": "Reunited Kingdom"
+  },
+  "loc-fort-wintermere": {
+    "originalId": "loc-raknagal",
+    "originalName": "Raknagal"
+  },
+  "loc-northwind": {
+    "originalId": "loc-kafaruq",
+    "originalName": "Kafaruq"
+  },
+  "loc-keep-onixheim": {
+    "originalId": "loc-lindon",
+    "originalName": "Lindon"
+  },
+  "loc-forest-of-blackspire": {
+    "originalId": "loc-sunoa",
+    "originalName": "Sunoa"
+  },
+  "loc-castle-marblekeep": {
+    "originalId": "loc-threadbore-cabin",
+    "originalName": "Threadbore Cabin"
+  },
+  "loc-ironglenwood": {
+    "originalId": "loc-dragons-den",
+    "originalName": "Dragon's Den"
+  },
+  "loc-jewelstreamdale": {
+    "originalId": "loc-goldman-manor",
+    "originalName": "Goldman Manor"
+  },
+  "loc-quietwaterton": {
+    "originalId": "loc-nogrod",
+    "originalName": "Nogrod"
+  },
+  "loc-river-ironglen": {
+    "originalId": "loc-lonely-mountain",
+    "originalName": "Lonely Mountain"
+  },
+  "loc-river-ironforge": {
+    "originalId": "loc-ann-minas",
+    "originalName": "Annúminas"
+  },
+  "loc-greenhillford": {
+    "originalId": "loc-stongard",
+    "originalName": "Stongard"
+  },
+  "loc-ironforgehaven": {
+    "originalId": "loc-falas",
+    "originalName": "Falas"
+  },
+  "loc-plains-of-dragonrest": {
+    "originalId": "loc-lune",
+    "originalName": "Lune"
+  },
+  "loc-falls-of-knightfall": {
+    "originalId": "loc-shadowlands",
+    "originalName": "Shadowlands"
+  },
+  "loc-ashpeak": {
+    "originalId": "loc-kingdom-under-the-mountain",
+    "originalName": "Kingdom under the Mountain"
+  },
+  "loc-hall-of-ambervale": {
+    "originalId": "loc-march-of-maedhros",
+    "originalName": "March of Maedhros"
+  },
+  "loc-dragonrest": {
+    "originalId": "loc-spiral-s-end",
+    "originalName": "Spiral’s End"
+  },
+  "loc-heatherfieldshaw": {
+    "originalId": "loc-realms-of-arda",
+    "originalName": "Realms of Arda"
+  },
+  "loc-lake-ivywood": {
+    "originalId": "loc-harad",
+    "originalName": "Harad"
+  },
+  "loc-bridge-of-lowland": {
+    "originalId": "loc-thargelion",
+    "originalName": "Thargelion"
+  },
+  "loc-lowland": {
+    "originalId": "loc-beleriand",
+    "originalName": "Beleriand"
+  },
+  "loc-lake-knightfall": {
+    "originalId": "loc-deep-mycelium",
+    "originalName": "Deep Mycelium"
+  },
+  "loc-lake-quietwater": {
+    "originalId": "loc-avathar",
+    "originalName": "Avathar"
+  },
+  "loc-port-of-ironvale": {
+    "originalId": "loc-glimmerstorms",
+    "originalName": "Glimmerstorms"
+  },
+  "loc-obsidian": {
+    "originalId": "loc-lux-city-streets",
+    "originalName": "Lux City Streets"
+  },
+  "loc-haunthollowburg": {
+    "originalId": "loc-northerland",
+    "originalName": "Northerland"
+  },
+  "loc-harbor-of-truespring": {
+    "originalId": "loc-tree-of-stars",
+    "originalName": "Tree of Stars"
+  },
+  "loc-hall-of-blackspire": {
+    "originalId": "loc-tirion",
+    "originalName": "Tirion"
+  },
+  "loc-nightveilhaven": {
+    "originalId": "loc-ninwi",
+    "originalName": "Ninwi"
+  },
+  "loc-fairhaven": {
+    "originalId": "loc-minas-ithil",
+    "originalName": "Minas Ithil"
+  },
+  "loc-obsidianvale": {
+    "originalId": "loc-nargothrond",
+    "originalName": "Nargothrond"
+  },
+  "loc-hall-of-hollowreach": {
+    "originalId": "loc-ir-le-lann-province",
+    "originalName": "Ir Le Lann Province"
+  },
+  "loc-milltownwood": {
+    "originalId": "loc-staddle",
+    "originalName": "Staddle"
+  },
+  "loc-port-of-granitekeep": {
+    "originalId": "loc-blackened-fields",
+    "originalName": "Blackened Fields"
+  },
+  "loc-quartzfallgarde": {
+    "originalId": "loc-lothlann",
+    "originalName": "Lothlann"
+  },
+  "loc-hazelvale": {
+    "originalId": "loc-east-beleriand",
+    "originalName": "East Beleriand"
+  },
+  "loc-granitekeepcombe": {
+    "originalId": "loc-havens-of-c-rdan",
+    "originalName": "Havens of Círdan"
+  },
+  "loc-plains-of-rubyvale": {
+    "originalId": "loc-scholar-district",
+    "originalName": "Scholar District"
+  },
+  "loc-newburycombe": {
+    "originalId": "loc-opal-market",
+    "originalName": "Opal Market"
+  },
+  "loc-bridge-of-ravenshade": {
+    "originalId": "loc-halima",
+    "originalName": "Halima"
+  },
+  "loc-forest-of-marblekeep": {
+    "originalId": "loc-mithrim",
+    "originalName": "Mithrim"
+  },
+  "loc-city-of-evergreen": {
+    "originalId": "loc-shrine-of-the-triad",
+    "originalName": "Shrine of the Triad"
+  },
+  "loc-pass-of-ravenshade": {
+    "originalId": "loc-icemeet-province",
+    "originalName": "Icemeet Province"
+  },
+  "loc-thornwallcombe": {
+    "originalId": "loc-rainbow-bridge",
+    "originalName": "Rainbow Bridge"
+  },
+  "loc-ashpeakmere": {
+    "originalId": "loc-arvernien",
+    "originalName": "Arvernien"
+  },
+  "loc-pass-of-stormhaven": {
+    "originalId": "loc-carnen",
+    "originalName": "Carnen"
+  },
+  "loc-boundlessgarde": {
+    "originalId": "loc-gwathl",
+    "originalName": "Gwathló"
+  },
+  "loc-moonrise": {
+    "originalId": "loc-lammoth",
+    "originalName": "Lammoth"
+  },
+  "loc-ravenshade": {
+    "originalId": "loc-elemental-plane-of-water",
+    "originalName": "Elemental Plane of Water"
+  },
+  "loc-lowlandgarde": {
+    "originalId": "loc-mount-gram",
+    "originalName": "Mount Gram"
+  },
+  "loc-milltown": {
+    "originalId": "loc-poros",
+    "originalName": "Poros"
+  },
+  "loc-eternumvale": {
+    "originalId": "loc-framsburg",
+    "originalName": "Framsburg"
+  },
+  "loc-deephollowglen": {
+    "originalId": "loc-shekhan-shatterstone",
+    "originalName": "Shekhan (Shatterstone)"
+  },
+  "loc-castle-nickelton": {
+    "originalId": "loc-kumari-province",
+    "originalName": "Kumari Province"
+  },
+  "loc-cape-dustmoor": {
+    "originalId": "loc-amon-darthir",
+    "originalName": "Amon Darthir"
+  },
+  "loc-sunhollowwick": {
+    "originalId": "loc-edhellond",
+    "originalName": "Edhellond"
+  },
+  "loc-pebblebrookglen": {
+    "originalId": "loc-nan-tathren",
+    "originalName": "Nan-tathren"
+  },
+  "loc-tower-of-ambervale": {
+    "originalId": "loc-unseen",
+    "originalName": "Unseen"
+  },
+  "loc-plains-of-heatherfield": {
+    "originalId": "loc-dale",
+    "originalName": "Dale"
+  },
+  "loc-mount-briarwood": {
+    "originalId": "loc-halfling-shires",
+    "originalName": "Halfling Shires"
+  },
+  "loc-wintermereglen": {
+    "originalId": "loc-hild-rien",
+    "originalName": "Hildórien"
+  },
+  "loc-dustmoorthorpe": {
+    "originalId": "loc-estirin",
+    "originalName": "Estirin"
+  },
+  "loc-lake-granitekeep": {
+    "originalId": "loc-mouths-of-sirion",
+    "originalName": "Mouths of Sirion"
+  },
+  "loc-hall-of-nightveil": {
+    "originalId": "loc-byldrin",
+    "originalName": "Byldrin"
+  },
+  "loc-bridge-of-fellgard": {
+    "originalId": "loc-eldamar",
+    "originalName": "Eldamar"
+  },
+  "loc-haunthollowham": {
+    "originalId": "loc-morgai",
+    "originalName": "Morgai"
+  },
+  "loc-cape-flowervale": {
+    "originalId": "loc-bruinen",
+    "originalName": "Bruinen"
+  },
+  "loc-falls-of-orchardvale": {
+    "originalId": "loc-himlad",
+    "originalName": "Himlad"
+  },
+  "loc-portsidedale": {
+    "originalId": "loc-long-marshes",
+    "originalName": "Long Marshes"
+  },
+  "loc-bay-of-briarwood": {
+    "originalId": "loc-isengard",
+    "originalName": "Isengard"
+  },
+  "loc-quartzhelmglen": {
+    "originalId": "loc-n-rn",
+    "originalName": "Núrn"
+  },
+  "loc-point-blackspire": {
+    "originalId": "loc-morgulduin",
+    "originalName": "Morgulduin"
+  },
+  "loc-highgate": {
+    "originalId": "loc-crissaegrim",
+    "originalName": "Crissaegrim"
+  },
+  "loc-wintermereshaw": {
+    "originalId": "loc-dor-l-min",
+    "originalName": "Dor-lómin"
+  },
+  "loc-jadecrestgarde": {
+    "originalId": "loc-harlond-gondor",
+    "originalName": "Harlond (Gondor)"
+  },
+  "loc-pass-of-redcliff": {
+    "originalId": "loc-sunkisti-islands",
+    "originalName": "Sunkisti Islands"
+  },
+  "loc-eternum": {
+    "originalId": "loc-i-pon-rir",
+    "originalName": "I·Ponōrir"
+  },
+  "loc-city-of-ivywood": {
+    "originalId": "loc-ard-galen",
+    "originalName": "Ard-galen"
+  },
+  "loc-harbor-of-ebonwatch": {
+    "originalId": "loc-enedwaith",
+    "originalName": "Enedwaith"
+  },
+  "loc-castle-moonrise": {
+    "originalId": "loc-savo-province",
+    "originalName": "Savo Province"
+  },
+  "loc-castle-pinnacle": {
+    "originalId": "loc-almaren",
+    "originalName": "Almaren"
+  },
+  "loc-jewelstreamwood": {
+    "originalId": "loc-lunari",
+    "originalName": "Lunari"
+  },
+  "loc-jadecrestwood": {
+    "originalId": "loc-valle-de-esper",
+    "originalName": "Valle de Esper"
+  },
+  "loc-wintermeregarde": {
+    "originalId": "loc-gondor",
+    "originalName": "Gondor"
+  },
+  "loc-keep-lowland": {
+    "originalId": "loc-river-running",
+    "originalName": "River Running"
+  },
+  "loc-pinnacleburg": {
+    "originalId": "loc-undying-lands",
+    "originalName": "Undying Lands"
+  },
+  "loc-plains-of-limestone": {
+    "originalId": "loc-reaper-containment-vault",
+    "originalName": "Reaper Containment Vault"
+  },
+  "loc-city-of-highgate": {
+    "originalId": "loc-giant-kingdoms",
+    "originalName": "Giant Kingdoms"
+  },
+  "loc-quartzfallheim": {
+    "originalId": "loc-jaakoti",
+    "originalName": "Jaakoti"
+  },
+  "loc-nickeltonford": {
+    "originalId": "loc-helcarax",
+    "originalName": "Helcaraxë"
+  },
+  "loc-crimsonhold": {
+    "originalId": "loc-caradhras",
+    "originalName": "Caradhras"
+  },
+  "loc-coppercrestgarde": {
+    "originalId": "loc-forochel",
+    "originalName": "Forochel"
+  },
+  "loc-harbor-of-gloomhaven": {
+    "originalId": "loc-ilburne",
+    "originalName": "Ilburne"
+  },
+  "loc-marblekeepham": {
+    "originalId": "loc-amperon-ohmeron",
+    "originalName": "Amperon/Ohmeron"
+  },
+  "loc-city-of-clearbrook": {
+    "originalId": "loc-izzix",
+    "originalName": "Izzix"
+  },
+  "loc-city-of-bronzegate": {
+    "originalId": "loc-menegroth",
+    "originalName": "Menegroth"
+  },
+  "loc-gulf-of-obsidian": {
+    "originalId": "loc-eglarest",
+    "originalName": "Eglarest"
+  },
+  "loc-briarwood": {
+    "originalId": "loc-tyrre",
+    "originalName": "Tyrre"
+  },
+  "loc-hall-of-evergreen": {
+    "originalId": "loc-dorthonion",
+    "originalName": "Dorthonion"
+  },
+  "loc-lowlandthorpe": {
+    "originalId": "loc-herbalism-nursery",
+    "originalName": "Herbalism Nursery"
+  },
+  "loc-ashpeakheim": {
+    "originalId": "loc-fungal-heart-entrance",
+    "originalName": "Fungal Heart Entrance"
+  },
+  "loc-city-of-quartzhelm": {
+    "originalId": "loc-archet",
+    "originalName": "Archet"
+  },
+  "loc-limestoneglen": {
+    "originalId": "loc-temple-of-the-lead-dragon",
+    "originalName": "Temple of the Lead Dragon"
+  },
+  "loc-truespring": {
+    "originalId": "loc-temple-of-the-tin-dragon",
+    "originalName": "Temple of the Tin Dragon"
+  },
+  "loc-lake-obsidian": {
+    "originalId": "loc-temple-of-the-mercury-dragon",
+    "originalName": "Temple of the Mercury Dragon"
+  },
+  "loc-river-moonrise": {
+    "originalId": "loc-plain-of-valinor",
+    "originalName": "Plain of Valinor"
+  },
+  "loc-gates-of-larkhill": {
+    "originalId": "loc-obel-halad",
+    "originalName": "Obel Halad"
+  },
+  "loc-quartzhelmhaven": {
+    "originalId": "loc-dead-marshes",
+    "originalName": "Dead Marshes"
+  },
+  "loc-hall-of-wintermere": {
+    "originalId": "loc-ashariels-mind-palace",
+    "originalName": "Ashariel's Mind Palace"
+  },
+  "loc-port-of-haunthollow": {
+    "originalId": "loc-gruir",
+    "originalName": "Gruir"
+  },
+  "loc-bridge-of-pinnacle": {
+    "originalId": "loc-rapids-of-sarn-gebir",
+    "originalName": "Rapids of Sarn Gebir"
+  },
+  "loc-mistholmeshaw": {
+    "originalId": "loc-violl-province",
+    "originalName": "Violl Province"
+  },
+  "loc-yonderglowvale": {
+    "originalId": "loc-c-r-abhainn",
+    "originalName": "Cár Abhainn"
+  },
+  "loc-castle-ironvale": {
+    "originalId": "loc-tavrobel",
+    "originalName": "Tavrobel"
+  },
+  "loc-bridge-of-larkhill": {
+    "originalId": "loc-bree-land",
+    "originalName": "Bree-land"
+  },
+  "loc-city-of-thornbury": {
+    "originalId": "loc-thangorodrim",
+    "originalName": "Thangorodrim"
+  },
+  "loc-bay-of-redcliff": {
+    "originalId": "loc-r-s",
+    "originalName": "Rôs"
+  },
+  "loc-vanguardton": {
+    "originalId": "loc-standelf",
+    "originalName": "Standelf"
+  },
+  "loc-point-ironvale": {
+    "originalId": "loc-trollshaws",
+    "originalName": "Trollshaws"
+  },
+  "loc-coppercrestdale": {
+    "originalId": "loc-truseau-province",
+    "originalName": "Truseau Province"
+  },
+  "loc-dustmoorshaw": {
+    "originalId": "loc-void",
+    "originalName": "Void"
+  },
+  "loc-bronzegate": {
+    "originalId": "loc-greens",
+    "originalName": "Greens"
+  },
+  "loc-fort-gloomhaven": {
+    "originalId": "loc-desert-of-lostladen",
+    "originalName": "Desert of Lostladen"
+  },
+  "loc-bridge-of-nickelton": {
+    "originalId": "loc-waste",
+    "originalName": "Waste"
+  },
+  "loc-ironglen": {
+    "originalId": "loc-khand",
+    "originalName": "Khand"
+  },
+  "loc-ebonwatchthorpe": {
+    "originalId": "loc-caras-galadhon",
+    "originalName": "Caras Galadhon"
+  },
+  "loc-ebonwatch": {
+    "originalId": "loc-fire-sultans-palace",
+    "originalName": "Fire Sultan's Palace"
+  },
+  "loc-nickeltonhaven": {
+    "originalId": "loc-whisperwind-bay",
+    "originalName": "Whisperwind Bay"
+  },
+  "loc-dreadkeepdale": {
+    "originalId": "loc-fanuidhol",
+    "originalName": "Fanuidhol"
+  },
+  "loc-river-deephollow": {
+    "originalId": "loc-forlindon",
+    "originalName": "Forlindon"
+  },
+  "loc-hall-of-jadecrest": {
+    "originalId": "loc-grey-havens",
+    "originalName": "Grey Havens"
+  },
+  "loc-truespringmere": {
+    "originalId": "loc-erui",
+    "originalName": "Erui"
+  },
+  "loc-dawnmeadowshaw": {
+    "originalId": "loc-diamond-market",
+    "originalName": "Diamond Market"
+  },
+  "loc-knightfallstead": {
+    "originalId": "loc-canton-of-flowers",
+    "originalName": "Canton of Flowers"
+  },
+  "loc-mount-marblekeep": {
+    "originalId": "loc-space-between-the-stars",
+    "originalName": "Space between the Stars"
+  },
+  "loc-plains-of-eternum": {
+    "originalId": "loc-mount-doom",
+    "originalName": "Mount Doom"
+  },
+  "loc-ebonwatchhold": {
+    "originalId": "loc-warped-labyrinth",
+    "originalName": "Warped Labyrinth"
+  },
+  "loc-falls-of-heatherfield": {
+    "originalId": "loc-westfold",
+    "originalName": "Westfold"
+  },
+  "loc-keep-embervale": {
+    "originalId": "loc-mbair-annui",
+    "originalName": "Mbair Annui"
+  },
+  "loc-oldtown": {
+    "originalId": "loc-mount-rerir",
+    "originalName": "Mount Rerir"
+  },
+  "loc-falls-of-cryptvale": {
+    "originalId": "loc-edoras",
+    "originalName": "Edoras"
+  },
+  "loc-ebonwatchhaven": {
+    "originalId": "loc-agar",
+    "originalName": "Agar"
+  },
+  "loc-mount-knightfall": {
+    "originalId": "loc-carn-d-m",
+    "originalName": "Carn Dûm"
+  },
+  "loc-port-of-wintermere": {
+    "originalId": "loc-hoarwell",
+    "originalName": "Hoarwell"
+  },
+  "loc-bay-of-longshadow": {
+    "originalId": "loc-forgotten-villages",
+    "originalName": "Forgotten Villages"
+  },
+  "loc-moonrisehaven": {
+    "originalId": "loc-judicator-prefects-office",
+    "originalName": "Judicator Prefect's Office"
+  },
+  "loc-castle-blackspire": {
+    "originalId": "loc-lake-town",
+    "originalName": "Lake-town"
+  },
+  "loc-bridge-of-gloomhaven": {
+    "originalId": "loc-brandywine-river",
+    "originalName": "Brandywine River"
+  },
+  "loc-mistholmeheim": {
+    "originalId": "loc-fangorn-forest",
+    "originalName": "Fangorn Forest"
+  },
+  "loc-vanguardcombe": {
+    "originalId": "loc-san-vittorio",
+    "originalName": "San Vittorio"
+  },
+  "loc-thornwallhaven": {
+    "originalId": "loc-southshire",
+    "originalName": "Southshire"
+  },
+  "loc-castle-eternum": {
+    "originalId": "loc-kirklen",
+    "originalName": "Kirklen"
+  },
+  "loc-wintermerevale": {
+    "originalId": "loc-mount-taras",
+    "originalName": "Mount Taras"
+  },
+  "loc-clearbrookburg": {
+    "originalId": "loc-castle-rendakul",
+    "originalName": "Castle Rendakul"
+  },
+  "loc-truespringhaven": {
+    "originalId": "loc-ettenmoors",
+    "originalName": "Ettenmoors"
+  },
+  "loc-cape-lowland": {
+    "originalId": "loc-harlond-lindon",
+    "originalName": "Harlond (Lindon)"
+  },
+  "loc-castle-bronzegate": {
+    "originalId": "loc-dor-d-nen",
+    "originalName": "Dor Dínen"
+  },
+  "loc-river-redcliff": {
+    "originalId": "loc-mountains-of-moria",
+    "originalName": "Mountains of Moria"
+  },
+  "loc-bay-of-rosewood": {
+    "originalId": "loc-elemental-plane-of-air",
+    "originalName": "Elemental Plane of Air"
+  },
+  "loc-embervale": {
+    "originalId": "loc-mirkwood",
+    "originalName": "Mirkwood"
+  },
+  "loc-forest-of-truespring": {
+    "originalId": "loc-the-underdark",
+    "originalName": "The Underdark"
+  },
+  "loc-keep-edgewood": {
+    "originalId": "loc-realms-in-exile",
+    "originalName": "Realms in Exile"
+  },
+  "loc-fort-ironglen": {
+    "originalId": "loc-anduin",
+    "originalName": "Anduin"
+  },
+  "loc-cape-fairhaven": {
+    "originalId": "loc-dol-amroth",
+    "originalName": "Dol Amroth"
+  },
+  "loc-gulf-of-hollowreach": {
+    "originalId": "loc-oiom-r",
+    "originalName": "Oiomúrë"
+  },
+  "loc-marblekeepglen": {
+    "originalId": "loc-rh-n",
+    "originalName": "Rhûn"
+  },
+  "loc-hollowreachburg": {
+    "originalId": "loc-angmar",
+    "originalName": "Angmar"
+  },
+  "loc-port-of-limestone": {
+    "originalId": "loc-eriador",
+    "originalName": "Eriador"
+  },
+  "loc-cape-ironglen": {
+    "originalId": "loc-judicators-hall",
+    "originalName": "Judicator's Hall"
+  },
+  "loc-gates-of-briarwood": {
+    "originalId": "loc-soelle-the-first-world",
+    "originalName": "Soelle (The First World)"
+  },
+  "loc-evergreencombe": {
+    "originalId": "loc-umbar",
+    "originalName": "Umbar"
+  },
+  "loc-coppercrestton": {
+    "originalId": "loc-bree",
+    "originalName": "Bree"
+  },
+  "loc-harbor-of-pinnacle": {
+    "originalId": "loc-bauhofen",
+    "originalName": "Bauhofen"
+  },
+  "loc-valley-of-dawnmeadow": {
+    "originalId": "loc-h-ri",
+    "originalName": "Híri"
+  },
+  "loc-jadecrest": {
+    "originalId": "loc-zirakzigil",
+    "originalName": "Zirakzigil"
+  },
+  "loc-pebblebrookburg": {
+    "originalId": "loc-sunken-district",
+    "originalName": "Sunken District"
+  },
+  "loc-forest-of-jasperholm": {
+    "originalId": "loc-elemental-plane-of-earth",
+    "originalName": "Elemental Plane of Earth"
+  },
+  "loc-frostbourneton": {
+    "originalId": "loc-chamber-of-monuments",
+    "originalName": "Chamber of Monuments"
+  },
+  "loc-dawnmeadow": {
+    "originalId": "loc-brigands-barrow",
+    "originalName": "Brigand's Barrow"
+  },
+  "loc-forest-of-ambervale": {
+    "originalId": "loc-udul",
+    "originalName": "Udul"
+  },
+  "loc-river-underlake": {
+    "originalId": "loc-trui",
+    "originalName": "Trui"
+  },
+  "loc-hall-of-flintvale": {
+    "originalId": "loc-lumiere-sur-fleuve",
+    "originalName": "Lumiere-sur-Fleuve"
+  },
+  "loc-haunthollowford": {
+    "originalId": "loc-ladros",
+    "originalName": "Ladros"
+  },
+  "loc-nightveilvale": {
+    "originalId": "loc-bellatura",
+    "originalName": "Bellatura"
+  },
+  "loc-mount-evergreen": {
+    "originalId": "loc-storm-uncovered-cavern",
+    "originalName": "Storm‑Uncovered Cavern"
+  },
+  "loc-wintermere": {
+    "originalId": "loc-grand-palace",
+    "originalName": "Grand Palace"
+  },
+  "loc-moonrisemere": {
+    "originalId": "loc-hithlum",
+    "originalName": "Hithlum"
+  },
+  "loc-hall-of-jewelstream": {
+    "originalId": "loc-serona-province",
+    "originalName": "Serona Province"
+  },
+  "loc-tower-of-highgate": {
+    "originalId": "loc-azir-province",
+    "originalName": "Azir Province"
+  },
+  "loc-granitekeepfell": {
+    "originalId": "loc-lux",
+    "originalName": "Lux"
+  },
+  "loc-sunhollow": {
+    "originalId": "loc-dor-c-arthol",
+    "originalName": "Dor-Cúarthol"
+  },
+  "loc-dragonrestglen": {
+    "originalId": "loc-kenkuru",
+    "originalName": "Kenkuru"
+  },
+  "loc-quartzhelmgarde": {
+    "originalId": "loc-sorontil",
+    "originalName": "Sorontil"
+  },
+  "loc-bridge-of-longshadow": {
+    "originalId": "loc-oasis-grotto-giant-kingdoms-ruin",
+    "originalName": "Oasis Grotto (Giant Kingdoms Ruin)"
+  },
+  "loc-flowervale": {
+    "originalId": "loc-bablon",
+    "originalName": "Bablon"
+  },
+  "loc-port-of-ancientdeep": {
+    "originalId": "loc-platinum-market",
+    "originalName": "Platinum Market"
+  },
+  "loc-forest-of-gloomhaven": {
+    "originalId": "loc-breredon",
+    "originalName": "Breredon"
+  },
+  "loc-port-of-dreadkeep": {
+    "originalId": "loc-dunland",
+    "originalName": "Dunland"
+  },
+  "loc-goldleafgarde": {
+    "originalId": "loc-enym",
+    "originalName": "Enym"
+  },
+  "loc-isle-of-newbury": {
+    "originalId": "loc-naith-of-l-rien",
+    "originalName": "Naith of Lórien"
+  },
+  "loc-gates-of-grimstone": {
+    "originalId": "loc-kaldo-province",
+    "originalName": "Kaldo Province"
+  },
+  "loc-pebblebrookwood": {
+    "originalId": "loc-ethir-anduin",
+    "originalName": "Ethir Anduin"
+  },
+  "loc-cape-longshadow": {
+    "originalId": "loc-rohan",
+    "originalName": "Rohan"
+  },
+  "loc-river-onixheim": {
+    "originalId": "loc-leithian",
+    "originalName": "Leithian"
+  },
+  "loc-bridge-of-thornwall": {
+    "originalId": "loc-danuvar",
+    "originalName": "Danuvar"
+  },
+  "loc-point-ironglen": {
+    "originalId": "loc-morthond",
+    "originalName": "Morthond"
+  },
+  "loc-plains-of-ironvale": {
+    "originalId": "loc-feywild",
+    "originalName": "Feywild"
+  },
+  "loc-gulf-of-truespring": {
+    "originalId": "loc-lond-daer",
+    "originalName": "Lond Daer"
+  },
+  "loc-highgatewood": {
+    "originalId": "loc-ost-in-edhil",
+    "originalName": "Ost-in-Edhil"
+  },
+  "loc-valley-of-jewelstream": {
+    "originalId": "loc-fornost-erain",
+    "originalName": "Fornost Erain"
+  },
+  "loc-clearbrook": {
+    "originalId": "loc-azrai",
+    "originalName": "Azrai"
+  },
+  "loc-tower-of-briarwood": {
+    "originalId": "loc-valinor",
+    "originalName": "Valinor"
+  },
+  "loc-ravenshadefell": {
+    "originalId": "loc-rivers-of-gondor",
+    "originalName": "Rivers of Gondor"
+  },
+  "loc-eternumford": {
+    "originalId": "loc-darklands",
+    "originalName": "Darklands"
+  },
+  "loc-isle-of-greenhill": {
+    "originalId": "loc-purashan",
+    "originalName": "Pur'ashan"
+  },
+  "loc-isle-of-vanguard": {
+    "originalId": "loc-kalimban",
+    "originalName": "Kalimban"
+  },
+  "loc-gloomhaven": {
+    "originalId": "loc-dreykovic-wastes",
+    "originalName": "Dreykovic Wastes"
+  },
+  "org-the-blessed-league": {
+    "originalId": "org-elves",
+    "originalName": "Elves"
+  },
+  "org-the-ancient-tribunal": {
+    "originalId": "org-solaaran-empire",
+    "originalName": "Solaaran Empire"
+  },
+  "org-the-forestkin": {
+    "originalId": "org-tenth-caste",
+    "originalName": "Tenth Caste"
+  },
+  "org-the-iron-brotherhood": {
+    "originalId": "org-galadhrim-warriors",
+    "originalName": "Galadhrim Warriors"
+  },
+  "org-the-white-alliance": {
+    "originalId": "org-sarumans-army",
+    "originalName": "Saruman's army"
+  },
+  "org-the-seafarers": {
+    "originalId": "org-host-of-the-west-arnor",
+    "originalName": "Host of the West (Arnor)"
+  },
+  "org-the-golden-brotherhood": {
+    "originalId": "org-scholar-caste",
+    "originalName": "Scholar Caste"
+  },
+  "org-the-eternal-dominion": {
+    "originalId": "org-cult-of-kriev",
+    "originalName": "Cult of Kriev"
+  },
+  "org-the-ancient-union": {
+    "originalId": "org-pantheon-of-creation",
+    "originalName": "Pantheon of Creation"
+  },
+  "org-the-deepdelvers": {
+    "originalId": "org-house-sennet",
+    "originalName": "House Sennet"
+  },
+  "org-the-western-watch": {
+    "originalId": "org-army-of-the-west",
+    "originalName": "Army of the West"
+  },
+  "org-the-highborn": {
+    "originalId": "org-huorns",
+    "originalName": "Huorns"
+  },
+  "org-the-eternal-republic": {
+    "originalId": "org-white-company",
+    "originalName": "White Company"
+  },
+  "org-the-crimson-order": {
+    "originalId": "org-dragonmarked-shards-of-xenirith",
+    "originalName": "Dragonmarked (Shards of Xenirith)"
+  },
+  "org-the-border-patrol": {
+    "originalId": "org-morgul-host",
+    "originalName": "Morgul-host"
+  },
+  "org-the-jade-league": {
+    "originalId": "org-host-of-turgon",
+    "originalName": "Host of Turgon"
+  },
+  "org-the-borderkin": {
+    "originalId": "org-gothmogs-army",
+    "originalName": "Gothmog's army"
+  },
+  "org-the-golden-fellowship": {
+    "originalId": "org-army-of-the-dead",
+    "originalName": "Army of the Dead"
+  },
+  "org-the-white-nation": {
+    "originalId": "org-azraian-locals",
+    "originalName": "Azraian Locals"
+  },
+  "org-the-true-order": {
+    "originalId": "org-host-of-valinor",
+    "originalName": "Host of Valinor"
+  },
+  "org-the-noble-fellowship": {
+    "originalId": "org-coalition-of-the-dragonmarked",
+    "originalName": "Coalition of the Dragonmarked"
+  },
+  "org-the-crystal-syndicate": {
+    "originalId": "org-grand-republic-of-highwind",
+    "originalName": "Grand Republic of Highwind"
+  },
+  "org-the-emerald-pact": {
+    "originalId": "org-aranadan-sword-lords",
+    "originalName": "Aranadan Sword Lords"
+  },
+  "org-the-eternal-order": {
+    "originalId": "org-goldman-trading-company",
+    "originalName": "Goldman Trading Company"
+  },
+  "org-the-twilight-council": {
+    "originalId": "org-living-creatures",
+    "originalName": "Living Creatures"
+  },
+  "org-the-keen-alliance": {
+    "originalId": "org-union-of-maedhros",
+    "originalName": "Union of Maedhros"
+  },
+  "org-the-fallen-kingdom": {
+    "originalId": "org-last-alliance-of-elves-and-men",
+    "originalName": "Last Alliance of Elves and Men"
+  },
+  "org-the-fallen-union": {
+    "originalId": "org-great-armament",
+    "originalName": "Great Armament"
+  },
+  "org-the-white-kingdom": {
+    "originalId": "org-the-circle-of-druids",
+    "originalName": "The Circle of Druids"
+  },
+  "org-the-hidden-circle": {
+    "originalId": "org-pantheon-of-order",
+    "originalName": "Pantheon of Order"
+  },
+  "org-the-city-watch": {
+    "originalId": "org-order-of-the-scribe",
+    "originalName": "Order of the Scribe"
+  },
+  "org-the-crimson-empire": {
+    "originalId": "org-men",
+    "originalName": "Men"
+  },
+  "org-the-noble-empire": {
+    "originalId": "org-host-of-the-valar",
+    "originalName": "Host of the Valar"
+  },
+  "org-the-crimson-kingdom": {
+    "originalId": "org-magus-academy",
+    "originalName": "Magus Academy"
+  },
+  "org-the-iron-tribunal": {
+    "originalId": "org-entertainer-caste",
+    "originalName": "Entertainer Caste"
+  },
+  "org-the-hidden-host": {
+    "originalId": "org-jeweling-guild",
+    "originalName": "Jeweling Guild"
+  },
+  "org-the-valekin": {
+    "originalId": "org-guards-of-the-citadel",
+    "originalName": "Guards of the Citadel"
+  },
+  "org-the-plainswanderers": {
+    "originalId": "org-corsair-fleet",
+    "originalName": "Corsair fleet"
+  },
+  "org-the-flame-keepers": {
+    "originalId": "org-dwarves",
+    "originalName": "Dwarves"
+  },
+  "org-the-platinum-assembly": {
+    "originalId": "org-healer-caste",
+    "originalName": "Healer Caste"
+  },
+  "org-the-woodwalkers": {
+    "originalId": "org-kings-company",
+    "originalName": "King's Company"
+  },
+  "org-the-hidden-brotherhood": {
+    "originalId": "org-house-islington",
+    "originalName": "House Islington"
+  },
+  "org-the-iron-covenant": {
+    "originalId": "org-ored",
+    "originalName": "Éored"
+  },
+  "org-the-golden-circle": {
+    "originalId": "org-council-of-dukes",
+    "originalName": "Council of Dukes"
+  },
+  "org-the-eternal-host": {
+    "originalId": "org-dead-men-of-dunharrow",
+    "originalName": "Dead Men of Dunharrow"
+  },
+  "org-the-valiant-pact": {
+    "originalId": "org-bodyguard-of-bolg",
+    "originalName": "Bodyguard of Bolg"
+  },
+  "org-the-crimson-institute": {
+    "originalId": "org-order-of-the-iron-rose",
+    "originalName": "Order of the Iron Rose"
+  },
+  "org-the-lost-institute": {
+    "originalId": "org-backstreet-brawlers",
+    "originalName": "Backstreet Brawlers"
+  },
+  "org-the-eternal-tribunal": {
+    "originalId": "org-house-brightweave",
+    "originalName": "House Brightweave"
+  },
+  "org-the-stoneclan": {
+    "originalId": "org-judicator-caste",
+    "originalName": "Judicator Caste"
+  },
+  "org-the-eternal-ministry": {
+    "originalId": "org-swan-knights",
+    "originalName": "Swan-knights"
+  },
+  "org-the-proud-pact": {
+    "originalId": "org-house-blackbrook",
+    "originalName": "House Blackbrook"
+  },
+  "org-the-copper-guild": {
+    "originalId": "org-muster-of-edoras",
+    "originalName": "Muster of Edoras"
+  },
+  "org-the-old-union": {
+    "originalId": "org-the-harvesters",
+    "originalName": "The Harvesters"
+  },
+  "org-the-true-brotherhood": {
+    "originalId": "org-morgoths-army",
+    "originalName": "Morgoth's army"
+  },
+  "org-the-young-order": {
+    "originalId": "org-wargs",
+    "originalName": "Wargs"
+  },
+  "org-the-lost-republic": {
+    "originalId": "org-brotherhood-of-the-spiral",
+    "originalName": "Brotherhood of the Spiral"
+  },
+  "org-the-iron-host": {
+    "originalId": "org-tinkerers-guild",
+    "originalName": "Tinkerer's Guild"
+  },
+  "org-the-eastern-legion": {
+    "originalId": "org-house-valorion",
+    "originalName": "House Valorion"
+  },
+  "org-the-azure-brotherhood": {
+    "originalId": "org-suunkisti-dyad",
+    "originalName": "Suunkisti Dyad"
+  },
+  "org-the-dark-union": {
+    "originalId": "org-highwind-city-guard",
+    "originalName": "Highwind City Guard"
+  },
+  "org-the-fallen-tribunal": {
+    "originalId": "org-laborer-caste",
+    "originalName": "Laborer Caste"
+  },
+  "org-the-fallen-nation": {
+    "originalId": "org-southern-army",
+    "originalName": "Southern Army"
+  },
+  "org-the-united-dominion": {
+    "originalId": "org-ents",
+    "originalName": "Ents"
+  },
+  "org-the-proud-institute": {
+    "originalId": "org-house-marieta",
+    "originalName": "House Marieta"
+  },
+  "org-the-mighty-watch": {
+    "originalId": "org-family-gathering",
+    "originalName": "Family Gathering"
+  },
+  "org-the-blessed-nation": {
+    "originalId": "org-kingdom-of-hyria",
+    "originalName": "Kingdom of Hyria"
+  },
+  "org-the-silver-circle": {
+    "originalId": "org-vampires",
+    "originalName": "Vampires"
+  },
+  "org-the-zealous-pact": {
+    "originalId": "org-orcs",
+    "originalName": "Orcs"
+  },
+  "org-the-ancient-order": {
+    "originalId": "org-steward-caste",
+    "originalName": "Steward Caste"
+  },
+  "org-the-skyborn": {
+    "originalId": "org-church-of-sol",
+    "originalName": "Church of Sol"
+  },
+  "org-the-fallen-alliance": {
+    "originalId": "org-myconid-hivemind",
+    "originalName": "Myconid Hivemind"
+  },
+  "org-the-white-institute": {
+    "originalId": "org-council-of-mages",
+    "originalName": "Council of Mages"
+  },
+  "org-the-lowlanders": {
+    "originalId": "org-black-hand",
+    "originalName": "Black Hand"
+  },
+  "org-the-white-empire": {
+    "originalId": "org-gondorian-military-forces",
+    "originalName": "Gondorian Military Forces"
+  },
+  "org-the-valiant-empire": {
+    "originalId": "org-trolls",
+    "originalName": "Trolls"
+  },
+  "org-the-jade-host": {
+    "originalId": "org-shadows",
+    "originalName": "Shadows"
+  },
+  "org-the-united-republic": {
+    "originalId": "org-giant-kingdoms",
+    "originalName": "Giant Kingdoms"
+  },
+  "org-the-dark-institute": {
+    "originalId": "org-oher",
+    "originalName": "Éoherë"
+  },
+  "org-the-mountainborn": {
+    "originalId": "org-fey-courts",
+    "originalName": "Fey Courts"
+  },
+  "org-the-wayfarers": {
+    "originalId": "org-great-eagles",
+    "originalName": "Great Eagles"
+  },
+  "org-the-mighty-dominion": {
+    "originalId": "org-hobbitry-in-arms",
+    "originalName": "Hobbitry-in-arms"
+  },
+  "org-the-old-circle": {
+    "originalId": "org-seekers-guild",
+    "originalName": "Seeker's Guild"
+  },
+  "org-the-noble-republic": {
+    "originalId": "org-covenant-of-the-survivor",
+    "originalName": "Covenant of the Survivor"
+  },
+  "org-the-united-syndicate": {
+    "originalId": "org-artisan-caste",
+    "originalName": "Artisan Caste"
+  },
+  "org-the-golden-tribunal": {
+    "originalId": "org-knights-of-ma-at",
+    "originalName": "Knights of Ma’at"
+  },
+  "org-the-quiet-watch": {
+    "originalId": "org-the-foot",
+    "originalName": "The Foot"
+  },
+  "org-the-eternal-brotherhood": {
+    "originalId": "org-guardian-caste",
+    "originalName": "Guardian Caste"
+  },
+  "org-the-noble-guild": {
+    "originalId": "org-dragonmarked-darkness-wars",
+    "originalName": "Dragonmarked (Darkness Wars)"
+  },
+  "org-the-valiant-republic": {
+    "originalId": "org-kaukareldar",
+    "originalName": "Kaukareldar"
+  },
+  "org-the-crimson-fellowship": {
+    "originalId": "org-house-medjay",
+    "originalName": "House Medjay"
+  },
+  "org-the-sacred-kingdom": {
+    "originalId": "org-the-red-talons",
+    "originalName": "The Red Talons"
+  },
+  "org-the-riverfolk": {
+    "originalId": "org-paladins-guild",
+    "originalName": "Paladin's Guild"
+  },
+  "org-the-jade-fellowship": {
+    "originalId": "org-kings-archers",
+    "originalName": "King's Archers"
+  },
+  "org-the-shadow-conclave": {
+    "originalId": "org-host-of-the-west",
+    "originalName": "Host of the West"
+  },
+  "org-the-dark-watch": {
+    "originalId": "org-church-of-leaf-star",
+    "originalName": "Church of Leaf & Star"
+  },
+  "org-the-mighty-republic": {
+    "originalId": "org-merchant-caste",
+    "originalName": "Merchant Caste"
+  },
+  "org-the-united-brotherhood": {
+    "originalId": "org-northern-army",
+    "originalName": "Northern Army"
+  },
+  "org-the-iron-fellowship": {
+    "originalId": "org-hobbits",
+    "originalName": "Hobbits"
+  },
+  "org-the-sentinels": {
+    "originalId": "org-pantheon-of-reclamation",
+    "originalName": "Pantheon of Reclamation"
+  },
+  "org-the-rangers": {
+    "originalId": "org-the-unnamed-assassin-s-guild",
+    "originalName": "The Unnamed Assassin’s Guild"
+  }
+}
