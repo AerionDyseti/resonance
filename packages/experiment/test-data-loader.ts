@@ -19,12 +19,15 @@ import {
   type RelationshipId,
   type RelationshipDefinitionId,
 } from '../backend/src/domain/shared/ids';
+
+export type DataSource = 'homebrew' | 'lotr';
 import type { IEntity } from '../backend/src/domain/world/entity';
 import type { IRelationship } from '../backend/src/domain/world/relationship';
 import type { EntitySummary } from '../backend/src/domain/world/entity-summary';
 
 // Default world ID for test data
 export const TEST_WORLD_ID = worldId('test-world-enym');
+export const LOTR_WORLD_ID = worldId('lotr-middle-earth');
 
 /**
  * Parsed entity from frontmatter markdown
@@ -80,10 +83,11 @@ export class TestDataStore {
   }
 
   /**
-   * Load test data from the test-data/world directory
+   * Load test data from a directory containing entity type subdirectories
    */
-  loadFromDirectory(baseDir: string): void {
-    const entityTypes = ['characters', 'locations', 'organizations'];
+  loadFromDirectory(baseDir: string, customWorldId?: WorldId): void {
+    const entityTypes = ['characters', 'locations', 'organizations', 'artifacts', 'events'];
+    const worldIdToUse = customWorldId || TEST_WORLD_ID;
 
     for (const entityType of entityTypes) {
       const typeDir = join(baseDir, entityType);
@@ -93,7 +97,7 @@ export class TestDataStore {
 
       for (const file of files) {
         const filePath = join(typeDir, file);
-        const entity = this.parseMarkdownFile(filePath, entityType);
+        const entity = this.parseMarkdownFile(filePath, entityType, worldIdToUse);
         if (entity) {
           this.addEntity(entity);
         }
@@ -106,7 +110,7 @@ export class TestDataStore {
     console.log(`Loaded ${this.entities.size} entities, ${this.relationships.length} relationships`);
   }
 
-  private parseMarkdownFile(filePath: string, entityType: string): TestEntity | null {
+  private parseMarkdownFile(filePath: string, entityType: string, worldIdToUse: WorldId): TestEntity | null {
     try {
       const content = readFileSync(filePath, 'utf-8');
 
@@ -119,17 +123,21 @@ export class TestDataStore {
 
       if (!frontmatter.id || !frontmatter.name) return null;
 
-      // Map entity type to definition ID
+      // Map entity type (plural directory name) to definition ID
+      // Strip trailing 's' to get singular form
+      const singularType = entityType.endsWith('s') ? entityType.slice(0, -1) : entityType;
       const definitionIdMap: Record<string, string> = {
         character: 'def-character',
         location: 'def-location',
         organization: 'def-organization',
+        artifact: 'def-artifact',
+        event: 'def-event',
       };
 
       return {
         id: entityId(frontmatter.id),
-        worldId: TEST_WORLD_ID,
-        definitionId: entityDefinitionId(definitionIdMap[entityType] || `def-${entityType}`),
+        worldId: worldIdToUse,
+        definitionId: entityDefinitionId(definitionIdMap[singularType] || `def-${singularType}`),
         name: frontmatter.name,
         slug: frontmatter.slug || frontmatter.id,
         summary: frontmatter.summary || null,
@@ -382,4 +390,28 @@ export function initializeTestData(baseDir?: string): TestDataStore {
   const testDataDir = baseDir || join(__dirname, '..', '..', '..', '..', '..', 'test-data', 'world');
   store.loadFromDirectory(testDataDir);
   return store;
+}
+
+/**
+ * Initialize test data store with LotR data
+ */
+export function initializeLotrData(lotrDataDir?: string): TestDataStore {
+  const store = TestDataStore.getInstance();
+  // Default to the lotr-scraper output directory
+  const dataDir = lotrDataDir || join(__dirname, '..', '..', '..', '..', '..', '..', 'lotr-scraper', 'output');
+  store.loadFromDirectory(dataDir, LOTR_WORLD_ID);
+  return store;
+}
+
+/**
+ * Initialize test data store from a named data source
+ */
+export function initializeDataSource(source: DataSource): TestDataStore {
+  TestDataStore.reset(); // Clear any existing data
+
+  if (source === 'lotr') {
+    return initializeLotrData();
+  } else {
+    return initializeTestData();
+  }
 }

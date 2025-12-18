@@ -16,7 +16,9 @@ import {
   MockSemanticSearchProvider,
   MockRelationshipProvider,
   TEST_WORLD_ID,
+  LOTR_WORLD_ID,
 } from './index';
+import type { WorldId } from '../backend/src/domain/shared/ids';
 import type { EntityId } from '../backend/src/domain/shared/ids';
 import { entityId } from '../backend/src/domain/shared/ids';
 import type { TestEntity } from './test-data-loader';
@@ -51,22 +53,36 @@ interface LLMResponse {
 
 // ==================== System Prompt ====================
 
-const SYSTEM_PROMPT = `You are an intelligent assistant that answers questions about a fictional world. You have access to a knowledge base of entities (characters, locations, organizations) and their relationships.
+const SYSTEM_PROMPT = `You are an intelligent assistant that answers questions about a fictional world. You have access to a knowledge base of entities (characters, locations, organizations, artifacts, events) and their relationships.
+
+## CRITICAL RULE: No Prior Knowledge
+Pretend you know NOTHING about this world except what is shown in the "Current Context" section. Even if this world seems familiar, you must act as if you're encountering it for the first time. Your only source of facts is the provided context.
+
+If the context is empty, you MUST use capabilities to search for information before answering.
 
 ## Your Task
-Answer the user's question using ONLY the information provided in the context. If you need more information to answer accurately, you can request it using the available capabilities.
+Answer questions using the provided context. You ARE encouraged to:
+- Make logical inferences from the context (e.g., if A is B's father and B is C's father, you can infer A is C's grandfather)
+- Draw connections between entities in the context
+- Extrapolate reasonable conclusions from stated facts
+- Synthesize information from multiple entities
+- Use common tropes, themes, and conventions from similar genres (fantasy, sci-fi, etc.) to inform your extrapolations when the context suggests them
+
+You must NOT:
+- State specific facts about THIS world that aren't in or inferable from the context
+- Use prior knowledge about specific characters, places, or events from this world
 
 ## Response Format
-You MUST respond with valid JSON in one of these formats:
+Respond with valid JSON in one of these formats:
 
-### When you can answer:
+### When you can answer (fully or partially):
 \`\`\`json
 {
   "type": "answer",
   "answer": "Your detailed answer here...",
   "confidence": "high|medium|low",
   "sources": [
-    { "entityId": "entity-id", "contribution": "What this entity contributed to the answer" }
+    { "entityId": "entity-id", "contribution": "What this entity contributed" }
   ]
 }
 \`\`\`
@@ -75,31 +91,31 @@ You MUST respond with valid JSON in one of these formats:
 \`\`\`json
 {
   "type": "needs_more_info",
-  "reason": "Brief explanation of what you need and why",
+  "reason": "What you need and why",
   "requests": [
     {
       "capability": "CAPABILITY_ID",
       "params": { "param1": "value1" },
-      "reason": "Why you need this specific information"
+      "reason": "Why you need this"
     }
   ]
 }
 \`\`\`
 
-## Guidelines
-- Always cite your sources with specific entity IDs
-- Make reasonable inferences from the context when appropriate - use medium confidence for inferences
-- Use high confidence when the answer is directly stated or strongly implied by the context
-- Use medium confidence when making reasonable inferences or connections from the context
-- Use low confidence when the answer requires significant speculation or the context is thin
-- Make at most 3 info requests at a time
-- Don't request info you already have in context - check what entities are already loaded
+## Confidence Levels
+- **high**: Answer is directly stated in the context
+- **medium**: Answer requires inference or connecting multiple facts from context
+- **low**: Partial answer - you found relevant info but it's incomplete
 
-## Important
-- Base your answer on the provided context
-- You can and should make reasonable inferences and connections from the context - that's encouraged!
-- If you need more information to give a complete answer, request it using the available capabilities
-- If you truly cannot answer even with more info requests, say so honestly`;
+## Guidelines
+- If context is empty or completely irrelevant, request more info first
+- If you have SOME relevant information, give a partial answer with low/medium confidence
+- A partial answer that explains what you found is ALWAYS better than "I couldn't find anything"
+- When giving partial answers, explain what you DID find and what's missing
+- Try SEARCH_ENTITIES with different terms if initial results are thin
+- Cite sources with entity IDs for claims you make
+- Make at most 3 info requests at a time
+- Entities listed in context already have their FULL content included - don't re-request them`;
 
 // ==================== Orchestrator ====================
 
@@ -108,18 +124,32 @@ export class IntelligenceOrchestrator {
   private searchProvider: MockSemanticSearchProvider;
   private relationshipProvider: MockRelationshipProvider;
   private dataStore: TestDataStore;
+  private worldId: WorldId;
   private maxIterations: number;
 
   constructor(params: {
     llmClient: OpenRouterClient;
     dataStore: TestDataStore;
+    worldId?: WorldId;
     maxIterations?: number;
   }) {
     this.llmClient = params.llmClient;
     this.dataStore = params.dataStore;
+    this.worldId = params.worldId ?? this.detectWorldId(params.dataStore);
     this.searchProvider = new MockSemanticSearchProvider(params.dataStore);
     this.relationshipProvider = new MockRelationshipProvider(params.dataStore);
     this.maxIterations = params.maxIterations ?? 3;
+  }
+
+  /**
+   * Detect the world ID from loaded data
+   */
+  private detectWorldId(dataStore: TestDataStore): WorldId {
+    const entities = dataStore.getAllEntities();
+    if (entities.length > 0) {
+      return entities[0].worldId;
+    }
+    return TEST_WORLD_ID;
   }
 
   async query(userQuery: string): Promise<QueryResult> {
@@ -222,7 +252,7 @@ export class IntelligenceOrchestrator {
   private async buildInitialContext(query: string): Promise<ContextMap> {
     console.log('[Building initial context...]');
 
-    const searchResults = await this.searchProvider.search(TEST_WORLD_ID, query, { limit: 5 });
+    const searchResults = await this.searchProvider.search(this.worldId, query, { limit: 5 });
 
     const context: ContextMap = {
       entities: new Map(),
@@ -360,7 +390,7 @@ Parameters: { "type": "character|location|organization", "limit": 10 }
       case 'SEARCH_ENTITIES': {
         const query = request.params.query as string;
         const limit = (request.params.limit as number) || 5;
-        const results = await this.searchProvider.search(TEST_WORLD_ID, query, { limit });
+        const results = await this.searchProvider.search(this.worldId, query, { limit });
 
         return results
           .map((r) => this.dataStore.getEntity(r.entityId))
