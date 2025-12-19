@@ -10,5 +10,5 @@ export interface EntitySummary {
   readonly id: EntityId;
   readonly name: string;
   readonly definitionId: EntityDefinitionId;
-  readonly summary: string | null;
+  readonly summary: string;
 }
