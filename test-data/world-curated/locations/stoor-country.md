@@ -16,4 +16,4 @@ Later still, some Stoors moved back to the Stoor-country. These Stoors made boat
 
 Category:Shirefolk settlements
 Category:Realms
-Category:Rhovanion
+Category:Wildlands

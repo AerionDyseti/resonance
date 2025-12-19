@@ -9,14 +9,15 @@
  *   bun run packages/experiment/run-query.ts --lotr               # Interactive mode (LotR)
  *   bun run packages/experiment/run-query.ts "Your question"      # Single query mode
  *   bun run packages/experiment/run-query.ts --lotr "Question"    # Single query mode (LotR)
+ *   bun run packages/experiment/run-query.ts --json "Question"    # JSON output mode (machine-readable)
+ *   bun run packages/experiment/run-query.ts --lotr --json "Q"    # JSON output mode with LotR data
  */
 
 import { join } from 'path';
-import { config } from 'dotenv';
 import * as readline from 'readline';
 
-// Load .env from experiment folder
-config({ path: join(import.meta.dir, '.env') });
+// Note: Bun automatically loads .env files from the current directory
+// For this script, create packages/experiment/.env with OPENROUTER_API_KEY
 
 import { initializeTestData, initializeLotrData, TestDataStore } from './test-data-loader';
 import { createOrchestrator, IntelligenceOrchestrator } from './intelligence-orchestrator';
@@ -126,7 +127,7 @@ class InteractiveRunner {
       case '/q':
         return 'exit';
 
-      case '/stats':
+      case '/stats': {
         const entities = this.dataStore.getAllEntities();
         const byType: Record<string, number> = {};
         for (const e of entities) {
@@ -138,6 +139,7 @@ class InteractiveRunner {
         }
         console.log('');
         return 'continue';
+      }
 
       case '/help':
         console.log('\nCommands:');
@@ -176,7 +178,9 @@ class InteractiveRunner {
       }
 
       console.log('\n' + '─'.repeat(40));
-      console.log(`Iterations: ${result.iterations} | Tokens: ${result.totalTokens} | Time: ${elapsed}ms`);
+      console.log(
+        `Iterations: ${result.iterations} | Tokens: ${result.totalTokens} | Time: ${elapsed}ms`
+      );
       console.log('─'.repeat(60) + '\n');
     } catch (error) {
       this.spinner.stop();
@@ -185,13 +189,15 @@ class InteractiveRunner {
     }
   }
 
-  private async queryWithSpinner(query: string): Promise<Awaited<ReturnType<IntelligenceOrchestrator['query']>>> {
+  private async queryWithSpinner(
+    query: string
+  ): Promise<Awaited<ReturnType<IntelligenceOrchestrator['query']>>> {
     // Override console.log temporarily to integrate with spinner
     const originalLog = console.log;
     let iteration = 0;
 
     console.log = (...args: unknown[]) => {
-      const message = args.map(a => String(a)).join(' ');
+      const message = args.map((a) => String(a)).join(' ');
 
       // Detect iteration changes
       if (message.includes('[Iteration')) {
@@ -240,7 +246,11 @@ class InteractiveRunner {
       }
 
       // Skip other internal logs during spinner
-      if (message.startsWith('[') || message.includes('Reason:') || message.includes('No new entities')) {
+      if (
+        message.startsWith('[') ||
+        message.includes('Reason:') ||
+        message.includes('No new entities')
+      ) {
         return;
       }
 
@@ -264,7 +274,10 @@ class InteractiveRunner {
 
 // ==================== Single Query Mode ====================
 
-async function runSingleQuery(orchestrator: IntelligenceOrchestrator, query: string): Promise<void> {
+async function runSingleQuery(
+  orchestrator: IntelligenceOrchestrator,
+  query: string
+): Promise<void> {
   const spinner = new Spinner();
 
   console.log('\n' + '='.repeat(60));
@@ -304,39 +317,145 @@ async function runSingleQuery(orchestrator: IntelligenceOrchestrator, query: str
   }
 }
 
+// ==================== JSON Output Mode ====================
+
+interface JsonOutput {
+  success: boolean;
+  query: string;
+  answer?: string;
+  confidence?: 'high' | 'medium' | 'low';
+  sources?: Array<{ entityId: string; name: string; contribution: string }>;
+  iterations?: number;
+  totalTokens?: number;
+  elapsedMs?: number;
+  error?: string;
+}
+
+async function runJsonQuery(orchestrator: IntelligenceOrchestrator, query: string): Promise<void> {
+  // Suppress all console output during execution
+  const originalLog = console.log;
+  const originalError = console.error;
+  const originalWarn = console.warn;
+
+  console.log = () => {};
+  console.error = () => {};
+  console.warn = () => {};
+
+  const startTime = Date.now();
+  let output: JsonOutput;
+
+  try {
+    const result = await orchestrator.query(query);
+    const elapsedMs = Date.now() - startTime;
+
+    output = {
+      success: true,
+      query,
+      answer: result.answer,
+      confidence: result.confidence,
+      sources: result.sources,
+      iterations: result.iterations,
+      totalTokens: result.totalTokens,
+      elapsedMs,
+    };
+  } catch (error) {
+    const elapsedMs = Date.now() - startTime;
+    output = {
+      success: false,
+      query,
+      error: error instanceof Error ? error.message : String(error),
+      elapsedMs,
+    };
+  } finally {
+    // Restore console functions
+    console.log = originalLog;
+    console.error = originalError;
+    console.warn = originalWarn;
+  }
+
+  // Output clean JSON to stdout
+  console.log(JSON.stringify(output, null, 2));
+
+  // Exit with appropriate code
+  process.exit(output.success ? 0 : 1);
+}
+
 // ==================== Main ====================
 
 async function main() {
   // Parse command line arguments
   const args = process.argv.slice(2);
   const useLotr = args.includes('--lotr');
+  const useJson = args.includes('--json');
   const queryArgs = args.filter((arg) => !arg.startsWith('--'));
   const query = queryArgs[0];
 
   // Check for API key
   if (!process.env.OPENROUTER_API_KEY) {
+    if (useJson) {
+      console.log(
+        JSON.stringify(
+          { success: false, query: query || '', error: 'OPENROUTER_API_KEY not set' },
+          null,
+          2
+        )
+      );
+      process.exit(1);
+    }
     console.error('Error: OPENROUTER_API_KEY not set.');
     console.error('Create a .env file in packages/experiment/ with your key:');
     console.error('  OPENROUTER_API_KEY=sk-or-v1-your-key-here');
     process.exit(1);
   }
 
+  // JSON mode requires a query
+  if (useJson && !query) {
+    console.log(
+      JSON.stringify(
+        { success: false, query: '', error: 'JSON mode requires a query argument' },
+        null,
+        2
+      )
+    );
+    process.exit(1);
+  }
+
   // Load appropriate data source
   const worldName = useLotr ? 'Middle-earth (LotR)' : 'Homebrew World';
-  console.log(`Loading ${worldName} data...`);
+
+  // Suppress loading message in JSON mode
+  if (!useJson) {
+    console.log(`Loading ${worldName} data...`);
+  }
+
+  // Suppress all logs during data loading in JSON mode
+  const originalLog = console.log;
+  if (useJson) {
+    console.log = () => {};
+  }
 
   let dataStore: TestDataStore;
   if (useLotr) {
-    const lotrDataDir = join(import.meta.dir, '..', '..', '..', 'lotr-scraper', 'output');
+    // Use curated test data (scrambled LotR-based world data)
+    const lotrDataDir = join(import.meta.dir, '..', '..', 'test-data', 'world-curated');
     dataStore = initializeLotrData(lotrDataDir);
   } else {
     const testDataDir = join(import.meta.dir, '..', '..', 'test-data', 'world');
     dataStore = initializeTestData(testDataDir);
   }
 
-  if (query) {
-    // Single query mode
-    const orchestrator = createOrchestrator(dataStore);
+  // Restore console.log after loading
+  if (useJson) {
+    console.log = originalLog;
+  }
+
+  const orchestrator = createOrchestrator(dataStore);
+
+  if (useJson) {
+    // JSON output mode - machine-readable
+    await runJsonQuery(orchestrator, query);
+  } else if (query) {
+    // Single query mode - human-readable
     await runSingleQuery(orchestrator, query);
   } else {
     // Interactive mode

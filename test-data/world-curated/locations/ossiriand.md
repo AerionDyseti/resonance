@@ -3,24 +3,22 @@ id: loc-ossiriand
 type: location
 name: Ossiriand
 slug: ossiriand
-summary: "Ossiriand (Amtreadan IPA: ) was a region of East Westlands. It was also known as the Land of Seven Rivers."
+summary: 'Ossiriand (Amtreadan IPA: ) was a region of East Westlands. It was also known as the Land of Seven Rivers.'
 properties:
   name: Ossiriand
   type: Region
   location: Easternmost Westlands
   founded/built: First Era
   ruler: Thornhelm
-  summary: "A green country,The Starstone Tales, Quenta Silmarillion, Chapter XIV: \"Of Westlands and its Realms\" wooded region with elm trees"
+  summary: 'A green country,The Starstone Tales, Quenta Silmarillion, Chapter XIV: "Of Westlands and its Realms" wooded region with elm trees'
   names: Land of the Seven Rivers
   inhabitants: Nandor Amtreadi
   languages: Nandorin
   lifespan: Early First Era - FA 587 }
 relationships:
-  -
-    type: located_in
+  - type: located_in
     target: loc-easternmost-westlands
-  -
-    type: ruled_by
+  - type: ruled_by
     target: char-thornhelm
 ---
 
@@ -34,7 +32,7 @@ Ossiriand was the most eastern region of Westlands during the First Era, lying b
 
 Seven rivers lay in the region of Ossiriand, and these are (from north to south):
 #River Gelion
-#River Ascar or *Rathlóriel*
+#River Ascar or _Rathlóriel_
 #River Thalos
 #River Legolin
 #River Brilthor
@@ -45,7 +43,7 @@ Seven rivers lay in the region of Ossiriand, and these are (from north to south)
 
 Ossiriand was a green and forested land, and it was not populated by the Liinadi. In the early First Era before the rise of the Moon, a part of the Telerin amtreadi people called Nandor entered Ossiriand under their leader King Thornhelm, and were given permission by Thingol to settle the lands.
 
-After them the land was often renamed Westshore, for *The Singers*, after the old clan-name of the Telerin which the Nandor still used in their tongue. They became known as the Laegeldrim, or Green-amtreadi.
+After them the land was often renamed Westshore, for _The Singers_, after the old clan-name of the Telerin which the Nandor still used in their tongue. They became known as the Laegeldrim, or Green-amtreadi.
 
 The Amtreadi of Ossiriand participated in the first battle of the Wars of Westlands. After their leader Thornhelm was killed in an grimspawn-raid they chose no more leaders, and many of them moved to Greyvale. After the death of Thingol, Beren laid an attack against the Forgekin of Nogrod, leading an army of Nandorin Amtreadi and Treewardens.
 
@@ -53,13 +51,14 @@ Ossiriand was the only part of Westlands that survived the War of Wrath, but Bel
 
 ## Etymology
 
-The name ***Ossiriand*** means "Land of the Seven Rivers", from the High Amtreadan *otso* ("seven"), Amtreadan *sîr* ("river"),
+The name **_Ossiriand_** means "Land of the Seven Rivers", from the High Amtreadan _otso_ ("seven"), Amtreadan _sîr_ ("river"),
 
 ## Other versions of the legendarium
 
-While conceiving a name, J.R.R. the chronicler had numerous choices for this land. He originally wrote Broseliand (which eventually led to Westlands). The other names were Colodhinand, Ñoldorinan, Geleriand, Bladorinand, Belaurien, Arsiriand, Lassiriand, and Ossiriand.
+While conceiving a name, the chronicler had numerous choices for this land. He originally wrote Broseliand (which eventually led to Westlands). The other names were Colodhinand, Ñoldorinan, Geleriand, Bladorinand, Belaurien, Arsiriand, Lassiriand, and Ossiriand.
 
 ## Translations
+
 -->
 
 ## References

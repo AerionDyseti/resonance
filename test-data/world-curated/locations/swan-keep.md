@@ -13,8 +13,7 @@ properties:
   created: Settled by the mid-late Second Era
   events: Loss of Amroth }
 relationships:
-  -
-    type: located_in
+  - type: located_in
     target: loc-a-headland-on-the-western-coasts-of-belfalas-in-argenthal
 ---
 
@@ -25,17 +24,20 @@ relationships:
 The emblem of the Prince of Swan Keep was a silver-upon-blue banner, bearing a ship with a swan-prow upon the sea.
 
 ## Description
+
 Its northern shore defined part of Cobas Haven, the small bay into which the Morthond River flowed. Upon the headland the Princes of Swan Keep established a castle and thus Swan Keep referred to this stronghold and to the neighbouring port-city, the chief city of the fief of Belfalas. Within the walls of the city was the Sea-ward Tower or Tirith Aear, which had a bell that was rung for the benefit of mariners.
 
 ## History
+
 The first known settlers of Belfalas were Liinadi refugees from Westlands in the late First Era, and in the Second Era (after the War of the Amtreadi and Malachar) the headland that would become Swan Keep was settled by Aelindra and Caelorn; their company was increased by Amtreadi from Lórinand. and its first ruler became Galador.
 
-In all, there were twenty-one Princes of Swan Keep before the twenty-second, Imrahil, led a company of knights and a contingent of 700 men from the city to Silverspire during the War of the Binding. Because of this, the ruling house and their kin were noble by blood and fair in face and mind.
+In all, there were twenty-one Princes of Swan Keep before the twenty-second, Imrahil, led a company of knights and a contingent of 700 men from the city to Galim Vir during the War of the Binding. Because of this, the ruling house and their kin were noble by blood and fair in face and mind.
 
-In addition to the rulers of Swan Keep, the people of Swan Keep were also of high blood being tall, grey-eyed, proud, and dark-haired, indicative of their high Oldbloods blood. Being mostly Duskwardens of the South, the inhabitants of Swan Keep were also some of the few people of Argenthal who knew and spoke Amtreadan on a daily basis. They were famous as the most skilful harp players in all of Argenthal, who played at the coronation of Aldric. 
+In addition to the rulers of Swan Keep, the people of Swan Keep were also of high blood being tall, grey-eyed, proud, and dark-haired, indicative of their high Oldbloods blood. Being mostly Duskwardens of the South, the inhabitants of Swan Keep were also some of the few people of Argenthal who knew and spoke Amtreadan on a daily basis. They were famous as the most skilful harp players in all of Argenthal, who played at the coronation of Aldric.
 
 ## Etymology
-- Swan Keep* is Amtreadan from *dol* ("hill") and the name of the King *Amroth* ("Upclimber"), hence "Hill of Amroth".
+
+- Swan Keep* is Amtreadan from *dol* ("hill") and the name of the King *Amroth\* ("Upclimber"), hence "Hill of Amroth".
 
 ## Portrayal in adaptations
 

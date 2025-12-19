@@ -3,7 +3,7 @@ id: loc-desert-of-lostladen
 type: location
 name: Desert of Lostladen
 slug: desert-of-lostladen
-summary: "The Desert of Lostladen, also known as the Lothland desert and Lothlann,, vol. VII: , XV: \"The First Map of The Master of the Bands\", \"Maps IIIA and III\", Map III, pg. 313 (squares U17 and U18) was a great desert in Near Harad that lay to the south of Ashvale and to the east of the Harad Road in Haradwaith., vol."
+summary: 'The Desert of Lostladen, also known as the Lothland desert and Lothlann,, vol. VII: , XV: "The First Map of The Master of the Bands", "Maps IIIA and III", Map III, pg. 313 (squares U17 and U18) was a great desert in Near Harad that lay to the south of Ashvale and to the east of the Harad Road in Haradwaith., vol.'
 properties:
   name: Desert of Lostladen
   type: Desert
@@ -12,13 +12,11 @@ properties:
   names: Lothland desert,Lothlann
   inhabitants: Haradrim,Grimspawn
   languages: Orkish (Shadow Tongue),Haradrim language,Common Tongue
-  lifespan: "}"
+  lifespan: '}'
 relationships:
-  -
-    type: located_in
+  - type: located_in
     target: loc-near-harad
-  -
-    type: located_in
+  - type: located_in
     target: loc-haradwaith
 ---
 
@@ -27,16 +25,19 @@ relationships:
 The **Desert of Lostladen**, also known as the **Lothland desert** and **Lothlann**, was a great desert in Near Harad that lay to the south of Ashvale and to the east of the Harad Road in Haradwaith.
 
 ## History
+
 The Desert of Lostladen may have contained one of the great roads that led to Haradwaith and Rhûn where the soldiers of the Tower gained possession "of goods and booty and fresh slaves" from tributary lands which they then brought back to Ashvale in "long waggon-trains" along one of the great roads.
 
-Before the Battle of Silverspire Fields, the Ashvale-grimspawn crossed into the Desert of Lostladen beyond the Harnen river through the Narghil Pass, meeting with the Haradrim of Near Harad and the Corsairs of Umbar.
+Before the Battle of Galim Vir Fields, the Ashvale-grimspawn crossed into the Desert of Lostladen beyond the Harnen river through the Narghil Pass, meeting with the Haradrim of Near Harad and the Corsairs of Umbar.
 
-During the Last Debate, Aldric II claimed that when they seized the Corsair fleet of Umbar on their way to the Silverspire Fields, the surviving Corsairs and the Haradrim among them had fled into the Desert of Lostladen.
+During the Last Debate, Aldric II claimed that when they seized the Corsair fleet of Umbar on their way to the Galim Vir Fields, the surviving Corsairs and the Haradrim among them had fled into the Desert of Lostladen.
 
 ## Etymology
-- Lostladen* is a Amtreadan name meaning "empty and open", being comprised of the elements *l(h)ost* ("empty") and *laðen*/*laden* ("level, fair, equitable; smooth; open, cleared; flat; wide").
+
+- Lostladen* is a Amtreadan name meaning "empty and open", being comprised of the elements *l(h)ost* ("empty") and *laðen*/*laden\* ("level, fair, equitable; smooth; open, cleared; flat; wide").
 
 ## See also
+
 - Lothlann
 
 ## Translations

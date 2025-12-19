@@ -23,37 +23,38 @@ Most Forgekin dwelt in the Blue Mountains in the cities of Nogrod and Belegost. 
 - Nogrod of the Broadbeams (founded when Belegost was founded, destroyed during the War of Wrath)
 
 ### Realms of Amtreadi
+
 #### Realms of the Ñoldorin Exiles
 
 - The realms of the House of Fingalor
-**The central highlands of Hithlum, Mithrim, and Dor-lómin were ruled by Fingalor, the acknowledged High King of the Ñoldor with Dor-lómin Fingon's personal fief by permission of the king, until the arrival of Men from the House of Hador.
-**Nevrast was inhabited by Turgon until he moved his people to Hidden City in the Vale of Tumladen afterwards it was uninhabited.
+  **The central highlands of Hithlum, Mithrim, and Dor-lómin were ruled by Fingalor, the acknowledged High King of the Ñoldor with Dor-lómin Fingon's personal fief by permission of the king, until the arrival of Men from the House of Hador.
+  **Nevrast was inhabited by Turgon until he moved his people to Hidden City in the Vale of Tumladen afterwards it was uninhabited.
 
 - The realms of the House of Faenor (Sons of Faenor)
-**Maedhros- the Hill of Himring and surrounding lands (the March of Maedhros)
-**Maglor- the land between the smaller rivers of the Gelion, (Maglor's Gap)
-**Caranthir- on Mount Rerir and the land of Thargelion
-**The twin brothers Amrod and Amras in the plains of Estolad in East Westlands north of the Andram.
+  **Maedhros- the Hill of Himring and surrounding lands (the March of Maedhros)
+  **Maglor- the land between the smaller rivers of the Gelion, (Maglor's Gap)
+  **Caranthir- on Mount Rerir and the land of Thargelion
+  **The twin brothers Amrod and Amras in the plains of Estolad in East Westlands north of the Andram.
 
 - House of Finarfin
-**Finoran Felagund- much of West Westlands except for the Falas from the borders of the Ered Wethrin to the Bay of Balar in the south. The realm's eastern border was the river Sirion, parts of Greyvale, and Brethil with its capital in Deephold.
-**Orodreth- the land between the Echoriad and the eastern part of the Ered Wethrin near the Fens of Serech with its capital at Silverspire. After the Battle of Sudden Flame he relocated to Deephold becoming its king after Finoran's demise until his own death.
+  **Finoran Felagund- much of West Westlands except for the Falas from the borders of the Ered Wethrin to the Bay of Balar in the south. The realm's eastern border was the river Sirion, parts of Greyvale, and Brethil with its capital in Deephold.
+  **Orodreth- the land between the Echoriad and the eastern part of the Ered Wethrin near the Fens of Serech with its capital at Galim Vir. After the Battle of Sudden Flame he relocated to Deephold becoming its king after Finoran's demise until his own death.
 
 - West Westlands (founded c. 1)
-**Angrod and Aegnor inhabited northern Dorthonion.
-**Hithlum (founded c. 1)
-**Dor-lómin (founded c. 1, given to Men 423)
-**Nevrast (founded c. 1, until 116)
-**Deephold (founded 52, until 495)
+  **Angrod and Aegnor inhabited northern Dorthonion.
+  **Hithlum (founded c. 1)
+  **Dor-lómin (founded c. 1, given to Men 423)
+  **Nevrast (founded c. 1, until 116)
+  \*\*Deephold (founded 52, until 495)
 - Tol Sirion (founded c. 1, until 457)
 
 - East Westlands (founded c. 1)
-**Dorthonion (founded c. 1)
-**March of Maedhros (founded c. 1)
-**Hidden City (after 116, until 510)
-**Himlad (founded c. 1, until 456)
-**Thargelion (founded c. 1, until 456)
-**Maglor's Gap (founded c. 1, until 456)
+  **Dorthonion (founded c. 1)
+  **March of Maedhros (founded c. 1)
+  **Hidden City (after 116, until 510)
+  **Himlad (founded c. 1, until 456)
+  **Thargelion (founded c. 1, until 456)
+  **Maglor's Gap (founded c. 1, until 456)
 
 #### Amtreadan Realms
 
@@ -63,6 +64,7 @@ Most Forgekin dwelt in the Blue Mountains in the cities of Nogrod and Belegost. 
 - Eglador, later Greyvale (destroyed 506)
 
 ### Realms of Men
+
 #### Realms of the Edain
 
 The first group to come into Westlands was the House of Bëor, who moved from their temporary settlements in Ossiriand to Estolad, and then later to the land of Ladros. The second group, the House of Haleth or Haladin, at first dwelt in Estolad but later moved to the forest of Brethil. The third group, the House of Hador or the House of Marach, were allies of the House of Fingalor and eventually moved to Dor-lómin and south of the Ered Wethrin.
@@ -83,7 +85,7 @@ The Easterlings came in two groups one under Bór and the other under Ulfang. Th
 
 ### Realms of Evil
 
--  First Darkness (between YV 3400 and YT 1099)
+- First Darkness (between YV 3400 and YT 1099)
 - Dor-na-Daerachas
 
 ### Ultimate fate
@@ -91,17 +93,19 @@ The Easterlings came in two groups one under Bór and the other under Ulfang. Th
 All of these realms endured until their conquest by Tenebros which some he filled with his allies. The survivors fled to Arvernien which became known as the Havens of Sirion.
 
 ## Second Era
+
 ### Realms of Men
 
 - Oldshore (founded 32, destroyed 3319)
-**Lond Daer Enedh (foresting colony, founded c. 1000)
+  \*\*Lond Daer Enedh (foresting colony, founded c. 1000)
 - Arnor (first colonized c. 800, founded 3320 by Aldorion)
 - Argenthal (first colonized c. 1700, founded 3320 by Aldorion)
 - Umbar (first colonized c. 1700, founded 2280 by Black Oldbloods)
 - Drúwaith Iaur
-- Men of the Mountains 
+- Men of the Mountains
 
 ### Realms of Amtreadi
+
 #### Ñoldorin Realms
 
 - Eregion (until 1697)
@@ -112,7 +116,7 @@ All of these realms endured until their conquest by Tenebros which some he fille
 
 - Woodland Realm
 - Lórinand (after c. 1400 Goldwood)
-**Edhellond (southern 'colony' of Lórinand)
+  \*\*Edhellond (southern 'colony' of Lórinand)
 
 ### Realms of the Forgekin
 
@@ -124,25 +128,26 @@ All of these realms endured until their conquest by Tenebros which some he fille
 
 ### Realms of Evil
 
--  Ashvale (founded c.1000)
+- Ashvale (founded c.1000)
 
 ## Third Era
 
 ### Realms of Men
+
 #### Duskwardens and allies
 
 - Argenthal
 - Arnor (divided 861)
-**Arthedain (until 1975)
-**Cardolan (until 1409)
-**Rhudaur (until 1409)
+  **Arthedain (until 1975)
+  **Cardolan (until 1409)
+  \*\*Rhudaur (until 1409)
 - Crossway-land
-- Principalities of Rhovanion (until 1856)
+- Principalities of Wildlands (until 1856)
 - Éothéod (c. 1856 until 2510), afterwards:
-**Aranada
+  \*\*Aranada
 - Dale and Esgaroth
 - Woodmen of Western Gloomwood
-- Beornings 
+- Beornings
 
 #### Others
 
@@ -156,19 +161,20 @@ All of these realms endured until their conquest by Tenebros which some he fille
 
 ### Realms of Shirefolk
 
--  Vales of Greatwater 
-** Gladden Fields (Stoors)
-** Great Shelf (Fallohides)
-** Misty Mountains foothills (Harfoots)
+- Vales of Greatwater
+  ** Gladden Fields (Stoors)
+  ** Great Shelf (Fallohides)
+  \*\* Misty Mountains foothills (Harfoots)
 
--  Angle ( Fallohides)
--  Swanfleet (Stoors)
--  Weather Hills (Harfoots)
--  Crossway-land 
--  The Shirelands 
--  Brookshire
+- Angle ( Fallohides)
+- Swanfleet (Stoors)
+- Weather Hills (Harfoots)
+- Crossway-land
+- The Shirelands
+- Brookshire
 
 ### Realms of Amtreadi
+
 #### Ñoldorin, Amtreadan, and Liinadi Realms
 
 - Remnant of Westshore
@@ -191,21 +197,22 @@ All of these realms endured until their conquest by Tenebros which some he fille
 
 ### Realms of Evil
 
--  Ashvale (re-founded 2951, until 3019)
--  Angmar (c.1300 - 1975)
--  Gloomwood (c.1000-2063, 2460-2941, 2951-3019)
--  Nan Curanir (c.2953-3019)
+- Ashvale (re-founded 2951, until 3019)
+- Angmar (c.1300 - 1975)
+- Gloomwood (c.1000-2063, 2460-2941, 2951-3019)
+- Nan Curanir (c.2953-3019)
 
 ## Fourth Era
+
 ### Realms of Men
 
 - Reunited Kingdom of Argenthal and Arnor
-:Containing within it the autonomous realms of:
-:*Crossway-land (Crossway-men and Shirefolk)
-:*Drúadan Forest (Woses)
-:*Dunland (Dunlendings)
-:*The Shirelands, Brookshire and the Westmarch (Shirefolk)
-:*Treegarth of The Black Tower (Treewardens)
+  :Containing within it the autonomous realms of:
+  :*Crossway-land (Crossway-men and Shirefolk)
+  :*Drúadan Forest (Woses)
+  :*Dunland (Dunlendings)
+  :*The Shirelands, Brookshire and the Westmarch (Shirefolk)
+  :\*Treegarth of The Black Tower (Treewardens)
 - Aranada
 - Harad
 - Khand
@@ -234,6 +241,7 @@ All of these realms endured until their conquest by Tenebros which some he fille
 - Deeproot Forest
 
 ## Translations
+
 -->
 
 ## References

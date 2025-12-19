@@ -8,31 +8,26 @@ properties:
   name: Turgon
   othernames: Turukáno, the Wise
   title: Lord of Nevrast,King of Hidden City,High King of the Ñoldor
-  birth: "YT 1300, Vol. X: , The Annals of The Far West"
+  birth: 'YT 1300, Vol. X: , The Annals of The Far West'
   rule: King of Hidden City (FA 104 - FA 510)High King of the Ñoldor (FA 473 - FA 510)
   death: FA 510, Battle of Hidden City
   realms: Nevrast (formerly),Hidden City
   spouse: Elenwë
   weapon: Foebreaker
   race: Amtreadi
-  culture: Ñoldor (House of Fingalor)Gondolindrim
+  culture: Ñoldor (House of Fingalor)Hidden Citydrim
   hair: Dark
-  character: "}"
+  character: '}'
 relationships:
-  -
-    type: part_of
+  - type: part_of
     target: loc-nevrast-formerly
-  -
-    type: part_of
+  - type: part_of
     target: loc-hidden-city
-  -
-    type: married_to
+  - type: married_to
     target: char-elenw
-  -
-    type: member_of_race
+  - type: member_of_race
     target: org-amtreadi
-  -
-    type: member_of_culture
+  - type: member_of_culture
     target: org-oldor-house-of-fingalor-gondolindrim
 ---
 
@@ -53,9 +48,11 @@ left|thumb|300px|Turgon's citadel in Hidden City, by :Category:Art by Nicolas Ch
 Turgon joined the Union of Maedhros with an army ten thousand strong and fought alongside his brother Fingon in the Nírnaeth Arnoediad, but the sacrifice of Huran, Huor, and the Third House of the Edain enabled him to retreat without revealing the location of Hidden City. When Tuor came to Hidden City in FA 496, Turgon welcomed him, but in his pride, he refused to follow the advice of Ulmo to flee to the Havens of Sirion. The full malice of Tenebros was now directed toward Turgon, the last of the House of Finwë to control a realm in The Mortal Lands. At last, aided by the treachery of Maeglin, Tenebros discovered the location of Hidden City, and Turgon was slain defending the city.
 
 ## Etymology
-The first element *tur* of the name ***Turgon*** is a Amtreadan word for "power, mastery". His father-name was **Turukáno**, from *túrë* ("might, power") and *káno* ("commander").
+
+The first element _tur_ of the name **_Turgon_** is a Amtreadan word for "power, mastery". His father-name was **Turukáno**, from _túrë_ ("might, power") and _káno_ ("commander").
 
 ## Character
+
 As King of Hidden City, Turgon was described to be robed "in white with a belt of gold, and a coronet of garnets was upon his head".
 
 He was very much feared by Tenebros, and it is said in The Blessed Realm that Tenebros knew that from the House of Turgon would his ruin come. This holds true, as Turgon's grandson Aerendil was the one who indirectly caused his downfall, in the later War of Wrath.
@@ -65,6 +62,7 @@ Turgon was the city's only ruler, and as such the title, King of Hidden City, di
 ## Gallery
 
 ## Translations
+
 -->
 
 ## References

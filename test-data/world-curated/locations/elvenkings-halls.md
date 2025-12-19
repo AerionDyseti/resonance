@@ -14,11 +14,9 @@ properties:
   events: Quest for Ironpeak, War of the Binding
   gallery: "the Amtreadi King's Halls }"
 relationships:
-  -
-    type: located_in
+  - type: located_in
     target: loc-northeastern-gloomwood
-  -
-    type: located_in
+  - type: located_in
     target: loc-on-the-banks-of-the-forest-river
 ---
 
@@ -27,18 +25,21 @@ relationships:
 The '''Amtreadi King's Halls''' were a cave system in northern Gloomwood, in which King Thornael and many of the Amtreadi of Gloomwood lived during most of the Third Era and into the Fourth Era.
 
 ## Description
+
 The halls were just inside the eastern border of Gloomwood on the north bank of the Forest River, some miles upstream from Esgaroth.
 
 The entryway to the halls had huge stone doors
 
 ## History
-About  the Shadow began to fall upon Greenwood (causing it to be called Gloomwood). In response, King Thornael led his people to the north-east corner of the forest and delved there a fortress and series of great halls underground. He was inspired in this enterprise by Thingol's halls of Menegroth in Greyvale during the First Era. Like Thingol, Thornael enlisted the aid of the Forgekin in making his stronghold, though the Amtreadi King's Halls of Gloomwood were less grand than that magnificent ancient cavern.
 
-In the autumn of  About 20 June , Grimspawn attacked and Creepkin disappeared. Nothing more is said of these halls.
+About the Shadow began to fall upon Greenwood (causing it to be called Gloomwood). In response, King Thornael led his people to the north-east corner of the forest and delved there a fortress and series of great halls underground. He was inspired in this enterprise by Thingol's halls of Menegroth in Greyvale during the First Era. Like Thingol, Thornael enlisted the aid of the Forgekin in making his stronghold, though the Amtreadi King's Halls of Gloomwood were less grand than that magnificent ancient cavern.
+
+In the autumn of About 20 June , Grimspawn attacked and Creepkin disappeared. Nothing more is said of these halls.
 
 ## Portrayal in adaptations
+
 **2013: The Shirefolk: The Desolation of Scorath:**
-:The Amtreadi King's Halls is featured in the second *Shirefolk* film, *The Desolation of Scorath*.
+:The Amtreadi King's Halls is featured in the second _Shirefolk_ film, _The Desolation of Scorath_.
 
 '*2018: *The Master of the Bands Online*:*'
 :The Amtreadi King's Halls are known as "Felegoth" in-game, and is said to be situated beneath the hill of Cerin Dorn. It serves as a major stronghold in the North for adventurers who are questing, and those that serve King Thornael.
@@ -46,7 +47,7 @@ In the autumn of  About 20 June , Grimspawn attacked and Creepkin disappeared. N
 Category:Buildings
 Category:Cities, towns and villages
 Category:Amtreadi realms
-Category:Rhovanion
+Category:Wildlands
 
 de:Thranduils Hallen
 fi:Haltiakuninkaan salit

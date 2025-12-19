@@ -50,9 +50,9 @@ These questions test the RAG system's ability to retrieve and provide relevant c
 
 ## Minor Characters (Easily Forgotten)
 
-### 6. Who was Beregond, and what law did he break at Silverspire?
+### 6. Who was Beregond, and what law did he break at Galim Vir?
 
-**Expected Answer**: Beregond was a Guard of the Citadel who befriended Perrin Ashford. He broke the law by leaving his post without permission and shedding blood in the Hallows (the sacred area around the tombs) when he killed servants who were trying to burn Aldwin alive on Thornhelm's orders. He was pardoned by King Stonehelm but exiled from Silverspire to serve in Moonvale.
+**Expected Answer**: Beregond was a Guard of the Citadel who befriended Perrin Ashford. He broke the law by leaving his post without permission and shedding blood in the Hallows (the sacred area around the tombs) when he killed servants who were trying to burn Aldwin alive on Thornhelm's orders. He was pardoned by King Stonehelm but exiled from Galim Vir to serve in Moonvale.
 
 **Tests**: Minor character retrieval, event sequence, consequence tracking
 
@@ -68,7 +68,7 @@ These questions test the RAG system's ability to retrieve and provide relevant c
 
 ### 8. Who was Ghân-buri-Ghân, and how did he aid Aranada?
 
-**Expected Answer**: Ghân-buri-Ghân was the chieftain of the Drúedain (Wild Men of the Woods). He guided the Aranadan army through secret paths in the Stonewain Valley, allowing them to bypass the Grimspawn forces blocking the road to Silverspire. This enabled them to arrive in time for the Battle of Silverspire Fields.
+**Expected Answer**: Ghân-buri-Ghân was the chieftain of the Drúedain (Wild Men of the Woods). He guided the Aranadan army through secret paths in the Stonewain Valley, allowing them to bypass the Grimspawn forces blocking the road to Galim Vir. This enabled them to arrive in time for the Battle of Galim Vir Fields.
 
 **Tests**: Minor character retrieval, military strategy context
 
@@ -95,6 +95,7 @@ These questions test the RAG system's ability to retrieve and provide relevant c
 ### 11. How was Thalion related to both Aldric and Elowyn?
 
 **Expected Answer**:
+
 - To Aldric: Thalion was his distant ancestor (about 60 generations back) through Thalion's brother Elros (who chose mortality and became the first King of Oldshore). Aldric descended from the Oldshore line.
 - To Elowyn: She was his daughter.
 - This made Aldric and Elowyn very distant cousins, and their marriage reunited the two branches of the Half-blood line.
@@ -173,7 +174,7 @@ These questions test the RAG system's ability to retrieve and provide relevant c
 
 ### 20. Did Sylvorn ever miss a shot with his bow in the text of Master of the Bands?
 
-**Expected Answer**: The text never explicitly describes Sylvorn missing a shot. Every shot mentioned either hits or isn't described as missing. However, during the Battle of Silverspire Fields, he ran out of arrows, which limited his effectiveness.
+**Expected Answer**: The text never explicitly describes Sylvorn missing a shot. Every shot mentioned either hits or isn't described as missing. However, during the Battle of Galim Vir Fields, he ran out of arrows, which limited his effectiveness.
 
 **Tests**: Negative fact verification, text-specific knowledge
 
@@ -307,7 +308,7 @@ These questions test the RAG system's ability to retrieve and provide relevant c
 
 ### 36. What language is "Baruk Khazâd!" and what does the full war-cry mean?
 
-**Expected Answer**: It's Forgespeech (Khuzdul), the secret language of the Forgekin. The full cry is "Baruk Khazâd! Khazâd ai-mênu!" meaning "Axes of the Forgekin! The Forgekin are upon you!" Thorngar shouts this during the Battle of Silverspire Fields.
+**Expected Answer**: It's Forgespeech (Khuzdul), the secret language of the Forgekin. The full cry is "Baruk Khazâd! Khazâd ai-mênu!" meaning "Axes of the Forgekin! The Forgekin are upon you!" Thorngar shouts this during the Battle of Galim Vir Fields.
 
 **Tests**: Language identification, translation retrieval
 

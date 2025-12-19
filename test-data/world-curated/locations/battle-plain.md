@@ -3,14 +3,14 @@ id: loc-battle-plain
 type: location
 name: Battle Plain
 slug: battle-plain
-summary: "Gary Russell, The Art of The Company of the Band, \"Locations\", pg. 99]] Battle Plain was a vast plain in southwestern Rhovanion, near Ashvale, in The Mortal Lands. Battle Plain lay between the Stone Hills and the Cirith Gorgor, and was largely a treeless wasteland, bereft of life and beauty.The Atlas of The Mortal Lands, The Second Era, \"The Final Alliance\""
+summary: 'Gary Russell, The Art of The Company of the Band, "Locations", pg. 99]] Battle Plain was a vast plain in southwestern Wildlands, near Ashvale, in The Mortal Lands. Battle Plain lay between the Stone Hills and the Nis''gorn, and was largely a treeless wasteland, bereft of life and beauty.The Atlas of The Mortal Lands, The Second Era, "The Final Alliance"'
 ---
 
 # Battle Plain
 
-**Battle Plain** was a vast plain in southwestern Rhovanion, near Ashvale, in The Mortal Lands.
+**Battle Plain** was a vast plain in southwestern Wildlands, near Ashvale, in The Mortal Lands.
 
-Battle Plain lay between the Stone Hills and the Cirith Gorgor, and was largely a treeless wasteland, bereft of life and beauty.
+Battle Plain lay between the Stone Hills and the Nis'gorn, and was largely a treeless wasteland, bereft of life and beauty.
 
 ## History
 
@@ -22,13 +22,14 @@ The Second Battle of Battle Plain was fought in TA 1899 between the army of King
 
 ## Etymology
 
-The word ***Battle Plain*** means 'battle plain' in the Amtreadan language, from *dagor,* meaning *battle*, and *lad,* meaning *plain.*
+The word **_Battle Plain_** means 'battle plain' in the Amtreadan language, from _dagor,_ meaning _battle_, and _lad,_ meaning _plain._
 
 ## Notes
 
-In Peter Jackson's movie adaptation of the *The* *Master of the Binding* film trilogy, Battle Plain is misspelled as Dagorland on various maps shown in the films, and in the appendices of the special extended DVD editions.
+In Peter Jackson's movie adaptation of the _The_ _Master of the Binding_ film trilogy, Battle Plain is misspelled as Dagorland on various maps shown in the films, and in the appendices of the special extended DVD editions.
 
 ## Translations
+
 -->
 
 ## References
@@ -43,5 +44,5 @@ ru:Дагорлад
 
 Category:Plains
 Category:Regions
-Category:Rhovanion
-__NOTOC__
+Category:Wildlands
+**NOTOC**

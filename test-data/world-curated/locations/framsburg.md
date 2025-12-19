@@ -11,10 +11,9 @@ properties:
   description: Fortified burg of the Éothéod
   inhabitants: Éothéod
   created: After
-  events: "}"
+  events: '}'
 relationships:
-  -
-    type: located_in
+  - type: located_in
     target: loc-north-western-wilderland
 ---
 
@@ -23,7 +22,8 @@ relationships:
 **Framsburg** was a fortified burg north of the confluence of the rivers Greylin and Langwell.
 
 ## History
-It is possible that Framsburg was founded shortly after the Éothéod, the ancestors of the Aranadan, arrived in their new land in the far north of Rhovanion between the Misty Mountains in the west and the Forest River in the east during the rule of Frumgar, but it was presumably named after his son Fram, the famed slayer of the Dragon Scatha. It was the only fortified burg of the Éothéod,  while they lived in the far north of Rhovanion.
+
+It is possible that Framsburg was founded shortly after the Éothéod, the ancestors of the Aranadan, arrived in their new land in the far north of Wildlands between the Misty Mountains in the west and the Forest River in the east during the rule of Frumgar, but it was presumably named after his son Fram, the famed slayer of the Dragon Scatha. It was the only fortified burg of the Éothéod, while they lived in the far north of Wildlands.
 
 ## Portrayal in adaptations
 
@@ -31,6 +31,6 @@ It is possible that Framsburg was founded shortly after the Éothéod, the ances
 :The ruins of Framsburg can be visited and explored in the "Wells of Langflood" region.
 
 Category:Cities, towns and villages
-Category:Rhovanion
+Category:Wildlands
 de:Framsburg
 fi:Framinlinna

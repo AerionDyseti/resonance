@@ -8,18 +8,17 @@ properties:
   Category: City
   Location Description: Galel Anastrael is an amtreadi city harmoniously integrated with nature, serving as a cultural hub under the Church of Leaf & Star. Its architecture features elegant structures within ancient trees, highlighted by the Crystal Amphitheatre. The city values traditional amtreadi life, celebrating seasonal festivals, and is governed by a council of high priests. Its economy thrives on craftsmanship and trade in magical goods, while maintaining friendly relations with neighboring settlements.
 relationships:
-  -
-    type: contains
+  - type: contains
     target: loc-crystal-amphitheatre
-  -
-    type: controlled_by
+  - type: controlled_by
     target: org-church-of-leaf-star
-  -
-    type: part_of
+  - type: part_of
     target: loc-amtreador
 ---
 
 # Galel Anastrael
+
+**Galel Anastrael**, known in Ancient Amtreadan as **Galel Dronis** (meaning "City of the Deep Cleft" or "Deep Valley of the Cleft"), is the Last Homely House east of the Sea. The name derives from _galel_ ("city, place for people") + _dro_ ("depth, deep") + _nis_ ("partition, cleft").
 
 Category: City
 Contains: Crystal Amphitheatre (Crystal%20Amphitheatre%20216ca0aafe2180f79336eb92a24e935c.md)

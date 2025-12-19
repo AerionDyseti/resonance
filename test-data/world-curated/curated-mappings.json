@@ -1,7 +1,7 @@
 [
   {
     "original": "Battle of the Pelennor Fields",
-    "replacement": "Battle of Silverspire Fields",
+    "replacement": "Battle of Galim Vir Fields",
     "category": "event"
   },
   {
@@ -416,7 +416,7 @@
   },
   {
     "original": "Pelennor Fields",
-    "replacement": "Silverspire Fields",
+    "replacement": "Galim Vir Fields",
     "category": "location"
   },
   {
@@ -547,7 +547,7 @@
   },
   {
     "original": "Tower of Guard",
-    "replacement": "Silverspire",
+    "replacement": "Galim Vir",
     "category": "location"
   },
   {
@@ -869,14 +869,15 @@
   },
   {
     "original": "Minas Morgul",
-    "replacement": "Specterhold",
-    "category": "location"
+    "replacement": "Galim Errav",
+    "category": "location",
+    "notes": "Amtreadan: GAL-IM (fortress) + ER (dark) + RAV (magic) = Fortress of Dark Magic"
   },
   {
     "original": "Minas Tirith",
-    "replacement": "Silverspire",
+    "replacement": "Galim Vir",
     "category": "location",
-    "notes": "White city, capital"
+    "notes": "Amtreadan: GAL-IM (fortress) + VIR (guard) = Fortress of the Guard"
   },
   {
     "original": "River Anduin",
@@ -1867,7 +1868,7 @@
   },
   {
     "original": "Pelennor",
-    "replacement": "Silverspire Fields",
+    "replacement": "Galim Vir Fields",
     "category": "location"
   },
   {
@@ -3182,5 +3183,206 @@
     "original": "Ent",
     "replacement": "Treewarden",
     "category": "species"
+  },
+  {
+    "original": "Khazâd",
+    "replacement": "Drugan",
+    "category": "language"
+  },
+  {
+    "original": "Baruk Khazâd",
+    "replacement": "Vranak Drugan",
+    "category": "language"
+  },
+  {
+    "original": "Khazâd ai-mênu",
+    "replacement": "Drugan ai-thorul",
+    "category": "language"
+  },
+  {
+    "original": "Baruk Khazâd! Khazâd ai-mênu!",
+    "replacement": "Vranak Drugan! Drugan ai-thorul!",
+    "category": "language"
+  },
+  {
+    "original": "Hadhodrond",
+    "replacement": "Galel Drodin",
+    "category": "location"
+  },
+  {
+    "original": "Casari",
+    "replacement": "Druthari",
+    "category": "language"
+  },
+  {
+    "original": "Naugrim",
+    "replacement": "Nargan",
+    "category": "language"
+  },
+  {
+    "original": "Gonnhirrim",
+    "replacement": "Goronrim",
+    "category": "language"
+  },
+  {
+    "original": "Azanulbizar",
+    "replacement": "Tharkûn-bizar",
+    "category": "location"
+  },
+  {
+    "original": "Kheled-zâram",
+    "replacement": "Keled-tharak",
+    "category": "location"
+  },
+  {
+    "original": "Zirakzigil",
+    "replacement": "Silvertine",
+    "category": "location"
+  },
+  {
+    "original": "Zelem-melek",
+    "replacement": "Tharak-Melek",
+    "category": "location"
+  },
+  {
+    "original": "Nud-melek",
+    "replacement": "Vorn-Melek",
+    "category": "location"
+  },
+  {
+    "original": "Imladris",
+    "replacement": "Galel Dronis",
+    "category": "location"
+  },
+  {
+    "original": "Eldamar",
+    "replacement": "Galadla",
+    "category": "location"
+  },
+  {
+    "original": "Pelóri",
+    "replacement": "Imivir",
+    "category": "location"
+  },
+  {
+    "original": "Calacirya",
+    "replacement": "Anastr'nis",
+    "category": "location"
+  },
+  {
+    "original": "Alqualondë",
+    "replacement": "Galel Sunverba",
+    "category": "location"
+  },
+  {
+    "original": "Ñoldor",
+    "replacement": "High Amtreadi",
+    "category": "species"
+  },
+  {
+    "original": "Noldor",
+    "replacement": "High Amtreadi",
+    "category": "species"
+  },
+  {
+    "original": "Oiomúrë",
+    "replacement": "Gal'ertra",
+    "category": "location",
+    "notes": "Amtreadan: GAL (region) + ER (mystery) + TRA (cold) = misty cold region"
+  },
+  {
+    "original": "Helcaraxë",
+    "replacement": "Tra'shanis",
+    "category": "location",
+    "notes": "Amtreadan: TRA (frozen) + SHA (barrier) + NIS (divide) = frozen divide"
+  },
+  {
+    "original": "Belegaer",
+    "replacement": "Sunimæ",
+    "category": "location",
+    "notes": "Amtreadan: SUN (sea) + IM (great) + Æ (intensifier) = great sea"
+  },
+  {
+    "original": "Araman",
+    "replacement": "Alingal",
+    "category": "location",
+    "notes": "Amtreadan: A (negate) + LIN (forest) + GAL (region) = treeless region"
+  },
+  {
+    "original": "Andúnië",
+    "replacement": "Galel Sunist",
+    "category": "location",
+    "notes": "Amtreadan: GAL-EL (city) + SUN (sea) + IST (motion/west) = city of western sea"
+  },
+  {
+    "original": "Rómenna",
+    "replacement": "Galel Fersun",
+    "category": "location",
+    "notes": "Amtreadan: GAL-EL (city) + FER (dawn) + SUN (sea) = city of dawn sea"
+  },
+  {
+    "original": "Andustar",
+    "replacement": "Gal Sunist",
+    "category": "location",
+    "notes": "Amtreadan: GAL (region) + SUN + IST = western sea region"
+  },
+  {
+    "original": "Elenna",
+    "replacement": "Sunistor",
+    "category": "location",
+    "notes": "Amtreadan: SUN + IST + OR (place) = western sea place (island name for Oldshore)"
+  },
+  {
+    "original": "Annúminas",
+    "replacement": "Annorburh",
+    "category": "location",
+    "notes": "Old English style: Annor- (echo of original) + -burh (fortified place)"
+  },
+  {
+    "original": "Annuminas",
+    "replacement": "Annorburh",
+    "category": "location"
+  },
+  {
+    "original": "J.R.R.",
+    "replacement": "",
+    "category": "term",
+    "notes": "Remove initials, use 'the chronicler' alone"
+  },
+  {
+    "original": "Cirith Gorgor",
+    "replacement": "Nis'gorn",
+    "category": "location",
+    "notes": "Amtreadan: NIS (pass/divide) + GORN (horror) = Haunted Pass"
+  },
+  {
+    "original": "Cirith Thoronath",
+    "replacement": "Nis'verim",
+    "category": "location",
+    "notes": "Amtreadan: NIS (pass) + VER (bird) + IM (high) = Eagles' Cleft"
+  },
+  {
+    "original": "Cirith Dúath",
+    "replacement": "Nis'ertræ",
+    "category": "location",
+    "notes": "Amtreadan: NIS (pass) + ER (dark) + TRÆ (shadow) = Pass of Shadow"
+  },
+  {
+    "original": "Rhovanion",
+    "replacement": "Wildlands",
+    "category": "location",
+    "notes": "English: the wild eastern lands"
+  },
+  {
+    "original": "Helm Hammerhand",
+    "replacement": "Helmric Ironhand",
+    "category": "character",
+    "notes": "Ancient Human style: king of Aranada"
+  },
+  {
+    "original": "Galim",
+    "replacement": "Galim",
+    "category": "term",
+    "notes": "Amtreadan: GAL (area) + IM (elevated) = fortress/fortified place. New prefix for fortresses."
   }
 ]
