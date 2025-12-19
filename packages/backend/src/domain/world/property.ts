@@ -1,4 +1,4 @@
-import type { PropertyId, PropertyDefinitionId, TemplateId } from '../shared/ids';
+import type { PropertyId, PropertyDefinitionId } from '../shared/ids';
 import { createPropertyId } from '../shared/ids';
 
 /**
@@ -13,7 +13,6 @@ export interface IProperty {
   readonly id: PropertyId;
   readonly definitionId: PropertyDefinitionId;
   readonly value: PropertyValue;
-  readonly sourceTemplateId: TemplateId | null;
   readonly createdAt: Date;
   readonly updatedAt: Date;
 }
@@ -28,7 +27,6 @@ export class Property implements IProperty {
     public readonly id: PropertyId,
     public readonly definitionId: PropertyDefinitionId,
     private _value: PropertyValue,
-    public readonly sourceTemplateId: TemplateId | null,
     public readonly createdAt: Date,
     private _updatedAt: Date
   ) {}
@@ -37,20 +35,9 @@ export class Property implements IProperty {
    * Create a new Property
    * Generates ID and timestamps
    */
-  static create(params: {
-    definitionId: PropertyDefinitionId;
-    value: PropertyValue;
-    sourceTemplateId?: TemplateId;
-  }): Property {
+  static create(params: { definitionId: PropertyDefinitionId; value: PropertyValue }): Property {
     const now = new Date();
-    return new Property(
-      createPropertyId(),
-      params.definitionId,
-      params.value,
-      params.sourceTemplateId ?? null,
-      now,
-      now
-    );
+    return new Property(createPropertyId(), params.definitionId, params.value, now, now);
   }
 
   /**
@@ -58,14 +45,7 @@ export class Property implements IProperty {
    * Used by adapters when loading from database
    */
   static existing(data: IProperty): Property {
-    return new Property(
-      data.id,
-      data.definitionId,
-      data.value,
-      data.sourceTemplateId,
-      data.createdAt,
-      data.updatedAt
-    );
+    return new Property(data.id, data.definitionId, data.value, data.createdAt, data.updatedAt);
   }
 
   get value(): PropertyValue {

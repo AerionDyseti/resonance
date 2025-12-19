@@ -40,8 +40,11 @@ export {
 } from './info-capability';
 
 // Query Context
-export type { EntitySummary, RelationshipSummary, ContextStats } from './query-context';
+export type { ContextStats } from './query-context';
 export { QueryContext } from './query-context';
+
+// Re-export projections from World domain
+export type { EntitySummary, RelationshipSummary } from '../world';
 
 // Capability Definitions
 export {

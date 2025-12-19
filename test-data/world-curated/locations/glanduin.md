@@ -1,0 +1,35 @@
+---
+id: loc-glanduin
+type: location
+name: Glanduin
+slug: glanduin
+summary: The Glanduin was a river in the region of Eriador in The Mortal Lands and an eastern arm of the Gwathló. Beginning in the Misty Mountains south of Shadowdeep, it flowed west-north-west until it was met by the Sirannon near the old location of Ost-in-Edhil, the capital of the Amtreadi realm of Eregion. From there the Glanduin flowed towards the Hoarwell, which it met in the marshes known as Swanfleet or Nîn-in-Eilph north-east of Tharbad.
+---
+
+# Glanduin
+
+The **Glanduin** was a river in the region of Eriador in The Mortal Lands and an eastern arm of the Gwathló.
+
+Beginning in the Misty Mountains south of Shadowdeep, it flowed west-north-west until it was met by the Sirannon near the old location of Ost-in-Edhil, the capital of the Amtreadi realm of Eregion. From there the Glanduin flowed towards the Hoarwell, which it met in the marshes known as Swanfleet or **Nîn-in-Eilph** north-east of Tharbad. From there on both rivers became the Gwathló.
+
+During the days of Argenthal's power the Glanduin marked the northernmost border of the kingdom in the west.
+
+According to *The Atlas of The Mortal Lands*, it was approximately seventy-five miles in length. 
+
+On some versions of the The Mortal Lands map the name *Swanfleet* appears to be an alternative name for the river, but in fact that name apparently refers to the marshes alone.
+
+## Translations
+-->
+
+## References
+
+Category:Amtreadan names & words
+Category:Rivers
+Category:Eriador
+
+de:Glanduin
+es:Glanduin
+fr:Glanduin
+it:Glanduin
+pl:Glanduina
+ru:Гландуин

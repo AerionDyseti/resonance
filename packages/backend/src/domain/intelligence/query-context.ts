@@ -1,29 +1,8 @@
 import type { EntityId, WorldId, EntityDefinitionId, RelationshipId } from '../shared/ids';
 import type { IEntity } from '../world/entity';
 import type { IRelationship } from '../world/relationship';
+import type { EntitySummary } from '../world';
 import type { IEntityDefinition } from '../meta/entity-definition';
-
-/**
- * Entity summary for context - lighter weight than full IEntity
- * Used when we don't need all entity details
- */
-export interface EntitySummary {
-  id: EntityId;
-  name: string;
-  definitionId: EntityDefinitionId;
-  summary: string | null;
-}
-
-/**
- * Relationship summary for context
- */
-export interface RelationshipSummary {
-  id: RelationshipId;
-  sourceEntityId: EntityId;
-  targetEntityId: EntityId;
-  definitionName: string;
-  description: string | null;
-}
 
 /**
  * Context statistics for logging and debugging

@@ -1,0 +1,16 @@
+{
+  "name": "@resonance/frontend",
+  "version": "0.0.1",
+  "description": "Resonance frontend - Vue 3 application",
+  "private": true,
+  "type": "module",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "bun": "./index.ts",
+      "import": "./index.ts",
+      "types": "./index.ts"
+    }
+  }
+}

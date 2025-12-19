@@ -1,7 +1,7 @@
 import type { WorldId, EntityId, RelationshipDefinitionId } from '../shared/ids';
 import type { IEntity } from '../world/entity';
 import type { IRelationship } from '../world/relationship';
-import type { EntitySummary, RelationshipSummary } from './query-context';
+import type { EntitySummary, RelationshipSummary } from '../world';
 
 /**
  * Direction filter for relationship queries
