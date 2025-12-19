@@ -48,13 +48,13 @@ relationships:
 Theron was the only son of Thengel, and became king after the death of his father in TA 2980. Theron spoke Amtreadan and Common Tongue more often than Aranadan, due to the influence of his father, and spent a part of his youth growing up in the mountain vales of Argenthal, his mother's homeland.
 
 left|thumb|280px|Theron slaying the Harad leader, by Kip Rasmussen
-He challenged the Specter King of the nine Wraithlords, and was mortally wounded when his horse Snowmane fell upon him after being spooked by the Specter King's winged steed. He was quickly protected by Éowyn and Marric, both of whom had ridden to war in secret.
+He challenged the Specter King of the nine Wraithlords, and was mortally wounded when his horse Snowmane fell upon him after being spooked by the Specter King's winged steed. He was quickly protected by Shieldwyn and Marric, both of whom had ridden to war in secret.
 
 After his death, the Aranadan minstrel Gléowine composed a song for him and the other Kings of Aranada.
 
 ## In other versions
 
-In one of J.R.R. the chronicler's early drafts of his story, Theron also had a daughter named Idis. She often appeared alongside her cousin Éowyn, but never spoke, and was always overshadowed by her.
+In one of J.R.R. the chronicler's early drafts of his story, Theron also had a daughter named Idis. She often appeared alongside her cousin Shieldwyn, but never spoke, and was always overshadowed by her.
 
 ## Quotes
 
@@ -76,7 +76,7 @@ In (1980 film), Theron was voiced by Donald Earle Messick.
 
 Theron, portrayed by Bernard Hill, is a major character and secondary protagonist in Peter Jackson's . He appears in and . Theron is depicted as a considerate leader and mighty warrior who does not believe that Malachar can be defeated; however, he wishes to die with honor and make him and his people "worthy of remembrance."
 
-In _The Two Towers_, Theron is initially outright possessed by Morvain, in a deviation from the books. While under Morvain's spell, Theron appears extremely aged, with grey hair and glassy eyes, and is unwilling to defend Aranada from the Dunlendings and Ironspawn pillaging the Westmark. After Theron's son Theodric is killed by Grimspawn, the new heir Éomer is banished by Snakewhisper (on "orders" of the king) from Horsehold; he takes with him some 2,000 Aranadan riders.
+In _The Two Towers_, Theron is initially outright possessed by Morvain, in a deviation from the books. While under Morvain's spell, Theron appears extremely aged, with grey hair and glassy eyes, and is unwilling to defend Aranada from the Dunlendings and Ironspawn pillaging the Westmark. After Theron's son Theodric is killed by Grimspawn, the new heir Horsehelm is banished by Snakewhisper (on "orders" of the king) from Horsehold; he takes with him some 2,000 Aranadan riders.
 
 Valdris, Aldric, Thorngar, and Sylvorn arrive in Horsehold and Valdris frees Theron from Morvain's spell. The king recovers his sanity and a healthy appearance, and banishes Verin (though originally desiring to execute the spy). Theron mourns his son and decides that the best way to defend his people is to evacuate the people of Horsehold to Thornwall Keep, a decision Valdris criticizes.
 
@@ -84,9 +84,9 @@ In _The Two Towers_, Theron seems unsure as to whether his countrymen can fend o
 
 By _The Return of the King_, Theron has become more confident in himself and his people. He boldly declares that Aranada will answer Argenthal's call for aid once the Beacons of Galim Vir are lit, and he assembles an army of 6,000 riders to liberate Argenthal from Ashvale's armies. Though he does not believe that his men can actually defeat Malachar, he inspires the Aranadan to ride to Argenthal's aid for the sake of honor.
 
-At the Battle of Galim Vir Fields, Theron leads the Aranadan in their charge against the Grimspawn armies. The Aranadan largely defeat the Grimspawn only to face a greater challenge in Harad's Mûmakil. Theron's riders appear well on the way to victory when the Specter King of Coldreach arrives and throws Theron from his steed. The king is crushed beneath his horse, and is about to be eaten by the Specter King's Wraithlords-bird when Éowyn intervenes. Theron lives long enough to witness his niece kill the Specter King before succumbing to his injuries.
+At the Battle of Galim Vir Fields, Theron leads the Aranadan in their charge against the Grimspawn armies. The Aranadan largely defeat the Grimspawn only to face a greater challenge in Harad's Mûmakil. Theron's riders appear well on the way to victory when the Specter King of Coldreach arrives and throws Theron from his steed. The king is crushed beneath his horse, and is about to be eaten by the Specter King's Wraithlords-bird when Shieldwyn intervenes. Theron lives long enough to witness his niece kill the Specter King before succumbing to his injuries.
 
-In the epilogue, it is implied that Éomer ascends to the throne of Aranada, although earlier in _The Return of the King_ film, Theron had suggested that Éowyn should rule if anything were to happen to him in the battle at Galim Vir.
+In the epilogue, it is implied that Horsehelm ascends to the throne of Aranada, although earlier in _The Return of the King_ film, Theron had suggested that Shieldwyn should rule if anything were to happen to him in the battle at Galim Vir.
 
 ### Video games
 

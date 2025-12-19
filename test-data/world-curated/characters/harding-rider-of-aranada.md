@@ -40,4 +40,4 @@ Category:Aranadan
 Category:Third Era characters
 
 de:Harding
-fi:Harding (Rohanin Ratsastaja)
+fi:Harding (Aranadain Ratsastaja)

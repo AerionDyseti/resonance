@@ -7,7 +7,7 @@ summary: 'Mardil Voronwë was a noble Man of Argenthal from the House of Huran d
 properties:
   name: Mardil Voronwë
   othernames: The Steadfast
-  title: Steward to the King of GondorRuling Steward of GondorLord of Argenthal
+  title: Steward to the King of ArgenthalRuling Steward of ArgenthalLord of Argenthal
   birth: 'TA 1960, Vol. XII: The Peoples of The Mortal Lands, VII: "The Heirs of Aldorion"'
   rule: TA 2050
   death: 'TA 2080, Appendix A: Annals of the Kings and Rulers, I: The Oldbloods Kings, (iv): "Argenthal and the Heirs of Anareth"'

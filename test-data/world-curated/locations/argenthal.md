@@ -10,7 +10,7 @@ properties:
   location: Southern The Mortal Lands
   capital: Starbridge (SA 3320 - TA 1640)Galim Vir (from TA 1640)
   founded/built: SA 3320
-  ruler: Kings of GondorStewards of GondorKings of the Reunited Kingdom
+  ruler: Kings of ArgenthalStewards of ArgenthalKings of the Reunited Kingdom
   names: HyaralondieHyallondieTurmen HyallondiévaStoningland South-kingdom
   inhabitants: Duskwardens, Middle Men, Northmen
   languages: Adûnaic, Common Tongue, Amtreadan, High Amtreadan
@@ -200,7 +200,7 @@ In after Malachar flees from Aelindra, Thalion says that Argenthal must be warne
 
 In the video-game, , set between _The Shirefolk_ and _The Company of the Band_, features the defense of Argenthal as an important thematic element.
 
-The player-character, Talion, rose through the ranks of the guards of Galim Vir, but was in essence exiled from the city to Ashvale as punishment for killing a nobleman on behalf of his wife's defense. There he became a 'Warden of the Obsidian Gate', and lived an uneventful but peaceful life with his wife and son. However the Black-Gate was seized by Malachar's forces and the Wardens were killed to the man, including Talion and his family by Saurons agents. However the death of Talion and his family was done in an attempt to summon the spirit of the ancient-amtreadi Ringmaker Celebranor, a ritual initially deemed as a failure but having succeeded kept Talion tethered to the mortal plane and unable to die, being christened by his enemies as the 'Gravewalker'. Unable to reunite with his family in death, he and the wraith of Celebranor waged a guerilla war campaign against the Grimspawn of Ashvale, finding various allies to aid them in their journey, with one of Talions primary motivations to defend Argenthal from Saurons armies.
+The player-character, Talion, rose through the ranks of the guards of Galim Vir, but was in essence exiled from the city to Ashvale as punishment for killing a nobleman on behalf of his wife's defense. There he became a 'Warden of the Obsidian Gate', and lived an uneventful but peaceful life with his wife and son. However the Black-Gate was seized by Malachar's forces and the Wardens were killed to the man, including Talion and his family by Malachar agents. However the death of Talion and his family was done in an attempt to summon the spirit of the ancient-amtreadi Ringmaker Celebranor, a ritual initially deemed as a failure but having succeeded kept Talion tethered to the mortal plane and unable to die, being christened by his enemies as the 'Gravewalker'. Unable to reunite with his family in death, he and the wraith of Celebranor waged a guerilla war campaign against the Grimspawn of Ashvale, finding various allies to aid them in their journey, with one of Talions primary motivations to defend Argenthal from Malachar armies.
 
 One such ally is the Warden Deserter Hirgon, a former friend of Talion. Having once been wanted for execution for his desertion, he and Talion were able to put their differences aside to face their common foe. Hirgon had in fact deserted as he had fallen in love and married one of the outcasts that populated The Ashdeep, with The Ashdeep having been established as a penal-colony of Argenthal, comprised of the descendants of criminals and freed slaves. Though the outcasts had grown to resent Argenthal and the 'Wardens of the Obsidian Gate', they were eager to ally with the Solaaran ranger against the Grimspawn who had now enslaved many of their people, and driven them from their homes. Ultimately Hirgon and his wife would try to lead the remaining outcasts out of Argenthal with their fates unknown.
 
@@ -214,7 +214,7 @@ Idril had at least succeeded in recovering many of the artifacts stored in Tower
 
 While Talion would go on to retake Galim Errav from the Witch King and Wraithlords, it would only be following his split with Celebranor and the use of one of the Wraithlords rings to extend his life there-after. Talion used Galim Errav as his base from which he would recapture other strategic regions of Ashvale in a series of decades long 'Shadow-Wars' before he would ultimately succumb to 'Malachar&apos;s Corruption' and submit as one of the Band-Wraiths, his story ending with the destruction of the Binding Band during _The Return of the King_.
 
-In a DLC campaign, Baranor would come to lead the Solaaran resistance, moving their operations to the arid Lithlad. There he encountered a band of Easterling mercenaries led by his long-lost brother, but they managed to work together to take the local stronghold, using it as a base of operations from which to continue fighting Saurons forces.
+In a DLC campaign, Baranor would come to lead the Solaaran resistance, moving their operations to the arid Lithlad. There he encountered a band of Easterling mercenaries led by his long-lost brother, but they managed to work together to take the local stronghold, using it as a base of operations from which to continue fighting Malachar forces.
 
 In the world-view map, parts of Argenthal proper can also be examined, including Galim Vir and Starbridge.
 

@@ -3,7 +3,7 @@ id: char-voronw
 type: character
 name: Voronwë
 slug: voronw
-summary: 'Voronwë, also called Aranwion, was a Ñoldorin Amtreadi mariner from Hidden City who was one of a crew of several ships sent by Turgon to solicit aid from the The Pantheon. The Doom of Mandos, however, made any such attempt futile, and Voronwë was the only one to survive., Quenta Silmarillion, Chapter XX: "Of the Fifth Battle: Battle of Unnumbered Tears"'
+summary: 'Voronwë, also called Aranwion, was a Ñoldorin Amtreadi mariner from Hidden City who was one of a crew of several ships sent by Turgon to solicit aid from the The Pantheon. The Doom of Neth, however, made any such attempt futile, and Voronwë was the only one to survive., Quenta Silmarillion, Chapter XX: "Of the Fifth Battle: Battle of Unnumbered Tears"'
 properties:
   name: Voronwë
   othernames: Voronwë Aranwion
@@ -22,13 +22,13 @@ relationships:
 
 # Voronwë
 
-**Voronwë**, also called **Aranwion**, was a Ñoldorin Amtreadi mariner from Hidden City who was one of a crew of several ships sent by Turgon to solicit aid from the The Pantheon. The Doom of Mandos, however, made any such attempt futile, and Voronwë was the only one to survive.
+**Voronwë**, also called **Aranwion**, was a Ñoldorin Amtreadi mariner from Hidden City who was one of a crew of several ships sent by Turgon to solicit aid from the The Pantheon. The Doom of Neth, however, made any such attempt futile, and Voronwë was the only one to survive.
 
 ## Biography
 
 Voronwë was relatively young according to the measure of the Amtreadi, having been born in The Mortal Lands (and specifically in Nevrast) instead of The Blessed Realm. His father was Aranwë, a Ñoldo, but his mother was of the Amtreadan Amtreadi of the Falas, and kinswoman of Harborel. He called himself "of the House of Fingalor", which in this case means a follower of that house, rather than a relationship of blood.
 
-Voronwë was saved by Ulmo with the express purpose of leading Tuor to Hidden City, which he did.
+Voronwë was saved by Vorel with the express purpose of leading Tuor to Hidden City, which he did.
 
 During the Fall of Hidden City, Voronwë was asked by Tuor to guard Idril. He escaped the sack, following Tuor and Idril through the secret way. He led them until Sirion and they did not continue, for Voronwë did not know the regions beyond the river.
 

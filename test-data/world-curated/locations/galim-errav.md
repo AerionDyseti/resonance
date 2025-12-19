@@ -95,4 +95,4 @@ Category:Sieges
 Category:Amtreadan locations
 de:Galim Errav
 fi:Galim Errav
-fr:encyclo/geographie/villes tours et forteresses/mordor/minas morgul
+fr:encyclo/geographie/villes tours et forteresses/Ashvale/Galim Errav

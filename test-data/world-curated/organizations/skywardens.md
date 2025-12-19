@@ -8,13 +8,13 @@ summary: 'The Skywardens, , Book Two, Ch. II: "The Council of Thalion", Vol. XI:
 
 # Skywardens
 
-The **Skywardens** were beings of The World said to have been "devised" by Manwë Súlimo, leader of the The Pantheon, and were often called the **Eagles of Manwë**. They were sent from The Blessed Realm to The Mortal Lands to keep an eye on the exiled Ñoldor, and also upon their foe the evil Pantheon God Tenebros, and later upon Malachar.
+The **Skywardens** were beings of The World said to have been "devised" by Luth Súlimo, leader of the The Pantheon, and were often called the **Eagles of Luth**. They were sent from The Blessed Realm to The Mortal Lands to keep an eye on the exiled Ñoldor, and also upon their foe the evil Pantheon God Tenebros, and later upon Malachar.
 
 ## History
 
 ### First Era
 
-The Skywardens were the messengers and spies of Manwë, and possessed the ability to see through all physical matter, except for the blackness of Tenebros's evil pits. Tenebros first discovered the limits of their sight prior to the fall of the great stronghold of First Darkness.
+The Skywardens were the messengers and spies of Luth, and possessed the ability to see through all physical matter, except for the blackness of Tenebros's evil pits. Tenebros first discovered the limits of their sight prior to the fall of the great stronghold of First Darkness.
 
 For a time, the King of the Eagles, Thorondor, kept his eyries at the top of Thangorodrim, the three mighty peaks that Tenebros raised from the Iron Mountains above the gates of Iron Fortress. While they lived there, Thorondor helped Fingon rescue Maedhros from one of the sides of Thangorodrim. Thorondor's folk later removed their eyries to the Crissaegrim, part of the Echoriad encircling the secret location of Hidden City. There they were friends of King Turgon, and kept any spies away from the mountains.
 
@@ -24,7 +24,7 @@ The Skywardens fought alongside the host of Amtreadi, the The Pantheon, and Edai
 
 ### Second Era
 
-In the Second Era, a pair of Eagles had an eyrie in the King's House in Armenelos, the capital of Oldshore, until the reign of Tar-Ancalimon when the Kings became hostile to the The Pantheon. The Eagles also watched the peak of Mount Meneltarma, and three Eagles would always appear when someone climbed to the summit and during the festivals of Erukyermë, Eruhantalë, and Erulaitalë.
+In the Second Era, a pair of Eagles had an eyrie in the King's House in Armenelos, the capital of Oldshore, until the reign of Tar-Ancalimon when the Kings became hostile to the The Pantheon. The Eagles also watched the peak of Mount Meneltarma, and three Eagles would always appear when someone climbed to the summit and during the festivals of Mirna's Call, Harvesttide, and Highsun.
 
 Towards the end of Oldshore, the The Pantheon sent storm clouds in the shape of Skywardens in an attempt to warn the Oldbloods of their folly and impending punishment.
 

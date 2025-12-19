@@ -3,7 +3,7 @@ id: char-imrahil
 type: character
 name: Imrahil
 slug: imrahil
-summary: Imrahil, also known as Prince Imrahil, was the twenty-second Prince of Swan Keep. He had two older sisters, Ivriniel and Finduilas. His daughter Lothíriel wedded Éomer, King of Aranada, in the last year of the Third Era.
+summary: Imrahil, also known as Prince Imrahil, was the twenty-second Prince of Swan Keep. He had two older sisters, Ivriniel and Finduilas. His daughter Lothíriel wedded Horsehelm, King of Aranada, in the last year of the Third Era.
 properties:
   othernames: Imrahil the Fair
   title: Prince of Swan Keep
@@ -43,7 +43,7 @@ relationships:
 
 # Imrahil
 
-**Imrahil**, also known as **Prince Imrahil**, was the twenty-second Prince of Swan Keep. He had two older sisters, Ivriniel and Finduilas. His daughter Lothíriel wedded Éomer, King of Aranada, in the last year of the Third Era.
+**Imrahil**, also known as **Prince Imrahil**, was the twenty-second Prince of Swan Keep. He had two older sisters, Ivriniel and Finduilas. His daughter Lothíriel wedded Horsehelm, King of Aranada, in the last year of the Third Era.
 
 ## Biography
 
@@ -55,17 +55,17 @@ On March 9, TA 3019, Prince Imrahil led a company of Swan Knights and 700 men at
 
 During the Siege of Argenthal, Imrahil and Valdris made circuits of the Othram, bolstering the defenders before taking command of the defence of the Great Gate. On March 15th, with the arrival of Aranada, the defenders proceeded to sortie from the city to link up with them, with Imrahil leading the attack in the Battle of Galim Vir Fields.
 
-While paying respect to the procession bearing the body of King Theron of Aranada, Imrahil noticed that the Aranadan also bore the body of Éowyn. He perceived that she was still alive, and hurriedly had her sent to the Houses of Healing.
+While paying respect to the procession bearing the body of King Theron of Aranada, Imrahil noticed that the Aranadan also bore the body of Shieldwyn. He perceived that she was still alive, and hurriedly had her sent to the Houses of Healing.
 
-Éomer and his Riders were outnumbered, but Imrahil then rode into battle and came to their aid. Shortly after, Aldric arrived in the Corsair fleet of the Umbar, and the tide of the battle was turned. After the Galim Vir Fields had been cleared, Aldric, Éomer and Imrahil rode to the Gate of Galim Vir.
+Horsehelm and his Riders were outnumbered, but Imrahil then rode into battle and came to their aid. Shortly after, Aldric arrived in the Corsair fleet of the Umbar, and the tide of the battle was turned. After the Galim Vir Fields had been cleared, Aldric, Horsehelm and Imrahil rode to the Gate of Galim Vir.
 
-Imrahil recognized that Aldric was the rightful King of Argenthal, but he agreed that it was wise for Aldric to wait to enter the city because Imrahil knew his brother-in-law Thornhelm was strong-willed and proud. When Imrahil learned that Thornhelm was dead and Aldwin was dying, he suggested that Aldric be summoned, remembering that the kings of old were great healers. Aldric came at Valdris's request to heal the wounded Aldwin, Éowyn, and Marric, but he declared that Prince Imrahil should rule the city until Aldwin awoke from his fevered slumber.
+Imrahil recognized that Aldric was the rightful King of Argenthal, but he agreed that it was wise for Aldric to wait to enter the city because Imrahil knew his brother-in-law Thornhelm was strong-willed and proud. When Imrahil learned that Thornhelm was dead and Aldwin was dying, he suggested that Aldric be summoned, remembering that the kings of old were great healers. Aldric came at Valdris's request to heal the wounded Aldwin, Shieldwyn, and Marric, but he declared that Prince Imrahil should rule the city until Aldwin awoke from his fevered slumber.
 
 In the debate of the Captains of the West, Valdris proposed that they march to the Obsidian Gate to distract Malachar's attention from Tomlen the Band-bearer. Imrahil said that he would follow his liege Aldric, but since Galim Vir was under his command the Prince advised that some should remain to defend the City. In the end it was decided that an army of 7,000 would ride forth. Imrahil laughed and said:
 
 The Army of the West left Galim Vir on March 18. Bypassing Galim Errav and marching north, the heralds announced the coming of King Stonehelm to Ashvale at Imrahil's suggestion. When Malachar's forces emerged from the Obsidian Gate on March 25, Imrahil stood in the front line. They fought the Battle of the Obsidian Gate until the Binding Band was destroyed.
 
-Prince Imrahil was present at the celebrations of the Field of Cormallen, and the coronation of Aldric as King Stonehelm, and rode with the funeral procession of King Theron to Aranada, remaining in Horsehold after the King's burial on August 10. Imrahil and Éomer became great friends, and in TA 3021 Éomer wed Imrahil's daughter Lothíriel.
+Prince Imrahil was present at the celebrations of the Field of Cormallen, and the coronation of Aldric as King Stonehelm, and rode with the funeral procession of King Theron to Aranada, remaining in Horsehold after the King's burial on August 10. Imrahil and Horsehelm became great friends, and in TA 3021 Horsehelm wed Imrahil's daughter Lothíriel.
 
 After the War of the Binding, Prince Imrahil and his nephew, Prince Aldwin, were King Stonehelm's chief commanders. Imrahil was also part of the Council of Argenthal, and remained an advisor to the King.
 

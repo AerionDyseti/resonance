@@ -279,4 +279,4 @@ Category:Third Era characters
 
 de:Tomlen Beutlin
 fi:Tomlen Reppuli
-fr:encyclo:personnages:shirefolk:bessac:frodo bessac
+fr:encyclo:personnages:shirefolk:bessac:Tomlen bessac

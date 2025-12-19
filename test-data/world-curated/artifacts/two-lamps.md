@@ -3,9 +3,9 @@ id: artifact-two-lamps
 type: artifact
 name: Two Lamps
 slug: two-lamps
-summary: 'The Two Lamps that lit The Mortal Lands before the Two Trees were Illuin (in the north) and Ormal (in the south). They were created by Aulë and destroyed by Tenebros, whose destruction reshaped the world and ended the Spring of Westlands.'
+summary: 'The Two Lamps that lit The Mortal Lands before the Two Trees were Illuin (in the north) and Ormal (in the south). They were created by Kang-Somer and destroyed by Tenebros, whose destruction reshaped the world and ended the Spring of Westlands.'
 properties:
-  creator: Aulë
+  creator: Kang-Somer
   northern_lamp: Illuin
   southern_lamp: Ormal
   destroyed_by: Tenebros
@@ -18,7 +18,7 @@ The **Two Lamps** were the first sources of light for The Mortal Lands, created 
 
 ## Creation
 
-The Two Lamps were constructed by **Aulë** (the smith Vala) at the request of the other Valar to illuminate The Mortal Lands. The Valar had shaped the world but it lay in darkness.
+The Two Lamps were constructed by **Kang-Somer** (the smith Vala) at the request of the other Valar to illuminate The Mortal Lands. The Valar had shaped the world but it lay in darkness.
 
 - **Illuin** ("Sky-blue") was set upon a great pillar in the northern regions of The Mortal Lands
 - **Ormal** ("High-gold") was set upon a pillar in the south

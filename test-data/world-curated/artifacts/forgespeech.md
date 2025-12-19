@@ -3,10 +3,10 @@ id: lang-forgespeech
 type: language
 name: Forgespeech
 slug: forgespeech
-summary: "Forgespeech (also called Khuzdul) is the secret language of the Forgekin, created for them by the Vala Aulë. It is a closely guarded tongue that Forgekin rarely teach to outsiders. Famous phrases include the battle cry 'Baruk Khazâd! Khazâd ai-mênu!' meaning 'Axes of the Forgekin! The Forgekin are upon you!'"
+summary: "Forgespeech (also called Khuzdul) is the secret language of the Forgekin, created for them by the Vala Kang-Somer. It is a closely guarded tongue that Forgekin rarely teach to outsiders. Famous phrases include the battle cry 'Baruk Khazâd! Khazâd ai-mênu!' meaning 'Axes of the Forgekin! The Forgekin are upon you!'"
 properties:
   type: Constructed language
-  creator: Aulë (for the Forgekin)
+  creator: Kang-Somer (for the Forgekin)
   speakers: Forgekin
   secrecy: 'Closely guarded; rarely taught to outsiders'
   writing_system: Cirth runes
@@ -14,7 +14,7 @@ properties:
 
 # Forgespeech
 
-**Forgespeech** (also called **Khuzdul** in its own tongue) is the secret language of the Forgekin. It was created for them by the Vala Aulë when he first made the Seven Fathers of the Forgekin in ancient times.
+**Forgespeech** (also called **Khuzdul** in its own tongue) is the secret language of the Forgekin. It was created for them by the Vala Kang-Somer when he first made the Seven Fathers of the Forgekin in ancient times.
 
 ## Nature
 
@@ -47,6 +47,6 @@ Thorngar shouted this war cry during the Battle of Galim Vir Fields as he and th
 
 ## Relationship to Other Languages
 
-Forgespeech is entirely distinct from Amtreadan and the languages of Men. It shares no common ancestry with them, having been created independently by Aulë. However, some Forgespeech words have entered Common Tongue, particularly the names of places and Forgekin individuals.
+Forgespeech is entirely distinct from Amtreadan and the languages of Men. It shares no common ancestry with them, having been created independently by Kang-Somer. However, some Forgespeech words have entered Common Tongue, particularly the names of places and Forgekin individuals.
 
 The Forgekin use the Cirth (runic) alphabet for writing, which was originally devised by the Amtreadi but adapted by the Forgekin for their own tongue.

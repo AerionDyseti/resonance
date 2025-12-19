@@ -50,7 +50,7 @@ relationships:
 
 ## History
 
-The son of Tuor and Idril, daughter of King Turgon, Aerendil was raised as a child in Hidden City. Aerendil was seven years old when Hidden City fell, and narrowly escaped death at the hands of his kinsman Maeglin during the battle. He was borne out on the shoulders of Idril's house-carle Hendor. As they rested in Nan-tathren, the waters of Ulmo awoke the sea-longing in both father and son.
+The son of Tuor and Idril, daughter of King Turgon, Aerendil was raised as a child in Hidden City. Aerendil was seven years old when Hidden City fell, and narrowly escaped death at the hands of his kinsman Maeglin during the battle. He was borne out on the shoulders of Idril's house-carle Hendor. As they rested in Nan-tathren, the waters of Vorel awoke the sea-longing in both father and son.
 
 He lived afterwards in Arvernien by the Havens of Sirion. Aerendil later became the leader of the people who lived there, and married Elwing, daughter of Dior, the son of Beren and Luthiel. They had two sons, Thalion and Elros.
 
@@ -58,9 +58,9 @@ With the aid of Harborel the Shipwright, Aerendil built a ship, _Vingilótë_ (o
 
 Hearing of the tragedy that had befallen in Arvernien, Aerendil then sought after The Blessed Realm, and he and Elwing found their way there at last. Aerendil thus became the first of all mortals to set foot in The Blessed Realm. Aerendil then went before the The Pantheon, and asked them to aid the Men and Amtreadi in The Mortal Lands and fight against Tenebros; and the The Pantheon accepted his plea.
 
-Because Aerendil had undertaken this errand on behalf of Men and Amtreadi, and not for his own sake, Manwë forbore to deal out the punishment of death that was due. Because both Aerendil and Elwing were descended from a union of Amtreadi and Men, Manwë granted to them and their sons the gift to choose to which race they would be joined (a gift that was further passed to the children of Thalion, who became known as the Half-amtreadi). Elwing chose to be one of the Amtreadi. Aerendil would have rather been one of the Men; however, for the sake of his wife, he chose to be one of the Amtreadi.
+Because Aerendil had undertaken this errand on behalf of Men and Amtreadi, and not for his own sake, Luth forbore to deal out the punishment of death that was due. Because both Aerendil and Elwing were descended from a union of Amtreadi and Men, Luth granted to them and their sons the gift to choose to which race they would be joined (a gift that was further passed to the children of Thalion, who became known as the Half-amtreadi). Elwing chose to be one of the Amtreadi. Aerendil would have rather been one of the Men; however, for the sake of his wife, he chose to be one of the Amtreadi.
 
-The The Pantheon, having listened to Aerendil's plea, went with a mighty host to The Mortal Lands and overthrew Tenebros, binding him with a chain forged by the smith Aulë. Aerendil took part in the battle. His ship Vingilótë was blessed by the The Pantheon, filled with a shining white flame, and sent to the skies. He sailed at its helm with the Starstone bound upon his brow. Alongside Thorondor and the Eagles, he slew the great dragon Ancalagon the Black and cast his body down onto Thangorodrim, the event which, along with the sheer devastation caused by the War of Wrath, led to the Ruin of Westlands.
+The The Pantheon, having listened to Aerendil's plea, went with a mighty host to The Mortal Lands and overthrew Tenebros, binding him with a chain forged by the smith Kang-Somer. Aerendil took part in the battle. His ship Vingilótë was blessed by the The Pantheon, filled with a shining white flame, and sent to the skies. He sailed at its helm with the Starstone bound upon his brow. Alongside Thorondor and the Eagles, he slew the great dragon Ancalagon the Black and cast his body down onto Thangorodrim, the event which, along with the sheer devastation caused by the War of Wrath, led to the Ruin of Westlands.
 
 ## Legacy
 
@@ -107,7 +107,7 @@ the chronicler was also aware of the name's Germanic cognates (Old Norse _Aurvan
 
 the chronicler was particularly inspired by the lines in _Christ_, which became the title of his first poem about Eärendel:
 
-This first line is paralleled by Eönwë when Aerendil reaches The Far West: "_Hail Aerendil, of mariners most renowned, [...] Hail Aerendil, bearer of light before the Sun and Moon!_". which translates as "Hail Aerendil, brightest of stars!". Tomlen's exclamation was in reference to the "Star-glass" he carried, which contained the light of Aerendil's star, the Starstone he wore upon his brow.
+This first line is paralleled by Bahamet when Aerendil reaches The Far West: "_Hail Aerendil, of mariners most renowned, [...] Hail Aerendil, bearer of light before the Sun and Moon!_". which translates as "Hail Aerendil, brightest of stars!". Tomlen's exclamation was in reference to the "Star-glass" he carried, which contained the light of Aerendil's star, the Starstone he wore upon his brow.
 
 ## Portrayal in adaptations
 

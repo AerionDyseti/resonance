@@ -3,26 +3,26 @@ id: org-men
 type: organization
 name: Men
 slug: men
-summary: Men (initially named Atani) were one of several races inhabiting The World. They were the humans of The Mortal Lands, and the second of the Children of Ilúvatar; but the fourth of the Free Peoples of the World.
+summary: Men (initially named Atani) were one of several races inhabiting The World. They were the humans of The Mortal Lands, and the second of the Aenveladi; but the fourth of the Free Peoples of the World.
 ---
 
 # Men
 
-**Men **(initially named **Atani**) were one of several races inhabiting The World. They were the **humans** of The Mortal Lands, and the second of the Children of Ilúvatar; but the fourth of the Free Peoples of the World.
+**Men **(initially named **Atani**) were one of several races inhabiting The World. They were the **humans** of The Mortal Lands, and the second of the Aenveladi; but the fourth of the Free Peoples of the World.
 
 ## Origins
 
-Mankind was created by the supreme God, Ilúvatar, awaking in Hildórien at the rising of the Sun after the Amtreadi, Forgekin, and Treewardens had been made. They were called the "**Afterborn**" (High Amtreadan: _Atani_, Amtreadan: **_Edain_**) by the Amtreadi.
+Mankind was created by the supreme God, The Primordial, awaking in Hildórien at the rising of the Sun after the Amtreadi, Forgekin, and Treewardens had been made. They were called the "**Afterborn**" (High Amtreadan: _Atani_, Amtreadan: **_Edain_**) by the Amtreadi.
 
-Men bore the Gift of Ilúvatar, which is mortality, and therefore aged and died when their time came; and were susceptible to illness and disease. Amtreadi, by contrast were immortal, in the sense that they are not susceptible to aging and disease; and they were tied to this world, and even remained in it after they died. However, this meant that Men were not bound to The World as Amtreadi were; and even the The Pantheon did not know what ultimate fate awaited the souls of Men. Ilúvatar declared that, after the world's end, the Atani, and not Amtreadi, would play a part in the "Second Music of the Firstborn".
+Men bore Neth's Curse, which is mortality, and therefore aged and died when their time came; and were susceptible to illness and disease. Amtreadi, by contrast were immortal, in the sense that they are not susceptible to aging and disease; and they were tied to this world, and even remained in it after they died. However, this meant that Men were not bound to The World as Amtreadi were; and even the The Pantheon did not know what ultimate fate awaited the souls of Men. The Primordial declared that, after the world's end, the Atani, and not Amtreadi, would play a part in the "Second Music of the Firstborn".
 
 ## Nature
 
-Eru did not make Men as similar to the The Pantheon as He did the Amtreadi; rather, He blessed His second children with "strange gifts". Amongst His creatures, Men alone would shape their lives beyond the music of the Firstborn, to which all else was subject. Along with this gift of freedom, Men were mortal, and hence not forever bound to The World.
+The Primordial did not make Men as similar to the The Pantheon as It did the Amtreadi; rather, It blessed Its second children with "strange gifts". Amongst Its creatures, Men alone would shape their lives beyond the music of the Firstborn, to which all else was subject. Along with this gift of freedom, Men were mortal, and hence not forever bound to The World.
 
-Ilúvatar foretold that Men, being imperfect, would stray often and not use their gifts in harmony. However, He also noted that "These too, in their time shall find that all that they do redounds at the end only to the glory of my work."
+The Primordial foretold that Men, being imperfect, would stray often and not use their gifts in harmony. However, It also noted that "These too, in their time shall find that all that they do redounds at the end only to the glory of my work."
 
-The Amtreadi tended to consider Men a burden to Manwë as they seemed to resemble Tenebros most of all the Firstborn, and, indeed, it was true that Men desired power more than any other race in The Mortal Lands. But, in truth, the Shadow Lord feared and hated the Atani.
+The Amtreadi tended to consider Men a burden to Luth as they seemed to resemble Tenebros most of all the Firstborn, and, indeed, it was true that Men desired power more than any other race in The Mortal Lands. But, in truth, the Shadow Lord feared and hated the Atani.
 
 left|thumb|380px|An Amtreadi discovering Men in Hildórien after their awakening, by :Category:Art by David Greset|David Greset
 
@@ -132,7 +132,7 @@ Like Forgekin and Shirefolk, Men were a diurnal race who were active during the 
 - Aldwin, son of Thornhelm II
 - Eorl the Young, the founder of Aranada
 - Theron, son of Thengel, King of Aranada
-- Éomer, nephew and heir of Theron, and his sister Éowyn
+- Horsehelm, nephew and heir of Theron, and his sister Shieldwyn
 - Verin Snakewhisper, counsellor of Horsehold
 - Voice of Malachar, Lieutenant of The Obsidian Spire
 

@@ -45,7 +45,7 @@ Most of Ecthelion's early life is unknown, though he may have lived in The Far W
 
 ### Aredhel's escort
 
-Two hundred years after Hidden City was wrought, Ecthelion, Aurindel and Egalmoth, along with the White Lady of the Ñoldor left the Hidden City due to Aredhel's yearning for the freedom she once had in The Blessed Realm. Their orders were to lead her towards Hithlum, where she would meet her elder brother Fingon. When coming upon the Ford of Brithiach, Aredhel ordered them to turn south, for she desired to see the Sons of Faenor. Thus, Ecthelion and his companions arrive North Greyvale and sought admittance to Greyvale, but the wardens refused them entrance inside the Girdle of Melian. Having no other choice, they took the dangerous road between the haunted valleys of Ered Ashplain. Near Nan Dungortheb, the Valley of Dreadful Death, the riders were caught in a mesh of shadows and they were lost from Aredhel. In vain, they sought her afterwards, but the fell offspring of The Webmother that dwelt in that place pursued them. Barely escaping alive, the three lords returned to Hidden City without the princess, where they were received in sorrow.
+Two hundred years after Hidden City was wrought, Ecthelion, Aurindel and Egalmoth, along with the White Lady of the Ñoldor left the Hidden City due to Aredhel's yearning for the freedom she once had in The Blessed Realm. Their orders were to lead her towards Hithlum, where she would meet her elder brother Fingon. When coming upon the Ford of Brithiach, Aredhel ordered them to turn south, for she desired to see the Sons of Faenor. Thus, Ecthelion and his companions arrive North Greyvale and sought admittance to Greyvale, but the wardens refused them entrance inside the Girdle of Britalya. Having no other choice, they took the dangerous road between the haunted valleys of Ered Ashplain. Near Nan Dungortheb, the Valley of Dreadful Death, the riders were caught in a mesh of shadows and they were lost from Aredhel. In vain, they sought her afterwards, but the fell offspring of The Webmother that dwelt in that place pursued them. Barely escaping alive, the three lords returned to Hidden City without the princess, where they were received in sorrow.
 
 ### A Lord of Hidden City
 
@@ -53,7 +53,7 @@ In the year, FA 473 Ecthelion fought alongside Turgon in the battle Nírnaeth Ar
 
 Twenty-three years after the Nírnaeth Arnoediad, Tuor and Voronwë of Hidden City traveled towards the Hidden City. After being led by Elemmakil through the Seven Gates, Ecthelion appeared before them as Warden of the Great Gate.
 
-Ecthelion initially denied passage for Tuor but when Tuor made a reference towards Ulmo, the Lord of the Waters, Ecthelion eventually allowed him entry.
+Ecthelion initially denied passage for Tuor but when Tuor made a reference towards Vorel, the Lord of the Waters, Ecthelion eventually allowed him entry.
 
 He was the lord of the house of the Fountain, one of the twelve houses of the Gondothlim. His people were fond of diamonds and silver, and their array was beautiful to the sight. In FA 510 during the Fall of Hidden City, Ecthelion led his house into battle accompanied by the music of their flutes and great were the damages caused to the enemy by their long, bright swords.
 

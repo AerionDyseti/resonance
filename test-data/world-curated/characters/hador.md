@@ -3,13 +3,13 @@ id: char-hador
 type: character
 name: Hador
 slug: hador
-summary: "Hador Goldenhead, known also as Hador Lórindol, was a great chieftain of the Edain in the First Era of The Mortal Lands, and a revered Edain among many of the greatest Amtread-friends of the Eldar. He became the first Lord of Dor-lómin and was accounted mighty even among the Eldar. Hador and his wife Gildis had three children: Glóredhel the first child and only daughter, Galdor the second child and elder son, and Gundor the last child and younger son."
+summary: 'Hador Goldenhead, known also as Hador Lórindol, was a great chieftain of the Edain in the First Era of The Mortal Lands, and a revered Edain among many of the greatest Amtread-friends of the Eldar. He became the first Lord of Dor-lómin and was accounted mighty even among the Eldar. Hador and his wife Gildis had three children: Glóredhel the first child and only daughter, Galdor the second child and elder son, and Gundor the last child and younger son.'
 properties:
   name: Hador
   othernames: Hador Lórindol
   title: Lord of Dor-lómin
-  birth: "FA 390, Vol. XI: The War of the Jewels, Part One: \"The Grey Annals\""
-  death: "FA 455, Vol. XI: The War of the Jewels, Part One: \"The Grey Annals\""
+  birth: 'FA 390, Vol. XI: The War of the Jewels, Part One: "The Grey Annals"'
+  death: 'FA 455, Vol. XI: The War of the Jewels, Part One: "The Grey Annals"'
   spouse: Gildis
   race: Men
   culture: Edain (House of Hador)
@@ -18,14 +18,11 @@ properties:
   eyes: Blue
   age: 65}
 relationships:
-  -
-    type: married_to
+  - type: married_to
     target: char-gildis
-  -
-    type: member_of_race
+  - type: member_of_race
     target: org-men
-  -
-    type: member_of_culture
+  - type: member_of_culture
     target: org-edain-house-of-hador
 ---
 
@@ -41,15 +38,18 @@ Hador continued to win renown among the Eldar as the Lord of Dor-lómin, as well
 right|thumb|75px|The Dragon Helm, by Alan Lee.
 Hador was the forefather of many heroes. His grandsons were Huran and Huor. His great-grandsons were Turan and Tuor, and his great-great grandson was Aerendil the Mariner. Aldric Stonehelm, as well as all the Kings of Oldshore, Argenthal and Arnor were descended from Hador. Perhaps the greatest testament to the legacy of Hador was that which was later written about his descendants:
 
-"The Men of the Three Houses throve and multiplied, but greatest among them was the house of Hador Goldenhead, peer of Amtreadi-lords. His people were of great strength and stature, ready in mind, bold and steadfast, quick to anger and to laughter, mighty among the Children of Ilúvatar in the youth of Mankind."
+"The Men of the Three Houses throve and multiplied, but greatest among them was the house of Hador Goldenhead, peer of Amtreadi-lords. His people were of great strength and stature, ready in mind, bold and steadfast, quick to anger and to laughter, mighty among the Children of The Primordial in the youth of Mankind."
 
 ## Other versions of the legendarium
+
 In earlier accounts Fengel was the father of Indor, the grandfather of Peleg and grand grandfather of Tuor. However, later was replaced by Hador.
 
 ## See also
+
 - Dragon-helm of Dor-lómin
 
 ## Translations
+
 -->
 
 ## References

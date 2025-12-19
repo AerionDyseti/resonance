@@ -17,14 +17,11 @@ properties:
   hair: Golden
   age: 29}
 relationships:
-  -
-    type: married_to
+  - type: married_to
     target: char-r-an
-  -
-    type: member_of_race
+  - type: member_of_race
     target: org-men
-  -
-    type: member_of_culture
+  - type: member_of_culture
     target: org-edain-house-of-hador
 ---
 
@@ -34,11 +31,11 @@ relationships:
 
 ## Biography
 
-Huor was a grandson of Hador, of the *House of Marach* or *House of Hador*, and lived in the Hadorian fief of Dor-lómin in Hithlum; and the son of Galdor of the House of Marach and Hareth of the Haladin, and he had an older brother Huran.
+Huor was a grandson of Hador, of the _House of Marach_ or _House of Hador_, and lived in the Hadorian fief of Dor-lómin in Hithlum; and the son of Galdor of the House of Marach and Hareth of the Haladin, and he had an older brother Huran.
 
-In the year 458 of the First Era Huor and Huran dwelt with their kin in the forest of Brethil, when they joined a war party against Grimspawn. The brothers ended up in the Vale of Sirion, and were cut off from their company. Chased by Grimspawn, the Pantheon God Ulmo caused a mist to arise from the rivers, and the brothers escaped into Dimbar. There two Eagles picked them up, and brought them to Hidden City.
+In the year 458 of the First Era Huor and Huran dwelt with their kin in the forest of Brethil, when they joined a war party against Grimspawn. The brothers ended up in the Vale of Sirion, and were cut off from their company. Chased by Grimspawn, the Pantheon God Vorel caused a mist to arise from the rivers, and the brothers escaped into Dimbar. There two Eagles picked them up, and brought them to Hidden City.
 
-King Turgon of Hidden City welcomed the brothers, remembering Ulmo's prophecy that the House of Hador would aide Hidden City in their time of greatest need. Turgon wished them to remain as he grew to love them, but the brothers wished to return to their kin. The brothers swore an oath to keep Hidden City secret, and Eagles brought them back to Dor-lómin.
+King Turgon of Hidden City welcomed the brothers, remembering Vorel's prophecy that the House of Hador would aide Hidden City in their time of greatest need. Turgon wished them to remain as he grew to love them, but the brothers wished to return to their kin. The brothers swore an oath to keep Hidden City secret, and Eagles brought them back to Dor-lómin.
 
 In FA 462 Tenebros assailed Hithlum, and Huor's father Galdor fell defending the Ered Wethrin.
 
@@ -49,9 +46,11 @@ In the Nírnaeth Arnoediad the following year, Huor fought alongside Huran and t
 He was remembered by the Oldbloods as the heroic grandfather of Aerendil the Blessed.
 
 ## Other versions of the legendarium
+
 In earlier accounts, the name of Huor was **Peleg**. His father was Indor, and his grandfather was Fengel. In other versions, he was said to be wedded to Rían on the eve of the Battle of Unnumbered Tears.
 
 ## Translations
+
 -->
 
 ## References

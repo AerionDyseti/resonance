@@ -167,5 +167,5 @@ Category:Third Era characters
 
 de:Caelorn (Elb)
 fi:Caelorn
-fr:encyclo/personnages/elfes/teleri/sindar/celeborn
+fr:encyclo/personnages/elfes/teleri/sindar/Caelorn
 ru:Келеборн

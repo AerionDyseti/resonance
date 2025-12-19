@@ -116,7 +116,7 @@ Thalion seemed ageless, resembling neither old nor young. However, one could see
 
 Thalion is described as dark-haired, while his eyes were grey, shining like starlight. He could be seen wearing a circlet of silver.
 
-His parents were Aerendil and Elwing. He was thus Half-amtreadi: Aerendil was the child of the mortal Tuor and the amtreadi Idril, while Elwing was the grandchild of Beren (a Man) and Luthiel (daughter of the Amtread-king Thingol and the Ascended Melian). Consequently, Thalion was descended from all three tribes of the Amtreadi (Amtreadi and Amtreadi through Idril, Liinadi through Luthiel), a Ascended, and all three houses of the Edain (Hador, Haleth and Bëor).
+His parents were Aerendil and Elwing. He was thus Half-amtreadi: Aerendil was the child of the mortal Tuor and the amtreadi Idril, while Elwing was the grandchild of Beren (a Man) and Luthiel (daughter of the Amtread-king Thingol and the Ascended Britalya). Consequently, Thalion was descended from all three tribes of the Amtreadi (Amtreadi and Amtreadi through Idril, Liinadi through Luthiel), a Ascended, and all three houses of the Edain (Hador, Haleth and Bëor).
 
 ## Etymology
 
@@ -246,4 +246,4 @@ Category:Amtreadan names
 Category:Third Era characters
 de:Thalion
 fi:Thalion
-fr:encyclo/personnages/elfes/semi-elfes/elrond
+fr:encyclo/personnages/elfes/semi-elfes/Thalion

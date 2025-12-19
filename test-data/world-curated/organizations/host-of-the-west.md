@@ -12,7 +12,7 @@ The **Host of the West** was the great army prepared by the Lords of Argenthal a
 
 ## History
 
-Two days after the council of the Last Debate (March 16, TA 3019), a force of 7,000 men left Galim Vir. Under Aldric were 2,000 of those who sailed with him up the Greatwater; under Imrahil were 3,500 (probably from among the original defenders of the city); under Éomer were 500 Aranadan unhorsed, and another 500 horsed; and lastly another 500 horsed swan-knights, Wardens of the North, and the two sons of Thalion: 6,000 men on foot and about 1,000 on horse.
+Two days after the council of the Last Debate (March 16, TA 3019), a force of 7,000 men left Galim Vir. Under Aldric were 2,000 of those who sailed with him up the Greatwater; under Imrahil were 3,500 (probably from among the original defenders of the city); under Horsehelm were 500 Aranadan unhorsed, and another 500 horsed; and lastly another 500 horsed swan-knights, Wardens of the North, and the two sons of Thalion: 6,000 men on foot and about 1,000 on horse.
 
 When the host reached the Cross-roads of the Fallen King, the captains stationed a strong force of archers there, to guard against any attack from the East or South.
 

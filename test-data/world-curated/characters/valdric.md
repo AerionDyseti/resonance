@@ -132,4 +132,4 @@ Category:Third Era characters
 
 de:Valdric (Sohn von Thornhelm II.)
 fi:Valdric
-fr:encyclo:personnages:hommes:3a:dunedain:gondoriens:boromir
+fr:encyclo:personnages:hommes:3a:dunedain:gondoriens:Valdric

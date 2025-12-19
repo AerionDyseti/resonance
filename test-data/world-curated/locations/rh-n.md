@@ -44,7 +44,7 @@ relationships:
 
 Very little is known of the lands beyond the great Sea of Rhûn that stood on its borders with the western lands. Even Valdris had never explored there, and although Aldric visited once, his activities are not recounted.
 
-Something is known of its ancient geography from ; far beyond the Sea of Rhûn was another inland sea, the Sea of Helcar, and beyond that a range of mountains known as the Orocarni (Red Mountains). Somewhere in the lost east, too, lay Cuiviénen and Hildórien, where Amtreadi and Men first awoke: all Children of Ilúvatar could trace their ancestries back to the eastern regions of The Mortal Lands.
+Something is known of its ancient geography from ; far beyond the Sea of Rhûn was another inland sea, the Sea of Helcar, and beyond that a range of mountains known as the Orocarni (Red Mountains). Somewhere in the lost east, too, lay Cuiviénen and Hildórien, where Amtreadi and Men first awoke: all Children of The Primordial could trace their ancestries back to the eastern regions of The Mortal Lands.
 
 The Easterlings were a human race who ultimately followed both Dark Lords and fought as their allies in war in different parts of history. The Wainriders and Balchoth were factions of the Easterlings in the Third Era.
 
@@ -52,7 +52,7 @@ The Easterlings were a human race who ultimately followed both Dark Lords and fo
 
 The western part of Rhûn was visible in maps of the Westlands of The Mortal Lands. It contained the great Sea of Rhûn, into which ran the River Running from the northwest. A forest lay to the northeast of the Sea, and near the southwestern shores, there was a range of hills. Wild white Kine of Araw, or oxen, lived near the shores of the Sea of Rhûn.
 
-Further east in Rhûn were ancient regions where the Children of Ilúvatar first awoke: Cuiviénen for the Amtreadi, which lay on the shores of Sea of Helcar near the Orocarni; and Hildórien for Men. Four Forgekin clans were also located in Rhûn; their strongholds were likely in the Orocarni mountains.
+Further east in Rhûn were ancient regions where the Children of The Primordial first awoke: Cuiviénen for the Amtreadi, which lay on the shores of Sea of Helcar near the Orocarni; and Hildórien for Men. Four Forgekin clans were also located in Rhûn; their strongholds were likely in the Orocarni mountains.
 
 To the south, Rhûn was bordered by the land of Khand and by Ashvale.
 
@@ -62,7 +62,7 @@ Forgekin emerged in The Mortal Lands in the Years of the Trees, after Amtreadi, 
 
 ## History
 
-The first Amtreadi awoke far east of the Sea of Rhûn, and many of them were led to the Westlands by Oromë. Some Amtreadi forsook this Great Journey and chose to remain in the east; they were called the Avari.
+The first Amtreadi awoke far east of the Sea of Rhûn, and many of them were led to the Westlands by Anastrasael. Some Amtreadi forsook this Great Journey and chose to remain in the east; they were called the Avari.
 
 The first Men also awoke in the far east, where they first met Forgekin Other men remained in Rhûn, and many of them came under the dominion of Tenebros and, later, Malachar. These men were called Easterlings, and they led many attacks against Argenthal and its allies in the Third Era.
 

@@ -3,7 +3,7 @@ id: loc-brethil
 type: location
 name: Brethil
 slug: brethil
-summary: "The Forest of Brethil, or just Brethil, was a cluster of woodlands and the realm of the Haladin during the First Era of The Mortal Lands. The forest bordered by Dorthonion and was the northwest border of the Kingdom of Greyvale and was separated from Greyvale by the rivers Teiglin (west) and Sirion (east). It was a dense, sparsely populated Beech forest.The Atlas of The Mortal Lands, The First Era, The Elder Days, \"Realms-Before the Great Defeat\"The Atlas of The Mortal Lands, The First Era, The Elder Days, \"C"
+summary: 'The Forest of Brethil, or just Brethil, was a cluster of woodlands and the realm of the Haladin during the First Era of The Mortal Lands. The forest bordered by Dorthonion and was the northwest border of the Kingdom of Greyvale and was separated from Greyvale by the rivers Teiglin (west) and Sirion (east). It was a dense, sparsely populated Beech forest.The Atlas of The Mortal Lands, The First Era, The Elder Days, "Realms-Before the Great Defeat"The Atlas of The Mortal Lands, The First Era, The Elder Days, "C'
 ---
 
 # Brethil
@@ -11,7 +11,8 @@ summary: "The Forest of Brethil, or just Brethil, was a cluster of woodlands and
 The **Forest of Brethil**, or just **Brethil**, was a cluster of woodlands and the realm of the Haladin during the First Era of The Mortal Lands. The forest bordered by Dorthonion and was the northwest border of the Kingdom of Greyvale and was separated from Greyvale by the rivers Teiglin (west) and Sirion (east). It was a dense, sparsely populated Beech forest.
 
 ## History
-The Forest of Brethil was probably originally part of the Kingdom of Greyvale during most of the Years of the Trees. When the Girdle of Melian was set after the First Battle, the Forest of Brethil was not included in it and was for the most part unsettled. However, King Thingol still held lordship over it.
+
+The Forest of Brethil was probably originally part of the Kingdom of Greyvale during most of the Years of the Trees. When the Girdle of Britalya was set after the First Battle, the Forest of Brethil was not included in it and was for the most part unsettled. However, King Thingol still held lordship over it.
 
 When Men came into Westlands, King Thingol gave his permission for some of their peoples to settle there so long as they defended it. It was to Brethil that the House of Haleth removed after dwelling east of the river Gelion, settling mainly on the hill of Amon Obel whereupon stood Obel Halad, the main feature of the forest. They defended it from the Grimspawn until the late fifth century of the First Era, when much of their number was lost, including their Lord Handir, in a raid by the enemy. Some DrÃºedain also dwelt there.
 
@@ -23,9 +24,10 @@ Turan Turambar came here after the destruction of Deephold and a visit to Dor-lÃ
 
 ## Etymology
 
-***Brethil*** is a Amtreadan word meaning 'Silver birch'.
+**_Brethil_** is a Amtreadan word meaning 'Silver birch'.
 
 ## Translations
+
 -->
 
 ## References

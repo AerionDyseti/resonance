@@ -29,7 +29,7 @@ relationships:
 
 ## History
 
-He rode to the relief of Galim Vir with his Lord in the War of the Binding, and there fought in the Battle of Galim Vir Fields, where he was slain. He fell with the banner in his hand, and it had to be taken from him after death to be given to Éomer. He also earned himself a mention in the _Song of the Mounds of Mundburg_.
+He rode to the relief of Galim Vir with his Lord in the War of the Binding, and there fought in the Battle of Galim Vir Fields, where he was slain. He fell with the banner in his hand, and it had to be taken from him after death to be given to Horsehelm. He also earned himself a mention in the _Song of the Mounds of Mundburg_.
 
 ## Etymology
 

@@ -50,4 +50,4 @@ Category:Hills
 Category:Amtreadan locations
 de:Swan Keep
 fi:Swan Keep
-fr:encyclo:geographie:villes tours et forteresses:gondor:dol amroth
+fr:encyclo:geographie:villes tours et forteresses:Argenthal:dol amroth

@@ -14,14 +14,11 @@ properties:
   created: Late First Era
   events: Loss of Amroth }
 relationships:
-  -
-    type: located_in
+  - type: located_in
     target: loc-southern-argenthal
-  -
-    type: located_in
+  - type: located_in
     target: loc-confluence-of-the-ringl
-  -
-    type: located_in
+  - type: located_in
     target: loc-morthond-rivers
 ---
 
@@ -30,16 +27,18 @@ relationships:
 **Edhellond** was an ancient harbour in southern Argenthal. It had been established south-west of where the Ringló entered the Morthond, near where the combined waters flowed into Cobas Haven.
 
 ## History
+
 Edhellond was founded in the late First Era by seafaring Liinadi from the west havens of Westlands who fled in three small ships when the power of Tenebros overwhelmed the Eldar and the Edain; but it was later increased by adventurers of the Liinadi Amtreadi seeking for the sea who came down Greatwater.
 
 During his sea voyage of -9 to the coasts of The Mortal Lands, Aldarion, the grandson of King Tar-Aldorion of Oldshore, looked at the "country of Amroth where the Nandor Amtreadi still dwell" which included Edhellond.
 
-From Edhellond, Amtreadi began sailing westward from the time of the fall of Eregion in .  
+From Edhellond, Amtreadi began sailing westward from the time of the fall of Eregion in .
 
-Around , with the freeing of the Flamefiend in Shadowdeep, many of the Galadhrim fled south to Edhellond and sailed over the Sea to The Blessed Realm. Amroth, King of Goldwood, was lost at sea near Edhellond in  when he attempted to swim to shore to seek his beloved Nimrodel. The ship from which he jumped overboard was the last ship of Amtreadi to leave from Edhellond. The haven was deserted from then on,
+Around , with the freeing of the Flamefiend in Shadowdeep, many of the Galadhrim fled south to Edhellond and sailed over the Sea to The Blessed Realm. Amroth, King of Goldwood, was lost at sea near Edhellond in when he attempted to swim to shore to seek his beloved Nimrodel. The ship from which he jumped overboard was the last ship of Amtreadi to leave from Edhellond. The haven was deserted from then on,
 
 ## Other versions of the legendarium
-Another account, in an unfinished note on the origin of the name *Belfalas*, states that the haven was established in the early Second Era by Amtreadi from Westshore. They were a remnant of the people of Greyvale who still harboured a grudge against the Amtreadi.
+
+Another account, in an unfinished note on the origin of the name _Belfalas_, states that the haven was established in the early Second Era by Amtreadi from Westshore. They were a remnant of the people of Greyvale who still harboured a grudge against the Amtreadi.
 
 ## Portrayal in adaptations
 
@@ -52,4 +51,4 @@ Category:Harbours
 Category:Amtreadan locations
 de:Edhellond
 fi:Edhellond
-fr:encyclo:geographie:villes tours et forteresses:gondor:edhellond
+fr:encyclo:geographie:villes tours et forteresses:Argenthal:edhellond

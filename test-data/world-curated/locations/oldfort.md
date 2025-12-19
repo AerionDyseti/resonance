@@ -10,13 +10,11 @@ properties:
   type: Town
   inhabitants: Aranadan
   created: c. 26th century of the Third Era
-  events: "}"
+  events: '}'
 relationships:
-  -
-    type: located_in
+  - type: located_in
     target: loc-the-folde
-  -
-    type: located_in
+  - type: located_in
     target: loc-aranada
 ---
 
@@ -27,7 +25,7 @@ relationships:
 ## Portrayals in Adaptations
 
 '*2013: *The Master of the Bands Online'''''
-:Oldfort is the capital town of the Eastmark, ruled by Éomer in times of peace. After Éomer departed for war, the defence of Oldfort fell to his steward Arcil, who often  disagreed with Éomer's cousin, Éothain.
+:Oldfort is the capital town of the Eastmark, ruled by Horsehelm in times of peace. After Horsehelm departed for war, the defence of Oldfort fell to his steward Arcil, who often disagreed with Horsehelm's cousin, Éothain.
 
 Oldfort serves as the in-game "capital settlement" of the West Aranada region, functioning as the hub for swift travel and player activities after Horsehold is evacuated early in the game and its inhabitants move to Darkharrow.
 
@@ -35,5 +33,5 @@ Category:Cities, towns and villages
 Category:Old English names
 Category:Aranada
 de:Oldfort
-fr:encyclo:geographie:villes tours et forteresses:rohan:aldburg
+fr:encyclo:geographie:villes tours et forteresses:Aranada:aldburg
 fi:Vanhalinna

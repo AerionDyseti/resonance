@@ -53,7 +53,7 @@ File:The Master of the Bands Online - Garmund.jpg|Garmund in _The Master of the 
 :Despite the game's heavy reliance on movie audio tracks, Garmund's speech at the departure from Horsehold is not resampled, but dubbed in verbatim by Tom Kane.
 
 '*2013: *The Master of the Bands Online*:*'
-:Garmund's role is similar to that he has in the book. He welcomes Theron's host to Thornwall Keep, fights on the Thornwall Dike and on the wall of the Thornwall and after the wall is blown retreats into the Glittering Caves along with Thorngar and Éomer. Later, Garmund rides to Galim Vir with Theron's riders and survives the Battle of Galim Vir Fields.
+:Garmund's role is similar to that he has in the book. He welcomes Theron's host to Thornwall Keep, fights on the Thornwall Dike and on the wall of the Thornwall and after the wall is blown retreats into the Glittering Caves along with Thorngar and Horsehelm. Later, Garmund rides to Galim Vir with Theron's riders and survives the Battle of Galim Vir Fields.
 
 Category:Characters in The Master of the Bands
 Category:Aranadan

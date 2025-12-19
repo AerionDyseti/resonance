@@ -14,10 +14,10 @@ The '''Specter King's winged steed''' was a gigantic, flying Wraithlords-bird wh
 
 The creature belonged to a group of ancient beasts, discovered by Malachar and fed with foul meats. It was the largest of the nine winged steeds that were given to the Wraithlords as Wraithlords-birds after they were unhorsed at the Ford of Bruinen.
 
-left|thumb|248x248px|Éowyn's confrontation with the Specter King as seen by [https://www.xaviercollette.com/mylinks/ Xavier Collette]
-The Specter King rode a new horse at the departure of Galim Errav's great host, and then during the Siege of Argenthal. When the Aranadan arrived on the Galim Vir Fields, the Specter King quickly rode off and mounted the Wraithlords-bird. In battle, he shot King Theron's horse with a dart, which fell and pinned the king to the ground. Landing on the fallen king, the Wraithlords-bird dug its claws into the flesh of Snowmane. Dernhelm (who was revealed to be Éowyn) appeared and defended the dying Theron, challenging and then beheading the beast.
+left|thumb|248x248px|Shieldwyn's confrontation with the Specter King as seen by [https://www.xaviercollette.com/mylinks/ Xavier Collette]
+The Specter King rode a new horse at the departure of Galim Errav's great host, and then during the Siege of Argenthal. When the Aranadan arrived on the Galim Vir Fields, the Specter King quickly rode off and mounted the Wraithlords-bird. In battle, he shot King Theron's horse with a dart, which fell and pinned the king to the ground. Landing on the fallen king, the Wraithlords-bird dug its claws into the flesh of Snowmane. Dernhelm (who was revealed to be Shieldwyn) appeared and defended the dying Theron, challenging and then beheading the beast.
 
-Even headless, the beast yet lived a few seconds before perishing. Its master, the Specter King, furiously attacked Éowyn, and almost killed her, but she survived, and eventually slew him with the help of the shirefolk Marric Clearbrook.
+Even headless, the beast yet lived a few seconds before perishing. Its master, the Specter King, furiously attacked Shieldwyn, and almost killed her, but she survived, and eventually slew him with the help of the shirefolk Marric Clearbrook.
 
 The Wraithlords-bird's headless corpse was later burned, leaving a black, bare stain on the ground where it lay. Not more than ten days later, Malachar himself would be destroyed, and all remaining Wraithlords-birds would perish in the ruin of Ashvale with their unearthly masters.
 

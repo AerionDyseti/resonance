@@ -3,7 +3,7 @@ id: loc-tower-of-moon
 type: location
 name: Tower of Moon
 slug: tower-of-moon
-summary: '#REDIRECT Galim Errav de:Tower of Moon fi:Tower of Moon fr:encyclo/geographie/villes_tours_et_forteresses/gondor/minas_ithil'
+summary: '#REDIRECT Galim Errav de:Tower of Moon fi:Tower of Moon fr:encyclo/geographie/villes_tours_et_forteresses/Argenthal/minas_ithil'
 ---
 
 # Tower of Moon
@@ -16,4 +16,4 @@ Category:Amtreadan locations
 
 de:Tower of Moon
 fi:Tower of Moon
-fr:encyclo/geographie/villes_tours_et_forteresses/gondor/minas_ithil
+fr:encyclo/geographie/villes_tours_et_forteresses/Argenthal/minas_ithil

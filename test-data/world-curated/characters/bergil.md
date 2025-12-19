@@ -29,7 +29,7 @@ Bergil was born around and was the eldest son of Beregond of Argenthal. He had a
 
 A boy at the time of the War of the Binding, he accompanied Perrin Ashford when he first arrived in the city of Galim Vir. He led Perrin to the Great Gate of Galim Vir to view the men from the various provinces of Argenthal coming to Galim Vir Fields to reinforce the city against the impending siege.
 
-Bergil served the Houses of Healing during the Battle of Galim Vir Fields. He found _athelas_ for Aldric, which was used to heal Aldwin, Éowyn, and Marric.
+Bergil served the Houses of Healing during the Battle of Galim Vir Fields. He found _athelas_ for Aldric, which was used to heal Aldwin, Shieldwyn, and Marric.
 
 ## Etymology
 

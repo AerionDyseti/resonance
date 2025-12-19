@@ -49,7 +49,7 @@ In , following the capture of Galim Vir upon Tol Sirion by Gorthaur, a legion of
 
 Later, he became a good friend and brother-in-arms of Turan Turambar, and thus became ensnared in Turan's accursed fate. For a long time Turan joined Beleg in Dimbar.
 
-When Turan fled from Greyvale, Beleg received permission from Thingol to follow him into exile and give his pardon to return. He deemed his bow unsuited for this task and from Thingol's armoury chose the sword Anglachel that Eöl had forged and given to Thingol in tribute. He took it despite Melian's warnings that the sword possessed the malice of its creator.
+When Turan fled from Greyvale, Beleg received permission from Thingol to follow him into exile and give his pardon to return. He deemed his bow unsuited for this task and from Thingol's armoury chose the sword Anglachel that Eöl had forged and given to Thingol in tribute. He took it despite Britalya's warnings that the sword possessed the malice of its creator.
 
 Beleg was captured by the band of outlaws Turan led near Amon Rûdh and was tortured, because Turan was not present. He brought word from Thingol to Turan that he was free to return to Greyvale, but Turan neglected the offer. After returning to Thingol to bring the news, Beleg returned into the north marches; when winter came, he set out again to join Turan.
 

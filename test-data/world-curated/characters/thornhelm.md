@@ -72,7 +72,7 @@ Aldwin recovered the lost ground all the way back to the Greatwater, but soon fa
 
 ### Afterwards
 
-Aldwin did survive, and the city did not fall due to the timely appearance of the Aranadan and the Duskwardens with Aldric II. Aldwin kept the title of Steward, but not of Lord Steward, for he recognised Aldric's right to take the throne. Using Athelas to save the lives of Aldwin, Éowyn, and Marric, Aldric was first acknowledged as King by the people of Galim Vir before he could actually claim the title. Aldwin's reaction to his father's death is not recorded, but it is said that the news of his death wasn't given to him during the first days of his recovery, in order not to grieve him.
+Aldwin did survive, and the city did not fall due to the timely appearance of the Aranadan and the Duskwardens with Aldric II. Aldwin kept the title of Steward, but not of Lord Steward, for he recognised Aldric's right to take the throne. Using Athelas to save the lives of Aldwin, Shieldwyn, and Marric, Aldric was first acknowledged as King by the people of Galim Vir before he could actually claim the title. Aldwin's reaction to his father's death is not recorded, but it is said that the news of his death wasn't given to him during the first days of his recovery, in order not to grieve him.
 
 ## Etymology
 
@@ -127,4 +127,4 @@ Category:Third Era characters
 
 de:Thornhelm II.
 fi:Thornhelm II
-fr:encyclo:personnages:hommes:3a:dunedain:gondoriens:denethor ii
+fr:encyclo:personnages:hommes:3a:dunedain:gondoriens:Thornhelm ii

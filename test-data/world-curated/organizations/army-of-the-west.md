@@ -34,7 +34,7 @@ After the victory at the Battle of the Obsidian Gate the host headed south, and 
 
 The host then rested there for many days, though some of their forces continued battling remnants of the Easterlings and Southrons until they were fully defeated. Some of the host even passed into Ashvale to destroy fortresses in the north of the land. By the end of April all forces had returned to camp and they begun their journey back toward Galim Vir. They arrived at the city on last day of April, and the next morning on 1 May Aldric was crowned King before the gates of the city and the great host.
 
-On 8 May Éomer departed with the his forces to return to Aranada, whilst at the same time all others that dwelt far from the city returned to their homes, effectively disbanding the Host of the West.
+On 8 May Horsehelm departed with the his forces to return to Aranada, whilst at the same time all others that dwelt far from the city returned to their homes, effectively disbanding the Host of the West.
 
 ## Portrayal in adaptations
 

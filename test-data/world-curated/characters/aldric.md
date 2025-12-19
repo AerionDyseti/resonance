@@ -11,7 +11,7 @@ properties:
   othernames: See below
   titles: Chieftain of the DúnedainHigh King of the DúnedainKing of Argenthal and ArnorKing of the WestLord of the Westlands
   position: "RangerLeader of the Company of the Band (after Valdris's death)King of the Reunited Kingdom"
-  location: RivendellGondorArnorRohanRhûn and Harad, p. 248
+  location: RivendellArgenthalArnorAranadaRhûn and Harad, p. 248
   affiliation: Company of the Band
   language: WestronSindarinQuenya
   birth: 1 March,
@@ -95,11 +95,11 @@ Even at the Greatfalls he was undecided, leaving it to Tomlen for the final deci
 
 After Tomlen escaped him and Valdric perished, he with the remaining members of the Company, namely Sylvorn and Thorngar, chose to try and save Marric and Perrin from the Ironspawn that had ambushed them, forming the group that would later be known as the Three Hunters.
 
-He met Éomer in the fields of Aranada, and an instant friendship formed, both feeling the honesty and lordliness of the other. Éomer took a risk for his sake, giving him horses, with the promise that one day Aldric would return to Horsehold. After the restoration of Theron, he rode to Thornwall Keep to fight in the Battle of the Thornwall. There he, alongside his new-found “brother” Éomer, and King Theron, marshalled the defence against Morvain’s army. His revealed majesty upon the battlements of the Thornwall as he waited for the dawn caused some of the Wild men to pause and shudder, and he heralded the return of Valdris with Erikbrand.
+He met Horsehelm in the fields of Aranada, and an instant friendship formed, both feeling the honesty and lordliness of the other. Horsehelm took a risk for his sake, giving him horses, with the promise that one day Aldric would return to Horsehold. After the restoration of Theron, he rode to Thornwall Keep to fight in the Battle of the Thornwall. There he, alongside his new-found “brother” Horsehelm, and King Theron, marshalled the defence against Morvain’s army. His revealed majesty upon the battlements of the Thornwall as he waited for the dawn caused some of the Wild men to pause and shudder, and he heralded the return of Valdris with Erikbrand.
 
 After Perrin’s terrifying experience with the The Black Tower-stone, Valdris presented it in a formal manner to Aldric, its rightful master, who hinted that it would be used by him eventually. After the departure of Valdris and Perrin to Galim Vir, he rode for a while longer with Theron, meeting up with his friend Halbarad of the North, Elloran and Elrodan, and a company of staunch and fearless Wardens. Elloran and Elrodan gave him a message from Thalion: "_The days are short. If thou art in haste, remember the Ghost Road_". Halbarad bore a gift from the Lady Elowyn – the standard of Aldorion. Aldric knew the path set before him.
 
-Aldric held council with his trusted companions, namely Valdris, Éomer, Imrahil, and Thalion’s sons – Halbarad had fallen in battle. He agreed to draw forth the forces of Ashvale for the benefit of the Quest of the Band, and so arranged matters for the Battle of the Obsidian Gate.
+Aldric held council with his trusted companions, namely Valdris, Horsehelm, Imrahil, and Thalion’s sons – Halbarad had fallen in battle. He agreed to draw forth the forces of Ashvale for the benefit of the Quest of the Band, and so arranged matters for the Battle of the Obsidian Gate.
 
 ### Reign as Stonehelm
 
@@ -107,7 +107,7 @@ Aldric ruled the Reunited Kingdom of Argenthal and Arnor until year of the Fourt
 
 Some days after his coronation, Valdris took Stonehelm up the slopes of Mount Mindolluin, and there he found the scion of Nimloth, the symbol of his mastery of the Reunited Kingdom. Thalion and Elowyn came to Argenthal and Thalion gave Stonehelm the Sceptre of Annúminas signifying the Kingship of Arnor. He wedded Elowyn on Midsummer's day of 3019,
 
-Stonehelm gave his Steward Aldwin the title Lord of Emyn Arnen and created him as Prince of Moonvale. He declared the Drúadan Forest to belong to the Drúedain and a protected enclave of his Kingdom. He also re-established the Great Council of Argenthal whose chief councillor was the Steward. He also renewed the Oath of Eorl with Éomer.
+Stonehelm gave his Steward Aldwin the title Lord of Emyn Arnen and created him as Prince of Moonvale. He declared the Drúadan Forest to belong to the Drúedain and a protected enclave of his Kingdom. He also re-established the Great Council of Argenthal whose chief councillor was the Steward. He also renewed the Oath of Eorl with Horsehelm.
 
 As for the Shirelands, he declared it a Free Land under the protection of the Northern Sceptre and forbade Men from entering it. He appointed the Thane, the Master of Brookshire, and the Mayor of Michel Hollow Counsellors of the North-kingdom. Also he offered to the Shirelands the lands up to the Emyn Beraid.
 
@@ -115,7 +115,7 @@ He founded the royal House of Telcontar, he had a son, Eldarion, and a number of
 
 ### Personality
 
-Aldric held his heritage in high esteem and was willing to commit to a single path in life in the name of love. Yet this will did not prevent him from honoring his own word and the words of his forebears. Aldric was also described as 'Amtreadi-wise' due to spending his youth in Galel Anastrael with Thalion as well as learning from Valdris. He was an extremely capable swordsman, as he was able to survive the Battle of Galim Vir Fields unscathed along with Éomer and Imrahil. He was also a capable military tactician, as during that same battle, he was able to reinforce the Aranadan and hit the weakest point of the army of Ashvale, along with taking time to rearrange his army's positions during the Battle of the Obsidian Gate. He was also a skilled healer, most notably with the herb Athelas, as he was able to heal Aldwin and Éowyn of their wounds, It contains the phonetic reduction _ara_ of _aran_ ("king") and the adjective _(n)gorn_ ("dreaded, revered").
+Aldric held his heritage in high esteem and was willing to commit to a single path in life in the name of love. Yet this will did not prevent him from honoring his own word and the words of his forebears. Aldric was also described as 'Amtreadi-wise' due to spending his youth in Galel Anastrael with Thalion as well as learning from Valdris. He was an extremely capable swordsman, as he was able to survive the Battle of Galim Vir Fields unscathed along with Horsehelm and Imrahil. He was also a capable military tactician, as during that same battle, he was able to reinforce the Aranadan and hit the weakest point of the army of Ashvale, along with taking time to rearrange his army's positions during the Battle of the Obsidian Gate. He was also a skilled healer, most notably with the herb Athelas, as he was able to heal Aldwin and Shieldwyn of their wounds, It contains the phonetic reduction _ara_ of _aran_ ("king") and the adjective _(n)gorn_ ("dreaded, revered").
 
 ## Other names
 
@@ -125,12 +125,12 @@ Aldric held his heritage in high esteem and was willing to commit to a single pa
 - Elfstone - The Common Speech version of the previous two. \*_Envinyatar_ - Q "the Renewer". This title was claimed by Aldric after the Battle of Galim Vir Fields. It referred to the prophecy that he would renew the hope of the Duskwardens by reuniting the Two Kingdoms.
 - Estel - Q. Usually glossed as "Hope", the concept _estel_ more widely means "hope, trust, a temper of mind, steady fixed in purpose, and difficult to dissuade and unlikely to fall into despair or abandon its purpose". Pronounced .
 - Wanderer - A sobriquet given by the men of Crossway. The Shirefolk frequently referred to him as initially "Mr. Wanderer", and later just "Wanderer".
-  **\*Wingfoot** - An honorary name given by Éomer after the pursuit of the Ironspawn through the Eastemnet.
+  **\*Wingfoot** - An honorary name given by Horsehelm after the pursuit of the Ironspawn through the Eastemnet.
   Telcontar - A High Amtreadan form of "Wanderer", this was the name of Stonehelm's Royal House. It was not used independently. Pronounced .
 - Valorian's Heir - A poetic address, as he was the heir of Valorian.
   **\*The Dúnadan** - "Man of the West", a name used in Galel Anastrael, and frequently used by Jasper Burrows.
   **\*Longstride** - another, though less frequently used, sobriquet in Crossway, ascribed to Bill Ferny. The legs of the Crossway-men were shorter than the legs of the Duskwardens.
-  **\*Arakorno** - A rare High Amtreadan form of Aldric, which only appeared in a discussion about the words for High Amtreadan. Their union also served to unite and preserve the bloodlines of the kings of the three kindreds of the Amtreadi (Ingwë, Finwë, and brothers Elwë, Olwë, and Elmo) as well as the only line with Maiarin blood through Elowyn's great-great-grandmother, Melian. There were at least two marriages between descendants of Aldorion in Aldric's ancestry, so Aldric was related to Elowyn by blood along at least three lines.
+  **\*Arakorno** - A rare High Amtreadan form of Aldric, which only appeared in a discussion about the words for High Amtreadan. Their union also served to unite and preserve the bloodlines of the kings of the three kindreds of the Amtreadi (Ingwë, Finwë, and brothers Elwë, Olwë, and Elmo) as well as the only line with Maiarin blood through Elowyn's great-great-grandmother, Britalya. There were at least two marriages between descendants of Aldorion in Aldric's ancestry, so Aldric was related to Elowyn by blood along at least three lines.
 
 Through his father, Arathorn II, Aldric was Elowyn's first cousin sixty-two times removed through his ancestor Arvedui and sixty-seven times removed through his ancestor Fíriel. Both of these lines descend through four generations of the Kings of Oldshore, and Aldorion, as well as Aranarth and fifteen succeeding generations of the Chieftains of the Duskwardens, including Aldric himself. Aldric's mother Gilraen was also descended from Aranarth,
 

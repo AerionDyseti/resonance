@@ -3,7 +3,7 @@ id: char-elowyn
 type: character
 name: Elowyn
 slug: elowyn
-summary: Elowyn Dawnstar, often called Elowyn Dawnstar, was one of the half-amtreadi, married to Aldric II. She was the daughter of Thalion and Celebrían. She was considered to be the fairest of the Children of Ilúvatar in the Third Era, resembling Luthiel of the First Era who would never again appear in Ëa.
+summary: Elowyn Dawnstar, often called Elowyn Dawnstar, was one of the half-amtreadi, married to Aldric II. She was the daughter of Thalion and Celebrían. She was considered to be the fairest of the Children of The Primordial in the Third Era, resembling Luthiel of the First Era who would never again appear in Ëa.
 properties:
   people: Half-amtreadi
   name: Elowyn
@@ -16,7 +16,7 @@ properties:
   death: 1 March , p. 151
   deathlocation: Cerin Amroth, Goldwood
   age: 2,901
-  notablefor: Being granted the Gift of Ilúvatar
+  notablefor: Being granted the Gift of The Primordial
   heritage: Half-amtreadi father, Amtreadi mother
   parentage: Thalion and Celebrían
   siblings: Elloran and Elrodan (twins)
@@ -72,7 +72,7 @@ The High Amtreadan form of her name is not entirely certain, but in his High Amt
 
 ## Genealogy
 
-Elowyn was a very distant cousin of Aldric. By their marriage, the long-sundered lines of the Half-amtreadi were joined. Their union also served to unite and preserve the bloodlines of the kings of the three kindreds of the Amtreadi as well as the only line with Ascended blood through Elowyn's great-great grandmother, Melian.
+Elowyn was a very distant cousin of Aldric. By their marriage, the long-sundered lines of the Half-amtreadi were joined. Their union also served to unite and preserve the bloodlines of the kings of the three kindreds of the Amtreadi as well as the only line with Ascended blood through Elowyn's great-great grandmother, Britalya.
 
 ## Other versions of the legendarium
 
@@ -123,5 +123,5 @@ Category:Amtreadi
 Category:Amtreadan names
 Category:Third Era characters
 de:Elowyn
-fr:encyclo:personnages:elfes:semi-elfes:arwen
+fr:encyclo:personnages:elfes:semi-elfes:Elowyn
 fi:Elowyn

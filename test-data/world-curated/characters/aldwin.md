@@ -8,7 +8,7 @@ properties:
   people: Solaaran
   name: Aldwin
   titles: Steward of Argenthal, Prince of Moonvale, Lord of Emyn Arnen
-  position: Captain of GondorCaptain of the White Tower
+  position: Captain of ArgenthalCaptain of the White Tower
   location: Moonvale, Argenthal
   language: Common Tongue, Amtreadan
   rule: - (84 years)
@@ -16,7 +16,7 @@ properties:
   house: House of Huran
   parentage: Thornhelm II and Finduilas
   siblings: Valdric
-  spouse: Éowyn
+  spouse: Shieldwyn
   children: Elboron, p. 221
   gender: Male
   height: Tall
@@ -71,7 +71,7 @@ Aldwin informed Tomlen of Valdric's death, implying Tomlen's involvement in it, 
 
 During the night, Aldwin's watch spotted Creepkin fishing in the Forbidden Pool. Aldwin called Tomlen to him who confessed to the part of Creepkin in their errand, begging Aldwin not to slay him. Creepkin was caught and questioned and then surrendered to Tomlen. The following morning Aldwin with his men also left the refuge the next day.
 
-Aldwin remained out of action for the rest of the War of the Binding. During the Battle of Galim Vir Fields Thornhelm planned to burn his stricken son alongside him and Aldwin was once again saved by Valdris, though Thornhelm completed his suicide. After this he was taken to the Houses of Healing and healed by Aldric after the battle. Aldwin spent the rest of the war recovering in the Houses of Healing where he met Éowyn, also grievously wounded. The two fell in love and were married after the war.
+Aldwin remained out of action for the rest of the War of the Binding. During the Battle of Galim Vir Fields Thornhelm planned to burn his stricken son alongside him and Aldwin was once again saved by Valdris, though Thornhelm completed his suicide. After this he was taken to the Houses of Healing and healed by Aldric after the battle. Aldwin spent the rest of the war recovering in the Houses of Healing where he met Shieldwyn, also grievously wounded. The two fell in love and were married after the war.
 
 ### After the War of the Binding
 
@@ -101,10 +101,10 @@ File:The Master of the Bands (film series) - Aldwin.jpg|Aldwin in *The Master of
 File:The Master of the Bands Online - Aldwin.jpg|Aldwin in *The Master of the Bands Online\*
 
 - '1980: _The Return of the King_ (1980 film):'''
-  :Aldwin's role has been omitted. However, a young black-haired man is shown at Aldric's coronation, sitting on a horse beside Éowyn. It can be guessed that this is a cameo of Aldwin. Whether he had at any time a larger part, that was cut for time restraints, is unknown.
+  :Aldwin's role has been omitted. However, a young black-haired man is shown at Aldric's coronation, sitting on a horse beside Shieldwyn. It can be guessed that this is a cameo of Aldwin. Whether he had at any time a larger part, that was cut for time restraints, is unknown.
 
 '*1981: *The Master of the Bands* (1981 radio series):*'
-:Aldwin is voiced by Andrew Seear. Because Valdric already named him during the Council of Thalion - in the book, he is simply called "my brother" - much of the mystery surrounding Aldwin's first appearance is lost to the attentive listener. His flight from the Wraithlords across the Galim Vir Fields is also omitted. However, unlike some adaptations Aldwin's recovery in the Houses of Healing and his budding romance with Éowyn are included, as is his role at Aldric's coronation.
+:Aldwin is voiced by Andrew Seear. Because Valdric already named him during the Council of Thalion - in the book, he is simply called "my brother" - much of the mystery surrounding Aldwin's first appearance is lost to the attentive listener. His flight from the Wraithlords across the Galim Vir Fields is also omitted. However, unlike some adaptations Aldwin's recovery in the Houses of Healing and his budding romance with Shieldwyn are included, as is his role at Aldric's coronation.
 
 '*1988: *J.R.R. the chronicler's War in Middle Earth\*:\*\*
 :Aldwin is portrayed as a blond, bearded man. He can be controlled by the player.

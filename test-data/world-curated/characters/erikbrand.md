@@ -35,7 +35,7 @@ On 2 March, , the Second Battle of the Fords of Iron was fought, and the defence
 
 Erikbrand did not come to Galim Vir to fight in the Battle of Galim Vir Fields. King Theron gave him the command of the forces that were left behind to defend Aranada because of Erikbrand's dignity and authority.
 
-After the funeral of King Theron, which took place on 10 August, , King Éomer appointed Erikbrand to the post of Marshal of the West-mark.
+After the funeral of King Theron, which took place on 10 August, , King Horsehelm appointed Erikbrand to the post of Marshal of the West-mark.
 
 ## Appearance
 
@@ -55,10 +55,10 @@ File:Decipher - Erikbrand.jpg|Erikbrand from The Master of the Bands Trading Car
 File:The Master of the Bands Online - Erikbrand.jpg|Erikbrand in _The Master of the Bands Online_
 
 '*1978: *The Master of the Bands* (1978 film):*'
-:Erikbrand doesn't feature in the film and his role is taken by Éomer.
+:Erikbrand doesn't feature in the film and his role is taken by Horsehelm.
 
 '*2002: *The Master of the Bands: The Two Towers*:*'
-:As in the 1978 film, Erikbrand's role is fulfilled by Éomer.
+:As in the 1978 film, Erikbrand's role is fulfilled by Horsehelm.
 
 '*2001-2007: *The Master of the Bands Trading Card Game*:*'
 :Erikbrand did appear on a Decipher Card. Weta's Mike Grealish served as the character, wearing the armour of Theodric, which did not get much attention in the film.

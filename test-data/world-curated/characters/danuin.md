@@ -3,12 +3,12 @@ id: char-danuin
 type: character
 name: Danuin
 slug: danuin
-summary: Danuin was an Ainu representing Day, who visited The Blessed Realm together with his brothers. He made for Manwë an invisible rope that bound the Sun., p.
+summary: Danuin was an Ainu representing Day, who visited The Blessed Realm together with his brothers. He made for Luth an invisible rope that bound the Sun., p.
 ---
 
 # Danuin
 
-**Danuin** was an Ainu representing Day, who visited The Blessed Realm together with his brothers. He made for Manwë an invisible rope that bound the Sun.
+**Danuin** was an Ainu representing Day, who visited The Blessed Realm together with his brothers. He made for Luth an invisible rope that bound the Sun.
 
 ## Genealogy
 

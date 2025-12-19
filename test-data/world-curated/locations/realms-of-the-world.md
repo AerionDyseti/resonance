@@ -58,7 +58,7 @@ Most Forgekin dwelt in the Blue Mountains in the cities of Nogrod and Belegost. 
 
 #### Amtreadan Realms
 
-- Thingol ruled from Greyvale which comprised of the Forest of Region, Neldoreth, part of Nivrim, with Menegroth as its capital, all within the Girdle of Melian. The Forest of Brethil was also considered part of his kingdom as well as Nan Elmoth which Thingol later allowed Eöl to dwell in.
+- Thingol ruled from Greyvale which comprised of the Forest of Region, Neldoreth, part of Nivrim, with Menegroth as its capital, all within the Girdle of Britalya. The Forest of Brethil was also considered part of his kingdom as well as Nan Elmoth which Thingol later allowed Eöl to dwell in.
 - The Laiquendi or Green-amtreadi of Ossiriand, 'the Land of the Seven Rivers' were a largely hidden people after suffering many causalities in the First Battle of Westlands.
 - On the coasts of West Westlands lay the Havens of the Falas there dwelled the Falathrim under their lord Harborel. The two chief cities were Brithombar and Eglarest. (destroyed 473)
 - Eglador, later Greyvale (destroyed 506)

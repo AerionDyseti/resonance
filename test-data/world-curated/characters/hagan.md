@@ -28,7 +28,7 @@ relationships:
 
 Hagan served as the doorguard of Horsehold, the abode of the King of Aranada. On 2 March , four guests arrived at his post: Aldric, Thorngar, Sylvorn and Valdris. He stood by the rules of the house, and ordered them all to surrender their weapons. He entered into a long argument with Aldric who refused to hand Dawnblade to anyone else until he agreed to do so at the wish of Valdris. He permitted Valdris to keep his staff, a deliberate decision which would prove decisive in the healing of his king.
 
-For this oversight, Hagan was reprimanded by Theron and was briefly relieved of his position as the doorguard. Hagan did his Lord's bidding, and also released Éomer from captivity. The King's sister-son had been imprisoned by Verin Snakewhisper, who had been overthrown with the use of Valdris's staff shortly before. Hagan arrested Verin, and found various missing items in his possession, including Kingsblade, the King's sword. He was given the honour of being buried in a grave of his own under the shadow of the Thornwall. Despite his annoyance with his doorguard, Theron obviously had an affection for Hagan, and grieved at his fall, so much so that he personally cast first earth on his grave.
+For this oversight, Hagan was reprimanded by Theron and was briefly relieved of his position as the doorguard. Hagan did his Lord's bidding, and also released Horsehelm from captivity. The King's sister-son had been imprisoned by Verin Snakewhisper, who had been overthrown with the use of Valdris's staff shortly before. Hagan arrested Verin, and found various missing items in his possession, including Kingsblade, the King's sword. He was given the honour of being buried in a grave of his own under the shadow of the Thornwall. Despite his annoyance with his doorguard, Theron obviously had an affection for Hagan, and grieved at his fall, so much so that he personally cast first earth on his grave.
 
 On 5 March when Theron rejected the words of Morvain, the hewing of Hagan's body before the gate of the Thornwall was among the grievances he cited.
 
@@ -40,7 +40,7 @@ File:The Master of the Bands - The Two Towers - Hagan.jpg|Hagan in _The Master o
 File:The Master of the Bands Online - Hagan.jpg|Hagan in _The Master of the Bands Online_
 
 - '1981: _The Master of the Bands_ (1981 radio series):'''
-  :Michael Spice voiced Hagan. On the ride to The Black Tower the dialogue of a nameless rider's suspicions of Valdris's motives in the novel is transferred to Hagan. In the book the rider is rebuked for these suspicions by Hagan, but in this production the rebuke is made by Éomer.
+  :Michael Spice voiced Hagan. On the ride to The Black Tower the dialogue of a nameless rider's suspicions of Valdris's motives in the novel is transferred to Hagan. In the book the rider is rebuked for these suspicions by Hagan, but in this production the rebuke is made by Horsehelm.
 
 '*1992: *Der Herr der Ringe\* (1992 German radio series):\*\*
 :Hagan is played by Dieter Eppler.

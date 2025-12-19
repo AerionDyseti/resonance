@@ -17,7 +17,7 @@ The Stone Hills lay between the Eastemnet of Aranada and the relatively empty la
 
 The Stone Hills had once marked the northern borders of the Kingdom of Argenthal at its height.
 
-In TA 3002, Éomund, father of Éomer and Éowyn, was slain while pursuing a band of Grimspawn near Stone Hills.
+In TA 3002, Éomund, father of Horsehelm and Shieldwyn, was slain while pursuing a band of Grimspawn near Stone Hills.
 
 At the beginning of , Tomlen Burrows and Colben Greenhand, attempting to reach the Obsidian Gate of Ashvale, are lost in the eastern Stone Hills for days until Creepkin finds them. After a great deal of persuasion, he agrees to show them the way to the Gate, leading them south into the Bonefens.
 

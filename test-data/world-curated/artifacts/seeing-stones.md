@@ -41,7 +41,7 @@ The Seeing-Stones were brought to The Mortal Lands by the Oldbloods (the faithfu
 The stones were distributed among the two kingdoms:
 
 - **Arnor**: Stones at Ann-Minas, Annorburh, and the Tower of Westernwatchtower
-- **Argenthal**: Stones at Galim Vir, Osgiliath, and Galim Errav (before its fall)
+- **Argenthal**: Stones at Galim Vir, Starbridge, and Galim Errav (before its fall)
 - **Orthanc (Ironspire)**: A stone kept at Morvain's tower
 
 The primary use was coordination between the rulers of the kingdoms, allowing them to communicate across the great distances between their capitals. This was especially important in the early days when the kingdoms were vast and travel was slow.
@@ -52,7 +52,7 @@ Over time, the stones became dangerous. When Malachar captured the Seeing-Stone 
 
 Morvain's use of the Ironspire stone brought him into contact with Malachar through the Galim Errav stone, leading to his corruption. Similarly, Thornhelm's secret use of the Galim Vir stone nearly drove him mad, though he managed to wrest it to his own purposes briefly.
 
-The stone at Osgiliath was lost in the river during civil war, and the northern stones were lost when Arnor fell.
+The stone at Starbridge was lost in the river during civil war, and the northern stones were lost when Arnor fell.
 
 ## Nature
 

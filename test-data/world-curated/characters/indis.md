@@ -3,7 +3,7 @@ id: char-indis
 type: character
 name: Indis
 slug: indis
-summary: "Indis a Vanyarin Amtread-maiden of The Blessed Realm and second wife of Finwë, King of the Ñoldor. She was the niece of Ingwë, King of the Amtreadi and High King of the Amtreadi, for her mother was his sister., Vol. XII: , Chapter XI: \"The Shibboleth of Faenor\" Indis was known for her great beauty and was thus referred to as Indis the Fair."
+summary: 'Indis a Vanyarin Amtread-maiden of The Blessed Realm and second wife of Finwë, King of the Ñoldor. She was the niece of Ingwë, King of the Amtreadi and High King of the Amtreadi, for her mother was his sister., Vol. XII: , Chapter XI: "The Shibboleth of Faenor" Indis was known for her great beauty and was thus referred to as Indis the Fair.'
 properties:
   name: Indis
   othernames: Indis the FairIndis of the Amtreadi
@@ -13,21 +13,17 @@ properties:
   spouse: Finwë
   race: Amtreadi
   culture: Amtreadi (House of Ingwë)
-  height: "Tall, Quenta Silmarillion, Chapter VI: \"Of Faenor and the Unchaining of Tenebros\""
+  height: 'Tall, Quenta Silmarillion, Chapter VI: "Of Faenor and the Unchaining of Tenebros"'
   hair: Golden
-  character: "}"
+  character: '}'
 relationships:
-  -
-    type: part_of
+  - type: part_of
     target: loc-starhold
-  -
-    type: married_to
+  - type: married_to
     target: char-finw
-  -
-    type: member_of_race
+  - type: member_of_race
     target: org-amtreadi
-  -
-    type: member_of_culture
+  - type: member_of_culture
     target: org-amtreadi-house-of-ingw
 ---
 
@@ -39,9 +35,10 @@ She was the niece of Ingwë, King of the Amtreadi and High King of the Amtreadi,
 
 Unfortunately, Faenor harbored very little love for her or her sons which probably contributed to his mistrust of Fingalor when Tenebros began spreading his poisonous lies amongst the Ñoldor.
 
-After the death of Finwë and the rebellion of the Ñoldor, Indis and her eldest daughter Findis returned to their people of the Amtreadi and dwelt there until Manwë restored Finwë to life. Their second daughter Irimë, however, went into exile with her brother Fingalor.
+After the death of Finwë and the rebellion of the Ñoldor, Indis and her eldest daughter Findis returned to their people of the Amtreadi and dwelt there until Luth restored Finwë to life. Their second daughter Irimë, however, went into exile with her brother Fingalor.
 
 ## Translations
+
 -->
 
 ## References

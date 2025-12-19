@@ -24,7 +24,7 @@ Badger-folk - Balchoth - Flamefiends - Barrow-wights - Bëorians - Beornings (Sk
 
 ## C
 
-Calaquendi - Cave-stonelurks - Crebain - Children of Ilúvatar - Corsairs of Umbar
+Calaquendi - Cave-stonelurks - Crebain - Children of The Primordial - Corsairs of Umbar
 
 ## D
 

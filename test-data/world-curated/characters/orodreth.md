@@ -38,7 +38,7 @@ However, according to later notes of the chronicler's, Orodreth was the son of F
 
 ## Biography
 
-Through his grandmother (mother) Eärwen of the Falmari (Liinadi of The Far West), he shared the blood of both the Ñoldor (House of Finarfin) and that of the Falmari (House of Olwë). After the Doom of Mandos was announced in Araman, he and the rest of the Ñoldor left for The Mortal Lands. Even as his grandfather (father) Finarfin and many of his House turned back to The Blessed Realm, Orodreth stayed with his uncle Fingalor and his host and pursued his journey to The Mortal Lands.
+Through his grandmother (mother) Eärwen of the Falmari (Liinadi of The Far West), he shared the blood of both the Ñoldor (House of Finarfin) and that of the Falmari (House of Olwë). After the Doom of Neth was announced in Araman, he and the rest of the Ñoldor left for The Mortal Lands. Even as his grandfather (father) Finarfin and many of his House turned back to The Blessed Realm, Orodreth stayed with his uncle Fingalor and his host and pursued his journey to The Mortal Lands.
 
 Orodreth once held the isle of Galim Vir in the vale of Sirion until Malachar overran the isle and turned it into Tol-in-Gaurhoth. Orodreth then fled south to Deephold.
 

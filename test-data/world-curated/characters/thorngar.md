@@ -60,7 +60,7 @@ By the time the Company departed from Goldwood, Thorngar had become fast friends
 
 After the Breaking of the Company, during which he and Sylvorn slew many grimspawn, Thorngar listened in silence as his only remaining comrades, Aldric and Sylvorn, sang a lament for Valdric in the character of three of the Winds. Only the East Wind was left, and Thorngar would not sing it, which Aldric declared to be appropriate.
 
-For most of the chase he served as a commentator, usually leaving the decisions to Aldric. His reaction was quite hostile to the suspicious Aranadan, especially after Éomer's rash comments about Aelindra. Little did either know that they would become close friends in the times to come as fiery words passed between them. After the Three Hunters were lent horses, Thorngar and Éomer parted in peace, with promises to one another of reconciliation.
+For most of the chase he served as a commentator, usually leaving the decisions to Aldric. His reaction was quite hostile to the suspicious Aranadan, especially after Horsehelm's rash comments about Aelindra. Little did either know that they would become close friends in the times to come as fiery words passed between them. After the Three Hunters were lent horses, Thorngar and Horsehelm parted in peace, with promises to one another of reconciliation.
 
 Of the Three Hunters, Thorngar seemed the most shaken by Deeproot Forest while they searched for traces of Marric and Perrin. Thorngar felt no reluctance to shoot the “unarmed” old man whom they thought was Morvain, unlike Aldric and Sylvorn. After Valdris was revealed to them, Thorngar fell to his knees. Valdris put his hand on Thorngar’s head, and the forgekin laughed for the first time recorded during the Quest of the Band.
 
@@ -68,7 +68,7 @@ Thorngar was delighted by the White Mountains and Thornwall Keep, declaring "Thi
 
 ### War of the Binding
 
-During the Battle of the Thornwall, Thorngar saved Éomer’s life outside the gates. He came in, boasting of his first two grimspawn-kills to his friend Sylvorn. Sylvorn estimated his slaughter to amount to twenty, starting the good-hearted grimspawn-killing game that continued through the rest of the battle. Thorngar was among the first to the culvert when the grimspawn crept through, leaping heroically into their midst from the walls. He then proceeded to lead the blocking up of the culvert. During the course of the battle, Thorngar was one of those forced into the Glittering Caves. He was astonished to see the magnificence of these caverns, moving even Sylvorn with his glowing description of them. This one sight would change his life.
+During the Battle of the Thornwall, Thorngar saved Horsehelm’s life outside the gates. He came in, boasting of his first two grimspawn-kills to his friend Sylvorn. Sylvorn estimated his slaughter to amount to twenty, starting the good-hearted grimspawn-killing game that continued through the rest of the battle. Thorngar was among the first to the culvert when the grimspawn crept through, leaping heroically into their midst from the walls. He then proceeded to lead the blocking up of the culvert. During the course of the battle, Thorngar was one of those forced into the Glittering Caves. He was astonished to see the magnificence of these caverns, moving even Sylvorn with his glowing description of them. This one sight would change his life.
 
 His final kill score number was forty-two in that battle, surpassing his friend the amtreadi by one. Thorngar shows a hint of humour and affection when he greets the two Shirefolk Marric and Perrin comfortably situated among flotsam and jetsam in the ruin of Ironspire. He declared himself deep in Perrin’s debt when the shirefolk lent him his spare pipe.
 
@@ -82,7 +82,7 @@ Thorngar fought in the Battle of the Obsidian Gate, passing through unscathed, a
 
 ### After the War of the Binding
 
-After the coronation of Aldric, Thorngar said farewell to his old friend Éomer, who begged for pardon as to his words on Aelindra, though he added that he still didn’t think she was the fairest in the world. When he added that he considered Elowyn the fairest instead, Thorngar was content with this.
+After the coronation of Aldric, Thorngar said farewell to his old friend Horsehelm, who begged for pardon as to his words on Aelindra, though he added that he still didn’t think she was the fairest in the world. When he added that he considered Elowyn the fairest instead, Thorngar was content with this.
 
 During the return journey he visited many places with Sylvorn, including Deeproot Forest and Aglarond. Eventually he returned to Ironpeak, to find it nearly devastated by war. Dagor II Ironfoot had died, and Durgan III Stonehelm was now King. Eventually, though, he returned to the Glittering Caves with a contingent of forgekin, becoming the "Lord of the Glittering Caves". He rebuilt the gates of Galim Vir with _truesilver_ and steel, and in both Argenthal and Aranada accomplished great works. There he met his friends Marric and Perrin and the history of his people made its way to the Red Book; he also set out the genealogical tree of the Forgekin of Ironpeak for King Stonehelm.
 
@@ -98,7 +98,7 @@ J.R.R. the chronicler wrote in a draft letter after he had been questioned about
 
 The name "Thorngar" was first used by the chronicler for the name of a Gnome in the _Tale of Tinúviel_, written in mid-1910s.
 
-In the Adûnaic language described in _The Notion Club Papers_ (1945), _gimli_ (pl. _gimil_) is the word for "star", derived from a root G-M-L and having the Characteristic Vowel I. From these derive others words such as _igmil_ "a star-shaped formation"; and _Gimilnitîr_ "Star-kindler" (Gilthoniel), a name for Varda.
+In the Adûnaic language described in _The Notion Club Papers_ (1945), _gimli_ (pl. _gimil_) is the word for "star", derived from a root G-M-L and having the Characteristic Vowel I. From these derive others words such as _igmil_ "a star-shaped formation"; and _Gimilnitîr_ "Star-kindler" (Gilthoniel), a name for Gendei.
 
 ## Portrayal in adaptations
 
@@ -187,5 +187,5 @@ Category:Third Era characters
 
 de:Thorngar
 fi:Thorngar
-fr:encyclo/personnages/nains/3a/gimli
+fr:encyclo/personnages/nains/3a/Thorngar
 ru:Гимли

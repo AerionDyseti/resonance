@@ -13,7 +13,7 @@ properties:
   inhabitants: "Duskwardens and Middle Men (predominately); minority groups included Amtreadi (in Moonvale and alongside the borders in Gloomwood/East Goldwood area, and possibly remnants in Westshore's borders), Forgekin (in the Blue Mountains area) and (possibly) Shirefolk"
   languages: Common Tongue, Amtreadan, High Amtreadan
   realms: "Arnor in the north and Argenthal in the south; allied states included Aranada, (possibly) Ashvale (when it was under the rule of the Men of Nurn), Dale, Ironpeak, the Glittering Caves (under Thorngar's rule there, and possibly his sucessors), East Goldwood, Beorning territory, the Shirelands, and the Woodland Realm"
-  major_towns: ArnorLond Daer, Tharbad, Fornost ErainGondorOsgiliath, Pelargir, Calembel, Swan Keep, Linhir, Umbar
+  major_towns: ArnorLond Daer, Tharbad, Fornost ErainArgenthalStarbridge, Pelargir, Calembel, Swan Keep, Linhir, Umbar
   origins: Established by King Stonehelm}
 relationships:
   - type: located_in
@@ -108,5 +108,5 @@ es:Reino Unificado
 fr:Royaume Réunifié
 it:Reame Unito
 nl:Herenigde Koninkrijk van Arnor en Argenthal
-pl:Zjednoczone Królestwo Arnoru i Gondoru
+pl:Zjednoczone Królestwo Arnoru i Argenthal
 ru:Воссоединённое Королевство

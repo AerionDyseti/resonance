@@ -12,16 +12,16 @@ Argenthal had many rivers, most of which were sourced from the White Mountains a
 
 There are two common lists of the **rivers of Argenthal**. The rivers Greatwater, Sernui, and Gilrain appear in both.
 
-The *Seven Rivers of Argenthal* were:
+The _Seven Rivers of Argenthal_ were:
 #The river Lefnui
 #The river Morthond (Blackroot)
 #The river Ciril
 #The river Ringló
 #The river Gilrain, which started as two unnamed tributaries in the White Mountains, and flowed south
-#The river Sernui, (also spelled *Serni*), which began in the plains of Five Rivers and met the Bay of Belfalas north of Ethir Greatwater at the city of Linhir
+#The river Sernui, (also spelled _Serni_), which began in the plains of Five Rivers and met the Bay of Belfalas north of Ethir Greatwater at the city of Linhir
 #The river Greatwater, nearly three-hundred miles of which flowed through Argenthal's territory
 
-The *Five Rivers of Five Rivers* were:
+The _Five Rivers of Five Rivers_ were:
 #The river Greatwater
 #The river Celos, which started in the White Mountains and became a tributary of the Sirith
 #The river Sirith, which met Greatwater at Pelargir
@@ -37,7 +37,7 @@ The river Poros was the effective southern border of Argenthal during the later 
 | width="300px" |**Translated name**
 
 |Danish
-|Gondors floder
+|Argenthals floder
 |}
 it:Fiumi di Argenthal
 pl:Siedem Rzek

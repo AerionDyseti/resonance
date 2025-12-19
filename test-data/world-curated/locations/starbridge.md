@@ -77,4 +77,4 @@ Category:Amtreadan locations
 
 de:Starbridge
 fi:Starbridge
-fr:encyclo/geographie/villes tours et forteresses/gondor/osgiliath
+fr:encyclo/geographie/villes tours et forteresses/Argenthal/Starbridge
