@@ -1,4 +1,4 @@
-import type { EntityDefinitionId, WorldId, TemplateId, PropertyDefinitionId } from '../shared/ids';
+import type { EntityDefinitionId, WorldId, PropertyDefinitionId } from '../shared/ids';
 import { createEntityDefinitionId } from '../shared/ids';
 
 /**
@@ -10,7 +10,6 @@ export interface IEntityDefinition {
   readonly name: string;
   readonly description: string | null;
   readonly icon: string | null;
-  readonly templateIds: readonly TemplateId[];
   readonly propertyDefinitionIds: readonly PropertyDefinitionId[];
   readonly createdAt: Date;
   readonly updatedAt: Date;
@@ -27,7 +26,6 @@ export class EntityDefinition implements IEntityDefinition {
     private _name: string,
     private _description: string | null,
     private _icon: string | null,
-    private _templateIds: TemplateId[],
     private _propertyDefinitionIds: PropertyDefinitionId[],
     public readonly createdAt: Date,
     private _updatedAt: Date
@@ -50,7 +48,6 @@ export class EntityDefinition implements IEntityDefinition {
     name: string;
     description?: string;
     icon?: string;
-    templateIds?: TemplateId[];
     propertyDefinitionIds?: PropertyDefinitionId[];
   }): EntityDefinition {
     const now = new Date();
@@ -60,7 +57,6 @@ export class EntityDefinition implements IEntityDefinition {
       EntityDefinition.validateName(params.name),
       params.description?.trim() || null,
       params.icon?.trim() || null,
-      params.templateIds ?? [],
       params.propertyDefinitionIds ?? [],
       now,
       now
@@ -79,7 +75,6 @@ export class EntityDefinition implements IEntityDefinition {
       EntityDefinition.validateName(data.name),
       data.description?.trim() ?? null,
       data.icon?.trim() ?? null,
-      [...data.templateIds],
       [...data.propertyDefinitionIds],
       data.createdAt,
       data.updatedAt
@@ -96,10 +91,6 @@ export class EntityDefinition implements IEntityDefinition {
 
   get icon(): string | null {
     return this._icon;
-  }
-
-  get templateIds(): readonly TemplateId[] {
-    return this._templateIds;
   }
 
   get propertyDefinitionIds(): readonly PropertyDefinitionId[] {

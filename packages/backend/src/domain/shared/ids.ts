@@ -31,9 +31,6 @@ export type WorldId = Brand<string, 'WorldId'>;
 /** Unique identifier for a Tag */
 export type TagId = Brand<string, 'TagId'>;
 
-/** Unique identifier for a Template (reusable property group) */
-export type TemplateId = Brand<string, 'TemplateId'>;
-
 /** Unique identifier for an EntityDefinition (schema definition) */
 export type EntityDefinitionId = Brand<string, 'EntityDefinitionId'>;
 
@@ -80,13 +77,6 @@ export function worldId(id: string): WorldId {
  */
 export function tagId(id: string): TagId {
   return id as TagId;
-}
-
-/**
- * Creates a TemplateId from a string
- */
-export function templateId(id: string): TemplateId {
-  return id as TemplateId;
 }
 
 /**
@@ -166,13 +156,6 @@ export function createWorldId(): WorldId {
  */
 export function createTagId(): TagId {
   return randomUUID() as TagId;
-}
-
-/**
- * Generates a new TemplateId with a fresh UUID
- */
-export function createTemplateId(): TemplateId {
-  return randomUUID() as TemplateId;
 }
 
 /**

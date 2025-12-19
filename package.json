@@ -5,7 +5,9 @@
   "private": true,
   "type": "module",
   "workspaces": [
-    "packages/backend"
+    "packages/api",
+    "packages/backend",
+    "packages/frontend"
   ],
   "scripts": {
     "dev": "bun run --filter '*' dev",
