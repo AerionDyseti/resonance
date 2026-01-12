@@ -5,7 +5,7 @@
       "command": "bunx",
       "args": [
         "--bun",
-        "@aeriondyseti/vector-memory-mcp"
+        "@aeriondyseti/vector-memory-mcp@alpha"
       ],
       "env": {
         "VECTOR_MEMORY_DB_PATH": "./.claude/vector-memories.db"
@@ -35,22 +35,6 @@
         "no-onboarding",
         "--project",
         "/home/aerion/dev/resonance"
-      ]
-    },
-    "playwright": {
-      "type": "stdio",
-      "command": "npx",
-      "args": [
-        "-y",
-        "@playwright/mcp@latest"
-      ]
-    },
-    "browser-tools": {
-      "type": "stdio",
-      "command": "npx",
-      "args": [
-        "-y",
-        "@agentdeskai/browser-tools-mcp@latest"
       ]
     }
   }

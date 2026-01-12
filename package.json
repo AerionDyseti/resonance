@@ -1,20 +1,18 @@
 {
   "name": "resonance",
-  "version": "0.0.1",
-  "description": "A flexible, AI-powered world building and tracking system",
+  "version": "0.1.0",
+  "description": "AIRP Memory Server - MCP tools for AI-assisted solo roleplaying",
   "private": true,
   "type": "module",
   "workspaces": [
-    "packages/api",
-    "packages/backend",
-    "packages/frontend"
+    "packages/mcp-server"
   ],
   "scripts": {
-    "dev": "bun run --filter '*' dev",
-    "dev:server": "bun run --filter @resonance/backend dev",
-    "build": "bun run --filter @resonance/backend build",
+    "dev": "bun run --filter @resonance/mcp-server dev",
+    "build": "bun run --filter @resonance/mcp-server build",
+    "start": "bun run --filter @resonance/mcp-server start",
     "test": "bun run --filter '*' test",
-    "check": "bun run test && bun run lint && bun run type-check && bun run format:check",
+    "check": "bun run lint && bun run type-check && bun run format:check",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
@@ -26,16 +24,14 @@
     "@eslint/js": "^9.39.1",
     "@types/bun": "^1.2.16",
     "eslint": "^9.39.1",
-    "eslint-plugin-vue": "^10.6.2",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "prettier": "^3.7.4",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.49.0",
-    "vue-eslint-parser": "^10.2.0"
+    "typescript-eslint": "^8.49.0"
   },
   "lint-staged": {
-    "*.{ts,tsx,vue}": [
+    "*.{ts,tsx}": [
       "eslint --fix",
       "prettier --write"
     ],
