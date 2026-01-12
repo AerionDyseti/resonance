@@ -368,40 +368,139 @@ Organization categories: faction, guild, government, religion, family, company, 
 
 ## The scene.json Workflow
 
-During active play, maintain a `scene.json` file:
+During active play, maintain a `scene.json` file as your working memory. This keeps gameplay fast by avoiding constant database queries.
+
+### Scene File Structure
 
 ```json
 {
-  "scene": { ... },           // Active scene entity
-  "context": {                // Loaded from DB at scene start
-    "location": { ... },
-    "characters": [ ... ],
-    "connections": [ ... ],
-    "pcKnowledge": [ ... ],
-    "activeStories": [ ... ],
-    "npcAgendas": [ ... ]
+  "scene": {
+    "id": "scene-001",
+    "type": "scene",
+    "name": "Confrontation at the Inn",
+    "properties": {
+      "locationId": "loc-prancing-pony",
+      "status": "active",
+      "presentCharacterIds": ["char-frodo", "char-strider", "char-butterbur"],
+      "hiddenCharacterIds": ["char-nazgul-spy"],
+      "pcId": "char-frodo",
+      "centralTension": "Will Frodo's identity be discovered?",
+      "stakes": {
+        "success": "Frodo makes contact with Strider safely",
+        "failure": "The Black Riders learn Frodo's location"
+      },
+      "phase": "rising",
+      "heat": 3,
+      "timeOfDay": "evening",
+      "mood": "tense anticipation"
+    }
   },
-  "working": {                // Accumulate changes here
+  "context": {
+    "location": {
+      /* Full location entity */
+    },
+    "characters": [
+      /* All character entities in scene */
+    ],
+    "connections": [
+      /* Relationships between present characters */
+    ],
+    "pcKnowledge": [
+      /* What the PC knows about others */
+    ],
+    "activeStories": [
+      /* Active story threads */
+    ],
+    "npcAgendas": [
+      {
+        "characterId": "char-strider",
+        "name": "Strider",
+        "goals": ["Protect the Ring-bearer", "Earn Frodo's trust"]
+      },
+      {
+        "characterId": "char-butterbur",
+        "name": "Barliman",
+        "goals": ["Keep the peace", "Remember Gandalf's letter"]
+      }
+    ]
+  },
+  "working": {
     "newEntities": [],
     "modifiedEntities": [],
     "newConnections": [],
     "modifiedConnections": [],
     "events": []
   },
-  "chronicleId": "...",
-  "sessionId": "...",
-  "sceneNumber": 1,
-  "lastSyncedAt": "..."
+  "chronicleId": "chronicle-lotr",
+  "sessionId": "session-005",
+  "sceneNumber": 2,
+  "lastSyncedAt": "2024-01-15T20:30:00Z"
 }
 ```
 
-### Workflow:
+### Loading Scene Context
 
-1. **Load scene context** — Query DB for location, characters, connections
-2. **Play** — Accumulate changes in `working` section
-3. **Sync** — At natural breakpoints, persist `working` to DB
-4. **End scene** — Clear temporary traits, resolve the scene
-5. **End session** — Create Session entity summarizing what happened
+Use `load_scene_context` at scene start to populate the `context` section:
+
+```
+load_scene_context({
+  "sceneId": "scene-001",
+  "chronicleId": "chronicle-lotr",
+  "pcId": "char-frodo"  // Optional, defaults to scene's pcId
+})
+```
+
+**Returns:**
+
+- `scene` — The full scene entity
+- `location` — Location entity where the scene takes place
+- `characters` — All characters (present + hidden)
+- `connections` — Relationships between present characters (how NPCs relate to each other)
+- `pcKnowledge` — Connections where PC is source or target (what the PC knows)
+- `activeStories` — Stories with status='active' in this chronicle
+- `npcAgendas` — Goals and secrets extracted from each NPC's properties
+
+**NPC Agendas** are automatically extracted from character properties:
+
+```json
+// If a character has:
+{ "goals": ["Find the Ring", "Report to Sauron"], "secrets": ["Is a spy"] }
+
+// The agenda becomes:
+{ "characterId": "...", "name": "...", "goals": [...], "secrets": [...] }
+```
+
+### Workflow
+
+1. **Scene Start**
+   - Create or load a Scene entity
+   - Call `load_scene_context` to get all relevant data
+   - Populate scene.json
+
+2. **During Play**
+   - Reference context for NPC motivations, relationships, location details
+   - Track changes in the `working` section:
+     - `newEntities` — Entities created during play
+     - `modifiedEntities` — Entities that changed
+     - `newConnections` — New relationships formed
+     - `modifiedConnections` — Relationships that evolved
+     - `events` — Significant happenings to record
+
+3. **Sync Points** (natural breakpoints)
+   - Persist `working.newEntities` and `working.modifiedEntities` via `persist_entities`
+   - Persist connections via `persist_connection`
+   - Clear the working section
+   - Update `lastSyncedAt`
+
+4. **Scene End**
+   - Clear temporary traits from all characters
+   - Update scene status to `resolved` or `abandoned`
+   - Persist final state
+
+5. **Session End**
+   - Create a Session entity summarizing what happened
+   - Update any Stories that advanced
+   - Final sync of all changes
 
 ---
 
@@ -416,31 +515,134 @@ When creating entities, always generate an ID before persisting.
 
 ---
 
+## Tool Reference
+
+The MCP server provides **14 tools** across four groups.
+
+### Entity Tools
+
+| Tool               | Parameters                                                                         | Description                                                          |
+| ------------------ | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `get_entity`       | `id`                                                                               | Get a single entity by ID. Returns full entity with all properties.  |
+| `get_entities`     | `ids[]`                                                                            | Get multiple entities by IDs. Useful for batch loading.              |
+| `list_entities`    | `chronicleId`, `type?`, `limit?`, `offset?`                                        | List entities in a chronicle. Returns summaries (not full entities). |
+| `persist_entity`   | `id`, `chronicleId`, `type`, `name`, `subtype?`, `summary?`, `body?`, `properties` | Create or update a single entity. Uses upsert semantics.             |
+| `persist_entities` | `entities[]`                                                                       | Batch create/update entities in a single transaction.                |
+| `delete_entity`    | `id`                                                                               | Delete an entity by ID. Also removes from FTS index.                 |
+
+### Connection Tools
+
+| Tool                 | Parameters                                              | Description                                                                                                           |
+| -------------------- | ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| `persist_connection` | `sourceId`, `targetId`, `description`, `id?`, `facets?` | Create or update a connection. Upserts on the source+target pair—same entity pair always updates the same connection. |
+| `delete_connection`  | `id?`, `sourceId?`, `targetId?`                         | Delete a connection. Provide either `id` alone, or both `sourceId` and `targetId`.                                    |
+
+### Scene Tools
+
+| Tool                 | Parameters                        | Description                                                                                                                                                |
+| -------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `load_scene_context` | `sceneId`, `chronicleId`, `pcId?` | Bulk load everything for active play. Returns scene, location, characters, connections, PC knowledge, active stories, and NPC agendas. Use at scene start. |
+
+### Search Tools
+
+| Tool                 | Parameters                                 | Description                                                                                           |
+| -------------------- | ------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
+| `search_entities`    | `query`, `chronicleId?`, `type?`, `limit?` | Full-text search across name, summary, and body using FTS5.                                           |
+| `find_by_name`       | `name`, `chronicleId?`, `type?`, `limit?`  | Quick lookup by exact or partial name match.                                                          |
+| `get_connections`    | `entityId`, `direction?`, `limit?`         | Get connections for an entity. Direction: `outgoing`, `incoming`, or `both` (default).                |
+| `search_connections` | `query`, `chronicleId?`, `limit?`          | Search connections by description text.                                                               |
+| `get_lookup_types`   | `table`                                    | Get values from lookup tables: `connection_types`, `character_categories`, `organization_categories`. |
+
+---
+
 ## Tool Usage Patterns
 
-### Starting a session
+### Starting a Session
 
-1. Load the chronicle: `get_entity(chronicleId)`
-2. Check active stories: `list_entities(chronicleId, type='story')`
-3. Set up the scene with `scene.json`
+```
+1. get_entity(chronicleId)           → Load the chronicle
+2. list_entities(chronicleId, 'story') → Check active stories
+3. Create or load a Scene entity
+4. load_scene_context(sceneId, chronicleId, pcId) → Bulk load context
+5. Populate scene.json with the returned data
+```
 
-### During play
+### During Play
 
-1. Search for relevant entities: `search_entities(query)` or `find_by_name(name)`
-2. Load full entities as needed: `get_entity(id)` or `get_entities(ids)`
-3. Check relationships: `get_connections(entityId)`
-4. Accumulate changes in `scene.json`'s working section
+```
+1. search_entities(query) or find_by_name(name) → Find relevant entities
+2. get_entity(id) or get_entities(ids)          → Load full details
+3. get_connections(entityId)                     → Check relationships
+4. Accumulate changes in scene.json's working section
+```
 
-### Persisting changes
+### Persisting Changes
 
-1. Batch persist: `persist_entities(entities)`
-2. Persist connections separately (future tool)
+```
+1. persist_entities(entities)        → Batch persist new/modified entities
+2. persist_connection(...)           → Persist each new/modified connection
+3. Update scene.json's lastSyncedAt
+```
 
-### Ending a session
+### Managing Connections
 
-1. Persist all pending changes
-2. Create a Session entity summarizing the session
-3. Update any modified Stories
+**Creating a relationship:**
+
+```json
+persist_connection({
+  "sourceId": "character-frodo",
+  "targetId": "character-gandalf",
+  "description": "Frodo trusts Gandalf deeply as a mentor and guide",
+  "facets": {
+    "trusts": { "degree": 5, "description": "Complete faith" },
+    "mentored_by": { "degree": 4 }
+  }
+})
+```
+
+**Updating an existing connection** (same sourceId + targetId):
+
+```json
+persist_connection({
+  "sourceId": "character-frodo",
+  "targetId": "character-gandalf",
+  "description": "Frodo's trust in Gandalf has grown through trials",
+  "facets": {
+    "trusts": { "degree": 5, "description": "Forged through fire" },
+    "mentored_by": { "degree": 4 },
+    "owes_life_to": { "degree": 5, "establishedAt": "event-moria" }
+  }
+})
+```
+
+**Reciprocal relationships** — Create two connections:
+
+```json
+// Frodo → Sam
+persist_connection({
+  "sourceId": "character-frodo",
+  "targetId": "character-sam",
+  "description": "Frodo deeply values Sam's loyalty and friendship",
+  "facets": { "trusts": { "degree": 5 }, "friend_of": { "degree": 5 } }
+})
+
+// Sam → Frodo
+persist_connection({
+  "sourceId": "character-sam",
+  "targetId": "character-frodo",
+  "description": "Sam is devoted to protecting and serving Frodo",
+  "facets": { "serves": { "degree": 5 }, "friend_of": { "degree": 5 } }
+})
+```
+
+### Ending a Session
+
+```
+1. Persist all pending changes from scene.json
+2. persist_entity(...) → Create a Session entity summarizing what happened
+3. Update any Stories that advanced (change status if resolved)
+4. Clear temporary traits from characters
+```
 
 ---
 
@@ -464,3 +666,232 @@ If you find yourself using the same `extra` key repeatedly, that's a signal it s
 4. **Check lookup tables** — Use `get_lookup_types` before inventing new categories
 5. **Batch operations** — Use `persist_entities` for multiple changes
 6. **Keep scene.json light** — Only load what's relevant to the current scene
+7. **Connection descriptions** — Write semantic descriptions that will be useful in search
+8. **Facet degree scale** — Use -5 to +5: negative for hostile relationships, 0 for neutral, positive for favorable
+
+---
+
+## Common Patterns
+
+### Creating a New Character
+
+```json
+persist_entity({
+  "id": "char-new-merchant",
+  "chronicleId": "chronicle-main",
+  "type": "character",
+  "name": "Marcus the Merchant",
+  "summary": "A traveling trader with connections to the thieves' guild",
+  "body": "Marcus appears to be a simple merchant, but his network of contacts extends into the criminal underworld...",
+  "properties": {
+    "categoryId": "minor_npc",
+    "level": 2,
+    "stats": { "str": 2, "dex": 3, "tgh": 2, "chr": 4, "wts": 4, "cmp": 3, "knw": 3, "itn": 3, "det": 2 },
+    "measures": { "health": 3, "standing": 4, "resolve": 3 },
+    "traits": [
+      { "name": "Silver Tongue", "temporary": false },
+      { "name": "Guild Connections", "temporary": false }
+    ],
+    "goals": ["Make a profit", "Stay out of trouble"],
+    "secrets": ["Smuggles contraband for the thieves' guild"]
+  }
+})
+```
+
+### Establishing Character Relationships
+
+When introducing characters who know each other, create connections:
+
+```json
+// Merchant knows the tavern keeper
+persist_connection({
+  "sourceId": "char-new-merchant",
+  "targetId": "char-innkeeper",
+  "description": "Marcus and the innkeeper have a business arrangement",
+  "facets": {
+    "business_partner": { "degree": 3, "description": "Trades goods regularly" },
+    "trusts": { "degree": 2, "description": "Professional trust, not personal" }
+  }
+})
+```
+
+### Recording a Discovery
+
+When the PC learns something significant:
+
+```json
+// Add to scene.json working.events
+{
+  "timestamp": "2024-01-15T21:45:00Z",
+  "description": "Frodo discovers that Strider is actually Aragorn, heir of Isildur",
+  "involvedEntityIds": ["char-frodo", "char-strider"],
+  "type": "discovery"
+}
+
+// Update the scene's discoveries array
+scene.properties.discoveries.push("Strider's true identity as Aragorn")
+
+// Create/update a connection representing this knowledge
+persist_connection({
+  "sourceId": "char-frodo",
+  "targetId": "char-strider",
+  "description": "Frodo now knows Strider is Aragorn and has chosen to trust him",
+  "facets": {
+    "knows_true_identity": { "degree": 5 },
+    "trusts": { "degree": 3, "description": "Cautious but growing" }
+  }
+})
+```
+
+### Advancing a Story Thread
+
+When a story progresses:
+
+```json
+// Update the story entity
+persist_entity({
+  "id": "story-ring-quest",
+  "chronicleId": "chronicle-lotr",
+  "type": "story",
+  "name": "The Quest of the Ring",
+  "summary": "Frodo's journey to destroy the One Ring",
+  "properties": {
+    "status": "active",
+    "stakes": "The fate of Middle-earth",
+    "threads": [
+      "Reach Rivendell safely",
+      "Evade the Nazgûl",
+      "Find allies for the journey"
+    ],
+    "involvedCharacterIds": ["char-frodo", "char-sam", "char-strider"],
+    "keyLocationIds": ["loc-shire", "loc-bree", "loc-rivendell"]
+  }
+})
+```
+
+### Handling Temporary Traits
+
+During play, characters may gain temporary conditions:
+
+```json
+// Character becomes frightened (temporary)
+character.properties.traits.push({
+  "name": "Shaken",
+  "temporary": true,
+  "context": "After seeing the Nazgûl"
+})
+
+// At scene end, clear temporary traits
+character.properties.traits = character.properties.traits.filter(t => !t.temporary)
+```
+
+### Creating Lore During Play
+
+When worldbuilding on the fly:
+
+```json
+persist_entity({
+  "id": "lore-nazgul-weakness",
+  "chronicleId": "chronicle-lotr",
+  "type": "lore",
+  "name": "The Nazgûl Fear Fire",
+  "summary": "The Ringwraiths have an aversion to flame",
+  "properties": {
+    "category": "other",
+    "description": "The Nazgûl, bound as they are to the shadow realm, fear fire above most things. A burning brand can hold them at bay when other weapons fail.",
+    "isSecret": false,
+    "knownByIds": ["char-strider", "char-gandalf"],
+    "relatedEntityIds": ["char-nazgul-lord"]
+  }
+})
+```
+
+---
+
+## Facet Degree Scale
+
+The `degree` field in connection facets uses a -5 to +5 scale:
+
+| Degree | Meaning              | Example                              |
+| ------ | -------------------- | ------------------------------------ |
+| +5     | Absolute/Extreme     | Unconditional love, sworn enemies    |
+| +4     | Very Strong          | Deep trust, bitter rivalry           |
+| +3     | Strong               | Close friendship, significant grudge |
+| +2     | Moderate             | Good acquaintance, mild dislike      |
+| +1     | Slight               | Casual familiarity, minor irritation |
+| 0      | Neutral              | No particular feeling                |
+| -1     | Slight Negative      | Mild distrust, slight unease         |
+| -2     | Moderate Negative    | Suspicion, avoidance                 |
+| -3     | Strong Negative      | Active dislike, fear                 |
+| -4     | Very Strong Negative | Hatred, terror                       |
+| -5     | Absolute Negative    | Mortal enmity, consuming dread       |
+
+**Note:** The sign indicates polarity, not just intensity. A "trusts" facet with degree -3 means active _distrust_, not just low trust.
+
+---
+
+## Character Stats Reference
+
+### The Nine Stats (1-10 scale, 2 = average human)
+
+**Physical Domain:**
+
+- **str (Strength)** — Raw physical power, lifting, breaking
+- **dex (Dexterity)** — Agility, reflexes, fine motor control
+- **tgh (Toughness)** — Endurance, constitution, pain tolerance
+
+**Social Domain:**
+
+- **chr (Charisma)** — Presence, persuasion, leadership
+- **wts (Wits)** — Quick thinking, improvisation, cunning
+- **cmp (Composure)** — Emotional control, poker face, grace under pressure
+
+**Mental Domain:**
+
+- **knw (Knowledge)** — Education, expertise, memory
+- **itn (Intuition)** — Gut feelings, reading situations, empathy
+- **det (Determination)** — Willpower, focus, mental resilience
+
+### Measures (Damage Tracks)
+
+| Measure  | Derived From | Represents                 |
+| -------- | ------------ | -------------------------- |
+| health   | tgh + 1      | Physical well-being        |
+| standing | cmp + 1      | Social reputation/position |
+| resolve  | det + 1      | Mental/emotional stability |
+
+When a measure hits 0, the character is incapacitated in that domain.
+
+### Level and Traits
+
+- **Level** gates maximum stat values and permanent trait count
+- **Max permanent traits** = floor(level / 2) + 1
+- **Minions** (isMinion: true): All measures = 1, max 1 permanent trait
+
+---
+
+## Search Strategies
+
+### Finding Entities
+
+```
+search_entities({ query: "thieves guild" })     // Full-text search
+find_by_name({ name: "Marcus" })                 // Name lookup
+list_entities({ chronicleId: "...", type: "character" })  // Browse by type
+```
+
+### Finding Relationships
+
+```
+get_connections({ entityId: "char-marcus", direction: "outgoing" })  // Who does Marcus relate to?
+get_connections({ entityId: "char-marcus", direction: "incoming" })  // Who relates to Marcus?
+search_connections({ query: "guild" })                                // Connections mentioning guilds
+```
+
+### Combining Searches
+
+To find all characters connected to an organization:
+
+1. `get_entity(organizationId)` — Get the organization
+2. `get_connections({ entityId: organizationId, direction: "incoming" })` — Find member connections
+3. `get_entities(connectionSourceIds)` — Load those characters

@@ -9,6 +9,8 @@
 import { FastMCP } from 'fastmcp';
 import { getDatabase, closeDatabase } from './db/index.js';
 import { registerEntityTools } from './tools/entities.js';
+import { registerConnectionTools } from './tools/connections.js';
+import { registerSceneTools } from './tools/scenes.js';
 import { registerSearchTools } from './tools/search.js';
 import { registerResources } from './resources/index.js';
 
@@ -32,6 +34,8 @@ Quick reference:
 
 // Register tool groups
 registerEntityTools(server, db);
+registerConnectionTools(server, db);
+registerSceneTools(server, db);
 registerSearchTools(server, db);
 
 // Register resources (documentation)
